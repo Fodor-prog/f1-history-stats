@@ -2,15 +2,24 @@
 require("dotenv").config();
 
 const express = require("express");
+const path = require("path");
 const connectDB = require("./config/db");
 
 const app = express();
 const PORT = process.env.PORT || 3000;
 
+// EJS sablonmotor beállítása
+app.set("view engine", "ejs");
+app.set("views", path.join(__dirname, "views"));
+
+// Kezdőoldal
 app.get("/", (req, res) => {
-    res.send("<h1>F1 History Stats</h1><p>A szerver sikeresen elindult!</p>");
+    res.render("index", {
+        title: "F1 History Stats"
+    });
 });
 
+// Adatbázis-kapcsolat és szerverindítás
 async function startServer() {
     await connectDB();
 
