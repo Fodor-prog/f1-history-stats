@@ -1,13 +1,392 @@
 
 <!DOCTYPE html>
 <html lang="hu">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title><%= title %></title>
+
+    <meta name="description"
+        content="F1 History Stats – Forma–1-es nagydíjak, pilóták és versenyeredmények történelmi adatbázisa.">
+
+    <link rel="stylesheet" href="/css/style.css">
 </head>
+
 <body>
-    <h1>F1 History Stats</h1>
-    <p>Üdvözöllek a Forma–1 történelmi statisztikáinak oldalán!</p>
+
+    <!-- FEJLÉC -->
+
+    <header class="site-header">
+        <div class="container header-inner">
+
+            <a href="/" class="logo" aria-label="F1 History Stats főoldal">
+                <span class="logo-symbol">F1<span>.</span></span>
+                <span class="logo-name">HISTORY<span>STATS</span></span>
+            </a>
+
+            <nav class="main-nav" aria-label="Fő navigáció">
+                <a href="#fooldal" class="nav-active">Főoldal</a>
+                <a href="#statisztikak">Statisztikák</a>
+                <a href="#nagydijak">Nagydíjak</a>
+                <a href="#funkciok">Funkciók</a>
+                <a href="#kapcsolat">Kapcsolat</a>
+            </nav>
+
+            <a href="#funkciok" class="header-action">
+                Felfedezés <span aria-hidden="true">↗</span>
+            </a>
+
+        </div>
+    </header>
+
+    <main>
+
+        <!-- HERO -->
+
+        <section class="hero" id="fooldal">
+            <div class="container hero-grid">
+
+                <div class="hero-content">
+
+                    <div class="eyebrow">
+                        <span class="live-dot"></span>
+                        FORMA–1 TÖRTÉNELMI ADATBÁZIS
+                    </div>
+
+                    <h1>
+                        A SEBESSÉG
+                        <span>TÖRTÉNELME.</span>
+                    </h1>
+
+                    <p class="hero-description">
+                        Fedezd fel a Forma–1 múltját nagydíjakon,
+                        legendás versenyzőkön és történelmi
+                        eredményeken keresztül.
+                        Minden adat egy helyen, áttekinthetően.
+                    </p>
+
+                    <div class="hero-actions">
+                        <a href="#statisztikak" class="btn btn-primary">
+                            Statisztikák megtekintése
+                            <span aria-hidden="true">↗</span>
+                        </a>
+
+                        <a href="#nagydijak" class="btn btn-outline">
+                            Nagydíjak böngészése
+                        </a>
+                    </div>
+
+                    <div class="hero-footnote">
+                        <span class="hero-line"></span>
+                        Történelmi adatok · 1950–2006
+                    </div>
+
+                </div>
+
+                <div class="hero-visual" aria-hidden="true">
+                    <div class="speed-ring ring-one"></div>
+                    <div class="speed-ring ring-two"></div>
+
+                    <div class="visual-number">01</div>
+
+                    <div class="visual-center">
+                        <span class="visual-label">THE HISTORY OF</span>
+                        <strong>F1</strong>
+                        <span class="visual-bottom">MOTORSPORT</span>
+                    </div>
+
+                    <div class="visual-caption">
+                        <span>EST. 1950</span>
+                        <span>RACING HERITAGE</span>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="hero-bottom-stripe"></div>
+        </section>
+
+        <!-- STATISZTIKÁK -->
+
+        <section class="section stats-section" id="statisztikak">
+            <div class="container">
+
+                <div class="section-heading">
+                    <div>
+                        <p class="section-kicker">AZ ADATBÁZIS SZÁMOKBAN</p>
+                        <h2>TÖBB ÉVTIZED. <span>EZERNYI ADAT.</span></h2>
+                    </div>
+
+                    <p class="section-lead">
+                        Valós történelmi versenyadatok
+                        közvetlenül az adatbázisunkból.
+                    </p>
+                </div>
+
+                <div class="stats-grid">
+
+                    <article class="stat-card">
+                        <div class="stat-top">
+                            <span>01 / NAGYDÍJAK</span>
+                            <span class="stat-icon" aria-hidden="true">↗</span>
+                        </div>
+
+                        <div class="stat-number">
+                            <%= stats.nagydijak.toLocaleString("hu-HU") %>
+                        </div>
+
+                        <div class="stat-label">Rögzített nagydíj</div>
+
+                        <div class="stat-decoration"></div>
+                    </article>
+
+                    <article class="stat-card">
+                        <div class="stat-top">
+                            <span>02 / PILÓTÁK</span>
+                            <span class="stat-icon" aria-hidden="true">↗</span>
+                        </div>
+
+                        <div class="stat-number">
+                            <%= stats.pilotak.toLocaleString("hu-HU") %>
+                        </div>
+
+                        <div class="stat-label">Nyilvántartott versenyző</div>
+
+                        <div class="stat-decoration"></div>
+                    </article>
+
+                    <article class="stat-card">
+                        <div class="stat-top">
+                            <span>03 / EREDMÉNYEK</span>
+                            <span class="stat-icon" aria-hidden="true">↗</span>
+                        </div>
+
+                        <div class="stat-number">
+                            <%= stats.eredmenyek.toLocaleString("hu-HU") %>
+                        </div>
+
+                        <div class="stat-label">Versenyeredmény</div>
+
+                        <div class="stat-decoration"></div>
+                    </article>
+
+                </div>
+
+                <p class="data-note">
+                    Az értékek a MongoDB adatbázisból töltődnek be.
+                </p>
+
+            </div>
+        </section>
+
+        <!-- NAGYDÍJAK -->
+
+        <section class="section races-section" id="nagydijak">
+            <div class="container">
+
+                <div class="section-heading">
+                    <div>
+                        <p class="section-kicker">VERSENYTÖRTÉNELEM</p>
+                        <h2>UTOLSÓ RÖGZÍTETT <span>NAGYDÍJAK.</span></h2>
+                    </div>
+
+                    <p class="section-lead">
+                        A történelmi adatbázis hat
+                        legkésőbbi dátumú versenye.
+                    </p>
+                </div>
+
+                <div class="races-panel">
+
+                    <div class="races-panel-header">
+                        <span>NAGYDÍJ</span>
+                        <span>HELYSZÍN</span>
+                        <span>DÁTUM</span>
+                    </div>
+
+                    <% if (nagydijak.length > 0) { %>
+
+                        <% nagydijak.forEach((gp, index) => { %>
+
+                            <div class="race-row">
+
+                                <div class="race-name">
+                                    <span class="race-index">
+                                        <%= String(index + 1).padStart(2, "0") %>
+                                    </span>
+
+                                    <div>
+                                        <strong><%= gp.nev %> Nagydíj</strong>
+                                        <small><%= gp.ev %> · Forma–1</small>
+                                    </div>
+                                </div>
+
+                                <div class="race-location">
+                                    <%= gp.helyszin %>
+                                </div>
+
+                                <div class="race-date">
+                                    <%= gp.datum %>
+                                </div>
+
+                            </div>
+
+                        <% }) %>
+
+                    <% } else { %>
+
+                        <p class="empty-message">
+                            Jelenleg nem találhatók nagydíjak az adatbázisban.
+                        </p>
+
+                    <% } %>
+
+                </div>
+
+                <p class="data-note">
+                    A lista dátum szerint csökkenő sorrendben jelenik meg.
+                </p>
+
+            </div>
+        </section>
+
+        <!-- FUNKCIÓK -->
+
+        <section class="section features-section" id="funkciok">
+            <div class="container">
+
+                <div class="section-heading">
+                    <div>
+                        <p class="section-kicker">AZ ALKALMAZÁSRÓL</p>
+                        <h2>FEDEZD FEL <span>AZ ADATOKAT.</span></h2>
+                    </div>
+
+                    <p class="section-lead">
+                        Az F1 History Stats célja, hogy
+                        könnyen kereshetővé és összehasonlíthatóvá
+                        tegye a történelmi versenyadatokat.
+                    </p>
+                </div>
+
+                <div class="features-grid">
+
+                    <article class="feature-card">
+                        <div class="feature-number">01</div>
+                        <div class="feature-icon" aria-hidden="true">🏁</div>
+
+                        <h3>Nagydíjak</h3>
+
+                        <p>
+                            Versenyek, időpontok és helyszínek
+                            áttekintése a Forma–1 történetéből.
+                        </p>
+
+                        <span class="feature-status">Részletes oldal hamarosan</span>
+                    </article>
+
+                    <article class="feature-card">
+                        <div class="feature-number">02</div>
+                        <div class="feature-icon" aria-hidden="true">🏎</div>
+
+                        <h3>Pilóták</h3>
+
+                        <p>
+                            Történelmi versenyzők,
+                            nemzetiségek és alapvető
+                            életrajzi adatok.
+                        </p>
+
+                        <span class="feature-status">Részletes oldal hamarosan</span>
+                    </article>
+
+                    <article class="feature-card">
+                        <div class="feature-number">03</div>
+                        <div class="feature-icon" aria-hidden="true">📊</div>
+
+                        <h3>Versenyeredmények</h3>
+
+                        <p>
+                            Helyezések, csapatok, autótípusok
+                            és versenytörténeti adatok.
+                        </p>
+
+                        <span class="feature-status">Részletes oldal hamarosan</span>
+                    </article>
+
+                    <article class="feature-card">
+                        <div class="feature-number">04</div>
+                        <div class="feature-icon" aria-hidden="true">📈</div>
+
+                        <h3>Statisztikai diagramok</h3>
+
+                        <p>
+                            Az eredmények és történelmi
+                            összefüggések vizuális
+                            bemutatása diagramokon.
+                        </p>
+
+                        <span class="feature-status">Fejlesztés alatt</span>
+                    </article>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ALSÓ KIEMELT BLOKK -->
+
+        <section class="closing-section" id="kapcsolat">
+            <div class="container closing-inner">
+
+                <div>
+                    <p class="section-kicker">F1 HISTORY STATS</p>
+
+                    <h2>
+                        A VERSENY VÉGET ÉR.<br>
+                        <span>A TÖRTÉNELEM MEGMARAD.</span>
+                    </h2>
+
+                    <p>
+                        A projekt a Forma–1 történelmi
+                        adatainak feldolgozására és
+                        bemutatására készült.
+                    </p>
+                </div>
+
+                <a href="#fooldal" class="btn btn-primary">
+                    Vissza az oldal tetejére ↑
+                </a>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- LÁBLÉC -->
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+
+            <div class="footer-brand">
+                <strong>F1<span>.</span> HISTORY STATS</strong>
+                <p>Webprogramozás II. – Gyakorlati beadandó</p>
+            </div>
+
+            <div class="footer-authors">
+                <span>KÉSZÍTETTÉK</span>
+                <p>1. Fodor Árpád – U4BKST</p>
+                <p>2. Farkas Tamás – PLPJEB</p>
+            </div>
+
+        </div>
+
+        <div class="container footer-bottom">
+            <span>© <%= new Date().getFullYear() %> F1 History Stats</span>
+            <span>Node.js · Express · MongoDB · EJS</span>
+        </div>
+    </footer>
+
 </body>
 </html>
