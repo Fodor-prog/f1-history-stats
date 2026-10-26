@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800;900&family=Inter:wght@400;500;600;700;800&display=swap');
 
 :root {
@@ -36,13 +37,26 @@ a {
 }
 
 button,
+input,
+select {
+    font: inherit;
+}
+
+button {
+    cursor: pointer;
+}
+
+button,
 a {
     -webkit-tap-highlight-color: transparent;
 }
 
-a:focus-visible {
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible {
     outline: 2px solid #fff;
-    outline-offset: 5px;
+    outline-offset: 3px;
 }
 
 .container {
@@ -110,7 +124,9 @@ h3 {
     font-size: 12px;
 }
 
-/* HEADER */
+/* =========================
+   FEJLÉC
+========================= */
 
 .site-header {
     position: sticky;
@@ -118,6 +134,7 @@ h3 {
     z-index: 50;
     background: rgba(9, 11, 16, .96);
     border-bottom: 1px solid var(--border);
+    backdrop-filter: blur(12px);
 }
 
 .header-inner {
@@ -179,6 +196,11 @@ h3 {
     color: #fff;
 }
 
+.main-nav a.nav-active {
+    border-bottom: 2px solid var(--red);
+    padding-bottom: 5px;
+}
+
 .header-action {
     background: var(--red);
     padding: 11px 19px;
@@ -196,14 +218,59 @@ h3 {
     margin-left: 8px;
 }
 
-/* HERO */
+/* =========================
+   GOMBOK
+========================= */
+
+.btn {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    min-height: 49px;
+    padding: 12px 21px;
+    font-size: 12px;
+    font-weight: 800;
+    border: 1px solid transparent;
+    transition: background .2s, transform .2s;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+}
+
+.btn-primary {
+    background: var(--red);
+    color: white;
+}
+
+.btn-primary:hover {
+    background: var(--red-dark);
+}
+
+.btn-outline {
+    border-color: #555c69;
+    background: rgba(255, 255, 255, .025);
+    color: #fff;
+}
+
+.btn-outline:hover {
+    background: rgba(255, 255, 255, .09);
+}
+
+/* =========================
+   FŐOLDALI HERO
+========================= */
 
 .hero {
     position: relative;
     overflow: hidden;
     background:
-        radial-gradient(ellipse at 78% 35%,
-            rgba(229, 27, 50, .16), transparent 48%),
+        radial-gradient(
+            ellipse at 78% 35%,
+            rgba(229, 27, 50, .16),
+            transparent 48%
+        ),
         linear-gradient(130deg, #10131c, #090b10 65%);
 }
 
@@ -282,40 +349,6 @@ h3 {
     margin-top: 30px;
 }
 
-.btn {
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    gap: 15px;
-    min-height: 49px;
-    padding: 12px 21px;
-    font-size: 12px;
-    font-weight: 800;
-    transition: background .2s, transform .2s;
-}
-
-.btn:hover {
-    transform: translateY(-2px);
-}
-
-.btn-primary {
-    background: var(--red);
-    color: white;
-}
-
-.btn-primary:hover {
-    background: var(--red-dark);
-}
-
-.btn-outline {
-    border: 1px solid #555c69;
-    background: rgba(255,255,255,.025);
-}
-
-.btn-outline:hover {
-    background: rgba(255,255,255,.09);
-}
-
 .hero-footnote {
     display: flex;
     align-items: center;
@@ -333,7 +366,9 @@ h3 {
     background: var(--red);
 }
 
-/* HERO VISUAL */
+/* =========================
+   HERO GRAFIKA
+========================= */
 
 .hero-visual {
     position: relative;
@@ -436,7 +471,9 @@ h3 {
     );
 }
 
-/* STATISTICS */
+/* =========================
+   STATISZTIKAI KÁRTYÁK
+========================= */
 
 .stats-section {
     background: var(--bg);
@@ -499,7 +536,9 @@ h3 {
     background: var(--red);
 }
 
-/* RACES */
+/* =========================
+   NAGYDÍJLISTÁK
+========================= */
 
 .races-section {
     background: var(--bg-alt);
@@ -578,7 +617,17 @@ h3 {
     color: var(--muted);
 }
 
-/* FEATURES */
+.section-footer-action {
+    margin-top: 28px;
+}
+
+.feature-link:hover {
+    color: #fff;
+}
+
+/* =========================
+   FUNKCIÓK
+========================= */
 
 .features-section {
     background: var(--bg);
@@ -635,6 +684,7 @@ h3 {
 }
 
 .feature-status {
+    display: block;
     margin-top: auto;
     padding-top: 16px;
     border-top: 1px solid var(--border);
@@ -644,13 +694,322 @@ h3 {
     letter-spacing: .6px;
 }
 
-/* CLOSING */
+/* =========================
+   NAGYDÍJAK – OLDAL FEJLÉCE
+========================= */
+
+.page-hero {
+    position: relative;
+    overflow: hidden;
+    background:
+        radial-gradient(
+            ellipse at 85% 25%,
+            rgba(229, 27, 50, .18),
+            transparent 50%
+        ),
+        linear-gradient(120deg, #161a24, #090b10);
+    border-bottom: 5px solid var(--red);
+}
+
+.page-hero::after {
+    content: "F1";
+    position: absolute;
+    right: 5%;
+    top: 5%;
+    font-family: "Barlow Condensed", sans-serif;
+    font-size: clamp(200px, 35vw, 480px);
+    font-weight: 900;
+    font-style: italic;
+    line-height: 1;
+    color: rgba(255, 255, 255, .025);
+    pointer-events: none;
+}
+
+.page-hero-content {
+    position: relative;
+    z-index: 1;
+    padding: 80px 0 85px;
+}
+
+.page-breadcrumb {
+    margin: 30px 0 20px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 12px;
+    color: var(--muted);
+}
+
+.page-breadcrumb a:hover {
+    color: #fff;
+}
+
+.page-breadcrumb span {
+    color: var(--red);
+}
+
+.page-hero h1 {
+    max-width: 950px;
+    margin-bottom: 25px;
+    font-size: clamp(65px, 10vw, 125px);
+    font-style: italic;
+    font-weight: 900;
+    letter-spacing: -2px;
+    line-height: .88;
+}
+
+.page-hero h1 span {
+    display: block;
+    color: var(--red);
+}
+
+.page-description {
+    max-width: 590px;
+    color: #b4bac5;
+    font-size: 15px;
+    line-height: 1.9;
+}
+
+.page-hero-meta {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 38px;
+    color: var(--muted);
+    font-size: 11px;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+}
+
+.meta-marker {
+    width: 32px;
+    height: 2px;
+    background: var(--red);
+}
+
+/* =========================
+   NAGYDÍJAK – SZŰRŐK
+========================= */
+
+.listing-section {
+    background: var(--bg-alt);
+}
+
+.filter-panel {
+    display: grid;
+    grid-template-columns: minmax(0, 2fr) minmax(0, 1fr) minmax(0, 1fr) auto;
+    gap: 16px;
+    align-items: end;
+    padding: 25px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-top: 3px solid var(--red);
+}
+
+.filter-field {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+    min-width: 0;
+}
+
+.filter-field label {
+    color: #c9cdd6;
+    font-size: 10px;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+}
+
+.filter-field input,
+.filter-field select {
+    width: 100%;
+    height: 49px;
+    min-width: 0;
+    padding: 0 14px;
+    background: #0d1017;
+    border: 1px solid #3b4150;
+    border-radius: 0;
+    color: #fff;
+    font-size: 13px;
+    outline: none;
+}
+
+.filter-field input::placeholder {
+    color: #737b8b;
+}
+
+.filter-field input:focus,
+.filter-field select:focus {
+    border-color: var(--red);
+}
+
+.filter-field select option {
+    background: #171b25;
+    color: #fff;
+}
+
+.filter-actions {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.filter-actions .btn {
+    height: 49px;
+    white-space: nowrap;
+}
+
+.reset-link {
+    color: #b6bac6;
+    font-size: 12px;
+    font-weight: 700;
+    white-space: nowrap;
+}
+
+.reset-link:hover {
+    color: #fff;
+}
+
+/* =========================
+   NAGYDÍJAK – TALÁLATOK
+========================= */
+
+.results-summary {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    gap: 20px;
+    margin: 35px 0 20px;
+}
+
+.results-summary > div {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.results-label {
+    color: var(--muted);
+    font-size: 11px;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+}
+
+.results-number {
+    color: var(--red);
+    font-family: "Barlow Condensed", sans-serif;
+    font-size: 38px;
+    line-height: 1;
+}
+
+.results-summary p {
+    color: var(--muted);
+    font-size: 12px;
+    margin-bottom: 0;
+}
+
+.no-results {
+    text-align: center;
+    padding: 75px 20px;
+}
+
+.no-results-icon {
+    display: block;
+    margin-bottom: 10px;
+    color: var(--red);
+    font-size: 65px;
+    line-height: 1;
+}
+
+.no-results h3 {
+    font-size: 38px;
+    margin-bottom: 10px;
+}
+
+.no-results p {
+    max-width: 420px;
+    margin: 0 auto 25px;
+    color: var(--muted);
+    font-size: 13px;
+    line-height: 1.8;
+}
+
+/* =========================
+   NAGYDÍJAK – LAPOZÁS
+========================= */
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 35px;
+}
+
+.pagination-pages {
+    display: flex;
+    gap: 7px;
+}
+
+.pagination-page {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 42px;
+    height: 42px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    font-size: 13px;
+    font-weight: 800;
+    transition: background .2s;
+}
+
+.pagination-page:hover {
+    background: var(--surface-hover);
+}
+
+.pagination-page.active {
+    background: var(--red);
+    border-color: var(--red);
+    color: #fff;
+}
+
+.pagination-arrow {
+    color: #f1f2f4;
+    font-size: 12px;
+    font-weight: 800;
+}
+
+.pagination-arrow:hover {
+    color: var(--red);
+}
+
+.pagination-disabled {
+    color: #626977;
+    font-size: 12px;
+    font-weight: 800;
+}
+
+.page-indicator {
+    margin-top: 15px;
+    text-align: center;
+    color: var(--muted);
+    font-size: 12px;
+}
+
+/* =========================
+   ALSÓ KIEMELT BLOKK
+========================= */
 
 .closing-section {
     padding: 70px 0;
     background:
-        linear-gradient(110deg,
-            rgba(229,27,50,.17), transparent 55%),
+        linear-gradient(
+            110deg,
+            rgba(229, 27, 50, .17),
+            transparent 55%
+        ),
         #151821;
     border-top: 1px solid #37303a;
     border-bottom: 1px solid var(--border);
@@ -686,7 +1045,9 @@ h3 {
     flex-shrink: 0;
 }
 
-/* FOOTER */
+/* =========================
+   LÁBLÉC
+========================= */
 
 .site-footer {
     background: #090b10;
@@ -735,7 +1096,9 @@ h3 {
     font-size: 11px;
 }
 
-/* RESPONSIVE */
+/* =========================
+   TABLET
+========================= */
 
 @media (max-width: 1050px) {
     .main-nav {
@@ -767,7 +1130,19 @@ h3 {
         width: 240px;
         height: 240px;
     }
+
+    .filter-panel {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .filter-actions {
+        min-height: 49px;
+    }
 }
+
+/* =========================
+   MOBIL
+========================= */
 
 @media (max-width: 760px) {
     .section {
@@ -866,6 +1241,19 @@ h3 {
         padding-left: 45px;
     }
 
+    .page-hero-content {
+        padding: 60px 0;
+    }
+
+    .page-hero h1 {
+        font-size: clamp(55px, 12vw, 85px);
+    }
+
+    .results-summary {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
     .closing-inner {
         flex-direction: column;
         align-items: flex-start;
@@ -907,11 +1295,39 @@ h3 {
         min-height: 260px;
     }
 
+    .filter-panel {
+        grid-template-columns: 1fr;
+        padding: 18px;
+    }
+
+    .filter-actions {
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .page-hero h1 {
+        font-size: 53px;
+        overflow-wrap: anywhere;
+    }
+
+    .pagination {
+        gap: 12px;
+    }
+
+    .pagination-page {
+        width: 35px;
+        height: 38px;
+    }
+
     .footer-bottom {
         flex-direction: column;
         gap: 6px;
     }
 }
+
+/* =========================
+   CSÖKKENTETT MOZGÁS
+========================= */
 
 @media (prefers-reduced-motion: reduce) {
     html {
@@ -924,3 +1340,6 @@ h3 {
         transition: none !important;
     }
 }
+
+
+

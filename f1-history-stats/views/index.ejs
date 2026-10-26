@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="hu">
 
@@ -9,7 +8,7 @@
     <title><%= title %></title>
 
     <meta name="description"
-        content="F1 History Stats – Forma–1-es nagydíjak, pilóták és versenyeredmények történelmi adatbázisa.">
+          content="F1 History Stats – Forma–1-es nagydíjak, pilóták és versenyeredmények történelmi adatbázisa.">
 
     <link rel="stylesheet" href="/css/style.css">
 </head>
@@ -27,15 +26,17 @@
             </a>
 
             <nav class="main-nav" aria-label="Fő navigáció">
-                <a href="#fooldal" class="nav-active">Főoldal</a>
+                <a href="/" class="nav-active" aria-current="page">
+                    Főoldal
+                </a>
                 <a href="#statisztikak">Statisztikák</a>
-                <a href="#nagydijak">Nagydíjak</a>
+                <a href="/nagydijak">Nagydíjak</a>
                 <a href="#funkciok">Funkciók</a>
                 <a href="#kapcsolat">Kapcsolat</a>
             </nav>
 
-            <a href="#funkciok" class="header-action">
-                Felfedezés <span aria-hidden="true">↗</span>
+            <a href="/nagydijak" class="header-action">
+                Nagydíjak <span aria-hidden="true">↗</span>
             </a>
 
         </div>
@@ -46,6 +47,7 @@
         <!-- HERO -->
 
         <section class="hero" id="fooldal">
+
             <div class="container hero-grid">
 
                 <div class="hero-content">
@@ -68,14 +70,16 @@
                     </p>
 
                     <div class="hero-actions">
+
                         <a href="#statisztikak" class="btn btn-primary">
                             Statisztikák megtekintése
                             <span aria-hidden="true">↗</span>
                         </a>
 
-                        <a href="#nagydijak" class="btn btn-outline">
+                        <a href="/nagydijak" class="btn btn-outline">
                             Nagydíjak böngészése
                         </a>
+
                     </div>
 
                     <div class="hero-footnote">
@@ -86,21 +90,29 @@
                 </div>
 
                 <div class="hero-visual" aria-hidden="true">
+
                     <div class="speed-ring ring-one"></div>
                     <div class="speed-ring ring-two"></div>
 
                     <div class="visual-number">01</div>
 
                     <div class="visual-center">
-                        <span class="visual-label">THE HISTORY OF</span>
+                        <span class="visual-label">
+                            THE HISTORY OF
+                        </span>
+
                         <strong>F1</strong>
-                        <span class="visual-bottom">MOTORSPORT</span>
+
+                        <span class="visual-bottom">
+                            MOTORSPORT
+                        </span>
                     </div>
 
                     <div class="visual-caption">
                         <span>EST. 1950</span>
                         <span>RACING HERITAGE</span>
                     </div>
+
                 </div>
 
             </div>
@@ -111,23 +123,33 @@
         <!-- STATISZTIKÁK -->
 
         <section class="section stats-section" id="statisztikak">
+
             <div class="container">
 
                 <div class="section-heading">
+
                     <div>
-                        <p class="section-kicker">AZ ADATBÁZIS SZÁMOKBAN</p>
-                        <h2>TÖBB ÉVTIZED. <span>EZERNYI ADAT.</span></h2>
+                        <p class="section-kicker">
+                            AZ ADATBÁZIS SZÁMOKBAN
+                        </p>
+
+                        <h2>
+                            TÖBB ÉVTIZED.
+                            <span>EZERNYI ADAT.</span>
+                        </h2>
                     </div>
 
                     <p class="section-lead">
                         Valós történelmi versenyadatok
                         közvetlenül az adatbázisunkból.
                     </p>
+
                 </div>
 
                 <div class="stats-grid">
 
                     <article class="stat-card">
+
                         <div class="stat-top">
                             <span>01 / NAGYDÍJAK</span>
                             <span class="stat-icon" aria-hidden="true">↗</span>
@@ -137,12 +159,16 @@
                             <%= stats.nagydijak.toLocaleString("hu-HU") %>
                         </div>
 
-                        <div class="stat-label">Rögzített nagydíj</div>
+                        <div class="stat-label">
+                            Rögzített nagydíj
+                        </div>
 
                         <div class="stat-decoration"></div>
+
                     </article>
 
                     <article class="stat-card">
+
                         <div class="stat-top">
                             <span>02 / PILÓTÁK</span>
                             <span class="stat-icon" aria-hidden="true">↗</span>
@@ -152,12 +178,16 @@
                             <%= stats.pilotak.toLocaleString("hu-HU") %>
                         </div>
 
-                        <div class="stat-label">Nyilvántartott versenyző</div>
+                        <div class="stat-label">
+                            Nyilvántartott versenyző
+                        </div>
 
                         <div class="stat-decoration"></div>
+
                     </article>
 
                     <article class="stat-card">
+
                         <div class="stat-top">
                             <span>03 / EREDMÉNYEK</span>
                             <span class="stat-icon" aria-hidden="true">↗</span>
@@ -167,9 +197,12 @@
                             <%= stats.eredmenyek.toLocaleString("hu-HU") %>
                         </div>
 
-                        <div class="stat-label">Versenyeredmény</div>
+                        <div class="stat-label">
+                            Versenyeredmény
+                        </div>
 
                         <div class="stat-decoration"></div>
+
                     </article>
 
                 </div>
@@ -184,18 +217,27 @@
         <!-- NAGYDÍJAK -->
 
         <section class="section races-section" id="nagydijak">
+
             <div class="container">
 
                 <div class="section-heading">
+
                     <div>
-                        <p class="section-kicker">VERSENYTÖRTÉNELEM</p>
-                        <h2>UTOLSÓ RÖGZÍTETT <span>NAGYDÍJAK.</span></h2>
+                        <p class="section-kicker">
+                            VERSENYTÖRTÉNELEM
+                        </p>
+
+                        <h2>
+                            UTOLSÓ RÖGZÍTETT
+                            <span>NAGYDÍJAK.</span>
+                        </h2>
                     </div>
 
                     <p class="section-lead">
                         A történelmi adatbázis hat
                         legkésőbbi dátumú versenye.
                     </p>
+
                 </div>
 
                 <div class="races-panel">
@@ -213,14 +255,21 @@
                             <div class="race-row">
 
                                 <div class="race-name">
+
                                     <span class="race-index">
                                         <%= String(index + 1).padStart(2, "0") %>
                                     </span>
 
                                     <div>
-                                        <strong><%= gp.nev %> Nagydíj</strong>
-                                        <small><%= gp.ev %> · Forma–1</small>
+                                        <strong>
+                                            <%= gp.nev %> Nagydíj
+                                        </strong>
+
+                                        <small>
+                                            <%= gp.ev %> · Forma–1
+                                        </small>
                                     </div>
+
                                 </div>
 
                                 <div class="race-location">
@@ -238,11 +287,19 @@
                     <% } else { %>
 
                         <p class="empty-message">
-                            Jelenleg nem találhatók nagydíjak az adatbázisban.
+                            Jelenleg nem találhatók nagydíjak
+                            az adatbázisban.
                         </p>
 
                     <% } %>
 
+                </div>
+
+                <div class="section-footer-action">
+                    <a href="/nagydijak" class="btn btn-primary">
+                        Összes nagydíj megtekintése
+                        <span aria-hidden="true">↗</span>
+                    </a>
                 </div>
 
                 <p class="data-note">
@@ -255,12 +312,20 @@
         <!-- FUNKCIÓK -->
 
         <section class="section features-section" id="funkciok">
+
             <div class="container">
 
                 <div class="section-heading">
+
                     <div>
-                        <p class="section-kicker">AZ ALKALMAZÁSRÓL</p>
-                        <h2>FEDEZD FEL <span>AZ ADATOKAT.</span></h2>
+                        <p class="section-kicker">
+                            AZ ALKALMAZÁSRÓL
+                        </p>
+
+                        <h2>
+                            FEDEZD FEL
+                            <span>AZ ADATOKAT.</span>
+                        </h2>
                     </div>
 
                     <p class="section-lead">
@@ -268,11 +333,13 @@
                         könnyen kereshetővé és összehasonlíthatóvá
                         tegye a történelmi versenyadatokat.
                     </p>
+
                 </div>
 
                 <div class="features-grid">
 
                     <article class="feature-card">
+
                         <div class="feature-number">01</div>
                         <div class="feature-icon" aria-hidden="true">🏁</div>
 
@@ -283,10 +350,14 @@
                             áttekintése a Forma–1 történetéből.
                         </p>
 
-                        <span class="feature-status">Részletes oldal hamarosan</span>
+                        <a href="/nagydijak" class="feature-status feature-link">
+                            Nagydíjak megtekintése ↗
+                        </a>
+
                     </article>
 
                     <article class="feature-card">
+
                         <div class="feature-number">02</div>
                         <div class="feature-icon" aria-hidden="true">🏎</div>
 
@@ -298,10 +369,14 @@
                             életrajzi adatok.
                         </p>
 
-                        <span class="feature-status">Részletes oldal hamarosan</span>
+                        <span class="feature-status">
+                            Részletes oldal hamarosan
+                        </span>
+
                     </article>
 
                     <article class="feature-card">
+
                         <div class="feature-number">03</div>
                         <div class="feature-icon" aria-hidden="true">📊</div>
 
@@ -312,10 +387,14 @@
                             és versenytörténeti adatok.
                         </p>
 
-                        <span class="feature-status">Részletes oldal hamarosan</span>
+                        <span class="feature-status">
+                            Részletes oldal hamarosan
+                        </span>
+
                     </article>
 
                     <article class="feature-card">
+
                         <div class="feature-number">04</div>
                         <div class="feature-icon" aria-hidden="true">📈</div>
 
@@ -327,7 +406,10 @@
                             bemutatása diagramokon.
                         </p>
 
-                        <span class="feature-status">Fejlesztés alatt</span>
+                        <span class="feature-status">
+                            Fejlesztés alatt
+                        </span>
+
                     </article>
 
                 </div>
@@ -335,13 +417,17 @@
             </div>
         </section>
 
-        <!-- ALSÓ KIEMELT BLOKK -->
+        <!-- ALSÓ BLOKK -->
 
         <section class="closing-section" id="kapcsolat">
+
             <div class="container closing-inner">
 
                 <div>
-                    <p class="section-kicker">F1 HISTORY STATS</p>
+
+                    <p class="section-kicker">
+                        F1 HISTORY STATS
+                    </p>
 
                     <h2>
                         A VERSENY VÉGET ÉR.<br>
@@ -353,6 +439,7 @@
                         adatainak feldolgozására és
                         bemutatására készült.
                     </p>
+
                 </div>
 
                 <a href="#fooldal" class="btn btn-primary">
@@ -367,25 +454,45 @@
     <!-- LÁBLÉC -->
 
     <footer class="site-footer">
+
         <div class="container footer-inner">
 
             <div class="footer-brand">
-                <strong>F1<span>.</span> HISTORY STATS</strong>
-                <p>Webprogramozás II. – Gyakorlati beadandó</p>
+
+                <strong>
+                    F1<span>.</span> HISTORY STATS
+                </strong>
+
+                <p>
+                    Webprogramozás II. – Gyakorlati beadandó
+                </p>
+
             </div>
 
             <div class="footer-authors">
+
                 <span>KÉSZÍTETTÉK</span>
-                <p>1. Fodor Árpád – U4BKST</p>
-                <p>2. Farkas Tamás – PLPJEB</p>
+
+                <p>1. készítő neve – Neptun-kód</p>
+                <p>2. készítő neve – Neptun-kód</p>
+
             </div>
 
         </div>
 
         <div class="container footer-bottom">
-            <span>© <%= new Date().getFullYear() %> F1 History Stats</span>
-            <span>Node.js · Express · MongoDB · EJS</span>
+
+            <span>
+                © <%= new Date().getFullYear() %>
+                F1 History Stats
+            </span>
+
+            <span>
+                Node.js · Express · MongoDB · EJS
+            </span>
+
         </div>
+
     </footer>
 
 </body>
