@@ -32,14 +32,16 @@
                 <a href="/">Főoldal</a>
                 <a href="/#statisztikak">Statisztikák</a>
                 <a href="/nagydijak">Nagydíjak</a>
-                <a href="/pilotak" class="nav-active" aria-current="page">
+                <a href="/pilotak"
+                   class="nav-active"
+                   aria-current="page">
                     Pilóták
                 </a>
                 <a href="/#kapcsolat">Kapcsolat</a>
             </nav>
 
-            <a href="/" class="header-action">
-                Főoldal <span aria-hidden="true">↗</span>
+            <a href="/nagydijak" class="header-action">
+                Nagydíjak <span aria-hidden="true">↗</span>
             </a>
 
         </div>
@@ -81,7 +83,6 @@
                 </div>
 
             </div>
-
         </section>
 
         <!-- PILÓTÁK LISTÁJA -->
@@ -220,10 +221,14 @@
 
                     <p>
                         <% if (osszesTalalat > 0) { %>
+
                             <%= elsoTalalat %>–<%= utolsoTalalat %>.
                             találat megjelenítése
+
                         <% } else { %>
+
                             Nincs megjeleníthető találat
+
                         <% } %>
                     </p>
 
@@ -385,7 +390,6 @@
                 <% } %>
 
             </div>
-
         </section>
 
         <!-- ALSÓ BLOKK -->
@@ -418,7 +422,6 @@
                 </a>
 
             </div>
-
         </section>
 
     </main>
