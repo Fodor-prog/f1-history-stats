@@ -1,0 +1,180 @@
+
+<%- include("partials/header", {
+    title: title,
+    activePage: "user"
+}) %>
+
+<main>
+
+    <!-- FELHASZNÁLÓI FEJLÉC -->
+
+    <section class="page-hero">
+
+        <div class="container page-hero-content">
+
+            <div class="eyebrow">
+                <span class="live-dot"></span>
+                F1 HISTORY STATS
+            </div>
+
+            <p class="page-breadcrumb">
+                <a href="/">Főoldal</a>
+                <span>/</span>
+                Felhasználói oldal
+            </p>
+
+            <h1>
+                ÜDVÖZLÜNK
+                <span>A FIÓKODBAN.</span>
+            </h1>
+
+            <p class="page-description">
+                Sikeresen bejelentkeztél az
+                F1 History Stats alkalmazásba.
+            </p>
+
+        </div>
+
+    </section>
+
+    <!-- FELHASZNÁLÓI ADATOK -->
+
+    <section class="section listing-section">
+
+        <div class="container">
+
+            <div class="section-heading">
+
+                <div>
+
+                    <p class="section-kicker">
+                        FELHASZNÁLÓI FIÓK
+                    </p>
+
+                    <h2>
+                        SAJÁT
+                        <span>PROFIL.</span>
+                    </h2>
+
+                </div>
+
+                <p class="section-lead">
+                    Itt láthatod a bejelentkezett
+                    felhasználói fiókod adatait.
+                </p>
+
+            </div>
+
+            <% if (user) { %>
+
+                <div class="stats-grid">
+
+                    <article class="stat-card">
+
+                        <div class="stat-top">
+                            <span>01 / FELHASZNÁLÓNÉV</span>
+                        </div>
+
+                        <h3>
+                            <%= user.username %>
+                        </h3>
+
+                        <p class="stat-label">
+                            Bejelentkezett felhasználó
+                        </p>
+
+                    </article>
+
+                    <article class="stat-card">
+
+                        <div class="stat-top">
+                            <span>02 / JOGOSULTSÁG</span>
+                        </div>
+
+                        <h3>
+                            <%= user.role === "admin"
+                                ? "Adminisztrátor"
+                                : "Felhasználó" %>
+                        </h3>
+
+                        <p class="stat-label">
+                            Aktuális szerepkör
+                        </p>
+
+                    </article>
+
+                    <article class="stat-card">
+
+                        <div class="stat-top">
+                            <span>03 / ÁLLAPOT</span>
+                        </div>
+
+                        <h3>
+                            Aktív
+                        </h3>
+
+                        <p class="stat-label">
+                            Sikeres bejelentkezés
+                        </p>
+
+                    </article>
+
+                </div>
+
+            <% } %>
+
+            <div class="section-footer-action">
+
+                <a href="/nagydijak" class="btn btn-primary">
+                    Nagydíjak megtekintése ↗
+                </a>
+
+                <a href="/pilotak" class="btn btn-outline">
+                    Pilóták megtekintése
+                </a>
+
+                <a href="/eredmenyek" class="btn btn-outline">
+                    Versenyeredmények
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ALSÓ BLOKK -->
+
+    <section class="closing-section">
+
+        <div class="container closing-inner">
+
+            <div>
+
+                <p class="section-kicker">
+                    FELHASZNÁLÓI FIÓK
+                </p>
+
+                <h2>
+                    VISSZATÉRSZ
+                    <span>A RAJTRÁCSRA?</span>
+                </h2>
+
+                <p>
+                    A kijelentkezéssel lezárod az
+                    aktuális munkamenetedet.
+                </p>
+
+            </div>
+
+            <a href="/logout" class="btn btn-primary">
+                Kijelentkezés ↗
+            </a>
+
+        </div>
+
+    </section>
+
+</main>
+
+<%- include("partials/footer") %>

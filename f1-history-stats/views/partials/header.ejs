@@ -4,7 +4,8 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
 
     <title><%= title %></title>
 
@@ -19,7 +20,10 @@
     <!-- KÖZÖS FEJLÉC -->
 
     <header class="site-header">
+
         <div class="container header-inner">
+
+            <!-- LOGÓ -->
 
             <a href="/" class="logo"
                aria-label="F1 History Stats főoldal">
@@ -78,12 +82,68 @@
                     Kapcsolat
                 </a>
 
+                <!-- VENDÉG MENÜ -->
+
+                <% if (!user) { %>
+
+                    <a href="/register"
+                       class="<%= activePage === 'register' ? 'nav-active' : '' %>">
+                        Regisztráció
+                    </a>
+
+                    <a href="/login"
+                       class="<%= activePage === 'login' ? 'nav-active' : '' %>">
+                        Bejelentkezés
+                    </a>
+
+                <% } else { %>
+
+                    <!-- BEJELENTKEZETT FELHASZNÁLÓ -->
+
+                    <a href="/user"
+                       class="<%= activePage === 'user' ? 'nav-active' : '' %>">
+                        Profil
+                    </a>
+
+                    <!-- ADMIN MENÜ -->
+
+                    <% if (user.role === "admin") { %>
+
+                        <a href="/admin"
+                           class="<%= activePage === 'admin' ? 'nav-active' : '' %>">
+                            Admin
+                        </a>
+
+                    <% } %>
+
+                    <!-- KIJELENTKEZÉS -->
+
+                    <a href="/logout">
+                        Kijelentkezés
+                    </a>
+
+                <% } %>
+
             </nav>
 
-            <a href="/nagydijak" class="header-action">
-                Felfedezés
-                <span aria-hidden="true">↗</span>
-            </a>
+            <!-- JOBB OLDALI GOMB -->
+
+            <% if (user) { %>
+
+                <a href="/user" class="header-action">
+                    <%= user.username %>
+                    <span aria-hidden="true">↗</span>
+                </a>
+
+            <% } else { %>
+
+                <a href="/login" class="header-action">
+                    Belépés
+                    <span aria-hidden="true">↗</span>
+                </a>
+
+            <% } %>
 
         </div>
+
     </header>

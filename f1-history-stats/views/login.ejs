@@ -1,0 +1,147 @@
+
+<%- include("partials/header", {
+    title: title,
+    activePage: "login"
+}) %>
+
+<main>
+
+    <!-- BEJELENTKEZÉS FEJLÉCE -->
+
+    <section class="page-hero">
+
+        <div class="container page-hero-content">
+
+            <div class="eyebrow">
+                <span class="live-dot"></span>
+                F1 HISTORY STATS
+            </div>
+
+            <p class="page-breadcrumb">
+                <a href="/">Főoldal</a>
+                <span>/</span>
+                Bejelentkezés
+            </p>
+
+            <h1>
+                ÜDVÖZLÜNK
+                <span>ÚJRA.</span>
+            </h1>
+
+            <p class="page-description">
+                Jelentkezz be a felhasználói fiókodba,
+                és folytasd a Forma–1 történelmi
+                adatainak felfedezését!
+            </p>
+
+        </div>
+
+    </section>
+
+    <!-- BEJELENTKEZÉSI ŰRLAP -->
+
+    <section class="section listing-section">
+
+        <div class="container">
+
+            <div class="section-heading">
+
+                <div>
+                    <p class="section-kicker">
+                        FELHASZNÁLÓI FIÓK
+                    </p>
+
+                    <h2>
+                        BEJELENT<span>KEZÉS.</span>
+                    </h2>
+                </div>
+
+                <p class="section-lead">
+                    A belépéshez add meg a regisztrációkor
+                    használt felhasználónevedet és jelszavadat.
+                </p>
+
+            </div>
+
+            <% if (message) { %>
+
+                <div class="results-summary" role="alert">
+                    <strong>
+                        <%= message %>
+                    </strong>
+                </div>
+
+            <% } %>
+
+            <form
+                action="/login"
+                method="POST"
+                class="filter-panel"
+                aria-label="Bejelentkezési űrlap"
+            >
+
+                <div class="filter-field">
+
+                    <label for="username">
+                        FELHASZNÁLÓNÉV
+                    </label>
+
+                    <input
+                        type="text"
+                        id="username"
+                        name="username"
+                        placeholder="Felhasználónév"
+                        autocomplete="username"
+                        required
+                    >
+
+                </div>
+
+                <div class="filter-field">
+
+                    <label for="password">
+                        JELSZÓ
+                    </label>
+
+                    <input
+                        type="password"
+                        id="password"
+                        name="password"
+                        placeholder="Jelszó"
+                        autocomplete="current-password"
+                        required
+                    >
+
+                </div>
+
+                <div class="filter-actions">
+
+                    <button
+                        type="submit"
+                        class="btn btn-primary"
+                    >
+                        Bejelentkezés
+                    </button>
+
+                </div>
+
+            </form>
+
+            <div class="section-footer-action">
+
+                <p>
+                    Még nincs felhasználói fiókod?
+                    <a href="/register">
+                        Regisztrálj!
+                    </a>
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+</main>
+
+<%- include("partials/footer") %>

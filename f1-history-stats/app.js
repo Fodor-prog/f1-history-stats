@@ -3,14 +3,35 @@ require("dotenv").config();
 
 const express = require("express");
 const path = require("path");
+const session = require("express-session");
+const { MongoStore } = require("connect-mongo");
+
 const connectDB = require("./config/db");
 
 const Gp = require("./models/Gp");
 const Pilota = require("./models/Pilota");
 const Eredmeny = require("./models/Eredmeny");
 
+const mainRouter = require("./routes/mainRouter");
+
 const app = express();
 const PORT = process.env.PORT || 3000;
+
+// ========================================
+// KÖRNYEZETI VÁLTOZÓK ELLENŐRZÉSE
+// ========================================
+
+if (!process.env.SESSION_SECRET) {
+    throw new Error(
+        "Hiányzik a SESSION_SECRET változó a .env fájlból!"
+    );
+}
+
+if (!process.env.SESSION_MONGO_URI) {
+    throw new Error(
+        "Hiányzik a SESSION_MONGO_URI változó a .env fájlból!"
+    );
+}
 
 // ========================================
 // ALAPBEÁLLÍTÁSOK
@@ -22,6 +43,56 @@ app.set("views", path.join(__dirname, "views"));
 app.use(express.static(path.join(__dirname, "public")));
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
+
+// ========================================
+// SESSIONKEZELÉS
+// TANANYAG: AUTENTIKÁCIÓ
+// ========================================
+
+app.use(
+    session({
+        secret: process.env.SESSION_SECRET,
+        resave: false,
+        saveUninitialized: false,
+
+        store: MongoStore.create({
+            mongoUrl: process.env.SESSION_MONGO_URI,
+            collectionName: "sessions"
+        }),
+
+        cookie: {
+            httpOnly: true,
+            sameSite: "lax",
+            secure: process.env.NODE_ENV === "production"
+        }
+    })
+);
+
+// ========================================
+// EJS VÁLTOZÓK ÉS ÜZENETEK
+// ========================================
+
+app.use((req, res, next) => {
+    // Az összes EJS-oldal elérheti a bejelentkezett
+    // felhasználó adatait.
+    res.locals.user = req.session.user || null;
+
+    // Egyszer megjelenő sikeres vagy hibaüzenet.
+    res.locals.message = req.session.message || "";
+
+    // Az üzenetet csak egyszer jelenítjük meg.
+    if (req.session.message) {
+        delete req.session.message;
+    }
+
+    next();
+});
+
+// ========================================
+// AUTENTIKÁCIÓS ROUTER
+// ========================================
+
+app.use("/", mainRouter);
 
 // ========================================
 // SEGÉDFÜGGVÉNYEK
@@ -77,6 +148,7 @@ function createPageUrl(route, filters) {
 
 // ========================================
 // FŐOLDAL
+// URL: /
 // ========================================
 
 app.get("/", async (req, res) => {
@@ -115,7 +187,10 @@ app.get("/", async (req, res) => {
         });
 
     } catch (error) {
-        console.error("Kezdőoldal hiba:", error.message);
+        console.error(
+            "Kezdőoldal hiba:",
+            error.message
+        );
 
         res.status(500).send(
             "Hiba történt a kezdőoldal betöltése közben."
@@ -125,6 +200,7 @@ app.get("/", async (req, res) => {
 
 // ========================================
 // NAGYDÍJAK OLDAL
+// URL: /nagydijak
 // ========================================
 
 app.get("/nagydijak", async (req, res) => {
@@ -199,6 +275,7 @@ app.get("/nagydijak", async (req, res) => {
         }
 
         const osszesTalalat = await Gp.countDocuments(filter);
+
         const osszesOldal = Math.max(
             1,
             Math.ceil(osszesTalalat / limit)
@@ -212,7 +289,10 @@ app.get("/nagydijak", async (req, res) => {
         const sorrend = rendez === "regi" ? 1 : -1;
 
         const adatok = await Gp.find(filter)
-            .sort({ datum: sorrend, _id: sorrend })
+            .sort({
+                datum: sorrend,
+                _id: sorrend
+            })
             .skip((oldal - 1) * limit)
             .limit(limit)
             .lean();
@@ -227,8 +307,14 @@ app.get("/nagydijak", async (req, res) => {
 
         const queryParams = new URLSearchParams();
 
-        if (keres) queryParams.set("keres", keres);
-        if (ev) queryParams.set("ev", ev);
+        if (keres) {
+            queryParams.set("keres", keres);
+        }
+
+        if (ev) {
+            queryParams.set("ev", ev);
+        }
+
         if (rendez !== "uj") {
             queryParams.set("rendez", rendez);
         }
@@ -257,7 +343,10 @@ app.get("/nagydijak", async (req, res) => {
         });
 
     } catch (error) {
-        console.error("Nagydíjak oldal hiba:", error.message);
+        console.error(
+            "Nagydíjak oldal hiba:",
+            error.message
+        );
 
         res.status(500).send(
             "Hiba történt a nagydíjak betöltése közben."
@@ -267,6 +356,7 @@ app.get("/nagydijak", async (req, res) => {
 
 // ========================================
 // PILÓTÁK OLDAL
+// URL: /pilotak
 // ========================================
 
 app.get("/pilotak", async (req, res) => {
@@ -285,12 +375,16 @@ app.get("/pilotak", async (req, res) => {
 
         const limit = 20;
 
-        const nemzetisegek = (await Pilota.distinct("nemzet"))
+        const nemzetisegek = (
+            await Pilota.distinct("nemzet")
+        )
             .filter(value =>
                 typeof value === "string" &&
                 value.trim() !== ""
             )
-            .sort((a, b) => a.localeCompare(b, "hu"));
+            .sort((a, b) =>
+                a.localeCompare(b, "hu")
+            );
 
         const filter = {};
 
@@ -301,11 +395,15 @@ app.get("/pilotak", async (req, res) => {
             };
         }
 
-        if (nemzet && nemzetisegek.includes(nemzet)) {
+        if (
+            nemzet &&
+            nemzetisegek.includes(nemzet)
+        ) {
             filter.nemzet = nemzet;
         }
 
         const osszesTalalat = await Pilota.countDocuments(filter);
+
         const osszesOldal = Math.max(
             1,
             Math.ceil(osszesTalalat / limit)
@@ -319,7 +417,10 @@ app.get("/pilotak", async (req, res) => {
         const sorrend = rendez === "za" ? -1 : 1;
 
         const adatok = await Pilota.find(filter)
-            .sort({ nev: sorrend, _id: sorrend })
+            .sort({
+                nev: sorrend,
+                _id: sorrend
+            })
             .skip((oldal - 1) * limit)
             .limit(limit)
             .lean();
@@ -334,8 +435,14 @@ app.get("/pilotak", async (req, res) => {
 
         const queryParams = new URLSearchParams();
 
-        if (keres) queryParams.set("keres", keres);
-        if (nemzet) queryParams.set("nemzet", nemzet);
+        if (keres) {
+            queryParams.set("keres", keres);
+        }
+
+        if (nemzet) {
+            queryParams.set("nemzet", nemzet);
+        }
+
         if (rendez !== "az") {
             queryParams.set("rendez", rendez);
         }
@@ -364,7 +471,10 @@ app.get("/pilotak", async (req, res) => {
         });
 
     } catch (error) {
-        console.error("Pilóták oldal hiba:", error.message);
+        console.error(
+            "Pilóták oldal hiba:",
+            error.message
+        );
 
         res.status(500).send(
             "Hiba történt a pilóták betöltése közben."
@@ -374,6 +484,7 @@ app.get("/pilotak", async (req, res) => {
 
 // ========================================
 // VERSENYEREDMÉNYEK OLDAL
+// URL: /eredmenyek
 // ========================================
 
 app.get("/eredmenyek", async (req, res) => {
@@ -382,8 +493,7 @@ app.get("/eredmenyek", async (req, res) => {
             .trim()
             .slice(0, 100);
 
-        const ev = String(req.query.ev || "")
-            .trim();
+        const ev = String(req.query.ev || "").trim();
 
         const rendez = req.query.rendez === "regi"
             ? "regi"
@@ -391,7 +501,6 @@ app.get("/eredmenyek", async (req, res) => {
 
         const limit = 20;
 
-        // Elérhető évszámok
         const evAdatok = await Eredmeny.aggregate([
             {
                 $project: {
@@ -416,17 +525,14 @@ app.get("/eredmenyek", async (req, res) => {
         ]);
 
         const evek = evAdatok.map(item => item._id);
-
         const filter = {};
 
-        // Keresés pilótanév vagy csapat alapján
         if (keres) {
             const regex = new RegExp(
                 escapeRegex(keres),
                 "i"
             );
 
-            // Az egyező pilóták azonosítóinak lekérése
             const talaltPilotak = await Pilota.find({
                 nev: regex
             })
@@ -438,12 +544,17 @@ app.get("/eredmenyek", async (req, res) => {
             );
 
             filter.$or = [
-                { pilotaaz: { $in: pilotaAzonositok } },
-                { csapat: regex }
+                {
+                    pilotaaz: {
+                        $in: pilotaAzonositok
+                    }
+                },
+                {
+                    csapat: regex
+                }
             ];
         }
 
-        // Év szerinti szűrés
         if (
             /^\d{4}$/.test(ev) &&
             evek.includes(Number(ev))
@@ -457,6 +568,7 @@ app.get("/eredmenyek", async (req, res) => {
         }
 
         const osszesTalalat = await Eredmeny.countDocuments(filter);
+
         const osszesOldal = Math.max(
             1,
             Math.ceil(osszesTalalat / limit)
@@ -469,7 +581,6 @@ app.get("/eredmenyek", async (req, res) => {
 
         const sorrend = rendez === "regi" ? 1 : -1;
 
-        // Eredmények lekérdezése
         const adatok = await Eredmeny.find(filter)
             .sort({
                 datum: sorrend,
@@ -479,18 +590,20 @@ app.get("/eredmenyek", async (req, res) => {
             .limit(limit)
             .lean();
 
-        // Az oldalon szereplő pilótaazonosítók
         const pilotaAzonositok = [
-            ...new Set(adatok.map(item => item.pilotaaz))
+            ...new Set(
+                adatok.map(item => item.pilotaaz)
+            )
         ];
 
         const pilotak = await Pilota.find({
-            az: { $in: pilotaAzonositok }
+            az: {
+                $in: pilotaAzonositok
+            }
         })
             .select("az nev")
             .lean();
 
-        // Pilótaazonosító -> név
         const pilotaNevek = new Map(
             pilotak.map(pilota => [
                 pilota.az,
@@ -498,7 +611,6 @@ app.get("/eredmenyek", async (req, res) => {
             ])
         );
 
-        // Megjelenítendő eredmények
         const eredmenyek = adatok.map(item => ({
             id: item._id.toString(),
             datum: formatDate(item.datum),
@@ -512,11 +624,16 @@ app.get("/eredmenyek", async (req, res) => {
             motor: item.motor || "Nincs adat"
         }));
 
-        // Lapozási linkek
         const queryParams = new URLSearchParams();
 
-        if (keres) queryParams.set("keres", keres);
-        if (ev) queryParams.set("ev", ev);
+        if (keres) {
+            queryParams.set("keres", keres);
+        }
+
+        if (ev) {
+            queryParams.set("ev", ev);
+        }
+
         if (rendez !== "uj") {
             queryParams.set("rendez", rendez);
         }

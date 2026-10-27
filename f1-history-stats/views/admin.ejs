@@ -1,0 +1,195 @@
+
+<%- include("partials/header", {
+    title: title,
+    activePage: "admin"
+}) %>
+
+<main>
+
+    <!-- ADMIN FEJLÉC -->
+
+    <section class="page-hero">
+
+        <div class="container page-hero-content">
+
+            <div class="eyebrow">
+                <span class="live-dot"></span>
+                F1 HISTORY STATS
+            </div>
+
+            <p class="page-breadcrumb">
+                <a href="/">Főoldal</a>
+                <span>/</span>
+                Adminisztráció
+            </p>
+
+            <h1>
+                ADMINISZTRÁCIÓS
+                <span>FELÜLET.</span>
+            </h1>
+
+            <p class="page-description">
+                Az alkalmazás adatainak kezelése
+                kizárólag adminisztrátori jogosultsággal
+                érhető el.
+            </p>
+
+        </div>
+
+    </section>
+
+    <!-- ADMIN TARTALOM -->
+
+    <section class="section listing-section">
+
+        <div class="container">
+
+            <div class="section-heading">
+
+                <div>
+
+                    <p class="section-kicker">
+                        ADMINISZTRÁTORI FIÓK
+                    </p>
+
+                    <h2>
+                        KEZELŐ
+                        <span>FELÜLET.</span>
+                    </h2>
+
+                </div>
+
+                <p class="section-lead">
+                    Itt kezelheted majd az
+                    alkalmazás adatbázisának tartalmát.
+                </p>
+
+            </div>
+
+            <% if (user) { %>
+
+                <div class="results-summary">
+
+                    <div>
+
+                        <span class="results-label">
+                            BEJELENTKEZETT ADMINISZTRÁTOR
+                        </span>
+
+                        <strong class="results-number">
+                            <%= user.username %>
+                        </strong>
+
+                    </div>
+
+                </div>
+
+            <% } %>
+
+            <div class="features-grid">
+
+                <article class="feature-card">
+
+                    <div class="feature-number">01</div>
+
+                    <div class="feature-icon">
+                        🏁
+                    </div>
+
+                    <h3>Nagydíjak kezelése</h3>
+
+                    <p>
+                        Nagydíjak létrehozása,
+                        módosítása és törlése.
+                    </p>
+
+                    <span class="feature-status">
+                        Fejlesztés alatt
+                    </span>
+
+                </article>
+
+                <article class="feature-card">
+
+                    <div class="feature-number">02</div>
+
+                    <div class="feature-icon">
+                        🏎
+                    </div>
+
+                    <h3>Pilóták kezelése</h3>
+
+                    <p>
+                        Pilótaadatok létrehozása,
+                        módosítása és törlése.
+                    </p>
+
+                    <span class="feature-status">
+                        Fejlesztés alatt
+                    </span>
+
+                </article>
+
+                <article class="feature-card">
+
+                    <div class="feature-number">03</div>
+
+                    <div class="feature-icon">
+                        📊
+                    </div>
+
+                    <h3>Eredmények kezelése</h3>
+
+                    <p>
+                        Versenyeredmények létrehozása,
+                        módosítása és törlése.
+                    </p>
+
+                    <span class="feature-status">
+                        Fejlesztés alatt
+                    </span>
+
+                </article>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ALSÓ BLOKK -->
+
+    <section class="closing-section">
+
+        <div class="container closing-inner">
+
+            <div>
+
+                <p class="section-kicker">
+                    ADMINISZTRÁCIÓ
+                </p>
+
+                <h2>
+                    VISSZA
+                    <span>A FŐOLDALRA.</span>
+                </h2>
+
+                <p>
+                    Az adminisztrációs felületet
+                    kizárólag megfelelő jogosultsággal
+                    lehet megnyitni.
+                </p>
+
+            </div>
+
+            <a href="/" class="btn btn-primary">
+                Főoldal ↗
+            </a>
+
+        </div>
+
+    </section>
+
+</main>
+
+<%- include("partials/footer") %>
