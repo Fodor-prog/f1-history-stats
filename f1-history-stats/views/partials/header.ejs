@@ -1,0 +1,89 @@
+
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title><%= title %></title>
+
+    <meta name="description"
+          content="F1 History Stats – Forma–1 történelmi nagydíjak, pilóták és versenyeredmények adatbázisa.">
+
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+
+    <!-- KÖZÖS FEJLÉC -->
+
+    <header class="site-header">
+        <div class="container header-inner">
+
+            <a href="/" class="logo"
+               aria-label="F1 History Stats főoldal">
+
+                <span class="logo-symbol">
+                    F1<span>.</span>
+                </span>
+
+                <span class="logo-name">
+                    HISTORY<span>STATS</span>
+                </span>
+
+            </a>
+
+            <!-- NAVIGÁCIÓ -->
+
+            <nav class="main-nav" aria-label="Fő navigáció">
+
+                <a href="/"
+                   class="<%= activePage === 'home' ? 'nav-active' : '' %>"
+                   <% if (activePage === 'home') { %>
+                       aria-current="page"
+                   <% } %>>
+                    Főoldal
+                </a>
+
+                <a href="/#statisztikak">
+                    Statisztikák
+                </a>
+
+                <a href="/nagydijak"
+                   class="<%= activePage === 'nagydijak' ? 'nav-active' : '' %>"
+                   <% if (activePage === 'nagydijak') { %>
+                       aria-current="page"
+                   <% } %>>
+                    Nagydíjak
+                </a>
+
+                <a href="/pilotak"
+                   class="<%= activePage === 'pilotak' ? 'nav-active' : '' %>"
+                   <% if (activePage === 'pilotak') { %>
+                       aria-current="page"
+                   <% } %>>
+                    Pilóták
+                </a>
+
+                <a href="/eredmenyek"
+                   class="<%= activePage === 'eredmenyek' ? 'nav-active' : '' %>"
+                   <% if (activePage === 'eredmenyek') { %>
+                       aria-current="page"
+                   <% } %>>
+                    Eredmények
+                </a>
+
+                <a href="/#kapcsolat">
+                    Kapcsolat
+                </a>
+
+            </nav>
+
+            <a href="/nagydijak" class="header-action">
+                Felfedezés
+                <span aria-hidden="true">↗</span>
+            </a>
+
+        </div>
+    </header>

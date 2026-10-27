@@ -27,12 +27,10 @@ app.use(express.json());
 // SEGÉDFÜGGVÉNYEK
 // ========================================
 
-// Speciális karakterek kezelése a keresésben
 function escapeRegex(value) {
     return value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 }
 
-// Magyar dátumformátum
 function formatDate(value) {
     if (!value) {
         return "Nincs adat";
@@ -52,9 +50,33 @@ function formatDate(value) {
     });
 }
 
+function getPageNumber(rawPage, totalPages) {
+    const requestedPage = Number.parseInt(
+        String(rawPage || "1"),
+        10
+    );
+
+    if (!Number.isSafeInteger(requestedPage)) {
+        return 1;
+    }
+
+    return Math.min(
+        Math.max(requestedPage, 1),
+        totalPages
+    );
+}
+
+function createPageUrl(route, filters) {
+    return pageNumber => {
+        const params = new URLSearchParams(filters);
+        params.set("oldal", String(pageNumber));
+
+        return `${route}?${params.toString()}`;
+    };
+}
+
 // ========================================
 // FŐOLDAL
-// URL: /
 // ========================================
 
 app.get("/", async (req, res) => {
@@ -103,7 +125,6 @@ app.get("/", async (req, res) => {
 
 // ========================================
 // NAGYDÍJAK OLDAL
-// URL: /nagydijak
 // ========================================
 
 app.get("/nagydijak", async (req, res) => {
@@ -120,7 +141,6 @@ app.get("/nagydijak", async (req, res) => {
 
         const limit = 20;
 
-        // Elérhető évszámok
         const evAdatok = await Gp.aggregate([
             {
                 $project: {
@@ -147,7 +167,6 @@ app.get("/nagydijak", async (req, res) => {
         const evek = evAdatok.map(item => item._id);
         const filter = {};
 
-        // Keresés
         if (keres) {
             const keresettSzoveg = escapeRegex(keres);
 
@@ -167,7 +186,6 @@ app.get("/nagydijak", async (req, res) => {
             ];
         }
 
-        // Évszám szűrése
         if (
             /^\d{4}$/.test(ev) &&
             evek.includes(Number(ev))
@@ -181,20 +199,15 @@ app.get("/nagydijak", async (req, res) => {
         }
 
         const osszesTalalat = await Gp.countDocuments(filter);
-
         const osszesOldal = Math.max(
             1,
             Math.ceil(osszesTalalat / limit)
         );
 
-        const kertOldal = Number.parseInt(
-            String(req.query.oldal || "1"),
-            10
+        const oldal = getPageNumber(
+            req.query.oldal,
+            osszesOldal
         );
-
-        const oldal = Number.isSafeInteger(kertOldal)
-            ? Math.min(Math.max(kertOldal, 1), osszesOldal)
-            : 1;
 
         const sorrend = rendez === "regi" ? 1 : -1;
 
@@ -212,30 +225,13 @@ app.get("/nagydijak", async (req, res) => {
             ev: new Date(gp.datum).getUTCFullYear()
         }));
 
-        // Lapozási linkek
         const queryParams = new URLSearchParams();
 
-        if (keres) {
-            queryParams.set("keres", keres);
-        }
-
-        if (ev) {
-            queryParams.set("ev", ev);
-        }
-
+        if (keres) queryParams.set("keres", keres);
+        if (ev) queryParams.set("ev", ev);
         if (rendez !== "uj") {
             queryParams.set("rendez", rendez);
         }
-
-        const baseQuery = queryParams.toString();
-
-        const pageUrl = pageNumber => {
-            const params = new URLSearchParams(baseQuery);
-
-            params.set("oldal", String(pageNumber));
-
-            return `/nagydijak?${params.toString()}`;
-        };
 
         res.render("nagydijak", {
             title: "Nagydíjak | F1 History Stats",
@@ -254,7 +250,10 @@ app.get("/nagydijak", async (req, res) => {
                 oldal * limit,
                 osszesTalalat
             ),
-            pageUrl
+            pageUrl: createPageUrl(
+                "/nagydijak",
+                queryParams
+            )
         });
 
     } catch (error) {
@@ -268,12 +267,10 @@ app.get("/nagydijak", async (req, res) => {
 
 // ========================================
 // PILÓTÁK OLDAL
-// URL: /pilotak
 // ========================================
 
 app.get("/pilotak", async (req, res) => {
     try {
-        // Keresési paraméterek
         const keres = String(req.query.keres || "")
             .trim()
             .slice(0, 100);
@@ -286,10 +283,8 @@ app.get("/pilotak", async (req, res) => {
             ? "za"
             : "az";
 
-        // Oldalanként 20 pilóta
         const limit = 20;
 
-        // Nemzetiségek lekérdezése
         const nemzetisegek = (await Pilota.distinct("nemzet"))
             .filter(value =>
                 typeof value === "string" &&
@@ -297,10 +292,8 @@ app.get("/pilotak", async (req, res) => {
             )
             .sort((a, b) => a.localeCompare(b, "hu"));
 
-        // Szűrési feltételek
         const filter = {};
 
-        // Név szerinti keresés
         if (keres) {
             filter.nev = {
                 $regex: escapeRegex(keres),
@@ -308,40 +301,29 @@ app.get("/pilotak", async (req, res) => {
             };
         }
 
-        // Nemzetiség szerinti szűrés
         if (nemzet && nemzetisegek.includes(nemzet)) {
             filter.nemzet = nemzet;
         }
 
-        // Találatok száma
         const osszesTalalat = await Pilota.countDocuments(filter);
-
-        // Lapozás
         const osszesOldal = Math.max(
             1,
             Math.ceil(osszesTalalat / limit)
         );
 
-        const kertOldal = Number.parseInt(
-            String(req.query.oldal || "1"),
-            10
+        const oldal = getPageNumber(
+            req.query.oldal,
+            osszesOldal
         );
 
-        const oldal = Number.isSafeInteger(kertOldal)
-            ? Math.min(Math.max(kertOldal, 1), osszesOldal)
-            : 1;
-
-        // Rendezési sorrend
         const sorrend = rendez === "za" ? -1 : 1;
 
-        // Pilóták lekérdezése az adatbázisból
         const adatok = await Pilota.find(filter)
             .sort({ nev: sorrend, _id: sorrend })
             .skip((oldal - 1) * limit)
             .limit(limit)
             .lean();
 
-        // Megjelenítendő adatok
         const pilotak = adatok.map(pilota => ({
             id: pilota._id.toString(),
             az: pilota.az,
@@ -350,32 +332,14 @@ app.get("/pilotak", async (req, res) => {
             szuldat: formatDate(pilota.szuldat)
         }));
 
-        // Lapozási linkek összeállítása
         const queryParams = new URLSearchParams();
 
-        if (keres) {
-            queryParams.set("keres", keres);
-        }
-
-        if (nemzet) {
-            queryParams.set("nemzet", nemzet);
-        }
-
+        if (keres) queryParams.set("keres", keres);
+        if (nemzet) queryParams.set("nemzet", nemzet);
         if (rendez !== "az") {
             queryParams.set("rendez", rendez);
         }
 
-        const baseQuery = queryParams.toString();
-
-        const pageUrl = pageNumber => {
-            const params = new URLSearchParams(baseQuery);
-
-            params.set("oldal", String(pageNumber));
-
-            return `/pilotak?${params.toString()}`;
-        };
-
-        // Pilóták oldal megjelenítése
         res.render("pilotak", {
             title: "Pilóták | F1 History Stats",
             pilotak,
@@ -393,7 +357,10 @@ app.get("/pilotak", async (req, res) => {
                 oldal * limit,
                 osszesTalalat
             ),
-            pageUrl
+            pageUrl: createPageUrl(
+                "/pilotak",
+                queryParams
+            )
         });
 
     } catch (error) {
@@ -401,6 +368,190 @@ app.get("/pilotak", async (req, res) => {
 
         res.status(500).send(
             "Hiba történt a pilóták betöltése közben."
+        );
+    }
+});
+
+// ========================================
+// VERSENYEREDMÉNYEK OLDAL
+// ========================================
+
+app.get("/eredmenyek", async (req, res) => {
+    try {
+        const keres = String(req.query.keres || "")
+            .trim()
+            .slice(0, 100);
+
+        const ev = String(req.query.ev || "")
+            .trim();
+
+        const rendez = req.query.rendez === "regi"
+            ? "regi"
+            : "uj";
+
+        const limit = 20;
+
+        // Elérhető évszámok
+        const evAdatok = await Eredmeny.aggregate([
+            {
+                $project: {
+                    ev: {
+                        $year: {
+                            date: "$datum",
+                            timezone: "UTC"
+                        }
+                    }
+                }
+            },
+            {
+                $group: {
+                    _id: "$ev"
+                }
+            },
+            {
+                $sort: {
+                    _id: -1
+                }
+            }
+        ]);
+
+        const evek = evAdatok.map(item => item._id);
+
+        const filter = {};
+
+        // Keresés pilótanév vagy csapat alapján
+        if (keres) {
+            const regex = new RegExp(
+                escapeRegex(keres),
+                "i"
+            );
+
+            // Az egyező pilóták azonosítóinak lekérése
+            const talaltPilotak = await Pilota.find({
+                nev: regex
+            })
+                .select("az")
+                .lean();
+
+            const pilotaAzonositok = talaltPilotak.map(
+                pilota => pilota.az
+            );
+
+            filter.$or = [
+                { pilotaaz: { $in: pilotaAzonositok } },
+                { csapat: regex }
+            ];
+        }
+
+        // Év szerinti szűrés
+        if (
+            /^\d{4}$/.test(ev) &&
+            evek.includes(Number(ev))
+        ) {
+            const year = Number(ev);
+
+            filter.datum = {
+                $gte: new Date(Date.UTC(year, 0, 1)),
+                $lt: new Date(Date.UTC(year + 1, 0, 1))
+            };
+        }
+
+        const osszesTalalat = await Eredmeny.countDocuments(filter);
+        const osszesOldal = Math.max(
+            1,
+            Math.ceil(osszesTalalat / limit)
+        );
+
+        const oldal = getPageNumber(
+            req.query.oldal,
+            osszesOldal
+        );
+
+        const sorrend = rendez === "regi" ? 1 : -1;
+
+        // Eredmények lekérdezése
+        const adatok = await Eredmeny.find(filter)
+            .sort({
+                datum: sorrend,
+                _id: sorrend
+            })
+            .skip((oldal - 1) * limit)
+            .limit(limit)
+            .lean();
+
+        // Az oldalon szereplő pilótaazonosítók
+        const pilotaAzonositok = [
+            ...new Set(adatok.map(item => item.pilotaaz))
+        ];
+
+        const pilotak = await Pilota.find({
+            az: { $in: pilotaAzonositok }
+        })
+            .select("az nev")
+            .lean();
+
+        // Pilótaazonosító -> név
+        const pilotaNevek = new Map(
+            pilotak.map(pilota => [
+                pilota.az,
+                pilota.nev
+            ])
+        );
+
+        // Megjelenítendő eredmények
+        const eredmenyek = adatok.map(item => ({
+            id: item._id.toString(),
+            datum: formatDate(item.datum),
+            ev: new Date(item.datum).getUTCFullYear(),
+            pilota: pilotaNevek.get(item.pilotaaz)
+                || `Ismeretlen pilóta (${item.pilotaaz})`,
+            helyezes: item.helyezes ?? null,
+            hiba: item.hiba || "",
+            csapat: item.csapat || "Nincs adat",
+            tipus: item.tipus || "Nincs adat",
+            motor: item.motor || "Nincs adat"
+        }));
+
+        // Lapozási linkek
+        const queryParams = new URLSearchParams();
+
+        if (keres) queryParams.set("keres", keres);
+        if (ev) queryParams.set("ev", ev);
+        if (rendez !== "uj") {
+            queryParams.set("rendez", rendez);
+        }
+
+        res.render("eredmenyek", {
+            title: "Versenyeredmények | F1 History Stats",
+            eredmenyek,
+            evek,
+            keres,
+            ev,
+            rendez,
+            oldal,
+            osszesOldal,
+            osszesTalalat,
+            elsoTalalat: osszesTalalat === 0
+                ? 0
+                : (oldal - 1) * limit + 1,
+            utolsoTalalat: Math.min(
+                oldal * limit,
+                osszesTalalat
+            ),
+            pageUrl: createPageUrl(
+                "/eredmenyek",
+                queryParams
+            )
+        });
+
+    } catch (error) {
+        console.error(
+            "Versenyeredmények oldal hiba:",
+            error.message
+        );
+
+        res.status(500).send(
+            "Hiba történt az eredmények betöltése közben."
         );
     }
 });
@@ -440,6 +591,3 @@ async function startServer() {
 }
 
 startServer();
-
-
-

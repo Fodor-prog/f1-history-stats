@@ -1,0 +1,418 @@
+
+<%- include("partials/header", {
+    title: title,
+    activePage: "eredmenyek"
+}) %>
+
+<main>
+
+    <!-- OLDAL FEJLÉCE -->
+
+    <section class="page-hero">
+
+        <div class="container page-hero-content">
+
+            <div class="eyebrow">
+                <span class="live-dot"></span>
+                FORMA–1 TÖRTÉNELMI ADATBÁZIS
+            </div>
+
+            <p class="page-breadcrumb">
+                <a href="/">Főoldal</a>
+                <span>/</span>
+                Versenyeredmények
+            </p>
+
+            <h1>
+                VERSENY
+                <span>EREDMÉNYEK.</span>
+            </h1>
+
+            <p class="page-description">
+                Fedezd fel a Forma–1 történelmi eredményeit!
+                Keress versenyzőkre és csapatokra, vizsgáld
+                meg a helyezéseket, az autókat és a
+                kiesések okait.
+            </p>
+
+            <div class="page-hero-meta">
+                <span class="meta-marker"></span>
+                HISTORIKUS VERSENYADATOK
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- EREDMÉNYEK LISTÁJA -->
+
+    <section class="section listing-section">
+
+        <div class="container">
+
+            <div class="section-heading">
+
+                <div>
+
+                    <p class="section-kicker">
+                        VERSENYTÖRTÉNELEM
+                    </p>
+
+                    <h2>
+                        RÖGZÍTETT
+                        <span>EREDMÉNYEK.</span>
+                    </h2>
+
+                </div>
+
+                <p class="section-lead">
+                    Böngészd az adatbázis eredményeit
+                    és szűrd a találatokat.
+                </p>
+
+            </div>
+
+            <!-- KERESÉS ÉS SZŰRÉS -->
+
+            <form action="/eredmenyek"
+                  method="GET"
+                  class="filter-panel"
+                  aria-label="Versenyeredmények szűrése">
+
+                <div class="filter-field filter-search">
+
+                    <label for="keres">
+                        PILÓTA VAGY CSAPAT
+                    </label>
+
+                    <input type="search"
+                           id="keres"
+                           name="keres"
+                           value="<%= keres %>"
+                           maxlength="100"
+                           placeholder="Például: Fangio vagy Ferrari...">
+
+                </div>
+
+                <div class="filter-field">
+
+                    <label for="ev">
+                        ÉVSZÁM
+                    </label>
+
+                    <select id="ev" name="ev">
+
+                        <option value="">
+                            Összes év
+                        </option>
+
+                        <% evek.forEach(egyEv => { %>
+
+                            <option value="<%= egyEv %>"
+                                <%= ev === String(egyEv) ? "selected" : "" %>>
+                                <%= egyEv %>
+                            </option>
+
+                        <% }) %>
+
+                    </select>
+
+                </div>
+
+                <div class="filter-field">
+
+                    <label for="rendez">
+                        RENDEZÉS
+                    </label>
+
+                    <select id="rendez" name="rendez">
+
+                        <option value="uj"
+                            <%= rendez === "uj" ? "selected" : "" %>>
+                            Legújabb elöl
+                        </option>
+
+                        <option value="regi"
+                            <%= rendez === "regi" ? "selected" : "" %>>
+                            Legrégebbi elöl
+                        </option>
+
+                    </select>
+
+                </div>
+
+                <div class="filter-actions">
+
+                    <button type="submit" class="btn btn-primary">
+                        Szűrés
+                    </button>
+
+                    <a href="/eredmenyek" class="reset-link">
+                        Törlés
+                    </a>
+
+                </div>
+
+            </form>
+
+            <!-- TALÁLATOK -->
+
+            <div class="results-summary">
+
+                <div>
+
+                    <span class="results-label">
+                        TALÁLATOK SZÁMA
+                    </span>
+
+                    <strong class="results-number">
+                        <%= osszesTalalat.toLocaleString("hu-HU") %>
+                    </strong>
+
+                </div>
+
+                <p>
+                    <% if (osszesTalalat > 0) { %>
+
+                        <%= elsoTalalat %>–<%= utolsoTalalat %>.
+                        találat megjelenítése
+
+                    <% } else { %>
+
+                        Nincs megjeleníthető találat
+
+                    <% } %>
+                </p>
+
+            </div>
+
+            <!-- EREDMÉNYEK LISTÁJA -->
+
+            <div class="races-panel">
+
+                <div class="races-panel-header">
+                    <span>PILÓTA / CSAPAT</span>
+                    <span>HELYEZÉS / AUTÓ</span>
+                    <span>DÁTUM / MOTOR</span>
+                </div>
+
+                <% if (eredmenyek.length > 0) { %>
+
+                    <% eredmenyek.forEach((item, index) => { %>
+
+                        <div class="race-row">
+
+                            <!-- PILÓTA -->
+
+                            <div class="race-name">
+
+                                <span class="race-index">
+                                    <%= String(
+                                        elsoTalalat + index
+                                    ).padStart(2, "0") %>
+                                </span>
+
+                                <div>
+
+                                    <strong>
+                                        <%= item.pilota %>
+                                    </strong>
+
+                                    <small>
+                                        <%= item.csapat %>
+                                    </small>
+
+                                    <small>
+                                        <%= item.ev %> · Forma–1
+                                    </small>
+
+                                </div>
+
+                            </div>
+
+                            <!-- HELYEZÉS -->
+
+                            <div class="race-location">
+
+                                <% if (item.helyezes !== null) { %>
+
+                                    <strong>
+                                        <%= item.helyezes %>. helyezés
+                                    </strong>
+
+                                <% } else { %>
+
+                                    <strong>
+                                        Nincs helyezés
+                                    </strong>
+
+                                <% } %>
+
+                                <div>
+                                    <%= item.tipus %>
+                                </div>
+
+                                <% if (item.hiba) { %>
+
+                                    <small>
+                                        Kiesési ok:
+                                        <%= item.hiba %>
+                                    </small>
+
+                                <% } %>
+
+                            </div>
+
+                            <!-- DÁTUM ÉS MOTOR -->
+
+                            <div class="race-date">
+
+                                <strong>
+                                    <%= item.datum %>
+                                </strong>
+
+                                <div>
+                                    Motor:
+                                    <%= item.motor %>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    <% }) %>
+
+                <% } else { %>
+
+                    <div class="no-results">
+
+                        <span class="no-results-icon"
+                              aria-hidden="true">
+                            ⌕
+                        </span>
+
+                        <h3>NINCS TALÁLAT</h3>
+
+                        <p>
+                            A megadott feltételeknek
+                            egyetlen eredmény sem felel meg.
+                            Próbálj másik keresést!
+                        </p>
+
+                        <a href="/eredmenyek"
+                           class="btn btn-outline">
+                            Összes eredmény
+                        </a>
+
+                    </div>
+
+                <% } %>
+
+            </div>
+
+            <!-- LAPOZÁS -->
+
+            <% if (osszesOldal > 1) { %>
+
+                <nav class="pagination"
+                     aria-label="Találati oldalak">
+
+                    <% if (oldal > 1) { %>
+
+                        <a href="<%= pageUrl(oldal - 1) %>"
+                           class="pagination-arrow"
+                           aria-label="Előző oldal">
+                            ← Előző
+                        </a>
+
+                    <% } else { %>
+
+                        <span class="pagination-disabled">
+                            ← Előző
+                        </span>
+
+                    <% } %>
+
+                    <div class="pagination-pages">
+
+                        <% for (
+                            let i = Math.max(1, oldal - 2);
+                            i <= Math.min(osszesOldal, oldal + 2);
+                            i++
+                        ) { %>
+
+                            <a href="<%= pageUrl(i) %>"
+                               class="pagination-page <%= i === oldal ? 'active' : '' %>"
+                               <% if (i === oldal) { %>
+                                   aria-current="page"
+                               <% } %>>
+                                <%= i %>
+                            </a>
+
+                        <% } %>
+
+                    </div>
+
+                    <% if (oldal < osszesOldal) { %>
+
+                        <a href="<%= pageUrl(oldal + 1) %>"
+                           class="pagination-arrow"
+                           aria-label="Következő oldal">
+                            Következő →
+                        </a>
+
+                    <% } else { %>
+
+                        <span class="pagination-disabled">
+                            Következő →
+                        </span>
+
+                    <% } %>
+
+                </nav>
+
+                <p class="page-indicator">
+                    <%= oldal %> / <%= osszesOldal %>. oldal
+                </p>
+
+            <% } %>
+
+        </div>
+
+    </section>
+
+    <!-- ALSÓ BLOKK -->
+
+    <section class="closing-section">
+
+        <div class="container closing-inner">
+
+            <div>
+
+                <p class="section-kicker">
+                    F1 HISTORY STATS
+                </p>
+
+                <h2>
+                    MINDEN HELYEZÉS<br>
+                    <span>EGY TÖRTÉNET.</span>
+                </h2>
+
+                <p>
+                    A versenyzők, csapatok és autók
+                    történelmi eredményei egy helyen.
+                </p>
+
+            </div>
+
+            <a href="/" class="btn btn-primary">
+                Vissza a főoldalra ↗
+            </a>
+
+        </div>
+
+    </section>
+
+</main>
+
+<%- include("partials/footer") %>
