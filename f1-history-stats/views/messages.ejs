@@ -1,0 +1,209 @@
+
+<%- include("partials/header", {
+    title: title,
+    activePage: "messages"
+}) %>
+
+<main>
+
+    <!-- OLDAL FEJLÉCE -->
+
+    <section class="page-hero">
+
+        <div class="container page-hero-content">
+
+            <div class="eyebrow">
+                <span class="live-dot"></span>
+                F1 HISTORY STATS
+            </div>
+
+            <p class="page-breadcrumb">
+                <a href="/">Főoldal</a>
+                <span>/</span>
+                Beérkezett üzenetek
+            </p>
+
+            <h1>
+                BEÉRKEZETT
+                <span>ÜZENETEK.</span>
+            </h1>
+
+            <p class="page-description">
+                Az F1 History Stats kapcsolatfelvételi
+                űrlapján keresztül beküldött üzenetek.
+                Az üzeneteket kizárólag bejelentkezett
+                felhasználók tekinthetik meg.
+            </p>
+
+            <div class="page-hero-meta">
+                <span class="meta-marker"></span>
+                VÉDETT FELHASZNÁLÓI TARTALOM
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ÜZENETEK -->
+
+    <section class="section listing-section">
+
+        <div class="container">
+
+            <div class="section-heading">
+
+                <div>
+                    <p class="section-kicker">
+                        KAPCSOLATFELVÉTEL
+                    </p>
+
+                    <h2>
+                        ÜZENETEK
+                        <span>LISTÁJA.</span>
+                    </h2>
+                </div>
+
+                <p class="section-lead">
+                    Az üzenetek a beküldés időpontja
+                    szerint, legújabbal kezdve jelennek meg.
+                </p>
+
+            </div>
+
+            <!-- TALÁLATOK SZÁMA -->
+
+            <div class="results-summary">
+
+                <div>
+
+                    <span class="results-label">
+                        BEÉRKEZETT ÜZENETEK
+                    </span>
+
+                    <strong class="results-number">
+                        <%= messages.length.toLocaleString("hu-HU") %>
+                    </strong>
+
+                </div>
+
+                <p>
+                    Legújabb üzenetek elöl
+                </p>
+
+            </div>
+
+            <!-- ÜZENETLISTA -->
+
+            <div class="races-panel">
+
+                <% if (messages.length > 0) { %>
+
+                    <% messages.forEach((item, index) => { %>
+
+                        <article class="race-row">
+
+                            <!-- KÜLDŐ -->
+
+                            <div class="race-name">
+
+                                <span class="race-index">
+                                    <%= String(index + 1).padStart(2, "0") %>
+                                </span>
+
+                                <div>
+
+                                    <strong>
+                                        <%= item.name %>
+                                    </strong>
+
+                                    <small>
+                                        <%= item.email %>
+                                    </small>
+
+                                </div>
+
+                            </div>
+
+                            <!-- ÜZENET -->
+
+                            <div class="race-location">
+
+                                <strong>
+                                    <%= item.subject %>
+                                </strong>
+
+                                <p style="white-space: pre-wrap; overflow-wrap: anywhere;">
+                                    <%= item.message %>
+                                </p>
+
+                            </div>
+
+                            <!-- DÁTUM -->
+
+                            <div class="race-date">
+
+                                <strong>
+                                    <%= new Date(item.createdAt).toLocaleDateString("hu-HU", {
+                                        timeZone: "Europe/Budapest",
+                                        year: "numeric",
+                                        month: "long",
+                                        day: "numeric"
+                                    }) %>
+                                </strong>
+
+                                <div>
+                                    <%= new Date(item.createdAt).toLocaleTimeString("hu-HU", {
+                                        timeZone: "Europe/Budapest",
+                                        hour: "2-digit",
+                                        minute: "2-digit"
+                                    }) %>
+                                </div>
+
+                            </div>
+
+                        </article>
+
+                    <% }) %>
+
+                <% } else { %>
+
+                    <div class="no-results">
+
+                        <h3>MÉG NINCS ÜZENET</h3>
+
+                        <p>
+                            Jelenleg nem érkezett
+                            kapcsolatfelvételi üzenet.
+                        </p>
+
+                        <a href="/contact" class="btn btn-outline">
+                            Kapcsolat oldal
+                        </a>
+
+                    </div>
+
+                <% } %>
+
+            </div>
+
+            <!-- NAVIGÁCIÓ -->
+
+            <div class="section-footer-action">
+
+                <a href="/contact" class="btn btn-primary">
+                    Kapcsolat oldal ↗
+                </a>
+
+                <a href="/user" class="btn btn-outline">
+                    Vissza a profilhoz
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+</main>
+
+<%- include("partials/footer") %>

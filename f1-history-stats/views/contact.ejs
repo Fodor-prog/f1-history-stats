@@ -1,0 +1,293 @@
+
+<%- include("partials/header", {
+    title: title,
+    activePage: "contact"
+}) %>
+
+<main>
+
+    <!-- KAPCSOLAT OLDAL FEJLÉCE -->
+
+    <section class="page-hero">
+
+        <div class="container page-hero-content">
+
+            <div class="eyebrow">
+                <span class="live-dot"></span>
+                F1 HISTORY STATS
+            </div>
+
+            <p class="page-breadcrumb">
+                <a href="/">Főoldal</a>
+                <span>/</span>
+                Kapcsolat
+            </p>
+
+            <h1>
+                LÉPJ VELÜNK
+                <span>KAPCSOLATBA.</span>
+            </h1>
+
+            <p class="page-description">
+                Kérdésed, észrevételed vagy javaslatod van
+                a Forma–1 történelmi adatbázisával kapcsolatban?
+                Küldj nekünk üzenetet az alábbi űrlapon!
+            </p>
+
+            <div class="page-hero-meta">
+                <span class="meta-marker"></span>
+                KAPCSOLATFELVÉTEL
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- KAPCSOLATFELVÉTELI ŰRLAP -->
+
+    <section class="section listing-section">
+
+        <div class="container">
+
+            <div class="section-heading">
+
+                <div>
+
+                    <p class="section-kicker">
+                        ÜZENETKÜLDÉS
+                    </p>
+
+                    <h2>
+                        ÍRJ NEKÜNK
+                        <span>ÜZENETET.</span>
+                    </h2>
+
+                </div>
+
+                <p class="section-lead">
+                    Az űrlap kitöltéséhez nem szükséges
+                    regisztráció vagy bejelentkezés.
+                </p>
+
+            </div>
+
+            <!-- SIKERES ÜZENETKÜLDÉS -->
+
+            <% if (success) { %>
+
+                <div class="results-summary"
+                     role="status">
+
+                    <div>
+
+                        <span class="results-label">
+                            SIKERES ÜZENETKÜLDÉS
+                        </span>
+
+                        <strong>
+                            Köszönjük! Az üzenetedet
+                            sikeresen elmentettük.
+                        </strong>
+
+                    </div>
+
+                </div>
+
+            <% } %>
+
+            <!-- HIBAÜZENETEK -->
+
+            <% if (errors && errors.length > 0) { %>
+
+                <div class="results-summary"
+                     role="alert">
+
+                    <div>
+
+                        <span class="results-label">
+                            AZ ŰRLAP HIBÁKAT TARTALMAZ
+                        </span>
+
+                        <ul>
+
+                            <% errors.forEach(error => { %>
+
+                                <li>
+                                    <%= error %>
+                                </li>
+
+                            <% }) %>
+
+                        </ul>
+
+                    </div>
+
+                </div>
+
+            <% } %>
+
+            <!-- ŰRLAP -->
+
+            <form
+                action="/contact"
+                method="POST"
+                class="filter-panel"
+                aria-label="Kapcsolatfelvételi űrlap"
+            >
+
+                <!-- NÉV -->
+
+                <div class="filter-field">
+
+                    <label for="name">
+                        NÉV *
+                    </label>
+
+                    <input
+                        type="text"
+                        id="name"
+                        name="name"
+                        value="<%= formData.name %>"
+                        maxlength="100"
+                        autocomplete="name"
+                        placeholder="Teljes neved"
+                        required
+                    >
+
+                </div>
+
+                <!-- E-MAIL -->
+
+                <div class="filter-field">
+
+                    <label for="email">
+                        E-MAIL-CÍM *
+                    </label>
+
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        value="<%= formData.email %>"
+                        maxlength="254"
+                        autocomplete="email"
+                        placeholder="pelda@email.hu"
+                        required
+                    >
+
+                </div>
+
+                <!-- TÁRGY -->
+
+                <div class="filter-field">
+
+                    <label for="subject">
+                        TÁRGY *
+                    </label>
+
+                    <input
+                        type="text"
+                        id="subject"
+                        name="subject"
+                        value="<%= formData.subject %>"
+                        maxlength="150"
+                        placeholder="Üzenet tárgya"
+                        required
+                    >
+
+                </div>
+
+                <!-- ÜZENET -->
+
+                <div class="filter-field">
+
+                    <label for="message">
+                        ÜZENET *
+                    </label>
+
+                    <textarea
+                        id="message"
+                        name="message"
+                        rows="6"
+                        maxlength="5000"
+                        placeholder="Írd ide az üzeneted..."
+                        required
+                    ><%= formData.message %></textarea>
+
+                </div>
+
+                <!-- BEKÜLDÉS -->
+
+                <div class="filter-actions">
+
+                    <button
+                        type="submit"
+                        class="btn btn-primary"
+                    >
+                        Üzenet elküldése ↗
+                    </button>
+
+                </div>
+
+            </form>
+
+            <p class="data-note">
+                A *-gal jelölt mezők kitöltése kötelező.
+                Az üzeneteket az alkalmazás adatbázisában
+                tároljuk.
+            </p>
+
+            <!-- ÜZENETLISTA BEJELENTKEZETTEKNEK -->
+
+            <% if (user) { %>
+
+                <div class="section-footer-action">
+
+                    <a href="/messages"
+                       class="btn btn-outline">
+                        Beérkezett üzenetek megtekintése ↗
+                    </a>
+
+                </div>
+
+            <% } %>
+
+        </div>
+
+    </section>
+
+    <!-- ALSÓ BLOKK -->
+
+    <section class="closing-section">
+
+        <div class="container closing-inner">
+
+            <div>
+
+                <p class="section-kicker">
+                    F1 HISTORY STATS
+                </p>
+
+                <h2>
+                    A RAJTRÁCSTÓL
+                    <span>AZ ÜZENETEKIG.</span>
+                </h2>
+
+                <p>
+                    Észrevételeiddel segítheted
+                    az alkalmazás továbbfejlesztését.
+                </p>
+
+            </div>
+
+            <a href="/" class="btn btn-primary">
+                Vissza a főoldalra ↗
+            </a>
+
+        </div>
+
+    </section>
+
+</main>
+
+<%- include("partials/footer") %>

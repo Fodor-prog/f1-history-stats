@@ -2,6 +2,7 @@
 const router = require("express").Router();
 
 const controller = require("../controllers/mainController");
+const contactController = require("../controllers/contactController");
 
 // ========================================
 // BEJELENTKEZÉS ELLENŐRZÉSE
@@ -34,33 +35,48 @@ const isAdmin = (req, res, next) => {
 // REGISZTRÁCIÓ
 // ========================================
 
-// Regisztrációs oldal megjelenítése
-router.get("/register", controller.registerGet);
+// Regisztrációs oldal
+router.get(
+    "/register",
+    controller.registerGet
+);
 
 // Regisztráció feldolgozása
-router.post("/register", controller.registerPost);
+router.post(
+    "/register",
+    controller.registerPost
+);
 
 // ========================================
 // BEJELENTKEZÉS
 // ========================================
 
-// Bejelentkezési oldal megjelenítése
-router.get("/login", controller.loginGet);
+// Bejelentkezési oldal
+router.get(
+    "/login",
+    controller.loginGet
+);
 
 // Bejelentkezés feldolgozása
-router.post("/login", controller.loginPost);
+router.post(
+    "/login",
+    controller.loginPost
+);
 
 // ========================================
 // KIJELENTKEZÉS
 // ========================================
 
-router.get("/logout", controller.logout);
+router.get(
+    "/logout",
+    isLoggedIn,
+    controller.logout
+);
 
 // ========================================
 // FELHASZNÁLÓI OLDAL
 // ========================================
 
-// Csak bejelentkezett felhasználóknak
 router.get(
     "/user",
     isLoggedIn,
@@ -71,11 +87,37 @@ router.get(
 // ADMINISZTRÁCIÓS OLDAL
 // ========================================
 
-// Kizárólag admin jogosultsággal
 router.get(
     "/admin",
     isAdmin,
     controller.adminIndex
+);
+
+// ========================================
+// KAPCSOLATFELVÉTEL
+// ========================================
+
+// A kapcsolatfelvételi oldalt mindenki elérheti.
+router.get(
+    "/contact",
+    contactController.contactGet
+);
+
+// Az űrlapot vendégek is beküldhetik.
+router.post(
+    "/contact",
+    contactController.contactPost
+);
+
+// ========================================
+// BEÉRKEZETT ÜZENETEK
+// ========================================
+
+// Csak bejelentkezett felhasználók láthatják.
+router.get(
+    "/messages",
+    isLoggedIn,
+    contactController.messagesGet
 );
 
 // ========================================

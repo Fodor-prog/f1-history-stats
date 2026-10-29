@@ -4,6 +4,7 @@
 
 <head>
     <meta charset="UTF-8">
+
     <meta name="viewport"
           content="width=device-width, initial-scale=1.0">
 
@@ -17,7 +18,9 @@
 
 <body>
 
-    <!-- KÖZÖS FEJLÉC -->
+    <!-- ==================================
+         KÖZÖS FEJLÉC
+    ================================== -->
 
     <header class="site-header">
 
@@ -25,7 +28,8 @@
 
             <!-- LOGÓ -->
 
-            <a href="/" class="logo"
+            <a href="/"
+               class="logo"
                aria-label="F1 History Stats főoldal">
 
                 <span class="logo-symbol">
@@ -38,51 +42,65 @@
 
             </a>
 
-            <!-- NAVIGÁCIÓ -->
+            <!-- ==================================
+                 FŐ NAVIGÁCIÓ
+            ================================== -->
 
             <nav class="main-nav" aria-label="Fő navigáció">
 
+                <!-- FŐOLDAL -->
+
                 <a href="/"
                    class="<%= activePage === 'home' ? 'nav-active' : '' %>"
-                   <% if (activePage === 'home') { %>
+                   <% if (activePage === "home") { %>
                        aria-current="page"
                    <% } %>>
                     Főoldal
                 </a>
 
-                <a href="/#statisztikak">
-                    Statisztikák
-                </a>
+                <!-- NAGYDÍJAK -->
 
                 <a href="/nagydijak"
                    class="<%= activePage === 'nagydijak' ? 'nav-active' : '' %>"
-                   <% if (activePage === 'nagydijak') { %>
+                   <% if (activePage === "nagydijak") { %>
                        aria-current="page"
                    <% } %>>
                     Nagydíjak
                 </a>
 
+                <!-- PILÓTÁK -->
+
                 <a href="/pilotak"
                    class="<%= activePage === 'pilotak' ? 'nav-active' : '' %>"
-                   <% if (activePage === 'pilotak') { %>
+                   <% if (activePage === "pilotak") { %>
                        aria-current="page"
                    <% } %>>
                     Pilóták
                 </a>
 
+                <!-- EREDMÉNYEK -->
+
                 <a href="/eredmenyek"
                    class="<%= activePage === 'eredmenyek' ? 'nav-active' : '' %>"
-                   <% if (activePage === 'eredmenyek') { %>
+                   <% if (activePage === "eredmenyek") { %>
                        aria-current="page"
                    <% } %>>
                     Eredmények
                 </a>
 
-                <a href="/#kapcsolat">
+                <!-- KAPCSOLAT: MINDENKINEK -->
+
+                <a href="/contact"
+                   class="<%= activePage === 'contact' ? 'nav-active' : '' %>"
+                   <% if (activePage === "contact") { %>
+                       aria-current="page"
+                   <% } %>>
                     Kapcsolat
                 </a>
 
-                <!-- VENDÉG MENÜ -->
+                <!-- ==================================
+                     VENDÉG NAVIGÁCIÓ
+                ================================== -->
 
                 <% if (!user) { %>
 
@@ -98,19 +116,42 @@
 
                 <% } else { %>
 
-                    <!-- BEJELENTKEZETT FELHASZNÁLÓ -->
+                    <!-- ==================================
+                         BEJELENTKEZETT FELHASZNÁLÓ
+                    ================================== -->
+
+                    <!-- ÜZENETEK:
+                         CSAK BEJELENTKEZVE -->
+
+                    <a href="/messages"
+                       class="<%= activePage === 'messages' ? 'nav-active' : '' %>"
+                       <% if (activePage === "messages") { %>
+                           aria-current="page"
+                       <% } %>>
+                        Üzenetek
+                    </a>
+
+                    <!-- PROFIL -->
 
                     <a href="/user"
-                       class="<%= activePage === 'user' ? 'nav-active' : '' %>">
+                       class="<%= activePage === 'user' ? 'nav-active' : '' %>"
+                       <% if (activePage === "user") { %>
+                           aria-current="page"
+                       <% } %>>
                         Profil
                     </a>
 
-                    <!-- ADMIN MENÜ -->
+                    <!-- ==================================
+                         ADMIN NAVIGÁCIÓ
+                    ================================== -->
 
                     <% if (user.role === "admin") { %>
 
                         <a href="/admin"
-                           class="<%= activePage === 'admin' ? 'nav-active' : '' %>">
+                           class="<%= activePage === 'admin' ? 'nav-active' : '' %>"
+                           <% if (activePage === "admin") { %>
+                               aria-current="page"
+                           <% } %>>
                             Admin
                         </a>
 
@@ -126,20 +167,32 @@
 
             </nav>
 
-            <!-- JOBB OLDALI GOMB -->
+            <!-- ==================================
+                 JOBB OLDALI GOMB
+            ================================== -->
 
             <% if (user) { %>
 
                 <a href="/user" class="header-action">
+
                     <%= user.username %>
-                    <span aria-hidden="true">↗</span>
+
+                    <span aria-hidden="true">
+                        ↗
+                    </span>
+
                 </a>
 
             <% } else { %>
 
                 <a href="/login" class="header-action">
+
                     Belépés
-                    <span aria-hidden="true">↗</span>
+
+                    <span aria-hidden="true">
+                        ↗
+                    </span>
+
                 </a>
 
             <% } %>
