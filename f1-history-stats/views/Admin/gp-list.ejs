@@ -1,0 +1,397 @@
+<%- include("../partials/header", {
+    title: title,
+    activePage: "admin"
+}) %>
+
+<main>
+
+    <!-- ========================================
+         ADMIN NAGYDÍJAK - FEJLÉC
+    ======================================== -->
+
+    <section class="page-hero">
+
+        <div class="container page-hero-content">
+
+            <p class="section-kicker">
+                F1 HISTORY STATS / ADMINISZTRÁCIÓ
+            </p>
+
+            <p class="page-breadcrumb">
+                <a href="/">Főoldal</a>
+                <span>/</span>
+                <a href="/admin">Admin</a>
+                <span>/</span>
+                Nagydíjak kezelése
+            </p>
+
+            <h1>
+                NAGYDÍJAK
+                <span>KEZELÉSE.</span>
+            </h1>
+
+            <p class="page-description">
+                Tekintsd át az adatbázisban szereplő nagydíjakat!
+                Adminisztrátorként új nagydíjakat hozhatsz létre,
+                illetve módosíthatod vagy törölheted a meglévőket.
+            </p>
+
+            <div class="page-hero-meta">
+                <span class="meta-marker"></span>
+                ADMINISZTRÁTORI ADATKEZELÉS
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ========================================
+         ADMIN - NAGYDÍJAK LISTÁJA
+    ======================================== -->
+
+    <section class="section listing-section">
+
+        <div class="container">
+
+            <div class="section-heading">
+
+                <div>
+
+                    <p class="section-kicker">
+                        ADATBÁZIS-KEZELÉS
+                    </p>
+
+                    <h2>
+                        NAGYDÍJAK
+                        <span>LISTÁJA.</span>
+                    </h2>
+
+                </div>
+
+                <p class="section-lead">
+                    Összesen
+                    <strong>
+                        <%= nagydijak.length %>
+                    </strong>
+                    nagydíj található az adatbázisban.
+                </p>
+
+            </div>
+
+            <!-- ========================================
+                 ÚJ NAGYDÍJ HOZZÁADÁSA
+            ======================================== -->
+
+            <div style="
+                display: flex;
+                justify-content: flex-end;
+                margin-bottom: 24px;
+            ">
+
+                <a
+                    href="/admin/nagydijak/uj"
+                    class="btn btn-primary"
+                >
+                    + Új nagydíj hozzáadása
+                </a>
+
+            </div>
+
+            <!-- ========================================
+                 SIKERES MŰVELETEK ÜZENETEI
+            ======================================== -->
+
+            <% if (success === "created") { %>
+
+                <div
+                    class="results-summary"
+                    role="status"
+                    style="margin-bottom: 24px;"
+                >
+                    <strong>
+                        A nagydíj sikeresen létrejött.
+                    </strong>
+                </div>
+
+            <% } else if (success === "updated") { %>
+
+                <div
+                    class="results-summary"
+                    role="status"
+                    style="margin-bottom: 24px;"
+                >
+                    <strong>
+                        A nagydíj módosítása sikeres.
+                    </strong>
+                </div>
+
+            <% } else if (success === "deleted") { %>
+
+                <div
+                    class="results-summary"
+                    role="status"
+                    style="margin-bottom: 24px;"
+                >
+                    <strong>
+                        A nagydíj sikeresen törölve.
+                    </strong>
+                </div>
+
+            <% } %>
+
+            <!-- ========================================
+                 HIBAÜZENET
+            ======================================== -->
+
+            <% if (error) { %>
+
+                <div
+                    class="results-summary"
+                    role="alert"
+                    style="margin-bottom: 24px;"
+                >
+                    <strong>
+                        Hiba történt az adatkezelés során.
+                    </strong>
+                </div>
+
+            <% } %>
+
+            <!-- ========================================
+                 ADATBÁZISTÁBLÁZAT
+            ======================================== -->
+
+            <% if (nagydijak.length > 0) { %>
+
+                <div
+                    class="races-panel"
+                    style="overflow-x: auto;"
+                >
+
+                    <table style="
+                        width: 100%;
+                        border-collapse: collapse;
+                        text-align: left;
+                        min-width: 780px;
+                    ">
+
+                        <thead>
+
+                            <tr style="
+                                border-bottom:
+                                1px solid rgba(255,255,255,0.15);
+                            ">
+
+                                <th style="padding: 20px;">
+                                    DÁTUM
+                                </th>
+
+                                <th style="padding: 20px;">
+                                    NAGYDÍJ NEVE
+                                </th>
+
+                                <th style="padding: 20px;">
+                                    HELYSZÍN
+                                </th>
+
+                                <th style="padding: 20px;">
+                                    MŰVELETEK
+                                </th>
+
+                            </tr>
+
+                        </thead>
+
+                        <tbody>
+
+                            <% nagydijak.forEach(gp => { %>
+
+                                <tr style="
+                                    border-bottom:
+                                    1px solid rgba(255,255,255,0.08);
+                                ">
+
+                                    <!-- DÁTUM -->
+
+                                    <td style="
+                                        padding: 18px 20px;
+                                        white-space: nowrap;
+                                    ">
+
+                                        <%= gp.datum
+                                            ? new Date(gp.datum)
+                                                .toLocaleDateString(
+                                                    "hu-HU",
+                                                    {
+                                                        timeZone: "UTC"
+                                                    }
+                                                )
+                                            : "Nincs dátum"
+                                        %>
+
+                                    </td>
+
+                                    <!-- NAGYDÍJ NEVE -->
+
+                                    <td style="padding: 18px 20px;">
+
+                                        <strong>
+                                            <%= gp.nev %>
+                                        </strong>
+
+                                    </td>
+
+                                    <!-- HELYSZÍN -->
+
+                                    <td style="padding: 18px 20px;">
+
+                                        <%= gp.helyszin %>
+
+                                    </td>
+
+                                    <!-- MŰVELETEK -->
+
+                                    <td style="
+                                        padding: 18px 20px;
+                                        white-space: nowrap;
+                                    ">
+
+                                        <div style="
+                                            display: flex;
+                                            gap: 12px;
+                                            align-items: center;
+                                        ">
+
+                                            <!-- SZERKESZTÉS -->
+
+                                            <a
+                                                href="/admin/nagydijak/<%= gp._id %>/szerkesztes"
+                                                class="btn btn-outline"
+                                                style="
+                                                    padding: 9px 14px;
+                                                    font-size: 12px;
+                                                "
+                                            >
+                                                Szerkesztés
+                                            </a>
+
+                                            <!-- TÖRLÉS -->
+
+                                            <form
+                                                action="/admin/nagydijak/<%= gp._id %>/torles"
+                                                method="POST"
+                                                onsubmit="return confirm('Biztosan törölni szeretnéd ezt a nagydíjat? Ez a művelet nem vonható vissza.');"
+                                                style="margin: 0;"
+                                            >
+
+                                                <button
+                                                    type="submit"
+                                                    class="btn btn-primary"
+                                                    style="
+                                                        padding: 9px 14px;
+                                                        font-size: 12px;
+                                                    "
+                                                >
+                                                    Törlés
+                                                </button>
+
+                                            </form>
+
+                                        </div>
+
+                                    </td>
+
+                                </tr>
+
+                            <% }) %>
+
+                        </tbody>
+
+                    </table>
+
+                </div>
+
+            <% } else { %>
+
+                <!-- ÜRES ADATBÁZIS -->
+
+                <div class="races-panel">
+
+                    <div style="
+                        padding: 50px 25px;
+                        text-align: center;
+                    ">
+
+                        <p class="section-kicker">
+                            NINCS MEGJELENÍTHETŐ ADAT
+                        </p>
+
+                        <h3>
+                            MÉG NINCSENEK NAGYDÍJAK.
+                        </h3>
+
+                        <p style="margin: 16px 0 24px;">
+                            Hozd létre az első nagydíjat!
+                        </p>
+
+                        <a
+                            href="/admin/nagydijak/uj"
+                            class="btn btn-primary"
+                        >
+                            + Új nagydíj hozzáadása
+                        </a>
+
+                    </div>
+
+                </div>
+
+            <% } %>
+
+            <!-- ========================================
+                 ADMIN NAVIGÁCIÓ
+            ======================================== -->
+
+            <div style="
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                flex-wrap: wrap;
+                gap: 16px;
+                margin-top: 35px;
+            ">
+
+                <a
+                    href="/admin"
+                    class="reset-link"
+                >
+                    ← Vissza az adminisztrációhoz
+                </a>
+
+                <a
+                    href="/nagydijak"
+                    class="reset-link"
+                >
+                    Publikus nagydíjlista megnyitása ↗
+                </a>
+
+            </div>
+
+            <p
+                class="data-note"
+                style="margin-top: 24px;"
+            >
+                Figyelem! A módosítások közvetlenül
+                a MongoDB Atlas adatbázisában tárolt
+                nagydíjakat érintik.
+            </p>
+
+        </div>
+
+    </section>
+
+</main>
+
+<%- include("../partials/footer") %>
+
+
+

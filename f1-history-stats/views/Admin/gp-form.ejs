@@ -1,0 +1,397 @@
+<%- include("../partials/header", {
+    title: title,
+    activePage: "admin"
+}) %>
+
+<main>
+
+    <!-- ========================================
+         ADMIN NAGYDÍJ ŰRLAP - FEJLÉC
+    ======================================== -->
+
+    <section class="page-hero">
+
+        <div class="container page-hero-content">
+
+            <p class="section-kicker">
+                F1 HISTORY STATS / ADMINISZTRÁCIÓ
+            </p>
+
+            <p class="page-breadcrumb">
+
+                <a href="/">Főoldal</a>
+
+                <span>/</span>
+
+                <a href="/admin">Admin</a>
+
+                <span>/</span>
+
+                <a href="/admin/nagydijak">
+                    Nagydíjak kezelése
+                </a>
+
+                <span>/</span>
+
+                <%= isEdit ? "Szerkesztés" : "Új nagydíj" %>
+
+            </p>
+
+            <h1>
+
+                <% if (isEdit) { %>
+
+                    NAGYDÍJ
+                    <span>SZERKESZTÉSE.</span>
+
+                <% } else { %>
+
+                    ÚJ NAGYDÍJ
+                    <span>HOZZÁADÁSA.</span>
+
+                <% } %>
+
+            </h1>
+
+            <p class="page-description">
+
+                <% if (isEdit) { %>
+
+                    Módosítsd a kiválasztott nagydíj adatait!
+                    A mentést követően a változtatások
+                    megjelennek a MongoDB Atlas adatbázisában.
+
+                <% } else { %>
+
+                    Add meg az új Forma–1-es nagydíj adatait!
+                    A mentést követően a nagydíj
+                    bekerül az adatbázisba.
+
+                <% } %>
+
+            </p>
+
+            <div class="page-hero-meta">
+
+                <span class="meta-marker"></span>
+
+                <%= isEdit
+                    ? "ADMIN / ADATMÓDOSÍTÁS"
+                    : "ADMIN / ADATRÖGZÍTÉS"
+                %>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ========================================
+         NAGYDÍJ ADATBEVITELI ŰRLAP
+    ======================================== -->
+
+    <section class="section listing-section">
+
+        <div
+            class="container"
+            style="max-width: 900px;"
+        >
+
+            <div class="section-heading">
+
+                <div>
+
+                    <p class="section-kicker">
+                        ADATBÁZIS-KEZELÉS
+                    </p>
+
+                    <h2>
+                        NAGYDÍJ
+                        <span>ADATAI.</span>
+                    </h2>
+
+                </div>
+
+            </div>
+
+            <!-- ========================================
+                 HIBAÜZENET
+            ======================================== -->
+
+            <% if (error) { %>
+
+                <div
+                    class="results-summary"
+                    role="alert"
+                    style="margin-bottom: 24px;"
+                >
+
+                    <strong>
+                        <%= error %>
+                    </strong>
+
+                </div>
+
+            <% } %>
+
+            <!-- ========================================
+                 ŰRLAP
+            ======================================== -->
+
+            <div class="races-panel">
+
+                <form
+                    action="<%= isEdit
+                        ? '/admin/nagydijak/' + gp._id + '/szerkesztes'
+                        : '/admin/nagydijak/uj'
+                    %>"
+                    method="POST"
+                    style="padding: 32px;"
+                >
+
+                    <!-- ========================================
+                         CSRF-BIZTONSÁGI TOKEN
+                    ======================================== -->
+
+                    <input
+                        type="hidden"
+                        name="_csrf"
+                        value="<%= csrfToken %>"
+                    >
+
+                    <!-- NAGYDÍJ NEVE -->
+
+                    <div style="margin-bottom: 26px;">
+
+                        <label
+                            for="nev"
+                            style="
+                                display: block;
+                                margin-bottom: 10px;
+                                font-weight: 600;
+                            "
+                        >
+                            NAGYDÍJ NEVE *
+                        </label>
+
+                        <input
+                            type="text"
+                            id="nev"
+                            name="nev"
+                            value="<%= gp.nev || '' %>"
+                            placeholder="Például: Magyar Nagydíj"
+                            maxlength="150"
+                            required
+                            style="
+                                width: 100%;
+                                padding: 14px 16px;
+                                border-radius: 6px;
+                                border: 1px solid
+                                    rgba(255,255,255,0.2);
+                                background: #17191d;
+                                color: #ffffff;
+                                font: inherit;
+                            "
+                        >
+
+                        <p
+                            class="data-note"
+                            style="margin-top: 8px;"
+                        >
+                            Add meg a nagydíj hivatalos
+                            vagy az adatbázisban használt nevét.
+                        </p>
+
+                    </div>
+
+                    <!-- HELYSZÍN -->
+
+                    <div style="margin-bottom: 26px;">
+
+                        <label
+                            for="helyszin"
+                            style="
+                                display: block;
+                                margin-bottom: 10px;
+                                font-weight: 600;
+                            "
+                        >
+                            HELYSZÍN *
+                        </label>
+
+                        <input
+                            type="text"
+                            id="helyszin"
+                            name="helyszin"
+                            value="<%= gp.helyszin || '' %>"
+                            placeholder="Például: Hungaroring"
+                            maxlength="150"
+                            required
+                            style="
+                                width: 100%;
+                                padding: 14px 16px;
+                                border-radius: 6px;
+                                border: 1px solid
+                                    rgba(255,255,255,0.2);
+                                background: #17191d;
+                                color: #ffffff;
+                                font: inherit;
+                            "
+                        >
+
+                        <p
+                            class="data-note"
+                            style="margin-top: 8px;"
+                        >
+                            A verseny helyszíne vagy
+                            versenypályájának neve.
+                        </p>
+
+                    </div>
+
+                    <!-- DÁTUM -->
+
+                    <div style="margin-bottom: 30px;">
+
+                        <label
+                            for="datum"
+                            style="
+                                display: block;
+                                margin-bottom: 10px;
+                                font-weight: 600;
+                            "
+                        >
+                            VERSENY DÁTUMA *
+                        </label>
+
+                        <input
+                            type="date"
+                            id="datum"
+                            name="datum"
+                            value="<%= gp.datum || '' %>"
+                            required
+                            style="
+                                width: 100%;
+                                padding: 14px 16px;
+                                border-radius: 6px;
+                                border: 1px solid
+                                    rgba(255,255,255,0.2);
+                                background: #17191d;
+                                color: #ffffff;
+                                font: inherit;
+                                color-scheme: dark;
+                            "
+                        >
+
+                        <p
+                            class="data-note"
+                            style="margin-top: 8px;"
+                        >
+                            A dátumot év, hónap és nap
+                            pontossággal add meg.
+                        </p>
+
+                    </div>
+
+                    <!-- ========================================
+                         TÁJÉKOZTATÁS
+                    ======================================== -->
+
+                    <div
+                        style="
+                            padding: 18px;
+                            margin-bottom: 30px;
+                            border-left: 3px solid #e11d2e;
+                            background: rgba(225,29,46,0.07);
+                            border-radius: 4px;
+                        "
+                    >
+
+                        <p style="margin: 0;">
+
+                            <strong>Fontos:</strong>
+
+                            <% if (isEdit) { %>
+
+                                A mentéssel felülírod a kiválasztott
+                                nagydíj jelenlegi adatait
+                                a MongoDB Atlas adatbázisában.
+
+                            <% } else { %>
+
+                                Az új nagydíj mentés után
+                                megjelenik az adminisztrációs
+                                és a publikus nagydíjlistában is.
+
+                            <% } %>
+
+                        </p>
+
+                    </div>
+
+                    <!-- ========================================
+                         MENTÉS / MÉGSE
+                    ======================================== -->
+
+                    <div
+                        style="
+                            display: flex;
+                            flex-wrap: wrap;
+                            gap: 16px;
+                            align-items: center;
+                        "
+                    >
+
+                        <button
+                            type="submit"
+                            class="btn btn-primary"
+                        >
+
+                            <% if (isEdit) { %>
+
+                                Módosítások mentése ↗
+
+                            <% } else { %>
+
+                                Nagydíj létrehozása ↗
+
+                            <% } %>
+
+                        </button>
+
+                        <a
+                            href="/admin/nagydijak"
+                            class="btn btn-outline"
+                        >
+                            Mégse
+                        </a>
+
+                    </div>
+
+                </form>
+
+            </div>
+
+            <!-- VISSZANAVIGÁLÁS -->
+
+            <div style="margin-top: 30px;">
+
+                <a
+                    href="/admin/nagydijak"
+                    class="reset-link"
+                >
+                    ← Vissza a nagydíjak listájához
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+</main>
+
+<%- include("../partials/footer") %>
+
+
+
