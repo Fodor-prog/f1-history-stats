@@ -1,8 +1,7 @@
-
 const router = require("express").Router();
-
 const controller = require("../controllers/mainController");
 const contactController = require("../controllers/contactController");
+const statsController = require("../controllers/statsController");
 
 // ========================================
 // BEJELENTKEZÉS ELLENŐRZÉSE
@@ -35,13 +34,11 @@ const isAdmin = (req, res, next) => {
 // REGISZTRÁCIÓ
 // ========================================
 
-// Regisztrációs oldal
 router.get(
     "/register",
     controller.registerGet
 );
 
-// Regisztráció feldolgozása
 router.post(
     "/register",
     controller.registerPost
@@ -51,13 +48,11 @@ router.post(
 // BEJELENTKEZÉS
 // ========================================
 
-// Bejelentkezési oldal
 router.get(
     "/login",
     controller.loginGet
 );
 
-// Bejelentkezés feldolgozása
 router.post(
     "/login",
     controller.loginPost
@@ -84,7 +79,7 @@ router.get(
 );
 
 // ========================================
-// ADMINISZTRÁCIÓS OLDAL
+// ADMINISZTRÁCIÓ
 // ========================================
 
 router.get(
@@ -97,13 +92,11 @@ router.get(
 // KAPCSOLATFELVÉTEL
 // ========================================
 
-// A kapcsolatfelvételi oldalt mindenki elérheti.
 router.get(
     "/contact",
     contactController.contactGet
 );
 
-// Az űrlapot vendégek is beküldhetik.
 router.post(
     "/contact",
     contactController.contactPost
@@ -113,11 +106,20 @@ router.post(
 // BEÉRKEZETT ÜZENETEK
 // ========================================
 
-// Csak bejelentkezett felhasználók láthatják.
 router.get(
     "/messages",
     isLoggedIn,
     contactController.messagesGet
+);
+
+// ========================================
+// STATISZTIKÁK – CHART.JS
+// ========================================
+
+// Az oldal minden látogató számára elérhető.
+router.get(
+    "/statisztikak",
+    statsController.statsGet
 );
 
 // ========================================

@@ -1,0 +1,938 @@
+<%- include("partials/header", {
+    title: title,
+    activePage: "statisztikak"
+}) %>
+
+<main>
+
+    <!-- ========================================
+         STATISZTIKÁK OLDAL FEJLÉCE
+    ======================================== -->
+
+    <section class="page-hero">
+
+        <div class="container page-hero-content">
+
+            <div class="eyebrow">
+                <span class="live-dot"></span>
+                F1 HISTORY STATS
+            </div>
+
+            <p class="page-breadcrumb">
+                <a href="/">Főoldal</a>
+                <span>/</span>
+                Statisztikák
+            </p>
+
+            <h1>
+                A SZÁMOK
+                <span>MESÉLNEK.</span>
+            </h1>
+
+            <p class="page-description">
+                Fedezd fel a Forma–1 történelmét statisztikákon
+                és interaktív összehasonlításokon keresztül!
+                Válassz két pilótát, és vizsgáld meg
+                a rögzített eredményeiket.
+            </p>
+
+            <div class="page-hero-meta">
+                <span class="meta-marker"></span>
+                INTERAKTÍV F1 STATISZTIKÁK
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ========================================
+         1. MEGLÉVŐ STATISZTIKAI KÁRTYÁK
+    ======================================== -->
+
+    <section class="section stats-section">
+
+        <div class="container">
+
+            <div class="section-heading">
+
+                <div>
+
+                    <p class="section-kicker">
+                        FORMA–1 ADATOK
+                    </p>
+
+                    <h2>
+                        A TÖRTÉNELEM
+                        <span>SZÁMOKBAN.</span>
+                    </h2>
+
+                </div>
+
+                <p class="section-lead">
+                    Az adatok közvetlenül a MongoDB Atlas
+                    adatbázisából érkeznek.
+                </p>
+
+            </div>
+
+            <div class="stats-grid">
+
+                <!-- ÖSSZES NAGYDÍJ -->
+
+                <article class="stat-card">
+
+                    <div class="stat-top">
+                        <span>01 / NAGYDÍJAK</span>
+                        <span class="stat-icon">↗</span>
+                    </div>
+
+                    <div class="stat-number">
+                        <%= osszesNagydij.toLocaleString("hu-HU") %>
+                    </div>
+
+                    <div class="stat-label">
+                        Összes rögzített nagydíj
+                    </div>
+
+                    <div class="stat-decoration"></div>
+
+                </article>
+
+                <!-- ÉVEK SZÁMA -->
+
+                <article class="stat-card">
+
+                    <div class="stat-top">
+                        <span>02 / ÉVEK</span>
+                        <span class="stat-icon">↗</span>
+                    </div>
+
+                    <div class="stat-number">
+                        <%= evekSzama %>
+                    </div>
+
+                    <div class="stat-label">
+                        Adatbázisban szereplő versenyévek
+                    </div>
+
+                    <div class="stat-decoration"></div>
+
+                </article>
+
+                <!-- REKORDÉV -->
+
+                <article class="stat-card">
+
+                    <div class="stat-top">
+                        <span>03 / REKORDÉV</span>
+                        <span class="stat-icon">↗</span>
+                    </div>
+
+                    <div class="stat-number">
+
+                        <% if (legtobbNagydij) { %>
+
+                            <%= legtobbNagydij.ev %>
+
+                        <% } else { %>
+
+                            –
+
+                        <% } %>
+
+                    </div>
+
+                    <div class="stat-label">
+
+                        <% if (legtobbNagydij) { %>
+
+                            <%= legtobbNagydij.darab %>
+                            nagydíj ebben az évben
+
+                        <% } else { %>
+
+                            Nincs rendelkezésre álló adat
+
+                        <% } %>
+
+                    </div>
+
+                    <div class="stat-decoration"></div>
+
+                </article>
+
+            </div>
+
+            <p class="data-note">
+                A statisztikák az adatbázis aktuális
+                tartalmából kerülnek kiszámításra.
+            </p>
+
+        </div>
+
+    </section>
+
+    <!-- ========================================
+         2. EREDETI CHART.JS DIAGRAM
+         NAGYDÍJAK ÉVENKÉNT
+    ======================================== -->
+
+    <section class="section races-section">
+
+        <div class="container">
+
+            <div class="section-heading">
+
+                <div>
+
+                    <p class="section-kicker">
+                        ADATVIZUALIZÁCIÓ
+                    </p>
+
+                    <h2>
+                        NAGYDÍJAK
+                        <span>ÉVENKÉNT.</span>
+                    </h2>
+
+                </div>
+
+                <p class="section-lead">
+                    A diagram az adatbázisban található
+                    nagydíjak számát ábrázolja
+                    évenkénti bontásban.
+                </p>
+
+            </div>
+
+            <div class="races-panel">
+
+                <div style="
+                    padding: 30px;
+                    height: 460px;
+                    position: relative;
+                ">
+
+                    <canvas
+                        id="nagydijakChart"
+                        role="img"
+                        aria-label="Nagydíjak száma évenként"
+                    ></canvas>
+
+                </div>
+
+            </div>
+
+            <p class="data-note">
+                Az X tengelyen az évszámok, az Y tengelyen
+                az adott évben rögzített nagydíjak száma látható.
+            </p>
+
+        </div>
+
+    </section>
+
+    <!-- ========================================
+         3. PILÓTA VS. PILÓTA ÖSSZEHASONLÍTÓ
+    ======================================== -->
+
+    <section
+        class="section listing-section"
+        id="pilota-osszehasonlitas"
+    >
+
+        <div class="container">
+
+            <!-- SZEKCIÓ FEJLÉCE -->
+
+            <div class="section-heading">
+
+                <div>
+
+                    <p class="section-kicker">
+                        INTERAKTÍV ÖSSZEHASONLÍTÁS
+                    </p>
+
+                    <h2>
+                        PILÓTA
+                        <span>VS. PILÓTA.</span>
+                    </h2>
+
+                </div>
+
+                <p class="section-lead">
+                    Válassz két Forma–1-es versenyzőt,
+                    és hasonlítsd össze a győzelmeiket,
+                    dobogós helyezéseiket és
+                    rögzített eredményeiket!
+                </p>
+
+            </div>
+
+            <!-- PILÓTAVÁLASZTÓ ŰRLAP -->
+
+            <form
+                action="/statisztikak"
+                method="GET"
+                class="filter-panel"
+                aria-label="Két pilóta összehasonlítása"
+            >
+
+                <!-- ELSŐ PILÓTA -->
+
+                <div class="filter-field">
+
+                    <label for="pilota1">
+                        01 / ELSŐ PILÓTA
+                    </label>
+
+                    <select
+                        id="pilota1"
+                        name="pilota1"
+                        required
+                    >
+
+                        <option value="">
+                            Válassz pilótát...
+                        </option>
+
+                        <% pilotak.forEach(pilota => { %>
+
+                            <option
+                                value="<%= pilota.az %>"
+                                <%= pilota1Az === pilota.az ? "selected" : "" %>
+                            >
+                                <%= pilota.nev %>
+                                (<%= pilota.nemzet || "Nincs adat" %>)
+                            </option>
+
+                        <% }) %>
+
+                    </select>
+
+                </div>
+
+                <!-- MÁSODIK PILÓTA -->
+
+                <div class="filter-field">
+
+                    <label for="pilota2">
+                        02 / MÁSODIK PILÓTA
+                    </label>
+
+                    <select
+                        id="pilota2"
+                        name="pilota2"
+                        required
+                    >
+
+                        <option value="">
+                            Válassz pilótát...
+                        </option>
+
+                        <% pilotak.forEach(pilota => { %>
+
+                            <option
+                                value="<%= pilota.az %>"
+                                <%= pilota2Az === pilota.az ? "selected" : "" %>
+                            >
+                                <%= pilota.nev %>
+                                (<%= pilota.nemzet || "Nincs adat" %>)
+                            </option>
+
+                        <% }) %>
+
+                    </select>
+
+                </div>
+
+                <!-- GOMBOK -->
+
+                <div class="filter-actions">
+
+                    <button
+                        type="submit"
+                        class="btn btn-primary"
+                    >
+                        Összehasonlítás ↗
+                    </button>
+
+                    <a
+                        href="/statisztikak#pilota-osszehasonlitas"
+                        class="reset-link"
+                    >
+                        Kiválasztás törlése
+                    </a>
+
+                </div>
+
+            </form>
+
+            <!-- HIBAÜZENET -->
+
+            <% if (osszehasonlitasHiba) { %>
+
+                <div class="results-summary" role="alert">
+
+                    <strong>
+                        <%= osszehasonlitasHiba %>
+                    </strong>
+
+                </div>
+
+            <% } %>
+
+            <!-- ========================================
+                 KÉT PILÓTA EREDMÉNYEI
+            ======================================== -->
+
+            <% if (pilota1Stats && pilota2Stats) { %>
+
+                <!-- PILÓTÁK NEVE -->
+
+                <div class="section-heading" style="margin-top: 38px;">
+
+                    <div>
+
+                        <p class="section-kicker">
+                            KIVÁLASZTOTT VERSENYZŐK
+                        </p>
+
+                        <h2>
+                            <%= pilota1Stats.nev %>
+                            <span>VS.</span>
+                            <%= pilota2Stats.nev %>
+                        </h2>
+
+                    </div>
+
+                </div>
+
+                <!-- STATISZTIKAI ÖSSZEHASONLÍTÁS -->
+
+                <div
+                    class="races-panel"
+                    style="margin-bottom: 30px;"
+                >
+
+                    <div class="races-panel-header">
+                        <span>ELSŐ PILÓTA</span>
+                        <span>MUTATÓ</span>
+                        <span>MÁSODIK PILÓTA</span>
+                    </div>
+
+                    <!-- GYŐZELMEK -->
+
+                    <div class="race-row">
+
+                        <div class="race-name">
+
+                            <strong style="font-size: 25px;">
+                                <%= pilota1Stats.gyozelmek %>
+                            </strong>
+
+                        </div>
+
+                        <div class="race-location">
+                            Győzelmek
+                        </div>
+
+                        <div class="race-date">
+
+                            <strong style="font-size: 25px;">
+                                <%= pilota2Stats.gyozelmek %>
+                            </strong>
+
+                        </div>
+
+                    </div>
+
+                    <!-- DOBOGÓK -->
+
+                    <div class="race-row">
+
+                        <div class="race-name">
+
+                            <strong style="font-size: 25px;">
+                                <%= pilota1Stats.dobogok %>
+                            </strong>
+
+                        </div>
+
+                        <div class="race-location">
+                            Dobogós helyezések
+                        </div>
+
+                        <div class="race-date">
+
+                            <strong style="font-size: 25px;">
+                                <%= pilota2Stats.dobogok %>
+                            </strong>
+
+                        </div>
+
+                    </div>
+
+                    <!-- RÖGZÍTETT EREDMÉNYEK -->
+
+                    <div class="race-row">
+
+                        <div class="race-name">
+
+                            <strong style="font-size: 25px;">
+                                <%= pilota1Stats.osszesEredmeny %>
+                            </strong>
+
+                        </div>
+
+                        <div class="race-location">
+                            Rögzített eredmények
+                        </div>
+
+                        <div class="race-date">
+
+                            <strong style="font-size: 25px;">
+                                <%= pilota2Stats.osszesEredmeny %>
+                            </strong>
+
+                        </div>
+
+                    </div>
+
+                    <!-- GYŐZELMI ARÁNY -->
+
+                    <div class="race-row">
+
+                        <div class="race-name">
+
+                            <strong style="font-size: 25px;">
+                                <%= pilota1Stats.gyozelmiArany %>%
+                            </strong>
+
+                        </div>
+
+                        <div class="race-location">
+                            Győzelmi arány
+                        </div>
+
+                        <div class="race-date">
+
+                            <strong style="font-size: 25px;">
+                                <%= pilota2Stats.gyozelmiArany %>%
+                            </strong>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- ========================================
+                     ÚJ CHART.JS ÖSSZEHASONLÍTÓ
+                ======================================== -->
+
+                <div class="section-heading">
+
+                    <div>
+
+                        <p class="section-kicker">
+                            ÖSSZEHASONLÍTÓ DIAGRAM
+                        </p>
+
+                        <h2>
+                            EREDMÉNYEK
+                            <span>EGYMÁS MELLETT.</span>
+                        </h2>
+
+                    </div>
+
+                    <p class="section-lead">
+                        A diagram a két pilóta adatait
+                        azonos mutatók alapján jeleníti meg.
+                    </p>
+
+                </div>
+
+                <div class="races-panel">
+
+                    <div style="
+                        padding: 30px;
+                        height: 420px;
+                        position: relative;
+                    ">
+
+                        <canvas
+                            id="pilotaChart"
+                            role="img"
+                            aria-label="Két pilóta statisztikai összehasonlítása"
+                        ></canvas>
+
+                    </div>
+
+                </div>
+
+                <p class="data-note">
+                    Az összehasonlítás kizárólag az
+                    F1 History Stats adatbázisában
+                    rögzített eredmények alapján készül.
+                    A győzelmi arány számítása:
+                    győzelmek / rögzített eredmények × 100.
+                </p>
+
+            <% } else if (!osszehasonlitasHiba) { %>
+
+                <!-- MÉG NINCS KIVÁLASZTÁS -->
+
+                <div
+                    class="races-panel"
+                    style="margin-top: 30px;"
+                >
+
+                    <div
+                        style="
+                            padding: 45px 25px;
+                            text-align: center;
+                        "
+                    >
+
+                        <p class="section-kicker">
+                            ÖSSZEHASONLÍTÁSRA KÉSZEN
+                        </p>
+
+                        <h3 style="margin-bottom: 12px;">
+                            VÁLASSZ KÉT PILÓTÁT!
+                        </h3>
+
+                        <p>
+                            Az összehasonlításhoz válassz
+                            két különböző versenyzőt
+                            a fenti listákból.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            <% } %>
+
+        </div>
+
+    </section>
+
+    <!-- ========================================
+         ALSÓ BLOKK
+    ======================================== -->
+
+    <section class="closing-section">
+
+        <div class="container closing-inner">
+
+            <div>
+
+                <p class="section-kicker">
+                    F1 HISTORY STATS
+                </p>
+
+                <h2>
+                    MINDEN ÉV
+                    <span>EGY ÚJ FEJEZET.</span>
+                </h2>
+
+                <p>
+                    Böngészd a történelmi adatbázist,
+                    és fedezd fel a versenyek részleteit!
+                </p>
+
+            </div>
+
+            <a href="/nagydijak" class="btn btn-primary">
+                Nagydíjak megtekintése ↗
+            </a>
+
+        </div>
+
+    </section>
+
+</main>
+
+<!-- ========================================
+     CHART.JS KÖNYVTÁR
+======================================== -->
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.8/dist/chart.umd.min.js"></script>
+
+<script>
+
+    // ========================================
+    // MONGODB ADATOK ÁTADÁSA
+    // ========================================
+
+    const chartEvek =
+        <%- JSON.stringify(evek).replace(/</g, "\\u003c") %>;
+
+    const chartDarabszamok =
+        <%- JSON.stringify(darabszamok).replace(/</g, "\\u003c") %>;
+
+    // ========================================
+    // 1. NAGYDÍJAK ÉVENKÉNT
+    // MEGLÉVŐ DIAGRAM
+    // ========================================
+
+    const nagydijakCanvas =
+        document.getElementById("nagydijakChart");
+
+    if (
+        nagydijakCanvas &&
+        typeof Chart !== "undefined"
+    ) {
+
+        new Chart(nagydijakCanvas, {
+
+            type: "bar",
+
+            data: {
+
+                labels: chartEvek,
+
+                datasets: [
+                    {
+                        label: "Nagydíjak száma",
+
+                        data: chartDarabszamok,
+
+                        backgroundColor:
+                            "rgba(225, 29, 46, 0.75)",
+
+                        borderColor: "#e11d2e",
+
+                        borderWidth: 1,
+
+                        borderRadius: 4,
+
+                        hoverBackgroundColor: "#ff4050"
+                    }
+                ]
+
+            },
+
+            options: {
+
+                responsive: true,
+
+                maintainAspectRatio: false,
+
+                interaction: {
+                    intersect: false,
+                    mode: "index"
+                },
+
+                plugins: {
+
+                    legend: {
+                        display: true,
+
+                        labels: {
+                            color: "#ffffff"
+                        }
+                    },
+
+                    tooltip: {
+                        callbacks: {
+                            label: function(context) {
+                                return (
+                                    " Nagydíjak száma: " +
+                                    context.parsed.y
+                                );
+                            }
+                        }
+                    }
+
+                },
+
+                scales: {
+
+                    x: {
+
+                        ticks: {
+                            color: "#bbbbbb",
+                            maxRotation: 90,
+                            minRotation: 45
+                        },
+
+                        grid: {
+                            color: "rgba(255, 255, 255, 0.06)"
+                        },
+
+                        title: {
+                            display: true,
+                            text: "Év",
+                            color: "#ffffff"
+                        }
+                    },
+
+                    y: {
+
+                        beginAtZero: true,
+
+                        ticks: {
+                            color: "#bbbbbb",
+                            precision: 0
+                        },
+
+                        grid: {
+                            color: "rgba(255, 255, 255, 0.08)"
+                        },
+
+                        title: {
+                            display: true,
+                            text: "Nagydíjak száma",
+                            color: "#ffffff"
+                        }
+                    }
+
+                }
+
+            }
+
+        });
+
+    }
+
+    // ========================================
+    // 2. PILÓTA VS. PILÓTA
+    // ÚJ ÖSSZEHASONLÍTÓ DIAGRAM
+    // ========================================
+
+    <% if (pilota1Stats && pilota2Stats) { %>
+
+        const pilotaChartAdatok =
+            <%- JSON.stringify(osszehasonlitasChart).replace(/</g, "\\u003c") %>;
+
+        const pilota1Nev =
+            <%- JSON.stringify(pilota1Stats.nev).replace(/</g, "\\u003c") %>;
+
+        const pilota2Nev =
+            <%- JSON.stringify(pilota2Stats.nev).replace(/</g, "\\u003c") %>;
+
+        const pilotaCanvas =
+            document.getElementById("pilotaChart");
+
+        if (
+            pilotaCanvas &&
+            typeof Chart !== "undefined"
+        ) {
+
+            new Chart(pilotaCanvas, {
+
+                type: "bar",
+
+                data: {
+
+                    labels: pilotaChartAdatok.labels,
+
+                    datasets: [
+
+                        {
+                            label: pilota1Nev,
+
+                            data: pilotaChartAdatok.pilota1,
+
+                            backgroundColor:
+                                "rgba(225, 29, 46, 0.85)",
+
+                            borderColor: "#e11d2e",
+
+                            borderWidth: 1,
+
+                            borderRadius: 4
+                        },
+
+                        {
+                            label: pilota2Nev,
+
+                            data: pilotaChartAdatok.pilota2,
+
+                            backgroundColor:
+                                "rgba(65, 151, 235, 0.85)",
+
+                            borderColor: "#4197eb",
+
+                            borderWidth: 1,
+
+                            borderRadius: 4
+                        }
+
+                    ]
+
+                },
+
+                options: {
+
+                    responsive: true,
+
+                    maintainAspectRatio: false,
+
+                    interaction: {
+                        mode: "index",
+                        intersect: false
+                    },
+
+                    plugins: {
+
+                        legend: {
+                            display: true,
+
+                            labels: {
+                                color: "#ffffff"
+                            }
+                        },
+
+                        tooltip: {
+                            enabled: true
+                        }
+
+                    },
+
+                    scales: {
+
+                        x: {
+
+                            ticks: {
+                                color: "#bbbbbb"
+                            },
+
+                            grid: {
+                                color:
+                                    "rgba(255, 255, 255, 0.06)"
+                            }
+                        },
+
+                        y: {
+
+                            beginAtZero: true,
+
+                            ticks: {
+                                color: "#bbbbbb",
+                                precision: 0
+                            },
+
+                            grid: {
+                                color:
+                                    "rgba(255, 255, 255, 0.08)"
+                            }
+                        }
+
+                    }
+
+                }
+
+            });
+
+        }
+
+    <% } %>
+
+</script>
+
+<%- include("partials/footer") %>
+
+

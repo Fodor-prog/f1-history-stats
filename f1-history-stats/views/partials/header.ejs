@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="hu">
 
@@ -11,7 +10,7 @@
     <title><%= title %></title>
 
     <meta name="description"
-          content="F1 History Stats – Forma–1 történelmi nagydíjak, pilóták és versenyeredmények adatbázisa.">
+          content="F1 History Stats – Forma–1 történelmi nagydíjak, pilóták, eredmények és statisztikák.">
 
     <link rel="stylesheet" href="/css/style.css">
 </head>
@@ -88,7 +87,17 @@
                     Eredmények
                 </a>
 
-                <!-- KAPCSOLAT: MINDENKINEK -->
+                <!-- STATISZTIKÁK – CHART.JS -->
+
+                <a href="/statisztikak"
+                   class="<%= activePage === 'statisztikak' ? 'nav-active' : '' %>"
+                   <% if (activePage === "statisztikak") { %>
+                       aria-current="page"
+                   <% } %>>
+                    Statisztikák
+                </a>
+
+                <!-- KAPCSOLAT -->
 
                 <a href="/contact"
                    class="<%= activePage === 'contact' ? 'nav-active' : '' %>"
@@ -105,23 +114,24 @@
                 <% if (!user) { %>
 
                     <a href="/register"
-                       class="<%= activePage === 'register' ? 'nav-active' : '' %>">
+                       class="<%= activePage === 'register' ? 'nav-active' : '' %>"
+                       <% if (activePage === "register") { %>
+                           aria-current="page"
+                       <% } %>>
                         Regisztráció
                     </a>
 
                     <a href="/login"
-                       class="<%= activePage === 'login' ? 'nav-active' : '' %>">
+                       class="<%= activePage === 'login' ? 'nav-active' : '' %>"
+                       <% if (activePage === "login") { %>
+                           aria-current="page"
+                       <% } %>>
                         Bejelentkezés
                     </a>
 
                 <% } else { %>
 
-                    <!-- ==================================
-                         BEJELENTKEZETT FELHASZNÁLÓ
-                    ================================== -->
-
-                    <!-- ÜZENETEK:
-                         CSAK BEJELENTKEZVE -->
+                    <!-- BEJELENTKEZETT FELHASZNÁLÓ -->
 
                     <a href="/messages"
                        class="<%= activePage === 'messages' ? 'nav-active' : '' %>"
@@ -131,8 +141,6 @@
                         Üzenetek
                     </a>
 
-                    <!-- PROFIL -->
-
                     <a href="/user"
                        class="<%= activePage === 'user' ? 'nav-active' : '' %>"
                        <% if (activePage === "user") { %>
@@ -141,9 +149,7 @@
                         Profil
                     </a>
 
-                    <!-- ==================================
-                         ADMIN NAVIGÁCIÓ
-                    ================================== -->
+                    <!-- ADMINISZTRÁTOR -->
 
                     <% if (user.role === "admin") { %>
 
