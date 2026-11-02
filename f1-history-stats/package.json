@@ -1,15 +1,26 @@
 {
   "name": "f1-history-stats",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Forma-1 tortenelmi adatbazis Node.js, Express, MongoDB Atlas es Chart.js hasznalataval.",
+  "main": "app.js",
   "scripts": {
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": [
+    "formula-1",
+    "nodejs",
+    "express",
+    "mongodb",
+    "mongoose",
+    "chartjs"
+  ],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
+  "engines": {
+    "node": ">=22.14.0 <25"
+  },
   "dependencies": {
     "bcrypt": "^6.0.0",
     "connect-mongo": "^6.0.0",

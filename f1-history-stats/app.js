@@ -40,6 +40,12 @@ if (!process.env.SESSION_MONGO_URI) {
 app.set("view engine", "ejs");
 app.set("views", path.join(__dirname, "views"));
 
+// Render alatt a HTTPS-kapcsolatot a reverse proxy kezeli.
+// A secure session-cookie helyes működéséhez szükséges.
+if (process.env.NODE_ENV === "production") {
+    app.set("trust proxy", 1);
+}
+
 app.use(express.static(path.join(__dirname, "public")));
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
