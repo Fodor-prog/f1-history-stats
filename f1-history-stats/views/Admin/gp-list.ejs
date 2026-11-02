@@ -1,3 +1,4 @@
+
 <%- include("../partials/header", {
     title: title,
     activePage: "admin"
@@ -5,12 +6,9 @@
 
 <main>
 
-    <!-- ========================================
-         ADMIN NAGYDÍJAK - FEJLÉC
-    ======================================== -->
+    <!-- ADMIN FEJLÉC -->
 
     <section class="page-hero">
-
         <div class="container page-hero-content">
 
             <p class="section-kicker">
@@ -42,21 +40,15 @@
             </div>
 
         </div>
-
     </section>
 
-    <!-- ========================================
-         ADMIN - NAGYDÍJAK LISTÁJA
-    ======================================== -->
+    <!-- NAGYDÍJAK LISTÁJA -->
 
     <section class="section listing-section">
-
         <div class="container">
 
             <div class="section-heading">
-
                 <div>
-
                     <p class="section-kicker">
                         ADATBÁZIS-KEZELÉS
                     </p>
@@ -65,41 +57,31 @@
                         NAGYDÍJAK
                         <span>LISTÁJA.</span>
                     </h2>
-
                 </div>
 
                 <p class="section-lead">
                     Összesen
-                    <strong>
-                        <%= nagydijak.length %>
-                    </strong>
+                    <strong><%= nagydijak.length %></strong>
                     nagydíj található az adatbázisban.
                 </p>
-
             </div>
 
-            <!-- ========================================
-                 ÚJ NAGYDÍJ HOZZÁADÁSA
-            ======================================== -->
+            <!-- ÚJ NAGYDÍJ -->
 
             <div style="
                 display: flex;
                 justify-content: flex-end;
                 margin-bottom: 24px;
             ">
-
                 <a
                     href="/admin/nagydijak/uj"
                     class="btn btn-primary"
                 >
                     + Új nagydíj hozzáadása
                 </a>
-
             </div>
 
-            <!-- ========================================
-                 SIKERES MŰVELETEK ÜZENETEI
-            ======================================== -->
+            <!-- SIKERES MŰVELETEK -->
 
             <% if (success === "created") { %>
 
@@ -139,9 +121,7 @@
 
             <% } %>
 
-            <!-- ========================================
-                 HIBAÜZENET
-            ======================================== -->
+            <!-- HIBAÜZENET -->
 
             <% if (error) { %>
 
@@ -157,9 +137,7 @@
 
             <% } %>
 
-            <!-- ========================================
-                 ADATBÁZISTÁBLÁZAT
-            ======================================== -->
+            <!-- ADATTÁBLÁZAT -->
 
             <% if (nagydijak.length > 0) { %>
 
@@ -176,12 +154,10 @@
                     ">
 
                         <thead>
-
                             <tr style="
                                 border-bottom:
-                                1px solid rgba(255,255,255,0.15);
+                                    1px solid rgba(255,255,255,0.15);
                             ">
-
                                 <th style="padding: 20px;">
                                     DÁTUM
                                 </th>
@@ -197,9 +173,7 @@
                                 <th style="padding: 20px;">
                                     MŰVELETEK
                                 </th>
-
                             </tr>
-
                         </thead>
 
                         <tbody>
@@ -208,7 +182,7 @@
 
                                 <tr style="
                                     border-bottom:
-                                    1px solid rgba(255,255,255,0.08);
+                                        1px solid rgba(255,255,255,0.08);
                                 ">
 
                                     <!-- DÁTUM -->
@@ -217,7 +191,6 @@
                                         padding: 18px 20px;
                                         white-space: nowrap;
                                     ">
-
                                         <%= gp.datum
                                             ? new Date(gp.datum)
                                                 .toLocaleDateString(
@@ -228,25 +201,20 @@
                                                 )
                                             : "Nincs dátum"
                                         %>
-
                                     </td>
 
-                                    <!-- NAGYDÍJ NEVE -->
+                                    <!-- NÉV -->
 
                                     <td style="padding: 18px 20px;">
-
                                         <strong>
                                             <%= gp.nev %>
                                         </strong>
-
                                     </td>
 
                                     <!-- HELYSZÍN -->
 
                                     <td style="padding: 18px 20px;">
-
                                         <%= gp.helyszin %>
-
                                     </td>
 
                                     <!-- MŰVELETEK -->
@@ -284,6 +252,14 @@
                                                 style="margin: 0;"
                                             >
 
+                                                <!-- CSRF-VÉDELEM -->
+
+                                                <input
+                                                    type="hidden"
+                                                    name="_csrf"
+                                                    value="<%= csrfToken %>"
+                                                >
+
                                                 <button
                                                     type="submit"
                                                     class="btn btn-primary"
@@ -300,20 +276,16 @@
                                         </div>
 
                                     </td>
-
                                 </tr>
 
                             <% }) %>
 
                         </tbody>
-
                     </table>
 
                 </div>
 
             <% } else { %>
-
-                <!-- ÜRES ADATBÁZIS -->
 
                 <div class="races-panel">
 
@@ -347,9 +319,7 @@
 
             <% } %>
 
-            <!-- ========================================
-                 ADMIN NAVIGÁCIÓ
-            ======================================== -->
+            <!-- NAVIGÁCIÓ -->
 
             <div style="
                 display: flex;
@@ -386,12 +356,8 @@
             </p>
 
         </div>
-
     </section>
 
 </main>
 
 <%- include("../partials/footer") %>
-
-
-

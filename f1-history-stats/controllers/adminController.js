@@ -1,3 +1,5 @@
+
+const mongoose = require("mongoose");
 const Gp = require("../models/Gp");
 
 // ========================================
@@ -11,6 +13,7 @@ function checkAdmin(req, res) {
         !req.session.user ||
         req.session.user.role !== "admin"
     ) {
+
         res.status(403).send(
             "Hozzáférés megtagadva. Admin jogosultság szükséges."
         );
@@ -34,13 +37,14 @@ function parseDate(value) {
         return null;
     }
 
-    const date = new Date(value + "T00:00:00.000Z");
+    const date = new Date(
+        value + "T00:00:00.000Z"
+    );
 
     if (Number.isNaN(date.getTime())) {
         return null;
     }
 
-    // A nem létező dátumokat is kiszűrjük.
     if (
         date.toISOString().slice(0, 10) !== value
     ) {
@@ -51,7 +55,7 @@ function parseDate(value) {
 }
 
 // ========================================
-// NAGYDÍJ ADATAINAK ELLENŐRZÉSE
+// NAGYDÍJ ADATOK ELLENŐRZÉSE
 // ========================================
 
 function validateGp(body) {
@@ -67,20 +71,26 @@ function validateGp(body) {
     const datum = parseDate(body.datum);
 
     if (!nev || !helyszin || !datum) {
+
         return {
-            error: "Minden mező kitöltése kötelező, érvényes dátummal."
+            error:
+                "Minden mező kitöltése kötelező, érvényes dátummal."
         };
     }
 
     if (nev.length > 150) {
+
         return {
-            error: "A nagydíj neve legfeljebb 150 karakter lehet."
+            error:
+                "A nagydíj neve legfeljebb 150 karakter lehet."
         };
     }
 
     if (helyszin.length > 150) {
+
         return {
-            error: "A helyszín legfeljebb 150 karakter lehet."
+            error:
+                "A helyszín legfeljebb 150 karakter lehet."
         };
     }
 
@@ -94,7 +104,67 @@ function validateGp(body) {
 }
 
 // ========================================
-// 1. READ - NAGYDÍJAK LISTÁZÁSA
+// ŰRLAPADATOK ELŐKÉSZÍTÉSE
+// ========================================
+
+function getFormData(body, id = null) {
+
+    return {
+        _id: id,
+
+        nev: typeof body.nev === "string"
+            ? body.nev
+            : "",
+
+        helyszin: typeof body.helyszin === "string"
+            ? body.helyszin
+            : "",
+
+        datum: typeof body.datum === "string"
+            ? body.datum
+            : ""
+    };
+}
+
+// ========================================
+// ŰRLAP MEGJELENÍTÉSE HIBA ESETÉN
+// ========================================
+
+function renderFormError(
+    req,
+    res,
+    {
+        status = 400,
+        isEdit = false,
+        id = null,
+        error
+    }
+) {
+
+    return res.status(status).render(
+        "admin/gp-form",
+        {
+
+            title: isEdit
+                ? "Nagydíj szerkesztése | Admin"
+                : "Új nagydíj | Admin",
+
+            isEdit,
+
+            gp: getFormData(req.body, id),
+
+            error,
+
+            // A korábbi GET kérés során létrehozott
+            // CSRF-token továbbra is érvényes.
+            csrfToken: req.session.adminCsrfToken
+
+        }
+    );
+}
+
+// ========================================
+// READ - NAGYDÍJAK LISTÁZÁSA
 // ========================================
 
 exports.gpList = async (req, res) => {
@@ -110,17 +180,24 @@ exports.gpList = async (req, res) => {
             })
             .lean();
 
-        return res.render("admin/gp-list", {
+        return res.render(
+            "admin/gp-list",
+            {
 
-            title: "Nagydíjak kezelése | Admin",
+                title:
+                    "Nagydíjak kezelése | Admin",
 
-            nagydijak,
+                nagydijak,
 
-            error: req.query.error || "",
+                error: req.query.error || "",
 
-            success: req.query.success || ""
+                success: req.query.success || "",
 
-        });
+                csrfToken:
+                    req.session.adminCsrfToken
+
+            }
+        );
 
     } catch (error) {
 
@@ -136,28 +213,35 @@ exports.gpList = async (req, res) => {
 };
 
 // ========================================
-// 2. CREATE - ÚJ NAGYDÍJ ŰRLAP
+// CREATE - ÚJ NAGYDÍJ ŰRLAP
 // ========================================
 
 exports.gpCreateGet = (req, res) => {
 
     if (!checkAdmin(req, res)) return;
 
-    return res.render("admin/gp-form", {
+    return res.render(
+        "admin/gp-form",
+        {
 
-        title: "Új nagydíj | Admin",
+            title:
+                "Új nagydíj | Admin",
 
-        isEdit: false,
+            isEdit: false,
 
-        gp: {
-            nev: "",
-            helyszin: "",
-            datum: ""
-        },
+            gp: {
+                nev: "",
+                helyszin: "",
+                datum: ""
+            },
 
-        error: ""
+            error: "",
 
-    });
+            csrfToken:
+                req.session.adminCsrfToken
+
+        }
+    );
 };
 
 // ========================================
@@ -172,22 +256,21 @@ exports.gpCreatePost = async (req, res) => {
 
     if (validation.error) {
 
-        return res.status(400).render("admin/gp-form", {
-
-            title: "Új nagydíj | Admin",
-
-            isEdit: false,
-
-            gp: req.body,
-
-            error: validation.error
-
-        });
+        return renderFormError(
+            req,
+            res,
+            {
+                isEdit: false,
+                error: validation.error
+            }
+        );
     }
 
     try {
 
-        await Gp.create(validation.data);
+        await Gp.create(
+            validation.data
+        );
 
         return res.redirect(
             "/admin/nagydijak?success=created"
@@ -200,27 +283,37 @@ exports.gpCreatePost = async (req, res) => {
             error
         );
 
-        return res.status(500).render("admin/gp-form", {
-
-            title: "Új nagydíj | Admin",
-
-            isEdit: false,
-
-            gp: req.body,
-
-            error: "Nem sikerült létrehozni a nagydíjat."
-
-        });
+        return renderFormError(
+            req,
+            res,
+            {
+                status: 500,
+                isEdit: false,
+                error:
+                    "Nem sikerült létrehozni a nagydíjat."
+            }
+        );
     }
 };
 
 // ========================================
-// 3. UPDATE - SZERKESZTŐ ŰRLAP
+// UPDATE - SZERKESZTŐ ŰRLAP
 // ========================================
 
 exports.gpEditGet = async (req, res) => {
 
     if (!checkAdmin(req, res)) return;
+
+    if (
+        !mongoose.isValidObjectId(
+            req.params.id
+        )
+    ) {
+
+        return res.status(400).send(
+            "Érvénytelen nagydíj-azonosító."
+        );
+    }
 
     try {
 
@@ -229,41 +322,53 @@ exports.gpEditGet = async (req, res) => {
         ).lean();
 
         if (!gp) {
+
             return res.status(404).send(
                 "A nagydíj nem található."
             );
         }
 
-        return res.render("admin/gp-form", {
+        return res.render(
+            "admin/gp-form",
+            {
 
-            title: "Nagydíj szerkesztése | Admin",
+                title:
+                    "Nagydíj szerkesztése | Admin",
 
-            isEdit: true,
+                isEdit: true,
 
-            gp: {
-                _id: gp._id,
-                nev: gp.nev,
-                helyszin: gp.helyszin,
-                datum: gp.datum
-                    ? new Date(gp.datum)
-                        .toISOString()
-                        .slice(0, 10)
-                    : ""
-            },
+                gp: {
 
-            error: ""
+                    _id: gp._id,
 
-        });
+                    nev: gp.nev,
+
+                    helyszin: gp.helyszin,
+
+                    datum: gp.datum
+                        ? new Date(gp.datum)
+                            .toISOString()
+                            .slice(0, 10)
+                        : ""
+                },
+
+                error: "",
+
+                csrfToken:
+                    req.session.adminCsrfToken
+
+            }
+        );
 
     } catch (error) {
 
         console.error(
-            "Nagydíj szerkesztési hiba:",
+            "Nagydíj lekérdezési hiba:",
             error
         );
 
-        return res.status(400).send(
-            "Érvénytelen nagydíj-azonosító."
+        return res.status(500).send(
+            "Nem sikerült betölteni a nagydíjat."
         );
     }
 };
@@ -276,44 +381,58 @@ exports.gpEditPost = async (req, res) => {
 
     if (!checkAdmin(req, res)) return;
 
-    const validation = validateGp(req.body);
+    if (
+        !mongoose.isValidObjectId(
+            req.params.id
+        )
+    ) {
+
+        return res.status(400).send(
+            "Érvénytelen nagydíj-azonosító."
+        );
+    }
+
+    const validation = validateGp(
+        req.body
+    );
 
     if (validation.error) {
 
-        return res.status(400).render("admin/gp-form", {
+        return renderFormError(
+            req,
+            res,
+            {
 
-            title: "Nagydíj szerkesztése | Admin",
+                isEdit: true,
 
-            isEdit: true,
+                id: req.params.id,
 
-            gp: {
-                _id: req.params.id,
-                ...req.body
-            },
+                error: validation.error
 
-            error: validation.error
-
-        });
+            }
+        );
     }
 
     try {
 
-        const gp = await Gp.findByIdAndUpdate(
+        const gp =
+            await Gp.findByIdAndUpdate(
 
-            req.params.id,
+                req.params.id,
 
-            {
-                $set: validation.data
-            },
+                {
+                    $set: validation.data
+                },
 
-            {
-                new: true,
-                runValidators: true
-            }
+                {
+                    new: true,
+                    runValidators: true
+                }
 
-        );
+            );
 
         if (!gp) {
+
             return res.status(404).send(
                 "A nagydíj nem található."
             );
@@ -330,30 +449,43 @@ exports.gpEditPost = async (req, res) => {
             error
         );
 
-        return res.status(400).render("admin/gp-form", {
+        return renderFormError(
+            req,
+            res,
+            {
 
-            title: "Nagydíj szerkesztése | Admin",
+                status: 500,
 
-            isEdit: true,
+                isEdit: true,
 
-            gp: {
-                _id: req.params.id,
-                ...req.body
-            },
+                id: req.params.id,
 
-            error: "Nem sikerült módosítani a nagydíjat."
+                error:
+                    "Nem sikerült módosítani a nagydíjat."
 
-        });
+            }
+        );
     }
 };
 
 // ========================================
-// 4. DELETE - NAGYDÍJ TÖRLÉSE
+// DELETE - NAGYDÍJ TÖRLÉSE
 // ========================================
 
 exports.gpDeletePost = async (req, res) => {
 
     if (!checkAdmin(req, res)) return;
+
+    if (
+        !mongoose.isValidObjectId(
+            req.params.id
+        )
+    ) {
+
+        return res.status(400).send(
+            "Érvénytelen nagydíj-azonosító."
+        );
+    }
 
     try {
 
@@ -362,6 +494,7 @@ exports.gpDeletePost = async (req, res) => {
         );
 
         if (!gp) {
+
             return res.status(404).send(
                 "A nagydíj nem található."
             );
@@ -378,10 +511,8 @@ exports.gpDeletePost = async (req, res) => {
             error
         );
 
-        return res.status(400).send(
+        return res.status(500).send(
             "Nem sikerült törölni a nagydíjat."
         );
     }
 };
-
-

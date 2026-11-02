@@ -1,4 +1,3 @@
-
 <%- include("partials/header", {
     title: title,
     activePage: "admin"
@@ -6,16 +5,17 @@
 
 <main>
 
-    <!-- ADMIN FEJLÉC -->
+    <!-- ========================================
+         ADMIN FŐOLDAL FEJLÉCE
+    ======================================== -->
 
     <section class="page-hero">
 
         <div class="container page-hero-content">
 
-            <div class="eyebrow">
-                <span class="live-dot"></span>
+            <p class="section-kicker">
                 F1 HISTORY STATS
-            </div>
+            </p>
 
             <p class="page-breadcrumb">
                 <a href="/">Főoldal</a>
@@ -24,21 +24,29 @@
             </p>
 
             <h1>
-                ADMINISZTRÁCIÓS
+                ADMIN
                 <span>FELÜLET.</span>
             </h1>
 
             <p class="page-description">
-                Az alkalmazás adatainak kezelése
-                kizárólag adminisztrátori jogosultsággal
-                érhető el.
+                Üdvözlünk az F1 History Stats
+                adminisztrációs felületén!
+                Itt kezelheted az adatbázisban
+                tárolt Forma–1-es adatokat.
             </p>
+
+            <div class="page-hero-meta">
+                <span class="meta-marker"></span>
+                ADMINISZTRÁTORI HOZZÁFÉRÉS
+            </div>
 
         </div>
 
     </section>
 
-    <!-- ADMIN TARTALOM -->
+    <!-- ========================================
+         ADMINISZTRÁCIÓS FUNKCIÓK
+    ======================================== -->
 
     <section class="section listing-section">
 
@@ -49,142 +57,208 @@
                 <div>
 
                     <p class="section-kicker">
-                        ADMINISZTRÁTORI FIÓK
+                        ADATBÁZIS-KEZELÉS
                     </p>
 
                     <h2>
-                        KEZELŐ
-                        <span>FELÜLET.</span>
+                        ADMINISZTRÁCIÓS
+                        <span>FUNKCIÓK.</span>
                     </h2>
 
                 </div>
 
                 <p class="section-lead">
-                    Itt kezelheted majd az
-                    alkalmazás adatbázisának tartalmát.
+                    Válaszd ki a használni kívánt
+                    adminisztrációs funkciót!
                 </p>
 
             </div>
 
-            <% if (user) { %>
+            <!-- ========================================
+                 NAGYDÍJAK KEZELÉSE
+            ======================================== -->
 
-                <div class="results-summary">
+            <div
+                class="races-panel"
+                style="
+                    padding: 32px;
+                    margin-bottom: 24px;
+                "
+            >
 
-                    <div>
+                <p class="section-kicker">
+                    01 / CRUD ADATKEZELÉS
+                </p>
 
-                        <span class="results-label">
-                            BEJELENTKEZETT ADMINISZTRÁTOR
-                        </span>
+                <h3 style="
+                    margin: 12px 0 16px;
+                    font-size: 28px;
+                ">
+                    NAGYDÍJAK KEZELÉSE
+                </h3>
 
-                        <strong class="results-number">
-                            <%= user.username %>
-                        </strong>
+                <p style="
+                    margin-bottom: 24px;
+                    max-width: 650px;
+                ">
+                    A MongoDB Atlas adatbázisban
+                    tárolt nagydíjak megtekintése,
+                    új nagydíjak létrehozása,
+                    meglévő rekordok szerkesztése
+                    és törlése.
+                </p>
 
-                    </div>
+                <div style="
+                    display: flex;
+                    flex-wrap: wrap;
+                    gap: 14px;
+                ">
+
+                    <a
+                        href="/admin/nagydijak"
+                        class="btn btn-primary"
+                    >
+                        Nagydíjak kezelése ↗
+                    </a>
+
+                    <a
+                        href="/admin/nagydijak/uj"
+                        class="btn btn-outline"
+                    >
+                        + Új nagydíj
+                    </a>
 
                 </div>
 
-            <% } %>
-
-            <div class="features-grid">
-
-                <article class="feature-card">
-
-                    <div class="feature-number">01</div>
-
-                    <div class="feature-icon">
-                        🏁
-                    </div>
-
-                    <h3>Nagydíjak kezelése</h3>
-
-                    <p>
-                        Nagydíjak létrehozása,
-                        módosítása és törlése.
-                    </p>
-
-                    <span class="feature-status">
-                        Fejlesztés alatt
-                    </span>
-
-                </article>
-
-                <article class="feature-card">
-
-                    <div class="feature-number">02</div>
-
-                    <div class="feature-icon">
-                        🏎
-                    </div>
-
-                    <h3>Pilóták kezelése</h3>
-
-                    <p>
-                        Pilótaadatok létrehozása,
-                        módosítása és törlése.
-                    </p>
-
-                    <span class="feature-status">
-                        Fejlesztés alatt
-                    </span>
-
-                </article>
-
-                <article class="feature-card">
-
-                    <div class="feature-number">03</div>
-
-                    <div class="feature-icon">
-                        📊
-                    </div>
-
-                    <h3>Eredmények kezelése</h3>
-
-                    <p>
-                        Versenyeredmények létrehozása,
-                        módosítása és törlése.
-                    </p>
-
-                    <span class="feature-status">
-                        Fejlesztés alatt
-                    </span>
-
-                </article>
-
             </div>
 
-        </div>
+            <!-- ========================================
+                 TOVÁBBI ELÉRHETŐ OLDALAK
+            ======================================== -->
 
-    </section>
-
-    <!-- ALSÓ BLOKK -->
-
-    <section class="closing-section">
-
-        <div class="container closing-inner">
-
-            <div>
+            <div
+                class="races-panel"
+                style="
+                    padding: 32px;
+                    margin-bottom: 24px;
+                "
+            >
 
                 <p class="section-kicker">
-                    ADMINISZTRÁCIÓ
+                    02 / FELHASZNÁLÓI TARTALOM
                 </p>
 
-                <h2>
-                    VISSZA
-                    <span>A FŐOLDALRA.</span>
-                </h2>
+                <h3 style="
+                    margin: 12px 0 16px;
+                    font-size: 28px;
+                ">
+                    BEÉRKEZETT ÜZENETEK
+                </h3>
 
-                <p>
-                    Az adminisztrációs felületet
-                    kizárólag megfelelő jogosultsággal
-                    lehet megnyitni.
+                <p style="
+                    margin-bottom: 24px;
+                    max-width: 650px;
+                ">
+                    Tekintsd meg a kapcsolatfelvételi
+                    űrlapon keresztül beküldött üzeneteket,
+                    időrendben, a legújabbakkal kezdve.
                 </p>
+
+                <a
+                    href="/messages"
+                    class="btn btn-outline"
+                >
+                    Üzenetek megtekintése ↗
+                </a>
 
             </div>
 
-            <a href="/" class="btn btn-primary">
-                Főoldal ↗
-            </a>
+            <!-- ========================================
+                 NYILVÁNOS ADATBÁZIS
+            ======================================== -->
+
+            <div
+                class="races-panel"
+                style="padding: 32px;"
+            >
+
+                <p class="section-kicker">
+                    03 / NYILVÁNOS FELÜLET
+                </p>
+
+                <h3 style="
+                    margin: 12px 0 16px;
+                    font-size: 28px;
+                ">
+                    ADATBÁZIS MEGTEKINTÉSE
+                </h3>
+
+                <p style="
+                    margin-bottom: 24px;
+                    max-width: 650px;
+                ">
+                    A nagydíjak, pilóták és
+                    versenyeredmények nyilvános
+                    adatbázisának böngészése.
+                </p>
+
+                <div style="
+                    display: flex;
+                    flex-wrap: wrap;
+                    gap: 14px;
+                ">
+
+                    <a
+                        href="/nagydijak"
+                        class="btn btn-outline"
+                    >
+                        Nagydíjak
+                    </a>
+
+                    <a
+                        href="/pilotak"
+                        class="btn btn-outline"
+                    >
+                        Pilóták
+                    </a>
+
+                    <a
+                        href="/eredmenyek"
+                        class="btn btn-outline"
+                    >
+                        Eredmények
+                    </a>
+
+                </div>
+
+            </div>
+
+            <!-- ========================================
+                 ADMIN TÁJÉKOZTATÁS
+            ======================================== -->
+
+            <p
+                class="data-note"
+                style="margin-top: 28px;"
+            >
+                Az adminisztrációs adatkezelés
+                kizárólag admin jogosultsággal érhető el.
+                A módosítások közvetlenül a
+                MongoDB Atlas adatbázisában történnek.
+            </p>
+
+            <!-- VISSZA -->
+
+            <div style="margin-top: 30px;">
+
+                <a
+                    href="/"
+                    class="reset-link"
+                >
+                    ← Vissza a főoldalra
+                </a>
+
+            </div>
 
         </div>
 
