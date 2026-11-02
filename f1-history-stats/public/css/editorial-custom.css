@@ -1,0 +1,421 @@
+/* ==========================================
+   F1 HISTORY STATS
+   HTML5 UP EDITORIAL TESTRESZABÁS
+========================================== */
+
+/* ==========================================
+   ALAP SZÍNEK
+========================================== */
+
+:root {
+    --f1-background: #0d0f13;
+    --f1-surface: #17191f;
+    --f1-surface-alt: #20232b;
+    --f1-red: #e11d2e;
+    --f1-red-hover: #ff4050;
+    --f1-text: #f5f5f5;
+    --f1-muted: #a4a8b2;
+    --f1-border: rgba(255, 255, 255, 0.12);
+}
+
+/* ==========================================
+   EDITORIAL FŐSZERKEZET
+========================================== */
+
+body {
+    background: var(--f1-background);
+    color: var(--f1-text);
+}
+
+#wrapper {
+    background: var(--f1-background);
+}
+
+#main {
+    background: var(--f1-background);
+    min-width: 0;
+}
+
+#main > .inner {
+    background: var(--f1-background);
+    min-width: 0;
+}
+
+/* Megőrizzük a meglévő oldalak szélességét. */
+
+#main > .inner > main {
+    min-width: 0;
+}
+
+/* ==========================================
+   FELSŐ EDITORIAL FEJLÉC
+========================================== */
+
+#header {
+    border-bottom: 4px solid var(--f1-red);
+    background: var(--f1-background);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+#header .logo {
+    color: var(--f1-text);
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-decoration: none;
+}
+
+#header .logo strong {
+    color: var(--f1-red);
+    font-weight: 900;
+}
+
+#header .editorial-user-status {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+#header .editorial-user-status a {
+    color: var(--f1-text);
+    text-decoration: none;
+    border-bottom: 0;
+}
+
+#header .editorial-user-status a:hover {
+    color: var(--f1-red-hover);
+}
+
+#header .editorial-role {
+    color: #ffffff;
+    background: var(--f1-red);
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    padding: 5px 9px;
+    border-radius: 4px;
+}
+
+/* ==========================================
+   EDITORIAL OLDALSÁV
+========================================== */
+
+#sidebar {
+    background: var(--f1-surface);
+    color: var(--f1-text);
+}
+
+#sidebar > .inner {
+    background: var(--f1-surface);
+}
+
+#sidebar p {
+    color: var(--f1-muted);
+}
+
+#sidebar a {
+    color: var(--f1-text);
+}
+
+#sidebar a:hover {
+    color: var(--f1-red-hover);
+}
+
+/* ==========================================
+   OLDALSÁV MÁRKA / FEJLÉC
+========================================== */
+
+#sidebar .editorial-brand {
+    margin-bottom: 30px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid var(--f1-border);
+}
+
+#sidebar .editorial-brand h2 {
+    color: var(--f1-text);
+    font-size: 26px;
+    line-height: 1.2;
+    margin: 12px 0;
+}
+
+#sidebar .editorial-brand h2 span {
+    display: block;
+    color: var(--f1-red);
+}
+
+#sidebar .editorial-brand p {
+    font-size: 13px;
+    line-height: 1.7;
+}
+
+#sidebar .editorial-brand .section-kicker {
+    color: var(--f1-red);
+    font-weight: 700;
+    letter-spacing: 0.1em;
+}
+
+/* ==========================================
+   MENÜ
+========================================== */
+
+#menu {
+    border-top: 0;
+}
+
+#menu .major h2,
+#sidebar .major h2 {
+    color: var(--f1-text);
+    font-weight: 800;
+    border-bottom-color: var(--f1-red);
+}
+
+#menu ul a,
+#menu ul span.opener {
+    color: var(--f1-text);
+    border-bottom: 0;
+    text-decoration: none;
+    transition:
+        color 0.2s ease,
+        background-color 0.2s ease;
+}
+
+#menu ul a:hover,
+#menu ul span.opener:hover {
+    color: var(--f1-red-hover);
+}
+
+#menu ul a.active {
+    color: var(--f1-red-hover);
+    font-weight: 800;
+}
+
+#menu ul a.active::before {
+    content: "";
+    display: inline-block;
+    width: 4px;
+    height: 12px;
+    background: var(--f1-red);
+    margin-right: 9px;
+    vertical-align: middle;
+}
+
+#menu ul li {
+    border-top-color: var(--f1-border);
+}
+
+#menu ul ul {
+    background: transparent;
+}
+
+#menu ul ul a {
+    color: var(--f1-muted);
+}
+
+#menu ul ul a:hover {
+    color: var(--f1-red-hover);
+}
+
+/* Editorial lenyíló menü nyila */
+
+#menu ul span.opener::before {
+    color: var(--f1-muted);
+}
+
+#menu ul span.opener.active {
+    color: var(--f1-red);
+}
+
+/* ==========================================
+   OLDALSÁV ALSÓ RÉSZ
+========================================== */
+
+#sidebar .editorial-sidebar-footer {
+    padding-top: 20px;
+    border-top: 1px solid var(--f1-border);
+}
+
+#sidebar .editorial-sidebar-footer p {
+    font-size: 12px;
+    line-height: 1.7;
+    color: var(--f1-muted);
+}
+
+#sidebar .editorial-sidebar-footer a {
+    color: var(--f1-red-hover);
+    border-bottom: 0;
+}
+
+/* ==========================================
+   MOBILOS OLDALSÁVNYITÓ GOMB
+========================================== */
+
+#sidebar .toggle {
+    color: var(--f1-text);
+}
+
+#sidebar .toggle::before {
+    background-color: var(--f1-surface-alt);
+    color: var(--f1-text);
+}
+
+#sidebar .toggle:hover {
+    color: var(--f1-red-hover);
+}
+
+/* ==========================================
+   F1 OLDALAK TARTALMA
+========================================== */
+
+/*
+   A régi F1 stílusokat nem írjuk felül
+   teljes egészében. Csak az Editorial
+   általános elemeit hangoljuk össze.
+*/
+
+#main .page-hero,
+#main .section,
+#main .closing-section {
+    max-width: 100%;
+    min-width: 0;
+}
+
+#main .container {
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+/* ==========================================
+   DIAGRAMOK RESZPONZIVITÁSA
+========================================== */
+
+#main canvas {
+    max-width: 100%;
+}
+
+#main .races-panel {
+    min-width: 0;
+}
+
+/* ==========================================
+   ŰRLAPOK ÉS TÁBLÁZATOK
+========================================== */
+
+#main form {
+    max-width: 100%;
+}
+
+#main input,
+#main select,
+#main textarea {
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+/*
+   A nagydíjak admin táblázatát vízszintesen
+   lehet görgetni kisebb képernyőkön.
+*/
+
+#main .races-panel[style*="overflow-x"] {
+    max-width: 100%;
+}
+
+/* ==========================================
+   LÁBLÉC
+========================================== */
+
+#main .site-footer {
+    border-top: 1px solid var(--f1-border);
+    margin-top: 45px;
+    padding-top: 25px;
+    color: var(--f1-muted);
+}
+
+#main .site-footer p {
+    color: var(--f1-muted);
+}
+
+#main .site-footer a {
+    color: var(--f1-red-hover);
+}
+
+/* ==========================================
+   TABLET
+========================================== */
+
+@media screen and (max-width: 980px) {
+
+    #header {
+        gap: 14px;
+    }
+
+    #main .page-hero h1 {
+        overflow-wrap: anywhere;
+    }
+
+    #main .section-heading h2 {
+        overflow-wrap: anywhere;
+    }
+
+}
+
+/* ==========================================
+   MOBIL
+========================================== */
+
+@media screen and (max-width: 736px) {
+
+    #header {
+        flex-wrap: wrap;
+        align-items: flex-start;
+    }
+
+    #header .logo {
+        font-size: 15px;
+        line-height: 1.5;
+    }
+
+    #header .editorial-user-status {
+        font-size: 12px;
+    }
+
+    #sidebar .editorial-brand h2 {
+        font-size: 23px;
+    }
+
+    #main .page-hero h1 {
+        overflow-wrap: anywhere;
+    }
+
+    #main .section-heading h2 {
+        overflow-wrap: anywhere;
+    }
+
+    #main .races-panel table {
+        font-size: 13px;
+    }
+
+    #main .site-footer {
+        margin-top: 30px;
+    }
+
+}
+
+/* ==========================================
+   KISEBB MOBILOK
+========================================== */
+
+@media screen and (max-width: 480px) {
+
+    #header .editorial-user-status {
+        width: 100%;
+    }
+
+    #sidebar .editorial-brand h2 {
+        font-size: 21px;
+    }
+
+}

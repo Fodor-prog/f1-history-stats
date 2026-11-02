@@ -2,207 +2,105 @@
 <html lang="hu">
 
 <head>
+
     <meta charset="UTF-8">
 
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1.0">
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1"
+    >
+
+    <meta
+        name="description"
+        content="F1 History Stats – történelmi Forma–1-es nagydíjak, pilóták, eredmények és statisztikák."
+    >
 
     <title><%= title %></title>
 
-    <meta name="description"
-          content="F1 History Stats – Forma–1 történelmi nagydíjak, pilóták, eredmények és statisztikák.">
+    <!-- ========================================
+         HTML5 UP EDITORIAL ALAPSTÍLUS
+    ======================================== -->
 
-    <link rel="stylesheet" href="/css/style.css">
+    <link
+        rel="stylesheet"
+        href="/editorial/assets/css/main.css"
+    >
+
+    <!-- ========================================
+         MEGLÉVŐ F1 HISTORY STATS STÍLUS
+    ======================================== -->
+
+    <link
+        rel="stylesheet"
+        href="/css/style.css"
+    >
+
+    <!-- ========================================
+         EDITORIAL + F1 TESTRESZABÁS
+    ======================================== -->
+
+    <link
+        rel="stylesheet"
+        href="/css/editorial-custom.css"
+    >
+
 </head>
 
-<body>
+<body class="is-preload">
 
-    <!-- ==================================
-         KÖZÖS FEJLÉC
-    ================================== -->
+    <div id="wrapper">
 
-    <header class="site-header">
+        <!-- ====================================
+             FŐ TARTALMI TERÜLET
+        ==================================== -->
 
-        <div class="container header-inner">
+        <div id="main">
 
-            <!-- LOGÓ -->
+            <div class="inner">
 
-            <a href="/"
-               class="logo"
-               aria-label="F1 History Stats főoldal">
+                <!-- =================================
+                     FEJLÉC
+                ================================= -->
 
-                <span class="logo-symbol">
-                    F1<span>.</span>
-                </span>
+                <header id="header">
 
-                <span class="logo-name">
-                    HISTORY<span>STATS</span>
-                </span>
-
-            </a>
-
-            <!-- ==================================
-                 FŐ NAVIGÁCIÓ
-            ================================== -->
-
-            <nav class="main-nav" aria-label="Fő navigáció">
-
-                <!-- FŐOLDAL -->
-
-                <a href="/"
-                   class="<%= activePage === 'home' ? 'nav-active' : '' %>"
-                   <% if (activePage === "home") { %>
-                       aria-current="page"
-                   <% } %>>
-                    Főoldal
-                </a>
-
-                <!-- NAGYDÍJAK -->
-
-                <a href="/nagydijak"
-                   class="<%= activePage === 'nagydijak' ? 'nav-active' : '' %>"
-                   <% if (activePage === "nagydijak") { %>
-                       aria-current="page"
-                   <% } %>>
-                    Nagydíjak
-                </a>
-
-                <!-- PILÓTÁK -->
-
-                <a href="/pilotak"
-                   class="<%= activePage === 'pilotak' ? 'nav-active' : '' %>"
-                   <% if (activePage === "pilotak") { %>
-                       aria-current="page"
-                   <% } %>>
-                    Pilóták
-                </a>
-
-                <!-- EREDMÉNYEK -->
-
-                <a href="/eredmenyek"
-                   class="<%= activePage === 'eredmenyek' ? 'nav-active' : '' %>"
-                   <% if (activePage === "eredmenyek") { %>
-                       aria-current="page"
-                   <% } %>>
-                    Eredmények
-                </a>
-
-                <!-- STATISZTIKÁK – CHART.JS -->
-
-                <a href="/statisztikak"
-                   class="<%= activePage === 'statisztikak' ? 'nav-active' : '' %>"
-                   <% if (activePage === "statisztikak") { %>
-                       aria-current="page"
-                   <% } %>>
-                    Statisztikák
-                </a>
-
-                <!-- KAPCSOLAT -->
-
-                <a href="/contact"
-                   class="<%= activePage === 'contact' ? 'nav-active' : '' %>"
-                   <% if (activePage === "contact") { %>
-                       aria-current="page"
-                   <% } %>>
-                    Kapcsolat
-                </a>
-
-                <!-- ==================================
-                     VENDÉG NAVIGÁCIÓ
-                ================================== -->
-
-                <% if (!user) { %>
-
-                    <a href="/register"
-                       class="<%= activePage === 'register' ? 'nav-active' : '' %>"
-                       <% if (activePage === "register") { %>
-                           aria-current="page"
-                       <% } %>>
-                        Regisztráció
+                    <a
+                        href="/"
+                        class="logo"
+                        aria-label="F1 History Stats főoldal"
+                    >
+                        <strong>F1</strong>
+                        HISTORY STATS
                     </a>
 
-                    <a href="/login"
-                       class="<%= activePage === 'login' ? 'nav-active' : '' %>"
-                       <% if (activePage === "login") { %>
-                           aria-current="page"
-                       <% } %>>
-                        Bejelentkezés
-                    </a>
+                    <div class="editorial-user-status">
 
-                <% } else { %>
+                        <% if (user) { %>
 
-                    <!-- BEJELENTKEZETT FELHASZNÁLÓ -->
+                            <a href="/user">
+                                <%= user.username %>
+                            </a>
 
-                    <a href="/messages"
-                       class="<%= activePage === 'messages' ? 'nav-active' : '' %>"
-                       <% if (activePage === "messages") { %>
-                           aria-current="page"
-                       <% } %>>
-                        Üzenetek
-                    </a>
+                            <% if (user.role === "admin") { %>
 
-                    <a href="/user"
-                       class="<%= activePage === 'user' ? 'nav-active' : '' %>"
-                       <% if (activePage === "user") { %>
-                           aria-current="page"
-                       <% } %>>
-                        Profil
-                    </a>
+                                <span class="editorial-role">
+                                    ADMIN
+                                </span>
 
-                    <!-- ADMINISZTRÁTOR -->
+                            <% } %>
 
-                    <% if (user.role === "admin") { %>
+                        <% } else { %>
 
-                        <a href="/admin"
-                           class="<%= activePage === 'admin' ? 'nav-active' : '' %>"
-                           <% if (activePage === "admin") { %>
-                               aria-current="page"
-                           <% } %>>
-                            Admin
-                        </a>
+                            <a href="/login">
+                                Bejelentkezés
+                            </a>
 
-                    <% } %>
+                        <% } %>
 
-                    <!-- KIJELENTKEZÉS -->
+                    </div>
 
-                    <a href="/logout">
-                        Kijelentkezés
-                    </a>
+                </header>
 
-                <% } %>
-
-            </nav>
-
-            <!-- ==================================
-                 JOBB OLDALI GOMB
-            ================================== -->
-
-            <% if (user) { %>
-
-                <a href="/user" class="header-action">
-
-                    <%= user.username %>
-
-                    <span aria-hidden="true">
-                        ↗
-                    </span>
-
-                </a>
-
-            <% } else { %>
-
-                <a href="/login" class="header-action">
-
-                    Belépés
-
-                    <span aria-hidden="true">
-                        ↗
-                    </span>
-
-                </a>
-
-            <% } %>
-
-        </div>
-
-    </header>
+                <!-- =================================
+                     OLDALAK TARTALMA
+                ================================= -->

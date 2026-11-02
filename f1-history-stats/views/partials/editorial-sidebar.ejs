@@ -1,0 +1,225 @@
+<!-- ==========================================
+     HTML5 UP EDITORIAL – OLDALSÁV
+     F1 HISTORY STATS
+========================================== -->
+
+<div id="sidebar">
+
+    <div class="inner">
+
+        <!-- OLDALSÁV FEJLÉCE -->
+
+        <section class="editorial-brand">
+
+            <p class="section-kicker">
+                F1 HISTORY STATS
+            </p>
+
+            <h2>
+                FORMA–1
+                <span>ADATBÁZIS</span>
+            </h2>
+
+            <p>
+                Történelmi nagydíjak, pilóták,
+                versenyeredmények és statisztikák.
+            </p>
+
+        </section>
+
+        <!-- NAVIGÁCIÓ -->
+
+        <nav id="menu" aria-label="Fő navigáció">
+
+            <header class="major">
+                <h2>MENÜ</h2>
+            </header>
+
+            <ul>
+
+                <li>
+                    <a
+                        href="/"
+                        class="<%= activePage === 'home' || activePage === 'index' ? 'active' : '' %>"
+                    >
+                        Főoldal
+                    </a>
+                </li>
+
+                <li>
+                    <span class="opener">
+                        Adatbázis
+                    </span>
+
+                    <ul>
+
+                        <li>
+                            <a href="/nagydijak">
+                                Nagydíjak
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="/pilotak">
+                                Pilóták
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="/eredmenyek">
+                                Eredmények
+                            </a>
+                        </li>
+
+                    </ul>
+                </li>
+
+                <li>
+                    <a
+                        href="/statisztikak"
+                        class="<%= activePage === 'statisztikak' ? 'active' : '' %>"
+                    >
+                        Statisztikák
+                    </a>
+                </li>
+
+                <li>
+                    <a
+                        href="/contact"
+                        class="<%= activePage === 'contact' ? 'active' : '' %>"
+                    >
+                        Kapcsolat
+                    </a>
+                </li>
+
+            </ul>
+
+            <!-- FELHASZNÁLÓI MENÜ -->
+
+            <header class="major">
+                <h2>FELHASZNÁLÓ</h2>
+            </header>
+
+            <ul>
+
+                <% if (!user) { %>
+
+                    <!-- VENDÉG -->
+
+                    <li>
+                        <a href="/register">
+                            Regisztráció
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="/login">
+                            Bejelentkezés
+                        </a>
+                    </li>
+
+                <% } else { %>
+
+                    <!-- BEJELENTKEZETT FELHASZNÁLÓ -->
+
+                    <li>
+                        <a href="/user">
+                            Profilom
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="/messages">
+                            Beérkezett üzenetek
+                        </a>
+                    </li>
+
+                    <% if (user.role === "admin") { %>
+
+                        <!-- ADMINISZTRÁTOR -->
+
+                        <li>
+                            <span class="opener">
+                                Adminisztráció
+                            </span>
+
+                            <ul>
+
+                                <li>
+                                    <a href="/admin">
+                                        Admin főoldal
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="/admin/nagydijak">
+                                        CRUD – Nagydíjak kezelése
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="/admin/nagydijak/uj">
+                                        Új nagydíj hozzáadása
+                                    </a>
+                                </li>
+
+                            </ul>
+                        </li>
+
+                    <% } %>
+
+                    <li>
+                        <a href="/logout">
+                            Kijelentkezés
+                        </a>
+                    </li>
+
+                <% } %>
+
+            </ul>
+
+        </nav>
+
+        <!-- OLDALSÁV ALSÓ RÉSZE -->
+
+        <section>
+
+            <header class="major">
+                <h2>AZ ALKALMAZÁSRÓL</h2>
+            </header>
+
+            <p>
+                Az F1 History Stats egy Node.js,
+                Express és MongoDB alapú
+                Forma–1-es történelmi adatbázis.
+            </p>
+
+            <p>
+                Az alkalmazás Chart.js diagramokkal
+                és interaktív összehasonlításokkal
+                jeleníti meg a versenyadatokat.
+            </p>
+
+        </section>
+
+        <!-- SABLON HIVATKOZÁSA -->
+
+        <footer class="editorial-sidebar-footer">
+
+            <p>
+                Design:
+                <a
+                    href="https://html5up.net"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    HTML5 UP
+                </a>
+                – Editorial
+            </p>
+
+        </footer>
+
+    </div>
+
+</div>
