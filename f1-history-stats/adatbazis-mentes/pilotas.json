@@ -1,0 +1,7211 @@
+[
+  {
+    "_id": "6ad7bf326bd7c3070f06b1d4",
+    "az": 37,
+    "nev": "William Ferguson",
+    "nem": "F",
+    "szuldat": "1940-03-06T00:00:00.000Z",
+    "nemzet": "d�l-afrikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b1f8",
+    "az": 73,
+    "nev": "Fernando Alonso",
+    "nem": "F",
+    "szuldat": "1981-07-29T00:00:00.000Z",
+    "nemzet": "spanyol",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b1fc",
+    "az": 77,
+    "nev": "Helmut Marko",
+    "nem": "F",
+    "szuldat": "1943-04-27T00:00:00.000Z",
+    "nemzet": "osztr�k",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b213",
+    "az": 100,
+    "nev": "Patrick Tambay",
+    "nem": "F",
+    "szuldat": "1949-06-25T00:00:00.000Z",
+    "nemzet": "francia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b214",
+    "az": 101,
+    "nev": "Gunnar Nilsson",
+    "nem": "F",
+    "szuldat": "1948-11-20T00:00:00.000Z",
+    "nemzet": "sv�d",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b249",
+    "az": 154,
+    "nev": "Carlo Facetti",
+    "nem": "F",
+    "szuldat": "1935-06-26T00:00:00.000Z",
+    "nemzet": "olasz",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b27f",
+    "az": 208,
+    "nev": "Ludovico Scarfiotti",
+    "nem": "F",
+    "szuldat": "1933-10-18T00:00:00.000Z",
+    "nemzet": "olasz",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b28c",
+    "az": 221,
+    "nev": "Claudio Langes",
+    "nem": "F",
+    "szuldat": "1960-07-20T00:00:00.000Z",
+    "nemzet": "olasz",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b28d",
+    "az": 222,
+    "nev": "Bruce McLaren",
+    "nem": "F",
+    "szuldat": "1937-08-30T00:00:00.000Z",
+    "nemzet": "�j-z�landi",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b29a",
+    "az": 235,
+    "nev": "Justin Wilson",
+    "nem": "F",
+    "szuldat": "1978-07-31T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b2a6",
+    "az": 247,
+    "nev": "Chris Irwin",
+    "nem": "F",
+    "szuldat": "1942-06-27T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b2a9",
+    "az": 250,
+    "nev": "Jorge Daponte",
+    "nem": "F",
+    "szuldat": "1923-06-05T00:00:00.000Z",
+    "nemzet": "argent�n",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b2cd",
+    "az": 286,
+    "nev": "Ian Raby",
+    "nem": "F",
+    "szuldat": "1921-09-22T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b2ed",
+    "az": 318,
+    "nev": "Vincenzo Sospiri",
+    "nem": "F",
+    "szuldat": "1966-10-09T00:00:00.000Z",
+    "nemzet": "olasz",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b309",
+    "az": 346,
+    "nev": "Jean Lucienbonnet",
+    "nem": "F",
+    "szuldat": "1962-08-19T00:00:00.000Z",
+    "nemzet": "francia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b30f",
+    "az": 352,
+    "nev": "Narain Karthikeyan",
+    "nem": "F",
+    "szuldat": "1977-01-14T00:00:00.000Z",
+    "nemzet": "indiai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b312",
+    "az": 355,
+    "nev": "Horace Gould",
+    "nem": "F",
+    "szuldat": "1921-09-20T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b341",
+    "az": 402,
+    "nev": "Alfredo Pian",
+    "nem": "F",
+    "szuldat": "1912-10-21T00:00:00.000Z",
+    "nemzet": "argent�n",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b343",
+    "az": 404,
+    "nev": "Lloyd Ruby",
+    "nem": "F",
+    "szuldat": "1928-01-12T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b350",
+    "az": 417,
+    "nev": "Herbert MacKay-Fraser",
+    "nem": "F",
+    "szuldat": "1927-06-23T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b355",
+    "az": 422,
+    "nev": "Alan Jones",
+    "nem": "F",
+    "szuldat": "1946-11-02T00:00:00.000Z",
+    "nemzet": "ausztr�l",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b389",
+    "az": 474,
+    "nev": "Pablo Birger",
+    "nem": "F",
+    "szuldat": "1924-01-06T00:00:00.000Z",
+    "nemzet": "argent�n",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b38a",
+    "az": 475,
+    "nev": "Franco Rol",
+    "nem": "F",
+    "szuldat": "1908-06-05T00:00:00.000Z",
+    "nemzet": "olasz",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b38d",
+    "az": 478,
+    "nev": "Masami Kuwashima",
+    "nem": "F",
+    "szuldat": "1950-09-14T00:00:00.000Z",
+    "nemzet": "jap�n",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b1d0",
+    "az": 33,
+    "nev": "Gene Hartley",
+    "nem": "F",
+    "szuldat": "1926-01-28T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b1d3",
+    "az": 36,
+    "nev": "Giorgio Scarlatti",
+    "nem": "F",
+    "szuldat": "1921-10-02T00:00:00.000Z",
+    "nemzet": "olasz",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b1e0",
+    "az": 49,
+    "nev": "Jean Lucas",
+    "nem": "F",
+    "szuldat": "1917-04-25T00:00:00.000Z",
+    "nemzet": "francia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b1f0",
+    "az": 65,
+    "nev": "Duke Dinsmore",
+    "nem": "F",
+    "szuldat": "1914-04-10T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b1ff",
+    "az": 80,
+    "nev": "Olivier Grouillard",
+    "nem": "F",
+    "szuldat": "1958-09-02T00:00:00.000Z",
+    "nemzet": "francia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b259",
+    "az": 170,
+    "nev": "Gerard Larrousse",
+    "nem": "F",
+    "szuldat": "1940-05-23T00:00:00.000Z",
+    "nemzet": "francia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b25a",
+    "az": 171,
+    "nev": "Frank Dochnal",
+    "nem": "F",
+    "szuldat": "1920-10-08T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b274",
+    "az": 197,
+    "nev": "Leslie Marr",
+    "nem": "F",
+    "szuldat": "1922-08-14T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b285",
+    "az": 214,
+    "nev": "Guy Edwards",
+    "nem": "F",
+    "szuldat": "1942-12-30T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b294",
+    "az": 229,
+    "nev": "Willi Heeks",
+    "nem": "F",
+    "szuldat": "1922-02-13T00:00:00.000Z",
+    "nemzet": "n�met",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b295",
+    "az": 230,
+    "nev": "Luigi Taramazzo",
+    "nem": "F",
+    "szuldat": "1932-01-01T00:00:00.000Z",
+    "nemzet": "olasz",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b29b",
+    "az": 236,
+    "nev": "Roberto Moreno",
+    "nem": "F",
+    "szuldat": "1959-02-11T00:00:00.000Z",
+    "nemzet": "brazil",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b29d",
+    "az": 238,
+    "nev": "Harry Schell",
+    "nem": "F",
+    "szuldat": "1921-06-29T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b2b1",
+    "az": 258,
+    "nev": "Tony Crook",
+    "nem": "F",
+    "szuldat": "1920-02-16T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b2bd",
+    "az": 270,
+    "nev": "Franck Montagny",
+    "nem": "F",
+    "szuldat": "1978-01-05T00:00:00.000Z",
+    "nemzet": "francia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b2c4",
+    "az": 277,
+    "nev": "Massimiliano Papis",
+    "nem": "F",
+    "szuldat": "1969-10-03T00:00:00.000Z",
+    "nemzet": "olasz",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b2d0",
+    "az": 289,
+    "nev": "Walt Brown",
+    "nem": "F",
+    "szuldat": "1911-12-30T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b2d5",
+    "az": 294,
+    "nev": "Pierre Levegh",
+    "nem": "F",
+    "szuldat": "1905-12-22T00:00:00.000Z",
+    "nemzet": "francia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b2d6",
+    "az": 295,
+    "nev": "Wolfgang Seidel",
+    "nem": "F",
+    "szuldat": "1926-07-04T00:00:00.000Z",
+    "nemzet": "n�met",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b2e2",
+    "az": 307,
+    "nev": "Allen Berg",
+    "nem": "F",
+    "szuldat": "1961-08-01T00:00:00.000Z",
+    "nemzet": "kanadai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b2f1",
+    "az": 322,
+    "nev": "Philip Fotheringham-Parker",
+    "nem": "F",
+    "szuldat": "1907-09-22T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b2fe",
+    "az": 335,
+    "nev": "Peter Hirt",
+    "nem": "F",
+    "szuldat": "1910-03-30T00:00:00.000Z",
+    "nemzet": "sv�jci",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b303",
+    "az": 340,
+    "nev": "Dennis Taylor",
+    "nem": "F",
+    "szuldat": "1921-06-12T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b308",
+    "az": 345,
+    "nev": "Alfonso Thiele",
+    "nem": "F",
+    "szuldat": "1922-04-05T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b30c",
+    "az": 349,
+    "nev": "Alan Rees",
+    "nem": "F",
+    "szuldat": "1938-01-12T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b30e",
+    "az": 351,
+    "nev": "Gianni Morbidelli",
+    "nem": "F",
+    "szuldat": "1968-01-13T00:00:00.000Z",
+    "nemzet": "olasz",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b321",
+    "az": 370,
+    "nev": "Clemar Bucci",
+    "nem": "F",
+    "szuldat": "1920-09-04T00:00:00.000Z",
+    "nemzet": "argent�n",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b345",
+    "az": 406,
+    "nev": "John Rhodes",
+    "nem": "F",
+    "szuldat": "1927-08-18T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b34c",
+    "az": 413,
+    "nev": "Walt Faulkner",
+    "nem": "F",
+    "szuldat": "1920-02-16T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b353",
+    "az": 420,
+    "nev": "Naoki Hattori",
+    "nem": "F",
+    "szuldat": "1966-06-13T00:00:00.000Z",
+    "nemzet": "jap�n",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b357",
+    "az": 424,
+    "nev": "Warwick Brown",
+    "nem": "F",
+    "szuldat": "1949-12-24T00:00:00.000Z",
+    "nemzet": "ausztr�l",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b369",
+    "az": 442,
+    "nev": "Derek Bell",
+    "nem": "F",
+    "szuldat": "1941-10-31T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b36d",
+    "az": 446,
+    "nev": "Adolf Brudes",
+    "nem": "F",
+    "szuldat": "1899-10-15T00:00:00.000Z",
+    "nemzet": "n�met",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b383",
+    "az": 468,
+    "nev": "Piercarlo Ghinzani",
+    "nem": "F",
+    "szuldat": "1952-01-16T00:00:00.000Z",
+    "nemzet": "olasz",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b393",
+    "az": 484,
+    "nev": "Roland Ratzenberger",
+    "nem": "F",
+    "szuldat": "1962-07-04T00:00:00.000Z",
+    "nemzet": "osztr�k",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b3a2",
+    "az": 499,
+    "nev": "Roy Salvadori",
+    "nem": "F",
+    "szuldat": "1922-05-12T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b1cd",
+    "az": 30,
+    "nev": "Fred Gamble",
+    "nem": "F",
+    "szuldat": "1932-03-17T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b1cf",
+    "az": 32,
+    "nev": "Bill Aston",
+    "nem": "F",
+    "szuldat": "1900-03-29T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b20c",
+    "az": 93,
+    "nev": "Robert Kubica",
+    "nem": "F",
+    "szuldat": "1984-12-07T00:00:00.000Z",
+    "nemzet": "lengyel",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b21f",
+    "az": 112,
+    "nev": "Walt Hansgen",
+    "nem": "F",
+    "szuldat": "1919-10-28T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b221",
+    "az": 114,
+    "nev": "Adolfo Schwelm-Cruz",
+    "nem": "F",
+    "szuldat": "1923-06-28T00:00:00.000Z",
+    "nemzet": "argent�n",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b225",
+    "az": 118,
+    "nev": "Johnny Claes",
+    "nem": "F",
+    "szuldat": "1916-08-11T00:00:00.000Z",
+    "nemzet": "belga",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b22d",
+    "az": 126,
+    "nev": "Frank Armi",
+    "nem": "F",
+    "szuldat": "1918-10-12T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b239",
+    "az": 138,
+    "nev": "Francois Migault",
+    "nem": "F",
+    "szuldat": "1944-12-04T00:00:00.000Z",
+    "nemzet": "francia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b25c",
+    "az": 173,
+    "nev": "Paul Pietsch",
+    "nem": "F",
+    "szuldat": "1911-06-20T00:00:00.000Z",
+    "nemzet": "n�met",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b260",
+    "az": 177,
+    "nev": "Gary Brabham",
+    "nem": "F",
+    "szuldat": "1961-03-29T00:00:00.000Z",
+    "nemzet": "ausztr�l",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b27e",
+    "az": 207,
+    "nev": "Peter Ashdown",
+    "nem": "F",
+    "szuldat": "1934-10-16T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b291",
+    "az": 226,
+    "nev": "Olivier Gendebien",
+    "nem": "F",
+    "szuldat": "1924-01-12T00:00:00.000Z",
+    "nemzet": "belga",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b2af",
+    "az": 256,
+    "nev": "Jean Max",
+    "nem": "F",
+    "szuldat": "1943-07-27T00:00:00.000Z",
+    "nemzet": "francia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b2b9",
+    "az": 266,
+    "nev": "Brian Redman",
+    "nem": "F",
+    "szuldat": "1937-03-09T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b2c6",
+    "az": 279,
+    "nev": "Tony Shelly",
+    "nem": "F",
+    "szuldat": "1937-02-02T00:00:00.000Z",
+    "nemzet": "�j-z�landi",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b2de",
+    "az": 303,
+    "nev": "Stefan Johansson",
+    "nem": "F",
+    "szuldat": "1956-09-08T00:00:00.000Z",
+    "nemzet": "sv�d",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b2ec",
+    "az": 317,
+    "nev": "Richard Robarts",
+    "nem": "F",
+    "szuldat": "1944-09-22T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b2fc",
+    "az": 333,
+    "nev": "Archie Scott-Brown",
+    "nem": "F",
+    "szuldat": "1927-05-13T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b311",
+    "az": 354,
+    "nev": "Hans Stuck",
+    "nem": "F",
+    "szuldat": "1900-12-27T00:00:00.000Z",
+    "nemzet": "n�met",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b31f",
+    "az": 368,
+    "nev": "Bob Said",
+    "nem": "F",
+    "szuldat": "1932-05-05T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b35c",
+    "az": 429,
+    "nev": "Lamberto Leoni",
+    "nem": "F",
+    "szuldat": "1953-05-24T00:00:00.000Z",
+    "nemzet": "olasz",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b368",
+    "az": 441,
+    "nev": "Joe Fry",
+    "nem": "F",
+    "szuldat": "1915-10-26T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b371",
+    "az": 450,
+    "nev": "Joe Kelly",
+    "nem": "F",
+    "szuldat": "1913-03-13T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b385",
+    "az": 470,
+    "nev": "Henri Louveau",
+    "nem": "F",
+    "szuldat": "1910-01-25T00:00:00.000Z",
+    "nemzet": "francia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b38b",
+    "az": 476,
+    "nev": "Piers Courage",
+    "nem": "F",
+    "szuldat": "1942-05-27T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b1c1",
+    "az": 18,
+    "nev": "Huub Rothengatter",
+    "nem": "F",
+    "szuldat": "1954-10-08T00:00:00.000Z",
+    "nemzet": "holland",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b1ca",
+    "az": 27,
+    "nev": "Alex Soler-Roig",
+    "nem": "F",
+    "szuldat": "1932-10-29T00:00:00.000Z",
+    "nemzet": "spanyol",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b1d8",
+    "az": 41,
+    "nev": "John Fitch",
+    "nem": "F",
+    "szuldat": "1917-08-04T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b1d9",
+    "az": 42,
+    "nev": "Alberto Ascari",
+    "nem": "F",
+    "szuldat": "1918-07-13T00:00:00.000Z",
+    "nemzet": "olasz",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b1f7",
+    "az": 72,
+    "nev": "Neel Jani",
+    "nem": "F",
+    "szuldat": "1983-12-08T00:00:00.000Z",
+    "nemzet": "sv�jci",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b236",
+    "az": 135,
+    "nev": "Stefano Modena",
+    "nem": "F",
+    "szuldat": "1963-05-12T00:00:00.000Z",
+    "nemzet": "olasz",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b237",
+    "az": 136,
+    "nev": "Tom Belso",
+    "nem": "F",
+    "szuldat": "1942-08-27T00:00:00.000Z",
+    "nemzet": "d�n",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b24c",
+    "az": 157,
+    "nev": "Maria-Teresa de Filippis",
+    "nem": "N",
+    "szuldat": "1926-11-11T00:00:00.000Z",
+    "nemzet": "olasz",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b263",
+    "az": 180,
+    "nev": "Massimo Natili",
+    "nem": "F",
+    "szuldat": "1935-07-28T00:00:00.000Z",
+    "nemzet": "olasz",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b276",
+    "az": 199,
+    "nev": "Shinji Nakano",
+    "nem": "F",
+    "szuldat": "1971-04-01T00:00:00.000Z",
+    "nemzet": "jap�n",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b2d4",
+    "az": 293,
+    "nev": "Tiago Monteiro",
+    "nem": "F",
+    "szuldat": "1976-07-24T00:00:00.000Z",
+    "nemzet": "portug�l",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b2df",
+    "az": 304,
+    "nev": "Mark Blundell",
+    "nem": "F",
+    "szuldat": "1966-04-08T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b2e3",
+    "az": 308,
+    "nev": "Dennis Poore",
+    "nem": "F",
+    "szuldat": "1916-08-19T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b2e4",
+    "az": 309,
+    "nev": "Colin Davis",
+    "nem": "F",
+    "szuldat": "1932-07-29T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b2e7",
+    "az": 312,
+    "nev": "Peter Broeker",
+    "nem": "F",
+    "szuldat": "1929-05-15T00:00:00.000Z",
+    "nemzet": "kanadai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b2fa",
+    "az": 331,
+    "nev": "Helmut Glockler",
+    "nem": "F",
+    "szuldat": "1909-01-13T00:00:00.000Z",
+    "nemzet": "n�met",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b306",
+    "az": 343,
+    "nev": "Sam Tingle",
+    "nem": "F",
+    "szuldat": "1921-08-24T00:00:00.000Z",
+    "nemzet": "zimbabwei",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b322",
+    "az": 371,
+    "nev": "Ken Downing",
+    "nem": "F",
+    "szuldat": "1917-12-05T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b327",
+    "az": 376,
+    "nev": "Roger Laurent",
+    "nem": "F",
+    "szuldat": "1913-02-21T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b328",
+    "az": 377,
+    "nev": "Helmuth Koinigg",
+    "nem": "F",
+    "szuldat": "1948-11-03T00:00:00.000Z",
+    "nemzet": "osztr�k",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b335",
+    "az": 390,
+    "nev": "Jody Scheckter",
+    "nem": "F",
+    "szuldat": "1950-01-29T00:00:00.000Z",
+    "nemzet": "d�l-afrikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b338",
+    "az": 393,
+    "nev": "Jay Chamberlain",
+    "nem": "F",
+    "szuldat": "1925-12-29T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b34f",
+    "az": 416,
+    "nev": "Hector Rebaque",
+    "nem": "F",
+    "szuldat": "1956-02-05T00:00:00.000Z",
+    "nemzet": "mexik�i",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b356",
+    "az": 423,
+    "nev": "David Hampshire",
+    "nem": "F",
+    "szuldat": "1917-12-29T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b35e",
+    "az": 431,
+    "nev": "Giulio Cabianca",
+    "nem": "F",
+    "szuldat": "1923-02-19T00:00:00.000Z",
+    "nemzet": "olasz",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b360",
+    "az": 433,
+    "nev": "Tony Settember",
+    "nem": "F",
+    "szuldat": "1930-01-01T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b363",
+    "az": 436,
+    "nev": "Marco Apicella",
+    "nem": "F",
+    "szuldat": "1965-10-07T00:00:00.000Z",
+    "nemzet": "olasz",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b37c",
+    "az": 461,
+    "nev": "Marc Gene",
+    "nem": "F",
+    "szuldat": "1974-03-29T00:00:00.000Z",
+    "nemzet": "spanyol",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b1b9",
+    "az": 10,
+    "nev": "Eddie Russo",
+    "nem": "F",
+    "szuldat": "1925-11-19T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b1c3",
+    "az": 20,
+    "nev": "Bill Holland",
+    "nem": "F",
+    "szuldat": "1907-12-13T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b1c4",
+    "az": 21,
+    "nev": "Franck Lagorce",
+    "nem": "F",
+    "szuldat": "1968-09-01T00:00:00.000Z",
+    "nemzet": "francia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b1cb",
+    "az": 28,
+    "nev": "Alberto-Rodriguez Larreta",
+    "nem": "F",
+    "szuldat": "1934-01-14T00:00:00.000Z",
+    "nemzet": "argent�n",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b1e1",
+    "az": 50,
+    "nev": "Karl Wendlinger",
+    "nem": "F",
+    "szuldat": "1968-12-20T00:00:00.000Z",
+    "nemzet": "osztr�k",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b1e3",
+    "az": 52,
+    "nev": "Larry Perkins",
+    "nem": "F",
+    "szuldat": "1950-03-18T00:00:00.000Z",
+    "nemzet": "ausztr�l",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b1ea",
+    "az": 59,
+    "nev": "Georges Grignard",
+    "nem": "F",
+    "szuldat": "1905-07-25T00:00:00.000Z",
+    "nemzet": "francia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b1f6",
+    "az": 71,
+    "nev": "Oscar Galvez",
+    "nem": "F",
+    "szuldat": "1913-08-17T00:00:00.000Z",
+    "nemzet": "argent�n",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b20d",
+    "az": 94,
+    "nev": "Alberto Uria",
+    "nem": "F",
+    "szuldat": "1924-07-11T00:00:00.000Z",
+    "nemzet": "uruguayi",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b211",
+    "az": 98,
+    "nev": "Divina Galica",
+    "nem": "N",
+    "szuldat": "1946-08-13T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b229",
+    "az": 122,
+    "nev": "Johnny Servoz-Gavin",
+    "nem": "F",
+    "szuldat": "1942-01-18T00:00:00.000Z",
+    "nemzet": "francia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b231",
+    "az": 130,
+    "nev": "Alan Stacey",
+    "nem": "F",
+    "szuldat": "1933-08-29T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b248",
+    "az": 153,
+    "nev": "Theo Helfrich",
+    "nem": "F",
+    "szuldat": "1913-05-13T00:00:00.000Z",
+    "nemzet": "n�met",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b24e",
+    "az": 159,
+    "nev": "Gianfranco Brancatelli",
+    "nem": "F",
+    "szuldat": "1950-01-18T00:00:00.000Z",
+    "nemzet": "olasz",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b25f",
+    "az": 176,
+    "nev": "Piero Dusio",
+    "nem": "F",
+    "szuldat": "1899-10-13T00:00:00.000Z",
+    "nemzet": "olasz",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b26a",
+    "az": 187,
+    "nev": "Emilio Zapico",
+    "nem": "F",
+    "szuldat": "1944-05-21T00:00:00.000Z",
+    "nemzet": "spanyol",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b271",
+    "az": 194,
+    "nev": "David Coulthard",
+    "nem": "F",
+    "szuldat": "1971-03-27T00:00:00.000Z",
+    "nemzet": "sk�t",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b278",
+    "az": 201,
+    "nev": "Rolf Stommelen",
+    "nem": "F",
+    "szuldat": "1943-07-11T00:00:00.000Z",
+    "nemzet": "n�met",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b2a8",
+    "az": 249,
+    "nev": "Johnny Herbert",
+    "nem": "F",
+    "szuldat": "1964-06-25T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b2ae",
+    "az": 255,
+    "nev": "Alberto Colombo",
+    "nem": "F",
+    "szuldat": "1946-02-23T00:00:00.000Z",
+    "nemzet": "olasz",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b2e1",
+    "az": 306,
+    "nev": "Martin Brundle",
+    "nem": "F",
+    "szuldat": "1959-06-01T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b339",
+    "az": 394,
+    "nev": "Stuart Lewis-Evans",
+    "nem": "F",
+    "szuldat": "1930-04-20T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b33e",
+    "az": 399,
+    "nev": "Danny Sullivan",
+    "nem": "F",
+    "szuldat": "1950-03-09T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b347",
+    "az": 408,
+    "nev": "Alberto Crespo",
+    "nem": "F",
+    "szuldat": "1930-01-16T00:00:00.000Z",
+    "nemzet": "argent�n",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b364",
+    "az": 437,
+    "nev": "Peter Ryan",
+    "nem": "F",
+    "szuldat": "1940-06-10T00:00:00.000Z",
+    "nemzet": "kanadai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b390",
+    "az": 481,
+    "nev": "Jo Gartner",
+    "nem": "F",
+    "szuldat": "1954-01-24T00:00:00.000Z",
+    "nemzet": "osztr�k",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b1b1",
+    "az": 2,
+    "nev": "Sam Posey",
+    "nem": "F",
+    "szuldat": "1944-05-26T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b1d5",
+    "az": 38,
+    "nev": "Theo Fitzau",
+    "nem": "F",
+    "szuldat": "1923-02-10T00:00:00.000Z",
+    "nemzet": "n�met",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b1e4",
+    "az": 53,
+    "nev": "Chico Landi",
+    "nem": "F",
+    "szuldat": "1907-07-14T00:00:00.000Z",
+    "nemzet": "brazil",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b1fb",
+    "az": 76,
+    "nev": "Giorgio Francia",
+    "nem": "F",
+    "szuldat": "1947-09-08T00:00:00.000Z",
+    "nemzet": "olasz",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b200",
+    "az": 81,
+    "nev": "Jerry Hoyt",
+    "nem": "F",
+    "szuldat": "1929-01-29T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b201",
+    "az": 82,
+    "nev": "Bruno Giacomelli",
+    "nem": "F",
+    "szuldat": "1952-09-10T00:00:00.000Z",
+    "nemzet": "olasz",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b20f",
+    "az": 96,
+    "nev": "Jimmy Reece",
+    "nem": "F",
+    "szuldat": "1929-11-17T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b210",
+    "az": 97,
+    "nev": "Alessandro Zanardi",
+    "nem": "F",
+    "szuldat": "1966-10-23T00:00:00.000Z",
+    "nemzet": "olasz",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b217",
+    "az": 104,
+    "nev": "Erik Comas",
+    "nem": "F",
+    "szuldat": "1963-09-28T00:00:00.000Z",
+    "nemzet": "francia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b22e",
+    "az": 127,
+    "nev": "Carel-Godin de Beaufort",
+    "nem": "F",
+    "szuldat": "1934-04-10T00:00:00.000Z",
+    "nemzet": "holland",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b23a",
+    "az": 139,
+    "nev": "Jack McGrath",
+    "nem": "F",
+    "szuldat": "1919-10-08T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b23b",
+    "az": 140,
+    "nev": "Francesco Godia",
+    "nem": "F",
+    "szuldat": "1921-03-21T00:00:00.000Z",
+    "nemzet": "spanyol",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b24b",
+    "az": 156,
+    "nev": "Joachim Winkelhock",
+    "nem": "F",
+    "szuldat": "1960-10-24T00:00:00.000Z",
+    "nemzet": "n�met",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b258",
+    "az": 169,
+    "nev": "Cuth Harrison",
+    "nem": "F",
+    "szuldat": "1906-07-06T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b264",
+    "az": 181,
+    "nev": "Alan Rollinson",
+    "nem": "F",
+    "szuldat": "1943-05-15T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b275",
+    "az": 198,
+    "nev": "Didier Pironi",
+    "nem": "F",
+    "szuldat": "1952-03-26T00:00:00.000Z",
+    "nemzet": "francia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b279",
+    "az": 202,
+    "nev": "James Hunt",
+    "nem": "F",
+    "szuldat": "1947-08-29T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b28b",
+    "az": 220,
+    "nev": "Marshall Teague",
+    "nem": "F",
+    "szuldat": "1921-05-22T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b293",
+    "az": 228,
+    "nev": "Elie Bayol",
+    "nem": "F",
+    "szuldat": "1914-02-28T00:00:00.000Z",
+    "nemzet": "francia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b2aa",
+    "az": 251,
+    "nev": "Zsolt Baumgartner",
+    "nem": "F",
+    "szuldat": "1981-01-01T00:00:00.000Z",
+    "nemzet": "magyar",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b2b3",
+    "az": 260,
+    "nev": "Josef Peters",
+    "nem": "F",
+    "szuldat": "1914-09-16T00:00:00.000Z",
+    "nemzet": "n�met",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b2bc",
+    "az": 269,
+    "nev": "Georges Berger",
+    "nem": "F",
+    "szuldat": "1918-09-14T00:00:00.000Z",
+    "nemzet": "belga",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b2cf",
+    "az": 288,
+    "nev": "John Campbell-Jones",
+    "nem": "F",
+    "szuldat": "1930-01-21T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b2f2",
+    "az": 323,
+    "nev": "Johnny Boyd",
+    "nem": "F",
+    "szuldat": "1926-08-19T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b302",
+    "az": 339,
+    "nev": "Vic Wilson",
+    "nem": "F",
+    "szuldat": "1931-04-14T00:00:00.000Z",
+    "nemzet": "d�l-afrikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b304",
+    "az": 341,
+    "nev": "Stephen South",
+    "nem": "F",
+    "szuldat": "1952-02-19T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b319",
+    "az": 362,
+    "nev": "Dave Walker",
+    "nem": "F",
+    "szuldat": "1941-06-10T00:00:00.000Z",
+    "nemzet": "ausztr�l",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b325",
+    "az": 374,
+    "nev": "Bob Gerard",
+    "nem": "F",
+    "szuldat": "1914-01-19T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b326",
+    "az": 375,
+    "nev": "Bertrand Gachot",
+    "nem": "F",
+    "szuldat": "1962-12-22T00:00:00.000Z",
+    "nemzet": "belga",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b33f",
+    "az": 400,
+    "nev": "Ernie Pieterse",
+    "nem": "F",
+    "szuldat": "1938-07-04T00:00:00.000Z",
+    "nemzet": "d�l-afrikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b352",
+    "az": 419,
+    "nev": "Giuseppe Farina",
+    "nem": "F",
+    "szuldat": "1906-10-30T00:00:00.000Z",
+    "nemzet": "olasz",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b35b",
+    "az": 428,
+    "nev": "Peter Westbury",
+    "nem": "F",
+    "szuldat": "1938-05-26T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b365",
+    "az": 438,
+    "nev": "Philippe Etancelin",
+    "nem": "F",
+    "szuldat": "1896-12-28T00:00:00.000Z",
+    "nemzet": "francia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b37a",
+    "az": 459,
+    "nev": "Christian Fittipaldi",
+    "nem": "F",
+    "szuldat": "1971-01-18T00:00:00.000Z",
+    "nemzet": "brazil",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b395",
+    "az": 486,
+    "nev": "Hans Binder",
+    "nem": "F",
+    "szuldat": "1948-06-12T00:00:00.000Z",
+    "nemzet": "osztr�k",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b1be",
+    "az": 15,
+    "nev": "Mike Harris",
+    "nem": "F",
+    "szuldat": "1939-05-25T00:00:00.000Z",
+    "nemzet": "zimbabwei",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b1ec",
+    "az": 61,
+    "nev": "John James",
+    "nem": "F",
+    "szuldat": "1914-05-10T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b209",
+    "az": 90,
+    "nev": "Moises Solana",
+    "nem": "F",
+    "szuldat": "1935-12-26T00:00:00.000Z",
+    "nemzet": "mexik�i",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b218",
+    "az": 105,
+    "nev": "Jimmy Daywalt",
+    "nem": "F",
+    "szuldat": "1924-08-28T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b21a",
+    "az": 107,
+    "nev": "David Prophet",
+    "nem": "F",
+    "szuldat": "1937-10-09T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b232",
+    "az": 131,
+    "nev": "Mike Nazaruk",
+    "nem": "F",
+    "szuldat": "1921-10-02T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b240",
+    "az": 145,
+    "nev": "Patrick Neve",
+    "nem": "F",
+    "szuldat": "1949-10-13T00:00:00.000Z",
+    "nemzet": "belga",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b241",
+    "az": 146,
+    "nev": "Paul England",
+    "nem": "F",
+    "szuldat": "1929-03-28T00:00:00.000Z",
+    "nemzet": "ausztr�l",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b250",
+    "az": 161,
+    "nev": "Mauro Baldi",
+    "nem": "F",
+    "szuldat": "1954-01-31T00:00:00.000Z",
+    "nemzet": "olasz",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b251",
+    "az": 162,
+    "nev": "Ken McAlpine",
+    "nem": "F",
+    "szuldat": "1920-09-21T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b25b",
+    "az": 172,
+    "nev": "Bernd Schneider",
+    "nem": "F",
+    "szuldat": "1964-07-20T00:00:00.000Z",
+    "nemzet": "n�met",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b269",
+    "az": 186,
+    "nev": "Bob Christie",
+    "nem": "F",
+    "szuldat": "1924-04-04T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b26c",
+    "az": 189,
+    "nev": "Pierre-Henri Raphanel",
+    "nem": "F",
+    "szuldat": "1961-05-27T00:00:00.000Z",
+    "nemzet": "francia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b287",
+    "az": 216,
+    "nev": "Bjorn Wirdheim",
+    "nem": "F",
+    "szuldat": "1980-04-04T00:00:00.000Z",
+    "nemzet": "sv�d",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b28a",
+    "az": 219,
+    "nev": "Nicolas Kiesa",
+    "nem": "F",
+    "szuldat": "1978-03-03T00:00:00.000Z",
+    "nemzet": "d�n",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b28e",
+    "az": 223,
+    "nev": "Art Bisch",
+    "nem": "F",
+    "szuldat": "1926-11-10T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b29c",
+    "az": 237,
+    "nev": "Carl Forberg",
+    "nem": "F",
+    "szuldat": "1911-03-04T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b29f",
+    "az": 240,
+    "nev": "Max de Terra",
+    "nem": "F",
+    "szuldat": "1918-10-06T00:00:00.000Z",
+    "nemzet": "sv�jci",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b2c8",
+    "az": 281,
+    "nev": "Francois Hesnault",
+    "nem": "F",
+    "szuldat": "1956-12-30T00:00:00.000Z",
+    "nemzet": "francia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b2dc",
+    "az": 301,
+    "nev": "Duncan Hamilton",
+    "nem": "F",
+    "szuldat": "1920-04-30T00:00:00.000Z",
+    "nemzet": "�r",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b2e6",
+    "az": 311,
+    "nev": "Chris Lawrence",
+    "nem": "F",
+    "szuldat": "1933-07-27T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b2e8",
+    "az": 313,
+    "nev": "Aguri Suzuki",
+    "nem": "F",
+    "szuldat": "1960-09-08T00:00:00.000Z",
+    "nemzet": "jap�n",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b305",
+    "az": 342,
+    "nev": "Vitantonio Liuzzi",
+    "nem": "F",
+    "szuldat": "1981-08-06T00:00:00.000Z",
+    "nemzet": "olasz",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b31d",
+    "az": 366,
+    "nev": "Ricardo Zunino",
+    "nem": "F",
+    "szuldat": "1949-04-13T00:00:00.000Z",
+    "nemzet": "argent�n",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b33a",
+    "az": 395,
+    "nev": "Clay Regazzoni",
+    "nem": "F",
+    "szuldat": "1939-09-05T00:00:00.000Z",
+    "nemzet": "sv�jci",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b33d",
+    "az": 398,
+    "nev": "Dorino Serafini",
+    "nem": "F",
+    "szuldat": "1909-07-22T00:00:00.000Z",
+    "nemzet": "olasz",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b379",
+    "az": 458,
+    "nev": "Larry Crockett",
+    "nem": "F",
+    "szuldat": "1926-10-23T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b37e",
+    "az": 463,
+    "nev": "Charles Pozzi",
+    "nem": "F",
+    "szuldat": "1909-08-27T00:00:00.000Z",
+    "nemzet": "francia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b384",
+    "az": 469,
+    "nev": "Bobby Unser",
+    "nem": "F",
+    "szuldat": "1934-02-20T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b39e",
+    "az": 495,
+    "nev": "Dick Rathmann",
+    "nem": "F",
+    "szuldat": "1926-01-06T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b39f",
+    "az": 496,
+    "nev": "Ricardo Londono-Bridge",
+    "nem": "F",
+    "szuldat": "1949-08-08T00:00:00.000Z",
+    "nemzet": "kolumbiai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b1d6",
+    "az": 39,
+    "nev": "Rubens Barrichello",
+    "nem": "F",
+    "szuldat": "1972-05-23T00:00:00.000Z",
+    "nemzet": "brazil",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b1e6",
+    "az": 55,
+    "nev": "Bobby Grim",
+    "nem": "F",
+    "szuldat": "1924-09-04T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b1f5",
+    "az": 70,
+    "nev": "Geoff Lees",
+    "nem": "F",
+    "szuldat": "1951-05-01T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b202",
+    "az": 83,
+    "nev": "Stirling Moss",
+    "nem": "F",
+    "szuldat": "1929-09-17T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b205",
+    "az": 86,
+    "nev": "Paul Emery",
+    "nem": "F",
+    "szuldat": "1916-11-12T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b207",
+    "az": 88,
+    "nev": "Mike MacDowel",
+    "nem": "F",
+    "szuldat": "1932-09-13T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b20e",
+    "az": 95,
+    "nev": "Scott Speed",
+    "nem": "F",
+    "szuldat": "1983-01-24T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b21b",
+    "az": 108,
+    "nev": "Nigel Mansell",
+    "nem": "F",
+    "szuldat": "1953-08-08T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b23d",
+    "az": 142,
+    "nev": "Gunther Seiffert",
+    "nem": "F",
+    "szuldat": "1937-10-18T00:00:00.000Z",
+    "nemzet": "n�met",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b243",
+    "az": 148,
+    "nev": "Bud Tingelstad",
+    "nem": "F",
+    "szuldat": "1928-04-04T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b246",
+    "az": 151,
+    "nev": "Leslie Thorne",
+    "nem": "F",
+    "szuldat": "1916-06-23T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b24d",
+    "az": 158,
+    "nev": "Kenny Acheson",
+    "nem": "F",
+    "szuldat": "1957-11-27T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b255",
+    "az": 166,
+    "nev": "Bruce Johnstone",
+    "nem": "F",
+    "szuldat": "1937-01-30T00:00:00.000Z",
+    "nemzet": "d�l-afrikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b27d",
+    "az": 206,
+    "nev": "Ian Ashley",
+    "nem": "F",
+    "szuldat": "1947-10-26T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b297",
+    "az": 232,
+    "nev": "Francois Cevert",
+    "nem": "F",
+    "szuldat": "1944-02-25T00:00:00.000Z",
+    "nemzet": "francia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b29e",
+    "az": 239,
+    "nev": "Clive Puzey",
+    "nem": "F",
+    "szuldat": "1941-07-11T00:00:00.000Z",
+    "nemzet": "rod�ziai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b2a7",
+    "az": 248,
+    "nev": "Luigi Villoresi",
+    "nem": "F",
+    "szuldat": "1909-05-16T00:00:00.000Z",
+    "nemzet": "olasz",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b2b0",
+    "az": 257,
+    "nev": "Jud Larson",
+    "nem": "F",
+    "szuldat": "1923-01-21T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b2b2",
+    "az": 259,
+    "nev": "Eddie Johnson",
+    "nem": "F",
+    "szuldat": "1919-02-10T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b2bb",
+    "az": 268,
+    "nev": "Eddie Keizan",
+    "nem": "F",
+    "szuldat": "1944-09-12T00:00:00.000Z",
+    "nemzet": "d�l-afrikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b2e9",
+    "az": 314,
+    "nev": "Robert Doornbos",
+    "nem": "F",
+    "szuldat": "1981-09-23T00:00:00.000Z",
+    "nemzet": "holland",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b2ee",
+    "az": 319,
+    "nev": "Jan Lammers",
+    "nem": "F",
+    "szuldat": "1956-06-02T00:00:00.000Z",
+    "nemzet": "holland",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b2fd",
+    "az": 334,
+    "nev": "John Surtees",
+    "nem": "F",
+    "szuldat": "1934-02-11T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b334",
+    "az": 389,
+    "nev": "Don Edmunds",
+    "nem": "F",
+    "szuldat": "1930-09-23T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b361",
+    "az": 434,
+    "nev": "Ingo Hoffman",
+    "nem": "F",
+    "szuldat": "1953-02-18T00:00:00.000Z",
+    "nemzet": "brazil",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b36b",
+    "az": 444,
+    "nev": "Jackie Stewart",
+    "nem": "F",
+    "szuldat": "1939-06-11T00:00:00.000Z",
+    "nemzet": "sk�t",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b38e",
+    "az": 479,
+    "nev": "Eddie Cheever",
+    "nem": "F",
+    "szuldat": "1958-01-10T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b399",
+    "az": 490,
+    "nev": "Sebastian Vettel",
+    "nem": "F",
+    "szuldat": "1987-07-03T00:00:00.000Z",
+    "nemzet": "n�met",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b1b5",
+    "az": 6,
+    "nev": "Perry McCarthy",
+    "nem": "F",
+    "szuldat": "1962-03-03T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b1bf",
+    "az": 16,
+    "nev": "Hans Heyer",
+    "nem": "F",
+    "szuldat": "1943-03-16T00:00:00.000Z",
+    "nemzet": "n�met",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b1d2",
+    "az": 35,
+    "nev": "Mark Donohue",
+    "nem": "F",
+    "szuldat": "1937-03-18T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b1f1",
+    "az": 66,
+    "nev": "Oscar Larrauri",
+    "nem": "F",
+    "szuldat": "1954-08-19T00:00:00.000Z",
+    "nemzet": "francia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b1fa",
+    "az": 75,
+    "nev": "Bernard Collomb",
+    "nem": "F",
+    "szuldat": "1930-10-07T00:00:00.000Z",
+    "nemzet": "francia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b1fe",
+    "az": 79,
+    "nev": "Bernard de Dryver",
+    "nem": "F",
+    "szuldat": "1953-09-19T00:00:00.000Z",
+    "nemzet": "belga",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b219",
+    "az": 106,
+    "nev": "Bernie Ecclestone",
+    "nem": "F",
+    "szuldat": "1930-10-28T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b228",
+    "az": 121,
+    "nev": "Ivo Bueb",
+    "nem": "F",
+    "szuldat": "1923-06-06T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b238",
+    "az": 137,
+    "nev": "Roger Williamson",
+    "nem": "F",
+    "szuldat": "1948-02-02T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b23c",
+    "az": 141,
+    "nev": "Brausch Niemann",
+    "nem": "F",
+    "szuldat": "1939-01-07T00:00:00.000Z",
+    "nemzet": "d�l-afrikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b256",
+    "az": 167,
+    "nev": "Cliff Griffith",
+    "nem": "F",
+    "szuldat": "1916-02-06T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b26d",
+    "az": 190,
+    "nev": "John Cordts",
+    "nem": "F",
+    "szuldat": "1935-07-23T00:00:00.000Z",
+    "nemzet": "kanadai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b27a",
+    "az": 203,
+    "nev": "Roberto Lippi",
+    "nem": "F",
+    "szuldat": "1926-10-17T00:00:00.000Z",
+    "nemzet": "olasz",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b27c",
+    "az": 205,
+    "nev": "Ronnie Bucknum",
+    "nem": "F",
+    "szuldat": "1936-04-05T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b282",
+    "az": 211,
+    "nev": "Kazuyoshi Hoshino",
+    "nem": "F",
+    "szuldat": "1947-07-01T00:00:00.000Z",
+    "nemzet": "jap�n",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b283",
+    "az": 212,
+    "nev": "Roberto Guerrero",
+    "nem": "F",
+    "szuldat": "1958-11-16T00:00:00.000Z",
+    "nemzet": "kolumbiai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b2a2",
+    "az": 243,
+    "nev": "Yuji Ide",
+    "nem": "F",
+    "szuldat": "1975-01-21T00:00:00.000Z",
+    "nemzet": "jap�n",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b2a4",
+    "az": 245,
+    "nev": "Hermann Lang",
+    "nem": "F",
+    "szuldat": "1909-04-06T00:00:00.000Z",
+    "nemzet": "n�met",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b2b4",
+    "az": 261,
+    "nev": "Tony Trimmer",
+    "nem": "F",
+    "szuldat": "1943-01-24T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b2cc",
+    "az": 285,
+    "nev": "Tarso Marques",
+    "nem": "F",
+    "szuldat": "1976-01-19T00:00:00.000Z",
+    "nemzet": "brazil",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b2e0",
+    "az": 305,
+    "nev": "Mika Salo",
+    "nem": "F",
+    "szuldat": "1966-11-30T00:00:00.000Z",
+    "nemzet": "finn",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b32e",
+    "az": 383,
+    "nev": "Pascal Fabre",
+    "nem": "F",
+    "szuldat": "1960-01-09T00:00:00.000Z",
+    "nemzet": "francia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b34b",
+    "az": 412,
+    "nev": "Bob Scott",
+    "nem": "F",
+    "szuldat": "1928-10-04T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b362",
+    "az": 435,
+    "nev": "Gilles Villeneuve",
+    "nem": "F",
+    "szuldat": "1950-01-18T00:00:00.000Z",
+    "nemzet": "kanadai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b36c",
+    "az": 445,
+    "nev": "Pat Flaherty",
+    "nem": "F",
+    "szuldat": "1926-01-06T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b373",
+    "az": 452,
+    "nev": "Carroll Shelby",
+    "nem": "F",
+    "szuldat": "1923-01-11T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b38c",
+    "az": 477,
+    "nev": "Michel May",
+    "nem": "F",
+    "szuldat": "1934-08-18T00:00:00.000Z",
+    "nemzet": "sv�jci",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b397",
+    "az": 488,
+    "nev": "Norberto Fontana",
+    "nem": "F",
+    "szuldat": "1975-01-20T00:00:00.000Z",
+    "nemzet": "argent�n",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b3a0",
+    "az": 497,
+    "nev": "Philippe Alliot",
+    "nem": "F",
+    "szuldat": "1954-07-27T00:00:00.000Z",
+    "nemzet": "francia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b1b0",
+    "az": 1,
+    "nev": "Juan-Manuel Fangio",
+    "nem": "F",
+    "szuldat": "1911-06-24T00:00:00.000Z",
+    "nemzet": "argent�n",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b1bc",
+    "az": 13,
+    "nev": "Fabrizio Barbazza",
+    "nem": "F",
+    "szuldat": "1963-04-02T00:00:00.000Z",
+    "nemzet": "olasz",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b1db",
+    "az": 44,
+    "nev": "Ludwig Fischer",
+    "nem": "F",
+    "szuldat": "1915-12-17T00:00:00.000Z",
+    "nemzet": "n�met",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b1de",
+    "az": 47,
+    "nev": "Alexander Wurz",
+    "nem": "F",
+    "szuldat": "1974-02-15T00:00:00.000Z",
+    "nemzet": "osztr�k",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b1ed",
+    "az": 62,
+    "nev": "Tomas Enge",
+    "nem": "F",
+    "szuldat": "1976-09-11T00:00:00.000Z",
+    "nemzet": "cseh",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b1ef",
+    "az": 64,
+    "nev": "Giorgio Bassi",
+    "nem": "F",
+    "szuldat": "1934-01-20T00:00:00.000Z",
+    "nemzet": "olasz",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b204",
+    "az": 85,
+    "nev": "Andre Testut",
+    "nem": "F",
+    "szuldat": "1926-04-13T00:00:00.000Z",
+    "nemzet": "monacoi",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b23f",
+    "az": 144,
+    "nev": "Duke Nalon",
+    "nem": "F",
+    "szuldat": "1913-03-12T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b24a",
+    "az": 155,
+    "nev": "Enrico Toccacelo",
+    "nem": "F",
+    "szuldat": "1978-12-12T00:00:00.000Z",
+    "nemzet": "olasz",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b25d",
+    "az": 174,
+    "nev": "Nasif Estefano",
+    "nem": "F",
+    "szuldat": "1932-11-18T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b261",
+    "az": 178,
+    "nev": "Jack Brabham",
+    "nem": "F",
+    "szuldat": "1926-04-02T00:00:00.000Z",
+    "nemzet": "ausztr�l",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b281",
+    "az": 210,
+    "nev": "Tony Maggs",
+    "nem": "F",
+    "szuldat": "1937-02-09T00:00:00.000Z",
+    "nemzet": "d�l-afrikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b2a0",
+    "az": 241,
+    "nev": "Jo Schlesser",
+    "nem": "F",
+    "szuldat": "1928-05-18T00:00:00.000Z",
+    "nemzet": "francia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b2a5",
+    "az": 246,
+    "nev": "Christiano Da Matta",
+    "nem": "F",
+    "szuldat": "1973-09-19T00:00:00.000Z",
+    "nemzet": "brazil",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b2c5",
+    "az": 278,
+    "nev": "Lucien Bianchi",
+    "nem": "F",
+    "szuldat": "1934-11-10T00:00:00.000Z",
+    "nemzet": "belga",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b2d1",
+    "az": 290,
+    "nev": "Kimi Raikkonen",
+    "nem": "F",
+    "szuldat": "1979-10-17T00:00:00.000Z",
+    "nemzet": "finn",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b2dd",
+    "az": 302,
+    "nev": "David Hobbs",
+    "nem": "F",
+    "szuldat": "1939-06-09T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b2eb",
+    "az": 316,
+    "nev": "Luigi Musso",
+    "nem": "F",
+    "szuldat": "1924-07-28T00:00:00.000Z",
+    "nemzet": "olasz",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b2fb",
+    "az": 332,
+    "nev": "Emerson Fittipaldi",
+    "nem": "F",
+    "szuldat": "1946-12-12T00:00:00.000Z",
+    "nemzet": "brazil",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b30b",
+    "az": 348,
+    "nev": "Loris Kessel",
+    "nem": "F",
+    "szuldat": "1950-04-01T00:00:00.000Z",
+    "nemzet": "sv�jci",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b313",
+    "az": 356,
+    "nev": "Brian McGuire",
+    "nem": "F",
+    "szuldat": "1945-12-13T00:00:00.000Z",
+    "nemzet": "ausztr�l",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b323",
+    "az": 372,
+    "nev": "Alex Caffi",
+    "nem": "F",
+    "szuldat": "1964-03-18T00:00:00.000Z",
+    "nemzet": "olasz",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b324",
+    "az": 373,
+    "nev": "Heini Walter",
+    "nem": "F",
+    "szuldat": "1927-07-28T00:00:00.000Z",
+    "nemzet": "n�met",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b32b",
+    "az": 380,
+    "nev": "Jac Nelleman",
+    "nem": "F",
+    "szuldat": "1944-04-19T00:00:00.000Z",
+    "nemzet": "d�n",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b331",
+    "az": 386,
+    "nev": "Adrian Sutil",
+    "nem": "F",
+    "szuldat": "1983-01-11T00:00:00.000Z",
+    "nemzet": "n�met",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b33b",
+    "az": 396,
+    "nev": "Francois Picard",
+    "nem": "F",
+    "szuldat": "1921-04-26T00:00:00.000Z",
+    "nemzet": "francia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b344",
+    "az": 405,
+    "nev": "Clemente Biondetti",
+    "nem": "F",
+    "szuldat": "1898-10-18T00:00:00.000Z",
+    "nemzet": "olasz",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b367",
+    "az": 440,
+    "nev": "David Brabham",
+    "nem": "F",
+    "szuldat": "1965-09-05T00:00:00.000Z",
+    "nemzet": "ausztr�l",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b370",
+    "az": 449,
+    "nev": "Jos Carlos Pace",
+    "nem": "F",
+    "szuldat": "1944-10-06T00:00:00.000Z",
+    "nemzet": "brazil",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b376",
+    "az": 455,
+    "nev": "Mario-Araujo de Cabral",
+    "nem": "F",
+    "szuldat": "1934-01-15T00:00:00.000Z",
+    "nemzet": "portug�l",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b394",
+    "az": 485,
+    "nev": "Chanoch Nissany",
+    "nem": "F",
+    "szuldat": "1963-07-29T00:00:00.000Z",
+    "nemzet": "izraeli",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b39d",
+    "az": 494,
+    "nev": "Lorenzo Bandini",
+    "nem": "F",
+    "szuldat": "1935-12-21T00:00:00.000Z",
+    "nemzet": "olasz",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b1b8",
+    "az": 9,
+    "nev": "Heinz-Harald Frentzen",
+    "nem": "F",
+    "szuldat": "1967-05-18T00:00:00.000Z",
+    "nemzet": "n�met",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b1c7",
+    "az": 24,
+    "nev": "John Barber",
+    "nem": "F",
+    "szuldat": "1929-01-01T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b1cc",
+    "az": 29,
+    "nev": "Luigi Fagioli",
+    "nem": "F",
+    "szuldat": "1898-06-09T00:00:00.000Z",
+    "nemzet": "olasz",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b1d1",
+    "az": 34,
+    "nev": "Taki Inoue",
+    "nem": "F",
+    "szuldat": "1963-09-05T00:00:00.000Z",
+    "nemzet": "jap�n",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b1da",
+    "az": 43,
+    "nev": "Dempsey Wilson",
+    "nem": "F",
+    "szuldat": "1927-03-11T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b1e2",
+    "az": 51,
+    "nev": "Mikko Kozarowitsky",
+    "nem": "F",
+    "szuldat": "1948-05-17T00:00:00.000Z",
+    "nemzet": "finn",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b1f2",
+    "az": 67,
+    "nev": "David Purley",
+    "nem": "F",
+    "szuldat": "1945-01-26T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b20a",
+    "az": 91,
+    "nev": "Enrico Bertaggia",
+    "nem": "F",
+    "szuldat": "1964-09-19T00:00:00.000Z",
+    "nemzet": "olasz",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b20b",
+    "az": 92,
+    "nev": "Corrado Fabi",
+    "nem": "F",
+    "szuldat": "1961-04-12T00:00:00.000Z",
+    "nemzet": "olasz",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b215",
+    "az": 102,
+    "nev": "Rodger Ward",
+    "nem": "F",
+    "szuldat": "1921-01-10T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b223",
+    "az": 116,
+    "nev": "Alain de Changy",
+    "nem": "F",
+    "szuldat": "1922-02-05T00:00:00.000Z",
+    "nemzet": "belga",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b227",
+    "az": 120,
+    "nev": "Jos Verstappen",
+    "nem": "F",
+    "szuldat": "1972-03-04T00:00:00.000Z",
+    "nemzet": "holland",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b22c",
+    "az": 125,
+    "nev": "Marc Surer",
+    "nem": "F",
+    "szuldat": "1951-09-18T00:00:00.000Z",
+    "nemzet": "sv�jci",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b230",
+    "az": 129,
+    "nev": "Les Leston",
+    "nem": "F",
+    "szuldat": "1920-12-16T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b242",
+    "az": 147,
+    "nev": "John Cannon",
+    "nem": "F",
+    "szuldat": "1937-06-21T00:00:00.000Z",
+    "nemzet": "kanadai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b262",
+    "az": 179,
+    "nev": "Jean Alesi",
+    "nem": "F",
+    "szuldat": "1964-06-11T00:00:00.000Z",
+    "nemzet": "francia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b265",
+    "az": 182,
+    "nev": "George Amick",
+    "nem": "F",
+    "szuldat": "1924-10-24T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b26b",
+    "az": 188,
+    "nev": "Pat O'Connor",
+    "nem": "F",
+    "szuldat": "1928-10-09T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b27b",
+    "az": 204,
+    "nev": "Eddie Sachs",
+    "nem": "F",
+    "szuldat": "1927-05-28T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b2a3",
+    "az": 244,
+    "nev": "Wilson Fittipaldi",
+    "nem": "F",
+    "szuldat": "1943-12-25T00:00:00.000Z",
+    "nemzet": "brazil",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b2ac",
+    "az": 253,
+    "nev": "Chris Amon",
+    "nem": "F",
+    "szuldat": "1943-07-20T00:00:00.000Z",
+    "nemzet": "�j-z�landi",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b2b7",
+    "az": 264,
+    "nev": "Giancarlo Baghetti",
+    "nem": "F",
+    "szuldat": "1934-12-25T00:00:00.000Z",
+    "nemzet": "olasz",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b2da",
+    "az": 299,
+    "nev": "Nanni Galli",
+    "nem": "F",
+    "szuldat": "1940-10-02T00:00:00.000Z",
+    "nemzet": "olasz",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b2e5",
+    "az": 310,
+    "nev": "Masahiro Hasemi",
+    "nem": "F",
+    "szuldat": "1945-11-13T00:00:00.000Z",
+    "nemzet": "jap�n",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b2f3",
+    "az": 324,
+    "nev": "Helmut Niedermayr",
+    "nem": "F",
+    "szuldat": "1915-11-29T00:00:00.000Z",
+    "nemzet": "n�met",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b2f9",
+    "az": 330,
+    "nev": "Bob Anderson",
+    "nem": "F",
+    "szuldat": "1931-05-19T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b301",
+    "az": 338,
+    "nev": "Patrick Depailler",
+    "nem": "F",
+    "szuldat": "1944-08-09T00:00:00.000Z",
+    "nemzet": "francia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b317",
+    "az": 360,
+    "nev": "Al Herman",
+    "nem": "F",
+    "szuldat": "1927-03-15T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b330",
+    "az": 385,
+    "nev": "Olivier Panis",
+    "nem": "F",
+    "szuldat": "1966-09-02T00:00:00.000Z",
+    "nemzet": "francia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b346",
+    "az": 407,
+    "nev": "Guy Ligier",
+    "nem": "F",
+    "szuldat": "1930-07-12T00:00:00.000Z",
+    "nemzet": "francia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b349",
+    "az": 410,
+    "nev": "Stefan Bellof",
+    "nem": "F",
+    "szuldat": "1957-11-20T00:00:00.000Z",
+    "nemzet": "n�met",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b354",
+    "az": 421,
+    "nev": "Sam Hanks",
+    "nem": "F",
+    "szuldat": "1914-07-13T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b36a",
+    "az": 443,
+    "nev": "Jesus Iglesias",
+    "nem": "F",
+    "szuldat": "1922-02-22T00:00:00.000Z",
+    "nemzet": "argent�n",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b391",
+    "az": 482,
+    "nev": "Bill Homeier",
+    "nem": "F",
+    "szuldat": "1918-08-31T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b1b2",
+    "az": 3,
+    "nev": "Ernesto Prinoth",
+    "nem": "F",
+    "szuldat": "1923-01-01T00:00:00.000Z",
+    "nemzet": "olasz",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b1b3",
+    "az": 4,
+    "nev": "Hubert Hahne",
+    "nem": "F",
+    "szuldat": "1935-03-28T00:00:00.000Z",
+    "nemzet": "n�met",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b1c0",
+    "az": 17,
+    "nev": "Peter Revson",
+    "nem": "F",
+    "szuldat": "1939-02-27T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b1c5",
+    "az": 22,
+    "nev": "Pedro Rodriguez",
+    "nem": "F",
+    "szuldat": "1940-01-18T00:00:00.000Z",
+    "nemzet": "mexik�i",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b1dd",
+    "az": 46,
+    "nev": "Peter Walker",
+    "nem": "F",
+    "szuldat": "1912-10-07T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b1df",
+    "az": 48,
+    "nev": "Slim Borgudd",
+    "nem": "F",
+    "szuldat": "1946-11-25T00:00:00.000Z",
+    "nemzet": "sv�d",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b1e5",
+    "az": 54,
+    "nev": "Tony Brooks",
+    "nem": "F",
+    "szuldat": "1932-02-25T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b203",
+    "az": 84,
+    "nev": "Esteban Tuero",
+    "nem": "F",
+    "szuldat": "1978-04-22T00:00:00.000Z",
+    "nemzet": "argent�n",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b226",
+    "az": 119,
+    "nev": "Jean-Pierre Jarier",
+    "nem": "F",
+    "szuldat": "1946-07-10T00:00:00.000Z",
+    "nemzet": "francia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b22a",
+    "az": 123,
+    "nev": "Kevin Cogan",
+    "nem": "F",
+    "szuldat": "1956-03-31T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b244",
+    "az": 149,
+    "nev": "Chris Craft",
+    "nem": "F",
+    "szuldat": "1939-11-17T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b272",
+    "az": 195,
+    "nev": "Rodney Nuckey",
+    "nem": "F",
+    "szuldat": "1929-06-26T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b284",
+    "az": 213,
+    "nev": "Jean-Denis Deletraz",
+    "nem": "F",
+    "szuldat": "1963-10-01T00:00:00.000Z",
+    "nemzet": "sv�jci",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b2be",
+    "az": 271,
+    "nev": "Hideki Noda",
+    "nem": "F",
+    "szuldat": "1968-03-07T00:00:00.000Z",
+    "nemzet": "jap�n",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b2c1",
+    "az": 274,
+    "nev": "Mike Spence",
+    "nem": "F",
+    "szuldat": "1936-12-30T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b2d3",
+    "az": 292,
+    "nev": "Ralph Firman",
+    "nem": "F",
+    "szuldat": "1975-05-20T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b2db",
+    "az": 300,
+    "nev": "Roberto Mieres",
+    "nem": "F",
+    "szuldat": "1924-12-03T00:00:00.000Z",
+    "nemzet": "argent�n",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b2ef",
+    "az": 320,
+    "nev": "Leo Kinnunen",
+    "nem": "F",
+    "szuldat": "1943-08-05T00:00:00.000Z",
+    "nemzet": "finn",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b2f4",
+    "az": 325,
+    "nev": "Cesare Perdisa",
+    "nem": "F",
+    "szuldat": "1932-10-21T00:00:00.000Z",
+    "nemzet": "olasz",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b2f5",
+    "az": 326,
+    "nev": "Gaston Mazzacane",
+    "nem": "F",
+    "szuldat": "1975-05-08T00:00:00.000Z",
+    "nemzet": "argent�n",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b329",
+    "az": 378,
+    "nev": "Renato Pirocchi",
+    "nem": "F",
+    "szuldat": "1933-03-26T00:00:00.000Z",
+    "nemzet": "olasz",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b32c",
+    "az": 381,
+    "nev": "Brian Naylor",
+    "nem": "F",
+    "szuldat": "1923-03-24T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b351",
+    "az": 418,
+    "nev": "Trevor Blokdyk",
+    "nem": "F",
+    "szuldat": "1935-11-30T00:00:00.000Z",
+    "nemzet": "d�l-afrikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b377",
+    "az": 456,
+    "nev": "Henry Banks",
+    "nem": "F",
+    "szuldat": "1913-06-14T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b37f",
+    "az": 464,
+    "nev": "Pedro Paulo Diniz",
+    "nem": "F",
+    "szuldat": "1970-05-22T00:00:00.000Z",
+    "nemzet": "brazil",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b387",
+    "az": 472,
+    "nev": "Guy Mairesse",
+    "nem": "F",
+    "szuldat": "1910-08-10T00:00:00.000Z",
+    "nemzet": "francia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b38f",
+    "az": 480,
+    "nev": "Riccardo Patrese",
+    "nem": "F",
+    "szuldat": "1954-04-17T00:00:00.000Z",
+    "nemzet": "olasz",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b396",
+    "az": 487,
+    "nev": "Jean-Claude Rudaz",
+    "nem": "F",
+    "szuldat": "1942-07-23T00:00:00.000Z",
+    "nemzet": "sv�jci",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b398",
+    "az": 489,
+    "nev": "Ian Stewart",
+    "nem": "F",
+    "szuldat": "1929-07-15T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b39a",
+    "az": 491,
+    "nev": "John Love",
+    "nem": "F",
+    "szuldat": "1924-12-07T00:00:00.000Z",
+    "nemzet": "d�l-afrikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b1b7",
+    "az": 8,
+    "nev": "Tom Pryce",
+    "nem": "F",
+    "szuldat": "1949-06-11T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b1ee",
+    "az": 63,
+    "nev": "Tim Parnell",
+    "nem": "F",
+    "szuldat": "1932-06-25T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b1fd",
+    "az": 78,
+    "nev": "Jackie Lewis",
+    "nem": "F",
+    "szuldat": "1936-11-01T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b208",
+    "az": 89,
+    "nev": "George Eaton",
+    "nem": "F",
+    "szuldat": "1945-11-12T00:00:00.000Z",
+    "nemzet": "kanadai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b22b",
+    "az": 124,
+    "nev": "Jo Vonlanthen",
+    "nem": "F",
+    "szuldat": "1942-05-31T00:00:00.000Z",
+    "nemzet": "sv�jci",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b22f",
+    "az": 128,
+    "nev": "Neville Lederle",
+    "nem": "F",
+    "szuldat": "1938-09-25T00:00:00.000Z",
+    "nemzet": "d�l-afrikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b253",
+    "az": 164,
+    "nev": "Al Keller",
+    "nem": "F",
+    "szuldat": "1920-04-11T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b267",
+    "az": 184,
+    "nev": "Denny Hulme",
+    "nem": "F",
+    "szuldat": "1936-06-18T00:00:00.000Z",
+    "nemzet": "�j-z�landi",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b26e",
+    "az": 191,
+    "nev": "Andy Linden",
+    "nem": "F",
+    "szuldat": "1922-04-05T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b270",
+    "az": 193,
+    "nev": "Reg Parnell",
+    "nem": "F",
+    "szuldat": "1911-07-02T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b288",
+    "az": 217,
+    "nev": "Eric Bernard",
+    "nem": "F",
+    "szuldat": "1964-08-24T00:00:00.000Z",
+    "nemzet": "francia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b289",
+    "az": 218,
+    "nev": "Skip Barber",
+    "nem": "F",
+    "szuldat": "1936-11-16T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b290",
+    "az": 225,
+    "nev": "Carlos Reutemann",
+    "nem": "F",
+    "szuldat": "1942-04-12T00:00:00.000Z",
+    "nemzet": "argent�n",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b299",
+    "az": 234,
+    "nev": "Onofre Marimon",
+    "nem": "F",
+    "szuldat": "1923-12-19T00:00:00.000Z",
+    "nemzet": "argent�n",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b2c0",
+    "az": 273,
+    "nev": "Jim Hall",
+    "nem": "F",
+    "szuldat": "1935-07-23T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b2cb",
+    "az": 284,
+    "nev": "Jacques Swaters",
+    "nem": "F",
+    "szuldat": "1926-10-30T00:00:00.000Z",
+    "nemzet": "belga",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b2d8",
+    "az": 297,
+    "nev": "Mario Andretti",
+    "nem": "F",
+    "szuldat": "1940-02-28T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b2d9",
+    "az": 298,
+    "nev": "Gino Bianco",
+    "nem": "F",
+    "szuldat": "1916-07-22T00:00:00.000Z",
+    "nemzet": "brazil",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b30d",
+    "az": 350,
+    "nev": "Philippe Streiff",
+    "nem": "F",
+    "szuldat": "1955-06-26T00:00:00.000Z",
+    "nemzet": "francia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b310",
+    "az": 353,
+    "nev": "Bill Cantrell",
+    "nem": "F",
+    "szuldat": "1908-01-31T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b318",
+    "az": 361,
+    "nev": "Kurt Ahrens",
+    "nem": "F",
+    "szuldat": "1940-04-19T00:00:00.000Z",
+    "nemzet": "n�met",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b31c",
+    "az": 365,
+    "nev": "Ricardo Rodriguez",
+    "nem": "F",
+    "szuldat": "1942-02-14T00:00:00.000Z",
+    "nemzet": "mexik�i",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b320",
+    "az": 369,
+    "nev": "Masten Gregory",
+    "nem": "F",
+    "szuldat": "1932-02-29T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b332",
+    "az": 387,
+    "nev": "Elmer George",
+    "nem": "F",
+    "szuldat": "1928-07-15T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b336",
+    "az": 391,
+    "nev": "Mike Fisher",
+    "nem": "F",
+    "szuldat": "1943-03-13T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b340",
+    "az": 401,
+    "nev": "Gianmaria Bruni",
+    "nem": "F",
+    "szuldat": "1981-05-30T00:00:00.000Z",
+    "nemzet": "olasz",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b34a",
+    "az": 411,
+    "nev": "Duane Carter",
+    "nem": "F",
+    "szuldat": "1913-05-05T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b358",
+    "az": 425,
+    "nev": "Danny Ongais",
+    "nem": "F",
+    "szuldat": "1942-05-21T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b359",
+    "az": 426,
+    "nev": "Jacques Laffite",
+    "nem": "F",
+    "szuldat": "1943-11-21T00:00:00.000Z",
+    "nemzet": "francia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b36f",
+    "az": 448,
+    "nev": "Mike Hawthorn",
+    "nem": "F",
+    "szuldat": "1929-04-10T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b374",
+    "az": 453,
+    "nev": "Jean-Louis Schlesser",
+    "nem": "F",
+    "szuldat": "1952-09-12T00:00:00.000Z",
+    "nemzet": "francia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b37d",
+    "az": 462,
+    "nev": "Astrubel Bayardo",
+    "nem": "F",
+    "szuldat": "1922-01-01T00:00:00.000Z",
+    "nemzet": "uruguayi",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b1b4",
+    "az": 5,
+    "nev": "Bob Drake",
+    "nem": "F",
+    "szuldat": "1919-12-14T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b1ba",
+    "az": 11,
+    "nev": "Derek Warwick",
+    "nem": "F",
+    "szuldat": "1954-08-27T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b1bb",
+    "az": 12,
+    "nev": "Jo Siffert",
+    "nem": "F",
+    "szuldat": "1936-07-07T00:00:00.000Z",
+    "nemzet": "sv�jci",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b1c6",
+    "az": 23,
+    "nev": "Jonathan Williams",
+    "nem": "F",
+    "szuldat": "1942-10-26T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b1c8",
+    "az": 25,
+    "nev": "Dave Charlton",
+    "nem": "F",
+    "szuldat": "1936-10-27T00:00:00.000Z",
+    "nemzet": "d�l-afrikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b1ce",
+    "az": 31,
+    "nev": "Bill Vukovich",
+    "nem": "F",
+    "szuldat": "1918-12-13T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b1d7",
+    "az": 40,
+    "nev": "Leslie Johnson",
+    "nem": "F",
+    "szuldat": "1912-03-22T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b1dc",
+    "az": 45,
+    "nev": "Oscar Gonzalez",
+    "nem": "F",
+    "szuldat": "1923-11-10T00:00:00.000Z",
+    "nemzet": "uruguayi",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b1e8",
+    "az": 57,
+    "nev": "Philippe Adams",
+    "nem": "F",
+    "szuldat": "1969-11-19T00:00:00.000Z",
+    "nemzet": "belga",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b1eb",
+    "az": 60,
+    "nev": "Nello Pagani",
+    "nem": "F",
+    "szuldat": "1911-10-11T00:00:00.000Z",
+    "nemzet": "olasz",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b1f4",
+    "az": 69,
+    "nev": "Gijs van Lennep",
+    "nem": "F",
+    "szuldat": "1942-03-16T00:00:00.000Z",
+    "nemzet": "holland",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b245",
+    "az": 150,
+    "nev": "Wolfgang von Trips",
+    "nem": "F",
+    "szuldat": "1928-05-04T00:00:00.000Z",
+    "nemzet": "n�met",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b257",
+    "az": 168,
+    "nev": "Ayrton Senna",
+    "nem": "F",
+    "szuldat": "1960-03-21T00:00:00.000Z",
+    "nemzet": "brazil",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b266",
+    "az": 183,
+    "nev": "Billy Garrett",
+    "nem": "F",
+    "szuldat": "1933-04-24T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b26f",
+    "az": 192,
+    "nev": "Red Amick",
+    "nem": "F",
+    "szuldat": "1929-01-19T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b273",
+    "az": 196,
+    "nev": "Paul Goldsmith",
+    "nem": "F",
+    "szuldat": "1927-10-02T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b28f",
+    "az": 224,
+    "nev": "Ronnie Peterson",
+    "nem": "F",
+    "szuldat": "1944-02-14T00:00:00.000Z",
+    "nemzet": "sv�d",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b292",
+    "az": 227,
+    "nev": "Travis Webb",
+    "nem": "F",
+    "szuldat": "1910-10-08T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b298",
+    "az": 233,
+    "nev": "Nico Rosberg",
+    "nem": "F",
+    "szuldat": "1985-06-27T00:00:00.000Z",
+    "nemzet": "n�met",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b2ad",
+    "az": 254,
+    "nev": "Rupert Keegan",
+    "nem": "F",
+    "szuldat": "1955-02-28T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b2b6",
+    "az": 263,
+    "nev": "Luiz Bueno",
+    "nem": "F",
+    "szuldat": "1937-01-16T00:00:00.000Z",
+    "nemzet": "brazil",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b2bf",
+    "az": 272,
+    "nev": "Harry Blanchard",
+    "nem": "F",
+    "szuldat": "1931-06-30T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b2ca",
+    "az": 283,
+    "nev": "Jacques Pollet",
+    "nem": "F",
+    "szuldat": "1932-07-02T00:00:00.000Z",
+    "nemzet": "francia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b2d7",
+    "az": 296,
+    "nev": "Ed Elisian",
+    "nem": "F",
+    "szuldat": "1926-12-09T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b2ea",
+    "az": 315,
+    "nev": "Geoff Crossley",
+    "nem": "F",
+    "szuldat": "1921-05-11T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b2f0",
+    "az": 321,
+    "nev": "Yannick Dalmas",
+    "nem": "F",
+    "szuldat": "1961-07-28T00:00:00.000Z",
+    "nemzet": "francia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b2f6",
+    "az": 327,
+    "nev": "Frank Gardner",
+    "nem": "F",
+    "szuldat": "1930-10-01T00:00:00.000Z",
+    "nemzet": "ausztr�l",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b2ff",
+    "az": 336,
+    "nev": "Troy Ruttman",
+    "nem": "F",
+    "szuldat": "1930-03-11T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b316",
+    "az": 359,
+    "nev": "Patrick Friesacher",
+    "nem": "F",
+    "szuldat": "1980-09-26T00:00:00.000Z",
+    "nemzet": "osztr�k",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b31b",
+    "az": 364,
+    "nev": "Peter Whitehead",
+    "nem": "F",
+    "szuldat": "1914-11-12T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b32a",
+    "az": 379,
+    "nev": "Sergio Mantovani",
+    "nem": "F",
+    "szuldat": "1929-05-22T00:00:00.000Z",
+    "nemzet": "olasz",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b32d",
+    "az": 382,
+    "nev": "Rudolf Fischer",
+    "nem": "F",
+    "szuldat": "1912-04-19T00:00:00.000Z",
+    "nemzet": "sv�jci",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b333",
+    "az": 388,
+    "nev": "Olivier Beretta",
+    "nem": "F",
+    "szuldat": "1969-11-23T00:00:00.000Z",
+    "nemzet": "monacoi",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b35f",
+    "az": 432,
+    "nev": "Carlos Menditeguy",
+    "nem": "F",
+    "szuldat": "1915-08-10T00:00:00.000Z",
+    "nemzet": "argent�n",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b375",
+    "az": 454,
+    "nev": "Jim Rigsby",
+    "nem": "F",
+    "szuldat": "1923-06-06T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b39b",
+    "az": 492,
+    "nev": "Paul Belmondo",
+    "nem": "F",
+    "szuldat": "1963-04-23T00:00:00.000Z",
+    "nemzet": "francia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b39c",
+    "az": 493,
+    "nev": "Johnny Dumfries",
+    "nem": "F",
+    "szuldat": "1958-04-26T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b3a1",
+    "az": 498,
+    "nev": "Emanuele Naspetti",
+    "nem": "F",
+    "szuldat": "1968-02-24T00:00:00.000Z",
+    "nemzet": "olasz",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b1b6",
+    "az": 7,
+    "nev": "Bertil Roos",
+    "nem": "F",
+    "szuldat": "1943-10-12T00:00:00.000Z",
+    "nemzet": "sv�d",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b1c2",
+    "az": 19,
+    "nev": "Innes Ireland",
+    "nem": "F",
+    "szuldat": "1930-12-16T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b1e9",
+    "az": 58,
+    "nev": "Bruce Kessler",
+    "nem": "F",
+    "szuldat": "1936-03-23T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b1f3",
+    "az": 68,
+    "nev": "Jochen Rindt",
+    "nem": "F",
+    "szuldat": "1942-04-18T00:00:00.000Z",
+    "nemzet": "osztr�k",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b216",
+    "az": 103,
+    "nev": "Heinz Schiller",
+    "nem": "F",
+    "szuldat": "1930-01-25T00:00:00.000Z",
+    "nemzet": "sv�jci",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b21c",
+    "az": 109,
+    "nev": "Giovanni Lavaggi",
+    "nem": "F",
+    "szuldat": "1958-02-18T00:00:00.000Z",
+    "nemzet": "olasz",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b222",
+    "az": 115,
+    "nev": "Chuck Daigh",
+    "nem": "F",
+    "szuldat": "1923-11-29T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b234",
+    "az": 133,
+    "nev": "Gaetano Starrabba",
+    "nem": "F",
+    "szuldat": "1932-12-03T00:00:00.000Z",
+    "nemzet": "olasz",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b23e",
+    "az": 143,
+    "nev": "Andre Guelfi",
+    "nem": "F",
+    "szuldat": "1919-05-06T00:00:00.000Z",
+    "nemzet": "francia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b24f",
+    "az": 160,
+    "nev": "Michael Bleekemolen",
+    "nem": "F",
+    "szuldat": "1949-10-02T00:00:00.000Z",
+    "nemzet": "holland",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b252",
+    "az": 163,
+    "nev": "Johnnie Parsons",
+    "nem": "F",
+    "szuldat": "1918-07-04T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b254",
+    "az": 165,
+    "nev": "Roger Loyer",
+    "nem": "F",
+    "szuldat": "1907-08-05T00:00:00.000Z",
+    "nemzet": "francia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b25e",
+    "az": 175,
+    "nev": "Bob Bondurant",
+    "nem": "F",
+    "szuldat": "1933-04-27T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b268",
+    "az": 185,
+    "nev": "Jo Bonnier",
+    "nem": "F",
+    "szuldat": "1930-01-31T00:00:00.000Z",
+    "nemzet": "sv�d",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b280",
+    "az": 209,
+    "nev": "Brett Lunger",
+    "nem": "F",
+    "szuldat": "1945-11-14T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b286",
+    "az": 215,
+    "nev": "Ivan Capelli",
+    "nem": "F",
+    "szuldat": "1963-05-24T00:00:00.000Z",
+    "nemzet": "olasz",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b2b5",
+    "az": 262,
+    "nev": "Richie Ginther",
+    "nem": "F",
+    "szuldat": "1930-08-05T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b2ba",
+    "az": 267,
+    "nev": "Ted Whiteaway",
+    "nem": "F",
+    "szuldat": "1928-11-01T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b2c2",
+    "az": 275,
+    "nev": "Cliff Allison",
+    "nem": "F",
+    "szuldat": "1932-02-08T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b2d2",
+    "az": 291,
+    "nev": "Adrian Campos",
+    "nem": "F",
+    "szuldat": "1960-06-17T00:00:00.000Z",
+    "nemzet": "spanyol",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b2f7",
+    "az": 328,
+    "nev": "Luki Botha",
+    "nem": "F",
+    "szuldat": "1930-01-16T00:00:00.000Z",
+    "nemzet": "d�l-afrikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b307",
+    "az": 344,
+    "nev": "Graham Whitehead",
+    "nem": "F",
+    "szuldat": "1922-04-15T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b30a",
+    "az": 347,
+    "nev": "Danny Kladis",
+    "nem": "F",
+    "szuldat": "1917-02-10T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b315",
+    "az": 358,
+    "nev": "Marcel Balsa",
+    "nem": "F",
+    "szuldat": "1901-01-09T00:00:00.000Z",
+    "nemzet": "francia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b31a",
+    "az": 363,
+    "nev": "Dick Gibson",
+    "nem": "F",
+    "szuldat": "1918-04-16T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b31e",
+    "az": 367,
+    "nev": "Juan-Pablo Montoya",
+    "nem": "F",
+    "szuldat": "1975-09-20T00:00:00.000Z",
+    "nemzet": "kolumbiai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b33c",
+    "az": 397,
+    "nev": "Noritake Takahara",
+    "nem": "F",
+    "szuldat": "1951-06-06T00:00:00.000Z",
+    "nemzet": "jap�n",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b342",
+    "az": 403,
+    "nev": "Pedro-Matos Chaves",
+    "nem": "F",
+    "szuldat": "1965-02-27T00:00:00.000Z",
+    "nemzet": "portug�l",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b34e",
+    "az": 415,
+    "nev": "Kunimitsu Takahashi",
+    "nem": "F",
+    "szuldat": "1940-01-29T00:00:00.000Z",
+    "nemzet": "jap�n",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b35a",
+    "az": 427,
+    "nev": "Gerhard Berger",
+    "nem": "F",
+    "szuldat": "1959-08-27T00:00:00.000Z",
+    "nemzet": "osztr�k",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b35d",
+    "az": 430,
+    "nev": "Mack Hellings",
+    "nem": "F",
+    "szuldat": "1917-09-14T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b372",
+    "az": 451,
+    "nev": "Emilio de Villota",
+    "nem": "F",
+    "szuldat": "1946-07-26T00:00:00.000Z",
+    "nemzet": "spanyol",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b37b",
+    "az": 460,
+    "nev": "Don Beauman",
+    "nem": "F",
+    "szuldat": "1928-07-26T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b380",
+    "az": 465,
+    "nev": "Tony Gaze",
+    "nem": "F",
+    "szuldat": "1920-02-03T00:00:00.000Z",
+    "nemzet": "ausztr�l",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b388",
+    "az": 473,
+    "nev": "Michael Bartels",
+    "nem": "F",
+    "szuldat": "1968-03-08T00:00:00.000Z",
+    "nemzet": "n�met",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b392",
+    "az": 483,
+    "nev": "Charles de Tornaco",
+    "nem": "F",
+    "szuldat": "1927-06-07T00:00:00.000Z",
+    "nemzet": "belga",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b1bd",
+    "az": 14,
+    "nev": "Damon Hill",
+    "nem": "F",
+    "szuldat": "1960-09-17T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b1c9",
+    "az": 26,
+    "nev": "Joe James",
+    "nem": "F",
+    "szuldat": "1925-05-23T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b1e7",
+    "az": 56,
+    "nev": "Tony Bettenhausen",
+    "nem": "F",
+    "szuldat": "1916-09-12T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b1f9",
+    "az": 74,
+    "nev": "Michael Schumacher",
+    "nem": "F",
+    "szuldat": "1969-01-03T00:00:00.000Z",
+    "nemzet": "n�met",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b206",
+    "az": 87,
+    "nev": "Ricardo Zonta",
+    "nem": "F",
+    "szuldat": "1976-03-23T00:00:00.000Z",
+    "nemzet": "brazil",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b212",
+    "az": 99,
+    "nev": "Jean-Manuel Bordeu",
+    "nem": "F",
+    "szuldat": "1934-01-01T00:00:00.000Z",
+    "nemzet": "argent�n",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b21d",
+    "az": 110,
+    "nev": "Alexandre Premat",
+    "nem": "F",
+    "szuldat": "1982-04-05T00:00:00.000Z",
+    "nemzet": "francia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b21e",
+    "az": 111,
+    "nev": "Maurice Trintignant",
+    "nem": "F",
+    "szuldat": "1917-10-30T00:00:00.000Z",
+    "nemzet": "francia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b220",
+    "az": 113,
+    "nev": "Alessandro Pesenti-Rossi",
+    "nem": "F",
+    "szuldat": "1942-08-31T00:00:00.000Z",
+    "nemzet": "olasz",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b224",
+    "az": 117,
+    "nev": "Chris Bristow",
+    "nem": "F",
+    "szuldat": "1937-12-02T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b233",
+    "az": 132,
+    "nev": "Michel Leclere",
+    "nem": "F",
+    "szuldat": "1947-03-18T00:00:00.000Z",
+    "nemzet": "francia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b235",
+    "az": 134,
+    "nev": "Robert O'Brien",
+    "nem": "F",
+    "szuldat": null,
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b247",
+    "az": 152,
+    "nev": "Toshio Suzuki",
+    "nem": "F",
+    "szuldat": "1955-03-10T00:00:00.000Z",
+    "nemzet": "jap�n",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b277",
+    "az": 200,
+    "nev": "Robin [Robert] Montgomerie-Charrington",
+    "nem": "F",
+    "szuldat": "1915-06-22T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b296",
+    "az": 231,
+    "nev": "Cal Niday",
+    "nem": "F",
+    "szuldat": "1916-04-29T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b2a1",
+    "az": 242,
+    "nev": "Gregor Foitek",
+    "nem": "F",
+    "szuldat": "1965-03-27T00:00:00.000Z",
+    "nemzet": "sv�jci",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b2ab",
+    "az": 252,
+    "nev": "Paolo Barilla",
+    "nem": "F",
+    "szuldat": "1961-04-20T00:00:00.000Z",
+    "nemzet": "olasz",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b2b8",
+    "az": 265,
+    "nev": "Elio de Angelis",
+    "nem": "F",
+    "szuldat": "1958-03-26T00:00:00.000Z",
+    "nemzet": "olasz",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b2c3",
+    "az": 276,
+    "nev": "Jim McWithey",
+    "nem": "F",
+    "szuldat": "1927-07-04T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b2c7",
+    "az": 280,
+    "nev": "Ernesto Viso",
+    "nem": "F",
+    "szuldat": "1985-03-19T00:00:00.000Z",
+    "nemzet": "venezuelai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b2c9",
+    "az": 282,
+    "nev": "Harald Ertl",
+    "nem": "F",
+    "szuldat": "1948-08-31T00:00:00.000Z",
+    "nemzet": "osztr�k",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b2ce",
+    "az": 287,
+    "nev": "Umberto Maglioli",
+    "nem": "F",
+    "szuldat": "1928-06-05T00:00:00.000Z",
+    "nemzet": "olasz",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b2f8",
+    "az": 329,
+    "nev": "Satoru Nakajima",
+    "nem": "F",
+    "szuldat": "1953-02-23T00:00:00.000Z",
+    "nemzet": "jap�n",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b300",
+    "az": 337,
+    "nev": "Antoine Branca",
+    "nem": "F",
+    "szuldat": "1916-09-15T00:00:00.000Z",
+    "nemzet": "sv�jci",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b314",
+    "az": 357,
+    "nev": "Keke Rosberg",
+    "nem": "F",
+    "szuldat": "1948-12-06T00:00:00.000Z",
+    "nemzet": "finn",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b32f",
+    "az": 384,
+    "nev": "John Watson",
+    "nem": "F",
+    "szuldat": "1946-05-04T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b337",
+    "az": 392,
+    "nev": "Rikky von Opel",
+    "nem": "F",
+    "szuldat": "1947-10-14T00:00:00.000Z",
+    "nemzet": "n�met",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b348",
+    "az": 409,
+    "nev": "Jyrki J?ilehto Lehto",
+    "nem": "F",
+    "szuldat": "1966-01-31T00:00:00.000Z",
+    "nemzet": "finn",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b34d",
+    "az": 414,
+    "nev": "George Follmer",
+    "nem": "F",
+    "szuldat": "1934-01-27T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b366",
+    "az": 439,
+    "nev": "Andy Sutcliffe",
+    "nem": "F",
+    "szuldat": "1947-05-09T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b36e",
+    "az": 447,
+    "nev": "Riccardo Paletti",
+    "nem": "F",
+    "szuldat": "1958-06-15T00:00:00.000Z",
+    "nemzet": "olasz",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b378",
+    "az": 457,
+    "nev": "Arthur Legat",
+    "nem": "F",
+    "szuldat": "1898-11-01T00:00:00.000Z",
+    "nemzet": "belga",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b381",
+    "az": 466,
+    "nev": "Rudolf Schoeller",
+    "nem": "F",
+    "szuldat": "1902-04-27T00:00:00.000Z",
+    "nemzet": "sv�jci",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b382",
+    "az": 467,
+    "nev": "Jimmy Stewart",
+    "nem": "F",
+    "szuldat": "1931-03-06T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b386",
+    "az": 471,
+    "nev": "Jimmy Jackson",
+    "nem": "F",
+    "szuldat": "1910-07-25T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b3a3",
+    "az": 500,
+    "nev": "Martin Donnelly",
+    "nem": "F",
+    "szuldat": "1964-03-26T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b3a8",
+    "az": 505,
+    "nev": "Rudolf Krause",
+    "nem": "F",
+    "szuldat": "1907-03-30T00:00:00.000Z",
+    "nemzet": "n�met",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b3b4",
+    "az": 517,
+    "nev": "Andrea de Cesaris",
+    "nem": "F",
+    "szuldat": "1959-05-31T00:00:00.000Z",
+    "nemzet": "olasz",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b3d1",
+    "az": 546,
+    "nev": "Louis Chiron",
+    "nem": "F",
+    "szuldat": "1899-08-03T00:00:00.000Z",
+    "nemzet": "monacoi",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b3d3",
+    "az": 548,
+    "nev": "Desmond Titterington",
+    "nem": "F",
+    "szuldat": "1928-05-01T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b3fb",
+    "az": 588,
+    "nev": "Antonio Pizzonia",
+    "nem": "F",
+    "szuldat": "1980-09-11T00:00:00.000Z",
+    "nemzet": "brazil",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b3fe",
+    "az": 591,
+    "nev": "Christian Goethals",
+    "nem": "F",
+    "szuldat": "1928-08-04T00:00:00.000Z",
+    "nemzet": "belga",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b442",
+    "az": 659,
+    "nev": "Pedro de la Rosa",
+    "nem": "F",
+    "szuldat": "1971-02-24T00:00:00.000Z",
+    "nemzet": "spanyol",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b468",
+    "az": 697,
+    "nev": "Guy Tunmer",
+    "nem": "F",
+    "szuldat": "1948-12-01T00:00:00.000Z",
+    "nemzet": "d�l-afrikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b471",
+    "az": 706,
+    "nev": "Jimmy Davies",
+    "nem": "F",
+    "szuldat": "1923-08-18T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b483",
+    "az": 724,
+    "nev": "Christian Albers",
+    "nem": "F",
+    "szuldat": "1979-04-16T00:00:00.000Z",
+    "nemzet": "holland",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b484",
+    "az": 725,
+    "nev": "Cecil Green",
+    "nem": "F",
+    "szuldat": "1919-09-30T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b4a1",
+    "az": 754,
+    "nev": "Nino Vaccarella",
+    "nem": "F",
+    "szuldat": "1933-03-04T00:00:00.000Z",
+    "nemzet": "olasz",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b4ae",
+    "az": 767,
+    "nev": "Prince Birabongse Bhanuban",
+    "nem": "F",
+    "szuldat": "1914-07-15T00:00:00.000Z",
+    "nemzet": "thaif�ldi",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b4d0",
+    "az": 801,
+    "nev": "Johnny Mantz",
+    "nem": "F",
+    "szuldat": "1918-09-18T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b3ad",
+    "az": 510,
+    "nev": "Peter Arundell",
+    "nem": "F",
+    "szuldat": "1933-11-08T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b3cd",
+    "az": 542,
+    "nev": "Torsten Palm",
+    "nem": "F",
+    "szuldat": "1947-07-23T00:00:00.000Z",
+    "nemzet": "sv�d",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b3f6",
+    "az": 583,
+    "nev": "Yves Giraud-Cabantous",
+    "nem": "F",
+    "szuldat": "1903-10-08T00:00:00.000Z",
+    "nemzet": "francia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b3f7",
+    "az": 584,
+    "nev": "Eugenio Castellotti",
+    "nem": "F",
+    "szuldat": "1930-10-10T00:00:00.000Z",
+    "nemzet": "olasz",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b40b",
+    "az": 604,
+    "nev": "Rob Schroeder",
+    "nem": "F",
+    "szuldat": "1926-05-11T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b415",
+    "az": 614,
+    "nev": "Allan McNish",
+    "nem": "F",
+    "szuldat": "1969-12-29T00:00:00.000Z",
+    "nemzet": "sk�t",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b45b",
+    "az": 684,
+    "nev": "Damien Magee",
+    "nem": "F",
+    "szuldat": "1945-11-17T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b476",
+    "az": 711,
+    "nev": "A J Foyt",
+    "nem": "F",
+    "szuldat": "1935-01-16T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b48e",
+    "az": 735,
+    "nev": "Alan Brown",
+    "nem": "F",
+    "szuldat": "1919-11-20T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b495",
+    "az": 742,
+    "nev": "Brian Shawe-Taylor",
+    "nem": "F",
+    "szuldat": "1915-01-29T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b49c",
+    "az": 749,
+    "nev": "Dave [David] Kennedy",
+    "nem": "F",
+    "szuldat": "1953-01-15T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b3a4",
+    "az": 501,
+    "nev": "Chuck Arnold",
+    "nem": "F",
+    "szuldat": "1926-05-30T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b3ac",
+    "az": 509,
+    "nev": "Jacques -Uncle- Villeneuve",
+    "nem": "F",
+    "szuldat": "1953-11-04T00:00:00.000Z",
+    "nemzet": "kanadai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b3b7",
+    "az": 520,
+    "nev": "Michele Alboreto",
+    "nem": "F",
+    "szuldat": "1956-12-23T00:00:00.000Z",
+    "nemzet": "olasz",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b3d0",
+    "az": 545,
+    "nev": "Andre Milhoux",
+    "nem": "F",
+    "szuldat": "1928-12-09T00:00:00.000Z",
+    "nemzet": "belga",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b3e9",
+    "az": 570,
+    "nev": "Andrea de Adamich",
+    "nem": "F",
+    "szuldat": "1941-10-03T00:00:00.000Z",
+    "nemzet": "olasz",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b418",
+    "az": 617,
+    "nev": "Piero Carini",
+    "nem": "F",
+    "szuldat": "1921-03-06T00:00:00.000Z",
+    "nemzet": "olasz",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b41b",
+    "az": 620,
+    "nev": "Pierluigi Martini",
+    "nem": "F",
+    "szuldat": "1961-04-23T00:00:00.000Z",
+    "nemzet": "olasz",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b434",
+    "az": 645,
+    "nev": "Bob Veith",
+    "nem": "F",
+    "szuldat": "1926-11-01T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b461",
+    "az": 690,
+    "nev": "Jacky Ickx",
+    "nem": "F",
+    "szuldat": "1945-01-01T00:00:00.000Z",
+    "nemzet": "belga",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b47b",
+    "az": 716,
+    "nev": "Giovanna Amati",
+    "nem": "N",
+    "szuldat": "1962-07-20T00:00:00.000Z",
+    "nemzet": "olasz",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b485",
+    "az": 726,
+    "nev": "Desire Wilson",
+    "nem": "N",
+    "szuldat": "1953-11-26T00:00:00.000Z",
+    "nemzet": "d�l-afrikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b4a2",
+    "az": 755,
+    "nev": "Felipe Massa",
+    "nem": "F",
+    "szuldat": "1981-04-25T00:00:00.000Z",
+    "nemzet": "brazil",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b4bb",
+    "az": 780,
+    "nev": "Fred Wacker",
+    "nem": "F",
+    "szuldat": "1918-07-10T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b4bd",
+    "az": 782,
+    "nev": "Mauricio Gugelmin",
+    "nem": "F",
+    "szuldat": "1963-04-20T00:00:00.000Z",
+    "nemzet": "brazil",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b4cb",
+    "az": 796,
+    "nev": "Hans Klenk",
+    "nem": "F",
+    "szuldat": "1919-10-18T00:00:00.000Z",
+    "nemzet": "n�met",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b4ce",
+    "az": 799,
+    "nev": "Hans-Joachim Stuck",
+    "nem": "F",
+    "szuldat": "1951-01-01T00:00:00.000Z",
+    "nemzet": "n�met",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b4cf",
+    "az": 800,
+    "nev": "Jim Rathmann",
+    "nem": "F",
+    "szuldat": "1928-07-16T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b3b8",
+    "az": 521,
+    "nev": "Enrique Bernoldi",
+    "nem": "F",
+    "szuldat": "1978-10-19T00:00:00.000Z",
+    "nemzet": "brazil",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b3c7",
+    "az": 536,
+    "nev": "Carl Scarborough",
+    "nem": "F",
+    "szuldat": "1914-07-03T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b3cc",
+    "az": 541,
+    "nev": "Luis Perez-Sala",
+    "nem": "F",
+    "szuldat": "1959-05-15T00:00:00.000Z",
+    "nemzet": "spanyol",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b3ef",
+    "az": 576,
+    "nev": "Erwin Bauer",
+    "nem": "F",
+    "szuldat": "1912-07-17T00:00:00.000Z",
+    "nemzet": "n�met",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b407",
+    "az": 600,
+    "nev": "Mike Wilds",
+    "nem": "F",
+    "szuldat": "1946-01-07T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b40d",
+    "az": 606,
+    "nev": "Jean Behra",
+    "nem": "F",
+    "szuldat": "1921-02-16T00:00:00.000Z",
+    "nemzet": "francia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b419",
+    "az": 618,
+    "nev": "Timo Glock",
+    "nem": "F",
+    "szuldat": "1982-03-10T00:00:00.000Z",
+    "nemzet": "n�met",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b426",
+    "az": 631,
+    "nev": "Eric van de Poele",
+    "nem": "F",
+    "szuldat": "1961-09-30T00:00:00.000Z",
+    "nemzet": "belga",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b427",
+    "az": 632,
+    "nev": "Paul Hawkins",
+    "nem": "F",
+    "szuldat": "1937-10-12T00:00:00.000Z",
+    "nemzet": "ausztr�l",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b43b",
+    "az": 652,
+    "nev": "Giancarlo Fisichella",
+    "nem": "F",
+    "szuldat": "1973-01-14T00:00:00.000Z",
+    "nemzet": "olasz",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b44a",
+    "az": 667,
+    "nev": "Richard Attwood",
+    "nem": "F",
+    "szuldat": "1940-04-04T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b45d",
+    "az": 686,
+    "nev": "Len Sutton",
+    "nem": "F",
+    "szuldat": "1925-08-09T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b45f",
+    "az": 688,
+    "nev": "David Murray",
+    "nem": "F",
+    "szuldat": "1909-12-28T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b467",
+    "az": 696,
+    "nev": "Eugene Martin",
+    "nem": "F",
+    "szuldat": "1915-03-24T00:00:00.000Z",
+    "nemzet": "francia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b470",
+    "az": 705,
+    "nev": "Bill Schindler",
+    "nem": "F",
+    "szuldat": "1909-03-06T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b47c",
+    "az": 717,
+    "nev": "Alain Prost",
+    "nem": "F",
+    "szuldat": "1955-02-24T00:00:00.000Z",
+    "nemzet": "francia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b497",
+    "az": 744,
+    "nev": "Gerhard Mitter",
+    "nem": "F",
+    "szuldat": "1935-08-30T00:00:00.000Z",
+    "nemzet": "n�met",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b4a8",
+    "az": 761,
+    "nev": "Henri Pescarolo",
+    "nem": "F",
+    "szuldat": "1942-09-25T00:00:00.000Z",
+    "nemzet": "francia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b4aa",
+    "az": 763,
+    "nev": "Tony Brise",
+    "nem": "F",
+    "szuldat": "1952-03-28T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b4c3",
+    "az": 788,
+    "nev": "Jean-Pierre Jabouille",
+    "nem": "F",
+    "szuldat": "1942-10-01T00:00:00.000Z",
+    "nemzet": "francia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b3a6",
+    "az": 503,
+    "nev": "Ken Wharton",
+    "nem": "F",
+    "szuldat": "1916-03-21T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b3af",
+    "az": 512,
+    "nev": "Ricardo Rosset",
+    "nem": "F",
+    "szuldat": "1968-07-27T00:00:00.000Z",
+    "nemzet": "brazil",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b3b1",
+    "az": 514,
+    "nev": "Mike Beuttler",
+    "nem": "F",
+    "szuldat": "1940-04-13T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b3b9",
+    "az": 522,
+    "nev": "Lella Lombardi",
+    "nem": "N",
+    "szuldat": "1943-03-26T00:00:00.000Z",
+    "nemzet": "olasz",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b3c0",
+    "az": 529,
+    "nev": "Peter Gethin",
+    "nem": "F",
+    "szuldat": "1940-02-21T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b3cf",
+    "az": 544,
+    "nev": "Silvio Moser",
+    "nem": "F",
+    "szuldat": "1941-04-24T00:00:00.000Z",
+    "nemzet": "sv�jci",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b3dc",
+    "az": 557,
+    "nev": "Ottorino Volonterio",
+    "nem": "F",
+    "szuldat": "1917-12-07T00:00:00.000Z",
+    "nemzet": "sv�jci",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b3df",
+    "az": 560,
+    "nev": "Kurt Adolff",
+    "nem": "F",
+    "szuldat": "1921-11-05T00:00:00.000Z",
+    "nemzet": "n�met",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b3f1",
+    "az": 578,
+    "nev": "Ken Kavanagh",
+    "nem": "F",
+    "szuldat": "1923-12-12T00:00:00.000Z",
+    "nemzet": "ausztr�l",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b40e",
+    "az": 607,
+    "nev": "Henry Taylor",
+    "nem": "F",
+    "szuldat": "1932-12-16T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b411",
+    "az": 610,
+    "nev": "Wayne Weiler",
+    "nem": "F",
+    "szuldat": "1934-12-09T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b424",
+    "az": 629,
+    "nev": "Brian Henton",
+    "nem": "F",
+    "szuldat": "1946-09-19T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b435",
+    "az": 646,
+    "nev": "Toranosuke Takagi",
+    "nem": "F",
+    "szuldat": "1974-02-12T00:00:00.000Z",
+    "nemzet": "jap�n",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b436",
+    "az": 647,
+    "nev": "John Nicholson",
+    "nem": "F",
+    "szuldat": "1941-10-06T00:00:00.000Z",
+    "nemzet": "�j-z�landi",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b444",
+    "az": 661,
+    "nev": "Robin Widdows",
+    "nem": "F",
+    "szuldat": "1942-05-27T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b44c",
+    "az": 669,
+    "nev": "Johnnie Tolan",
+    "nem": "F",
+    "szuldat": "1918-10-22T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b451",
+    "az": 674,
+    "nev": "Tom Jones",
+    "nem": "F",
+    "szuldat": "1943-04-26T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b452",
+    "az": 675,
+    "nev": "Eitel Cantoni",
+    "nem": "F",
+    "szuldat": "1906-10-04T00:00:00.000Z",
+    "nemzet": "uruguayi",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b46b",
+    "az": 700,
+    "nev": "Ron Flockhart",
+    "nem": "F",
+    "szuldat": "1923-06-16T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b479",
+    "az": 714,
+    "nev": "Gianfranco Comotti",
+    "nem": "F",
+    "szuldat": "1906-07-24T00:00:00.000Z",
+    "nemzet": "olasz",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b47f",
+    "az": 720,
+    "nev": "Eugene Chaboud",
+    "nem": "F",
+    "szuldat": "1907-04-12T00:00:00.000Z",
+    "nemzet": "francia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b48d",
+    "az": 734,
+    "nev": "Lance Reventlow",
+    "nem": "F",
+    "szuldat": "1936-02-24T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b491",
+    "az": 738,
+    "nev": "Eric Brandon",
+    "nem": "F",
+    "szuldat": "1920-07-18T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b492",
+    "az": 739,
+    "nev": "Brian Gubby",
+    "nem": "F",
+    "szuldat": "1934-04-17T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b4a6",
+    "az": 759,
+    "nev": "Louis Rosier",
+    "nem": "F",
+    "szuldat": "1905-11-05T00:00:00.000Z",
+    "nemzet": "francia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b4ad",
+    "az": 766,
+    "nev": "Mauri Rose",
+    "nem": "F",
+    "szuldat": "1906-05-26T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b4c4",
+    "az": 789,
+    "nev": "Tony Marsh",
+    "nem": "F",
+    "szuldat": "1931-07-20T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b4cd",
+    "az": 798,
+    "nev": "Piero Scotti",
+    "nem": "F",
+    "szuldat": "1909-11-11T00:00:00.000Z",
+    "nemzet": "olasz",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b3e2",
+    "az": 563,
+    "nev": "Nicola Larini",
+    "nem": "F",
+    "szuldat": "1964-03-19T00:00:00.000Z",
+    "nemzet": "olasz",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b3f8",
+    "az": 585,
+    "nev": "Niki Lauda",
+    "nem": "F",
+    "szuldat": "1949-02-22T00:00:00.000Z",
+    "nemzet": "osztr�k",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b412",
+    "az": 611,
+    "nev": "Don Branson",
+    "nem": "F",
+    "szuldat": "1920-06-06T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b414",
+    "az": 613,
+    "nev": "Bernd Nacke",
+    "nem": "F",
+    "szuldat": "1921-12-21T00:00:00.000Z",
+    "nemzet": "n�met",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b422",
+    "az": 627,
+    "nev": "Aldo Gordini",
+    "nem": "F",
+    "szuldat": "1921-05-20T00:00:00.000Z",
+    "nemzet": "francia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b423",
+    "az": 628,
+    "nev": "Patrick Gaillard",
+    "nem": "F",
+    "szuldat": "1952-02-12T00:00:00.000Z",
+    "nemzet": "francia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b43f",
+    "az": 656,
+    "nev": "Roelof Wunderink",
+    "nem": "F",
+    "szuldat": "1948-12-12T00:00:00.000Z",
+    "nemzet": "holland",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b443",
+    "az": 660,
+    "nev": "Bob Evans",
+    "nem": "F",
+    "szuldat": "1947-06-11T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b446",
+    "az": 663,
+    "nev": "Graham McRae",
+    "nem": "F",
+    "szuldat": "1940-03-05T00:00:00.000Z",
+    "nemzet": "�j-z�landi",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b44f",
+    "az": 672,
+    "nev": "Mika Hakkinen",
+    "nem": "F",
+    "szuldat": "1968-09-28T00:00:00.000Z",
+    "nemzet": "finn",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b458",
+    "az": 681,
+    "nev": "Bobby Ball",
+    "nem": "F",
+    "szuldat": "1925-08-26T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b45e",
+    "az": 687,
+    "nev": "Jean-Christophe-Pierre Boullion",
+    "nem": "F",
+    "szuldat": "1969-12-27T00:00:00.000Z",
+    "nemzet": "francia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b49a",
+    "az": 747,
+    "nev": "Boy Hayje",
+    "nem": "F",
+    "szuldat": "1949-05-03T00:00:00.000Z",
+    "nemzet": "holland",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b49e",
+    "az": 751,
+    "nev": "Takuma Sato",
+    "nem": "F",
+    "szuldat": "1977-01-28T00:00:00.000Z",
+    "nemzet": "jap�n",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b4c1",
+    "az": 786,
+    "nev": "John Riseley-Prichard",
+    "nem": "F",
+    "szuldat": "1924-01-17T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b4c5",
+    "az": 790,
+    "nev": "Jose Dolhem",
+    "nem": "F",
+    "szuldat": "1944-04-26T00:00:00.000Z",
+    "nemzet": "francia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b3b0",
+    "az": 513,
+    "nev": "Beppe Gabbiani",
+    "nem": "F",
+    "szuldat": "1957-01-02T00:00:00.000Z",
+    "nemzet": "olasz",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b3c4",
+    "az": 533,
+    "nev": "Teddy Pilette",
+    "nem": "F",
+    "szuldat": "1942-07-26T00:00:00.000Z",
+    "nemzet": "belga",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b3ce",
+    "az": 543,
+    "nev": "Jean-Marc Gounon",
+    "nem": "F",
+    "szuldat": "1963-01-01T00:00:00.000Z",
+    "nemzet": "francia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b3d2",
+    "az": 547,
+    "nev": "Dan Gurney",
+    "nem": "F",
+    "szuldat": "1931-04-13T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b3d7",
+    "az": 552,
+    "nev": "Conny Andersson",
+    "nem": "F",
+    "szuldat": "1939-12-28T00:00:00.000Z",
+    "nemzet": "sv�d",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b3f2",
+    "az": 579,
+    "nev": "Willi Krakau",
+    "nem": "F",
+    "szuldat": "1911-12-04T00:00:00.000Z",
+    "nemzet": "n�met",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b3ff",
+    "az": 592,
+    "nev": "Jarno Trulli",
+    "nem": "F",
+    "szuldat": "1974-07-13T00:00:00.000Z",
+    "nemzet": "olasz",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b410",
+    "az": 609,
+    "nev": "Bill Brack",
+    "nem": "F",
+    "szuldat": "1935-12-26T00:00:00.000Z",
+    "nemzet": "kanadai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b437",
+    "az": 648,
+    "nev": "Jerry Unser",
+    "nem": "F",
+    "szuldat": "1932-11-15T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b454",
+    "az": 677,
+    "nev": "Paul Russo",
+    "nem": "F",
+    "szuldat": "1914-04-10T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b457",
+    "az": 680,
+    "nev": "Alex Yoong",
+    "nem": "F",
+    "szuldat": "1976-07-20T00:00:00.000Z",
+    "nemzet": "mal�j",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b45a",
+    "az": 683,
+    "nev": "Chuck Stevenson",
+    "nem": "F",
+    "szuldat": "1919-10-15T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b463",
+    "az": 692,
+    "nev": "Bill Whitehouse",
+    "nem": "F",
+    "szuldat": "1909-04-01T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b466",
+    "az": 695,
+    "nev": "Bruce Halford",
+    "nem": "F",
+    "szuldat": "1931-05-18T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b46a",
+    "az": 699,
+    "nev": "Volker Weidler",
+    "nem": "F",
+    "szuldat": "1962-03-18T00:00:00.000Z",
+    "nemzet": "n�met",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b474",
+    "az": 709,
+    "nev": "George Connor",
+    "nem": "F",
+    "szuldat": "1908-08-16T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b47a",
+    "az": 715,
+    "nev": "Toni Ulmen",
+    "nem": "F",
+    "szuldat": "1906-01-25T00:00:00.000Z",
+    "nemzet": "n�met",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b486",
+    "az": 727,
+    "nev": "Mark Webber",
+    "nem": "F",
+    "szuldat": "1976-08-27T00:00:00.000Z",
+    "nemzet": "ausztr�l",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b48a",
+    "az": 731,
+    "nev": "Graham Hill",
+    "nem": "F",
+    "szuldat": "1929-02-15T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b493",
+    "az": 740,
+    "nev": "Reine Wisell",
+    "nem": "F",
+    "szuldat": "1941-09-30T00:00:00.000Z",
+    "nemzet": "sv�d",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b4a0",
+    "az": 753,
+    "nev": "John Miles",
+    "nem": "F",
+    "szuldat": "1943-06-14T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b4b8",
+    "az": 777,
+    "nev": "Al Pease",
+    "nem": "F",
+    "szuldat": "1921-10-15T00:00:00.000Z",
+    "nemzet": "kanadai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b4bf",
+    "az": 784,
+    "nev": "Jack Fairman",
+    "nem": "F",
+    "szuldat": "1913-03-15T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b4c9",
+    "az": 794,
+    "nev": "Hernando da Silva-Ramos",
+    "nem": "F",
+    "szuldat": "1925-12-07T00:00:00.000Z",
+    "nemzet": "brazil",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b4cc",
+    "az": 797,
+    "nev": "Christian Klien",
+    "nem": "F",
+    "szuldat": "1983-02-07T00:00:00.000Z",
+    "nemzet": "osztr�k",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b3b6",
+    "az": 519,
+    "nev": "Tommy Byrne",
+    "nem": "F",
+    "szuldat": "1958-05-06T00:00:00.000Z",
+    "nemzet": "�r",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b3be",
+    "az": 527,
+    "nev": "Fritz d' Orey",
+    "nem": "F",
+    "szuldat": "1938-03-25T00:00:00.000Z",
+    "nemzet": "brazil",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b3db",
+    "az": 556,
+    "nev": "Gabriele Tarquini",
+    "nem": "F",
+    "szuldat": "1962-03-02T00:00:00.000Z",
+    "nemzet": "olasz",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b3e6",
+    "az": 567,
+    "nev": "Luciano Burti",
+    "nem": "F",
+    "szuldat": "1975-05-03T00:00:00.000Z",
+    "nemzet": "brazil",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b3e8",
+    "az": 569,
+    "nev": "Manfred Winkelhock",
+    "nem": "F",
+    "szuldat": "1952-10-06T00:00:00.000Z",
+    "nemzet": "n�met",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b3fa",
+    "az": 587,
+    "nev": "Andre Pilette",
+    "nem": "F",
+    "szuldat": "1918-10-06T00:00:00.000Z",
+    "nemzet": "belga",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b408",
+    "az": 601,
+    "nev": "Ken Richardson",
+    "nem": "F",
+    "szuldat": "1911-08-21T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b40a",
+    "az": 603,
+    "nev": "Piero Drogo",
+    "nem": "F",
+    "szuldat": "1926-08-08T00:00:00.000Z",
+    "nemzet": "venezuelai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b413",
+    "az": 612,
+    "nev": "Mike Hailwood",
+    "nem": "F",
+    "szuldat": "1940-04-02T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b41a",
+    "az": 619,
+    "nev": "Keith Greene",
+    "nem": "F",
+    "szuldat": "1938-01-05T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b432",
+    "az": 643,
+    "nev": "Renzo Zorzi",
+    "nem": "F",
+    "szuldat": "1946-12-12T00:00:00.000Z",
+    "nemzet": "olasz",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b43a",
+    "az": 651,
+    "nev": "Michael Ammermuller",
+    "nem": "F",
+    "szuldat": "1986-02-14T00:00:00.000Z",
+    "nemzet": "n�met",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b43c",
+    "az": 653,
+    "nev": "A Juan Jover",
+    "nem": "F",
+    "szuldat": "1903-11-23T00:00:00.000Z",
+    "nemzet": "spanyol",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b43e",
+    "az": 655,
+    "nev": "Piero Taruffi",
+    "nem": "F",
+    "szuldat": "1906-10-12T00:00:00.000Z",
+    "nemzet": "olasz",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b448",
+    "az": 665,
+    "nev": "Bas Leinders",
+    "nem": "F",
+    "szuldat": "1975-07-16T00:00:00.000Z",
+    "nemzet": "belga",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b453",
+    "az": 676,
+    "nev": "Ernst Klodwig",
+    "nem": "F",
+    "szuldat": "1903-05-23T00:00:00.000Z",
+    "nemzet": "n�met",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b455",
+    "az": 678,
+    "nev": "Carlo Franchi",
+    "nem": "F",
+    "szuldat": "1938-01-01T00:00:00.000Z",
+    "nemzet": "olasz",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b456",
+    "az": 679,
+    "nev": "Howden Ganley",
+    "nem": "F",
+    "szuldat": "1941-12-24T00:00:00.000Z",
+    "nemzet": "�j-z�landi",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b475",
+    "az": 710,
+    "nev": "Sakon Yamamoto",
+    "nem": "F",
+    "szuldat": "1982-09-07T00:00:00.000Z",
+    "nemzet": "jap�n",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b480",
+    "az": 721,
+    "nev": "Jose-Froilan Gonzalez",
+    "nem": "F",
+    "szuldat": "1922-10-05T00:00:00.000Z",
+    "nemzet": "argent�n",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b482",
+    "az": 723,
+    "nev": "Domenico Schiattarella",
+    "nem": "F",
+    "szuldat": "1967-11-17T00:00:00.000Z",
+    "nemzet": "olasz",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b4b0",
+    "az": 769,
+    "nev": "Ian Scheckter",
+    "nem": "F",
+    "szuldat": "1947-08-22T00:00:00.000Z",
+    "nemzet": "d�l-afrikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b4b1",
+    "az": 770,
+    "nev": "Jan Magnussen",
+    "nem": "F",
+    "szuldat": "1973-07-04T00:00:00.000Z",
+    "nemzet": "d�n",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b4b5",
+    "az": 774,
+    "nev": "Hiroshi Fushida",
+    "nem": "F",
+    "szuldat": "1946-03-10T00:00:00.000Z",
+    "nemzet": "jap�n",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b4b6",
+    "az": 775,
+    "nev": "John Taylor",
+    "nem": "F",
+    "szuldat": "1933-03-23T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b4ba",
+    "az": 779,
+    "nev": "Karl Kling",
+    "nem": "F",
+    "szuldat": "1910-09-16T00:00:00.000Z",
+    "nemzet": "n�met",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b3c6",
+    "az": 535,
+    "nev": "Roberto Bonomi",
+    "nem": "F",
+    "szuldat": "1919-09-30T00:00:00.000Z",
+    "nemzet": "argent�n",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b3ea",
+    "az": 571,
+    "nev": "Doug Serrurier",
+    "nem": "F",
+    "szuldat": "1920-12-09T00:00:00.000Z",
+    "nemzet": "d�l-afrikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b42e",
+    "az": 639,
+    "nev": "Jimmy Bryan",
+    "nem": "F",
+    "szuldat": "1927-01-28T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b431",
+    "az": 642,
+    "nev": "Julian Bailey",
+    "nem": "F",
+    "szuldat": "1961-10-09T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b441",
+    "az": 658,
+    "nev": "Mike Magill",
+    "nem": "F",
+    "szuldat": "1920-02-18T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b469",
+    "az": 698,
+    "nev": "Fred Agabashian",
+    "nem": "F",
+    "szuldat": "1913-08-21T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b472",
+    "az": 707,
+    "nev": "Art Cross",
+    "nem": "F",
+    "szuldat": "1918-01-24T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b47e",
+    "az": 719,
+    "nev": "Markus Winkelhock",
+    "nem": "F",
+    "szuldat": "1980-06-13T00:00:00.000Z",
+    "nemzet": "n�met",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b49f",
+    "az": 752,
+    "nev": "Fritz Riess",
+    "nem": "F",
+    "szuldat": "1922-07-11T00:00:00.000Z",
+    "nemzet": "n�met",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b4a4",
+    "az": 757,
+    "nev": "Dieter Quester",
+    "nem": "F",
+    "szuldat": "1939-05-30T00:00:00.000Z",
+    "nemzet": "osztr�k",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b4b7",
+    "az": 776,
+    "nev": "Andrea Montermini",
+    "nem": "F",
+    "szuldat": "1964-05-30T00:00:00.000Z",
+    "nemzet": "olasz",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b4bc",
+    "az": 781,
+    "nev": "Consalvo Sanesi",
+    "nem": "F",
+    "szuldat": "1911-03-28T00:00:00.000Z",
+    "nemzet": "olasz",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b4c8",
+    "az": 793,
+    "nev": "Luca Badoer",
+    "nem": "F",
+    "szuldat": "1971-01-25T00:00:00.000Z",
+    "nemzet": "olasz",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b3b5",
+    "az": 518,
+    "nev": "Phill Hill",
+    "nem": "F",
+    "szuldat": "1927-04-20T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b3c1",
+    "az": 530,
+    "nev": "Nick Heidfeld",
+    "nem": "F",
+    "szuldat": "1977-05-10T00:00:00.000Z",
+    "nemzet": "n�met",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b3c3",
+    "az": 532,
+    "nev": "Paul Frere",
+    "nem": "F",
+    "szuldat": "1917-01-30T00:00:00.000Z",
+    "nemzet": "belga",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b3da",
+    "az": 555,
+    "nev": "Johnny McDowell",
+    "nem": "F",
+    "szuldat": "1915-01-29T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b3e1",
+    "az": 562,
+    "nev": "Kurt Kuhnke",
+    "nem": "F",
+    "szuldat": "1910-04-30T00:00:00.000Z",
+    "nemzet": "n�met",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b3f5",
+    "az": 582,
+    "nev": "Antonio Creus",
+    "nem": "F",
+    "szuldat": "1924-10-28T00:00:00.000Z",
+    "nemzet": "spanyol",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b401",
+    "az": 594,
+    "nev": "Jim Hurtubise",
+    "nem": "F",
+    "szuldat": "1933-12-05T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b417",
+    "az": 616,
+    "nev": "Chico Serra",
+    "nem": "F",
+    "szuldat": "1957-02-03T00:00:00.000Z",
+    "nemzet": "brazil",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b425",
+    "az": 630,
+    "nev": "Franco Forini",
+    "nem": "F",
+    "szuldat": "1958-09-22T00:00:00.000Z",
+    "nemzet": "sv�jci",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b42f",
+    "az": 640,
+    "nev": "Lee Wallard",
+    "nem": "F",
+    "szuldat": "1911-09-08T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b438",
+    "az": 649,
+    "nev": "Shorty Templeman",
+    "nem": "F",
+    "szuldat": "1919-08-12T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b450",
+    "az": 673,
+    "nev": "George Abecassis",
+    "nem": "F",
+    "szuldat": "1913-03-21T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b46d",
+    "az": 702,
+    "nev": "Teo Fabi",
+    "nem": "F",
+    "szuldat": "1955-03-09T00:00:00.000Z",
+    "nemzet": "olasz",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b46e",
+    "az": 703,
+    "nev": "Francois Mazet",
+    "nem": "F",
+    "szuldat": "1943-02-26T00:00:00.000Z",
+    "nemzet": "francia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b473",
+    "az": 708,
+    "nev": "Bobby Rahal",
+    "nem": "F",
+    "szuldat": "1953-01-10T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b481",
+    "az": 722,
+    "nev": "Ernst Loof",
+    "nem": "F",
+    "szuldat": "1907-07-04T00:00:00.000Z",
+    "nemzet": "n�met",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b48f",
+    "az": 736,
+    "nev": "Gerino Gerini",
+    "nem": "F",
+    "szuldat": "1928-08-10T00:00:00.000Z",
+    "nemzet": "olasz",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b498",
+    "az": 745,
+    "nev": "Arturo Merzario",
+    "nem": "F",
+    "szuldat": "1943-03-11T00:00:00.000Z",
+    "nemzet": "olasz",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b4b3",
+    "az": 772,
+    "nev": "Tom Bridger",
+    "nem": "F",
+    "szuldat": "1934-06-24T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b4c0",
+    "az": 785,
+    "nev": "Vern Schuppan",
+    "nem": "F",
+    "szuldat": "1943-03-19T00:00:00.000Z",
+    "nemzet": "ausztr�l",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b3ab",
+    "az": 508,
+    "nev": "Don Freeland",
+    "nem": "F",
+    "szuldat": "1925-03-25T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b3b2",
+    "az": 515,
+    "nev": "Gerry Ashmore",
+    "nem": "F",
+    "szuldat": "1936-07-25T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b3c2",
+    "az": 531,
+    "nev": "Dave Morgan",
+    "nem": "F",
+    "szuldat": "1944-08-07T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b3c5",
+    "az": 534,
+    "nev": "Albert Scherrer",
+    "nem": "F",
+    "szuldat": "1908-02-28T00:00:00.000Z",
+    "nemzet": "sv�jci",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b3d5",
+    "az": 550,
+    "nev": "Emanuel de Graffenried",
+    "nem": "F",
+    "szuldat": "1914-05-18T00:00:00.000Z",
+    "nemzet": "sv�jci",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b3d6",
+    "az": 551,
+    "nev": "Giorgio Mondini",
+    "nem": "F",
+    "szuldat": "1980-07-19T00:00:00.000Z",
+    "nemzet": "sv�jci",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b405",
+    "az": 598,
+    "nev": "Myron Fohr",
+    "nem": "F",
+    "szuldat": "1912-06-12T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b428",
+    "az": 633,
+    "nev": "Mike Thackwell",
+    "nem": "F",
+    "szuldat": "1961-03-30T00:00:00.000Z",
+    "nemzet": "�j-z�landi",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b449",
+    "az": 666,
+    "nev": "Jackie Oliver",
+    "nem": "F",
+    "szuldat": "1942-08-14T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b460",
+    "az": 689,
+    "nev": "Alex Ribeiro",
+    "nem": "F",
+    "szuldat": "1948-11-07T00:00:00.000Z",
+    "nemzet": "brazil",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b462",
+    "az": 691,
+    "nev": "Joie Chitwood",
+    "nem": "F",
+    "szuldat": "1912-04-14T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b478",
+    "az": 713,
+    "nev": "Chuck Weyant",
+    "nem": "F",
+    "szuldat": "1923-03-04T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b487",
+    "az": 728,
+    "nev": "Giacomo Russo",
+    "nem": "F",
+    "szuldat": "1937-10-23T00:00:00.000Z",
+    "nemzet": "olasz",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b48b",
+    "az": 732,
+    "nev": "Phill Cade",
+    "nem": "F",
+    "szuldat": "1916-06-12T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b4a7",
+    "az": 760,
+    "nev": "Bill Moss",
+    "nem": "F",
+    "szuldat": "1933-01-01T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b4ab",
+    "az": 764,
+    "nev": "Alessandro de Tomaso",
+    "nem": "F",
+    "szuldat": "1928-07-10T00:00:00.000Z",
+    "nemzet": "argent�n",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b4b4",
+    "az": 773,
+    "nev": "Tiff Needell",
+    "nem": "F",
+    "szuldat": "1951-10-29T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b4be",
+    "az": 783,
+    "nev": "Jenson Button",
+    "nem": "F",
+    "szuldat": "1980-01-19T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b3cb",
+    "az": 540,
+    "nev": "Anthony Davidson",
+    "nem": "F",
+    "szuldat": "1979-04-18T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b3e7",
+    "az": 568,
+    "nev": "Tim Mayer",
+    "nem": "F",
+    "szuldat": "1938-02-22T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b3f9",
+    "az": 586,
+    "nev": "Tim Schenken",
+    "nem": "F",
+    "szuldat": "1943-09-26T00:00:00.000Z",
+    "nemzet": "ausztr�l",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b409",
+    "az": 602,
+    "nev": "Jackie Holmes",
+    "nem": "F",
+    "szuldat": "1920-09-04T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b41c",
+    "az": 621,
+    "nev": "Ignazio Giunti",
+    "nem": "F",
+    "szuldat": "1941-08-30T00:00:00.000Z",
+    "nemzet": "olasz",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b420",
+    "az": 625,
+    "nev": "Raymond Sommer",
+    "nem": "F",
+    "szuldat": "1906-08-31T00:00:00.000Z",
+    "nemzet": "francia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b42d",
+    "az": 638,
+    "nev": "Michael Andretti",
+    "nem": "F",
+    "szuldat": "1962-10-05T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b440",
+    "az": 657,
+    "nev": "Thierry Boutsen",
+    "nem": "F",
+    "szuldat": "1957-07-13T00:00:00.000Z",
+    "nemzet": "belga",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b447",
+    "az": 664,
+    "nev": "Colin Chapman",
+    "nem": "F",
+    "szuldat": "1928-05-19T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b44e",
+    "az": 671,
+    "nev": "Jean-Pierre Beltoise",
+    "nem": "F",
+    "szuldat": "1937-04-26T00:00:00.000Z",
+    "nemzet": "francia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b465",
+    "az": 694,
+    "nev": "Mike Sparken",
+    "nem": "F",
+    "szuldat": "1930-06-16T00:00:00.000Z",
+    "nemzet": "francia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b488",
+    "az": 729,
+    "nev": "Felice Bonetto",
+    "nem": "F",
+    "szuldat": "1903-06-09T00:00:00.000Z",
+    "nemzet": "olasz",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b4a3",
+    "az": 756,
+    "nev": "Hans Herrmann",
+    "nem": "F",
+    "szuldat": "1928-02-23T00:00:00.000Z",
+    "nemzet": "n�met",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b4a5",
+    "az": 758,
+    "nev": "Jack Turner",
+    "nem": "F",
+    "szuldat": "1920-02-12T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b4a9",
+    "az": 762,
+    "nev": "Gene Force",
+    "nem": "F",
+    "szuldat": "1916-06-15T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b3a5",
+    "az": 502,
+    "nev": "Ukyo Katayama",
+    "nem": "F",
+    "szuldat": "1963-05-29T00:00:00.000Z",
+    "nemzet": "jap�n",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b3aa",
+    "az": 507,
+    "nev": "Ryan Briscoe",
+    "nem": "F",
+    "szuldat": "1981-09-24T00:00:00.000Z",
+    "nemzet": "ausztr�l",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b3bb",
+    "az": 524,
+    "nev": "Giovanni de Riu",
+    "nem": "F",
+    "szuldat": "1924-03-10T00:00:00.000Z",
+    "nemzet": "olasz",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b3bf",
+    "az": 528,
+    "nev": "Jackie Pretorius",
+    "nem": "F",
+    "szuldat": "1934-11-22T00:00:00.000Z",
+    "nemzet": "d�l-afrikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b3ca",
+    "az": 539,
+    "nev": "Paddy Driver",
+    "nem": "F",
+    "szuldat": "1934-05-13T00:00:00.000Z",
+    "nemzet": "d�l-afrikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b3e0",
+    "az": 561,
+    "nev": "Miguel-Angel Guerra",
+    "nem": "F",
+    "szuldat": "1953-08-31T00:00:00.000Z",
+    "nemzet": "argent�n",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b3e5",
+    "az": 566,
+    "nev": "Jacques Villeneuve",
+    "nem": "F",
+    "szuldat": "1971-04-09T00:00:00.000Z",
+    "nemzet": "kanadai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b3ec",
+    "az": 573,
+    "nev": "Vic Elford",
+    "nem": "F",
+    "szuldat": "1935-06-10T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b3f4",
+    "az": 581,
+    "nev": "Roberto Bussinello",
+    "nem": "F",
+    "szuldat": "1927-10-04T00:00:00.000Z",
+    "nemzet": "olasz",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b40c",
+    "az": 605,
+    "nev": "Pedro Lamy",
+    "nem": "F",
+    "szuldat": "1972-03-20T00:00:00.000Z",
+    "nemzet": "portug�l",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b40f",
+    "az": 608,
+    "nev": "Alessandro Nannini",
+    "nem": "F",
+    "szuldat": "1959-07-07T00:00:00.000Z",
+    "nemzet": "olasz",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b416",
+    "az": 615,
+    "nev": "Stephane Sarrazin",
+    "nem": "F",
+    "szuldat": "1974-11-02T00:00:00.000Z",
+    "nemzet": "francia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b41e",
+    "az": 623,
+    "nev": "Manny [Manuel] Ayulo",
+    "nem": "F",
+    "szuldat": "1921-10-20T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b439",
+    "az": 650,
+    "nev": "Jim Crawford",
+    "nem": "F",
+    "szuldat": "1948-02-13T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b43d",
+    "az": 654,
+    "nev": "Alfonso de Portago",
+    "nem": "F",
+    "szuldat": "1928-10-11T00:00:00.000Z",
+    "nemzet": "spanyol",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b44d",
+    "az": 670,
+    "nev": "Edgar Barth",
+    "nem": "F",
+    "szuldat": "1917-11-26T00:00:00.000Z",
+    "nemzet": "n�met",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b48c",
+    "az": 733,
+    "nev": "Basil van Rooyen",
+    "nem": "F",
+    "szuldat": "1938-04-19T00:00:00.000Z",
+    "nemzet": "d�l-afrikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b490",
+    "az": 737,
+    "nev": "Andrea Chiesa",
+    "nem": "F",
+    "szuldat": "1964-05-06T00:00:00.000Z",
+    "nemzet": "sv�jci",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b4ac",
+    "az": 765,
+    "nev": "Andre Simon",
+    "nem": "F",
+    "szuldat": "1920-01-05T00:00:00.000Z",
+    "nemzet": "francia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b4b2",
+    "az": 771,
+    "nev": "Peter [Piet] de Klerk",
+    "nem": "F",
+    "szuldat": "1935-03-16T00:00:00.000Z",
+    "nemzet": "d�l-afrikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b3a7",
+    "az": 504,
+    "nev": "Jonathan Palmer",
+    "nem": "F",
+    "szuldat": "1956-11-07T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b3b3",
+    "az": 516,
+    "nev": "Hap Sharp",
+    "nem": "F",
+    "szuldat": "1928-01-01T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b3c8",
+    "az": 537,
+    "nev": "Eric Thompson",
+    "nem": "F",
+    "szuldat": "1919-11-04T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b3de",
+    "az": 559,
+    "nev": "Otto Stuppacher",
+    "nem": "F",
+    "szuldat": "1947-03-03T00:00:00.000Z",
+    "nemzet": "osztr�k",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b3fd",
+    "az": 590,
+    "nev": "Christian Danner",
+    "nem": "F",
+    "szuldat": "1958-04-04T00:00:00.000Z",
+    "nemzet": "n�met",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b400",
+    "az": 593,
+    "nev": "Giorgio Pantano",
+    "nem": "F",
+    "szuldat": "1979-02-04T00:00:00.000Z",
+    "nemzet": "olasz",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b402",
+    "az": 595,
+    "nev": "Robert Manzon",
+    "nem": "F",
+    "szuldat": "1917-04-12T00:00:00.000Z",
+    "nemzet": "francia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b403",
+    "az": 596,
+    "nev": "Johnny Cecotto",
+    "nem": "F",
+    "szuldat": "1956-01-25T00:00:00.000Z",
+    "nemzet": "venezuelai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b406",
+    "az": 599,
+    "nev": "Peter Collins",
+    "nem": "F",
+    "szuldat": "1931-11-08T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b41d",
+    "az": 622,
+    "nev": "Bill Cheesbourg",
+    "nem": "F",
+    "szuldat": "1927-06-12T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b433",
+    "az": 644,
+    "nev": "Harry Merkel",
+    "nem": "F",
+    "szuldat": "1918-01-10T00:00:00.000Z",
+    "nemzet": "n�met",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b45c",
+    "az": 685,
+    "nev": "Jochen Mass",
+    "nem": "F",
+    "szuldat": "1946-09-30T00:00:00.000Z",
+    "nemzet": "n�met",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b46f",
+    "az": 704,
+    "nev": "Len Duncan",
+    "nem": "F",
+    "szuldat": "1911-07-25T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b494",
+    "az": 741,
+    "nev": "Oswald Karch",
+    "nem": "F",
+    "szuldat": "1917-03-06T00:00:00.000Z",
+    "nemzet": "n�met",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b499",
+    "az": 746,
+    "nev": "Ralf Schumacher",
+    "nem": "F",
+    "szuldat": "1975-06-30T00:00:00.000Z",
+    "nemzet": "n�met",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b49b",
+    "az": 748,
+    "nev": "Ernesto Brambilla",
+    "nem": "F",
+    "szuldat": "1934-01-31T00:00:00.000Z",
+    "nemzet": "olasz",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b49d",
+    "az": 750,
+    "nev": "Walt Ader",
+    "nem": "F",
+    "szuldat": "1913-12-15T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b4af",
+    "az": 768,
+    "nev": "Siegfried Stohr",
+    "nem": "F",
+    "szuldat": "1952-10-10T00:00:00.000Z",
+    "nemzet": "olasz",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b4b9",
+    "az": 778,
+    "nev": "David Piper",
+    "nem": "F",
+    "szuldat": "1930-12-02T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b4c7",
+    "az": 792,
+    "nev": "Ray Crawford",
+    "nem": "F",
+    "szuldat": "1915-10-26T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b3a9",
+    "az": 506,
+    "nev": "Karl-Guenther [Gunther] Bechem",
+    "nem": "F",
+    "szuldat": "1921-12-21T00:00:00.000Z",
+    "nemzet": "n�met",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b3ae",
+    "az": 511,
+    "nev": "George Fonder",
+    "nem": "F",
+    "szuldat": "1917-06-22T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b3bc",
+    "az": 525,
+    "nev": "Gus Hutchison",
+    "nem": "F",
+    "szuldat": "1937-04-26T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b3bd",
+    "az": 526,
+    "nev": "Luigi Piotti",
+    "nem": "F",
+    "szuldat": "1913-10-27T00:00:00.000Z",
+    "nemzet": "olasz",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b3d4",
+    "az": 549,
+    "nev": "Arthur Owen",
+    "nem": "F",
+    "szuldat": "1915-03-23T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b3d8",
+    "az": 553,
+    "nev": "Gino Munaron",
+    "nem": "F",
+    "szuldat": "1928-04-02T00:00:00.000Z",
+    "nemzet": "olasz",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b3dd",
+    "az": 558,
+    "nev": "Derek Daly",
+    "nem": "F",
+    "szuldat": "1953-03-11T00:00:00.000Z",
+    "nemzet": "�r",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b3e3",
+    "az": 564,
+    "nev": "Mike Taylor",
+    "nem": "F",
+    "szuldat": "1934-04-24T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b3e4",
+    "az": 565,
+    "nev": "Pete Lovely",
+    "nem": "F",
+    "szuldat": "1926-04-11T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b3eb",
+    "az": 572,
+    "nev": "Nelson Piquet",
+    "nem": "F",
+    "szuldat": "1952-08-17T00:00:00.000Z",
+    "nemzet": "brazil",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b3f3",
+    "az": 580,
+    "nev": "Keith Andrews",
+    "nem": "F",
+    "szuldat": "1920-06-15T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b404",
+    "az": 597,
+    "nev": "Ian Burgess",
+    "nem": "F",
+    "szuldat": "1930-07-06T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b41f",
+    "az": 624,
+    "nev": "Dries van der Lof",
+    "nem": "F",
+    "szuldat": "1919-08-23T00:00:00.000Z",
+    "nemzet": "holland",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b42a",
+    "az": 635,
+    "nev": "Eddie Irvine",
+    "nem": "F",
+    "szuldat": "1965-11-10T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b42b",
+    "az": 636,
+    "nev": "Raul Boesel",
+    "nem": "F",
+    "szuldat": "1957-12-04T00:00:00.000Z",
+    "nemzet": "brazil",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b42c",
+    "az": 637,
+    "nev": "Bayliss Levrett",
+    "nem": "F",
+    "szuldat": "1913-02-14T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b445",
+    "az": 662,
+    "nev": "Eppie Wietzes",
+    "nem": "F",
+    "szuldat": "1938-05-28T00:00:00.000Z",
+    "nemzet": "kanadai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b44b",
+    "az": 668,
+    "nev": "Jan Flinterman",
+    "nem": "F",
+    "szuldat": "1919-10-02T00:00:00.000Z",
+    "nemzet": "holland",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b459",
+    "az": 682,
+    "nev": "Ettore Chimeri",
+    "nem": "F",
+    "szuldat": "1921-06-04T00:00:00.000Z",
+    "nemzet": "venezuelai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b464",
+    "az": 693,
+    "nev": "Bob Sweikert",
+    "nem": "F",
+    "szuldat": "1926-05-20T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b477",
+    "az": 712,
+    "nev": "George Constantine",
+    "nem": "F",
+    "szuldat": "1918-02-22T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b47d",
+    "az": 718,
+    "nev": "Chet Miller",
+    "nem": "F",
+    "szuldat": "1902-07-19T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b4c2",
+    "az": 787,
+    "nev": "Eliseo Salazar",
+    "nem": "F",
+    "szuldat": "1954-11-04T00:00:00.000Z",
+    "nemzet": "chilei",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b4c6",
+    "az": 791,
+    "nev": "Willy Mairesse",
+    "nem": "F",
+    "szuldat": "1928-10-01T00:00:00.000Z",
+    "nemzet": "belga",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b4ca",
+    "az": 795,
+    "nev": "Ben Pon",
+    "nem": "F",
+    "szuldat": "1936-12-09T00:00:00.000Z",
+    "nemzet": "holland",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b3ba",
+    "az": 523,
+    "nev": "Tony Rolt",
+    "nem": "F",
+    "szuldat": "1918-10-16T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b3c9",
+    "az": 538,
+    "nev": "Trevor Taylor",
+    "nem": "F",
+    "szuldat": "1936-12-26T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b3d9",
+    "az": 554,
+    "nev": "Emanuele Pirro",
+    "nem": "F",
+    "szuldat": "1962-01-12T00:00:00.000Z",
+    "nemzet": "olasz",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b3ed",
+    "az": 574,
+    "nev": "Johnny Thomson",
+    "nem": "F",
+    "szuldat": "1919-11-04T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b3ee",
+    "az": 575,
+    "nev": "Mike Parkes",
+    "nem": "F",
+    "szuldat": "1931-09-24T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b3f0",
+    "az": 577,
+    "nev": "Ernie McCoy",
+    "nem": "F",
+    "szuldat": "1921-02-19T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b3fc",
+    "az": 589,
+    "nev": "Vittorio Brambilla",
+    "nem": "F",
+    "szuldat": "1937-11-11T00:00:00.000Z",
+    "nemzet": "olasz",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b421",
+    "az": 626,
+    "nev": "Roger Penske",
+    "nem": "F",
+    "szuldat": "1937-02-20T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b429",
+    "az": 634,
+    "nev": "Rene Arnoux",
+    "nem": "F",
+    "szuldat": "1948-07-04T00:00:00.000Z",
+    "nemzet": "francia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b430",
+    "az": 641,
+    "nev": "Bill Mackey",
+    "nem": "F",
+    "szuldat": "1927-12-10T00:00:00.000Z",
+    "nemzet": "amerikai",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b46c",
+    "az": 701,
+    "nev": "Lance Macklin",
+    "nem": "F",
+    "szuldat": "1919-09-02T00:00:00.000Z",
+    "nemzet": "brit",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b489",
+    "az": 730,
+    "nev": "Robert La Caze",
+    "nem": "F",
+    "szuldat": "1917-02-26T00:00:00.000Z",
+    "nemzet": "marokk�i",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bf326bd7c3070f06b496",
+    "az": 743,
+    "nev": "Jim Clark",
+    "nem": "F",
+    "szuldat": "1936-03-04T00:00:00.000Z",
+    "nemzet": "sk�t",
+    "__v": 0
+  }
+]

@@ -1,0 +1,5294 @@
+[
+  {
+    "_id": "6ad7bdef33943b922b293c0a",
+    "datum": "1985-11-03T00:00:00.000Z",
+    "nev": "Ausztr�l",
+    "helyszin": "Ausztr�lia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c0c",
+    "datum": "1954-07-04T00:00:00.000Z",
+    "nev": "Francia",
+    "helyszin": "Franciaorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c2a",
+    "datum": "1979-07-29T00:00:00.000Z",
+    "nev": "N�met",
+    "helyszin": "N�metorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c3a",
+    "datum": "2006-09-10T00:00:00.000Z",
+    "nev": "Olasz",
+    "helyszin": "Olaszorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c3b",
+    "datum": "1999-05-16T00:00:00.000Z",
+    "nev": "Monacoi",
+    "helyszin": "Monaco",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c5d",
+    "datum": "2005-09-04T00:00:00.000Z",
+    "nev": "Olasz",
+    "helyszin": "Olaszorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c60",
+    "datum": "1953-01-18T00:00:00.000Z",
+    "nev": "Argent�n",
+    "helyszin": "Argent�na",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c61",
+    "datum": "1982-08-08T00:00:00.000Z",
+    "nev": "N�met",
+    "helyszin": "N�metorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c65",
+    "datum": "1996-06-30T00:00:00.000Z",
+    "nev": "Francia",
+    "helyszin": "Franciaorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c7a",
+    "datum": "1988-09-11T00:00:00.000Z",
+    "nev": "Olasz",
+    "helyszin": "Olaszorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c7b",
+    "datum": "2003-06-29T00:00:00.000Z",
+    "nev": "Eur�pa",
+    "helyszin": "N�metorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c9c",
+    "datum": "1989-09-24T00:00:00.000Z",
+    "nev": "Portug�l",
+    "helyszin": "Portug�lia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293cb8",
+    "datum": "1967-09-10T00:00:00.000Z",
+    "nev": "Olasz",
+    "helyszin": "Olaszorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293cc2",
+    "datum": "1969-07-06T00:00:00.000Z",
+    "nev": "Francia",
+    "helyszin": "Franciaorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d06",
+    "datum": "1955-09-11T00:00:00.000Z",
+    "nev": "Olasz",
+    "helyszin": "Olaszorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d16",
+    "datum": "2002-05-12T00:00:00.000Z",
+    "nev": "Osztr�k",
+    "helyszin": "Ausztria",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d17",
+    "datum": "1979-03-03T00:00:00.000Z",
+    "nev": "D�l-Afrikai",
+    "helyszin": "D�l-Afrika",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d38",
+    "datum": "1995-08-27T00:00:00.000Z",
+    "nev": "Belga",
+    "helyszin": "Belgium",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d59",
+    "datum": "1963-06-30T00:00:00.000Z",
+    "nev": "Francia",
+    "helyszin": "Franciaorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d8e",
+    "datum": "2000-09-10T00:00:00.000Z",
+    "nev": "Olasz",
+    "helyszin": "Olaszorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d9d",
+    "datum": "1999-07-11T00:00:00.000Z",
+    "nev": "Brit",
+    "helyszin": "Nagy-Britannia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293da6",
+    "datum": "1955-05-22T00:00:00.000Z",
+    "nev": "Monacoi",
+    "helyszin": "Monaco",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293dc2",
+    "datum": "1997-05-11T00:00:00.000Z",
+    "nev": "Monacoi",
+    "helyszin": "Monaco",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293dcc",
+    "datum": "1969-05-18T00:00:00.000Z",
+    "nev": "Monacoi",
+    "helyszin": "Monaco",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293dd7",
+    "datum": "1968-01-01T00:00:00.000Z",
+    "nev": "D�l-Afrikai",
+    "helyszin": "D�l-Afrika",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c32",
+    "datum": "1954-10-24T00:00:00.000Z",
+    "nev": "Spanyol",
+    "helyszin": "Spanyolorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c3e",
+    "datum": "1952-07-19T00:00:00.000Z",
+    "nev": "Brit",
+    "helyszin": "Nagy-Britannia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c45",
+    "datum": "1980-08-10T00:00:00.000Z",
+    "nev": "N�met",
+    "helyszin": "N�metorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c4b",
+    "datum": "2001-09-16T00:00:00.000Z",
+    "nev": "Olasz",
+    "helyszin": "Olaszorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c55",
+    "datum": "1965-01-01T00:00:00.000Z",
+    "nev": "D�l-Afrikai",
+    "helyszin": "D�l-Afrika",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c57",
+    "datum": "1973-02-11T00:00:00.000Z",
+    "nev": "Brazil",
+    "helyszin": "Braz�lia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c66",
+    "datum": "1980-03-01T00:00:00.000Z",
+    "nev": "D�l-Afrikai",
+    "helyszin": "D�l-Afrika",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c68",
+    "datum": "1960-05-30T00:00:00.000Z",
+    "nev": "Indy 500",
+    "helyszin": "USA",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c72",
+    "datum": "1976-06-13T00:00:00.000Z",
+    "nev": "Sv�d",
+    "helyszin": "Sv�dorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c78",
+    "datum": "2005-07-10T00:00:00.000Z",
+    "nev": "Brit",
+    "helyszin": "Nagy-Britannia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c84",
+    "datum": "1980-06-29T00:00:00.000Z",
+    "nev": "Francia",
+    "helyszin": "Franciaorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c87",
+    "datum": "2005-04-03T00:00:00.000Z",
+    "nev": "Bahreini",
+    "helyszin": "Bahrain",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c8e",
+    "datum": "1958-05-18T00:00:00.000Z",
+    "nev": "Monacoi",
+    "helyszin": "Monaco",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293caf",
+    "datum": "1981-05-03T00:00:00.000Z",
+    "nev": "San Marinoi",
+    "helyszin": "San Marino",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293cb0",
+    "datum": "1987-07-05T00:00:00.000Z",
+    "nev": "Francia",
+    "helyszin": "Franciaorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293cb7",
+    "datum": "1950-09-03T00:00:00.000Z",
+    "nev": "Olasz",
+    "helyszin": "Olaszorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293cc3",
+    "datum": "2004-09-12T00:00:00.000Z",
+    "nev": "Olasz",
+    "helyszin": "Olaszorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293ccf",
+    "datum": "1996-05-19T00:00:00.000Z",
+    "nev": "Monacoi",
+    "helyszin": "Monaco",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293ce4",
+    "datum": "1950-06-18T00:00:00.000Z",
+    "nev": "Belga",
+    "helyszin": "Belgium",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293cf6",
+    "datum": "1993-06-13T00:00:00.000Z",
+    "nev": "Kanadai",
+    "helyszin": "Kanada",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d09",
+    "datum": "1979-08-12T00:00:00.000Z",
+    "nev": "Osztr�k",
+    "helyszin": "Ausztria",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d11",
+    "datum": "1977-07-17T00:00:00.000Z",
+    "nev": "Brit",
+    "helyszin": "Nagy-Britannia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d1b",
+    "datum": "1958-07-06T00:00:00.000Z",
+    "nev": "Francia",
+    "helyszin": "Franciaorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d44",
+    "datum": "1987-05-31T00:00:00.000Z",
+    "nev": "Monacoi",
+    "helyszin": "Monaco",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d45",
+    "datum": "1980-05-04T00:00:00.000Z",
+    "nev": "Belga",
+    "helyszin": "Belgium",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d49",
+    "datum": "2001-05-27T00:00:00.000Z",
+    "nev": "Monacoi",
+    "helyszin": "Monaco",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d4b",
+    "datum": "2002-07-21T00:00:00.000Z",
+    "nev": "Francia",
+    "helyszin": "Franciaorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d4f",
+    "datum": "1995-07-30T00:00:00.000Z",
+    "nev": "N�met",
+    "helyszin": "N�metorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d5c",
+    "datum": "1989-10-01T00:00:00.000Z",
+    "nev": "Spanyol",
+    "helyszin": "Spanyolorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d5f",
+    "datum": "1984-03-25T00:00:00.000Z",
+    "nev": "Brazil",
+    "helyszin": "Braz�lia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d6a",
+    "datum": "1993-07-11T00:00:00.000Z",
+    "nev": "Brit",
+    "helyszin": "Nagy-Britannia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d71",
+    "datum": "1990-07-29T00:00:00.000Z",
+    "nev": "N�met",
+    "helyszin": "N�metorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d74",
+    "datum": "1988-09-25T00:00:00.000Z",
+    "nev": "Portug�l",
+    "helyszin": "Portug�lia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d77",
+    "datum": "1970-06-07T00:00:00.000Z",
+    "nev": "Belga",
+    "helyszin": "Belgium",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d7a",
+    "datum": "2000-08-27T00:00:00.000Z",
+    "nev": "Belga",
+    "helyszin": "Belgium",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d84",
+    "datum": "1993-11-07T00:00:00.000Z",
+    "nev": "Ausztr�l",
+    "helyszin": "Ausztr�lia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d94",
+    "datum": "1982-08-15T00:00:00.000Z",
+    "nev": "Osztr�k",
+    "helyszin": "Ausztria",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293dc9",
+    "datum": "2000-10-22T00:00:00.000Z",
+    "nev": "Mal�j",
+    "helyszin": "Malaysia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293bf1",
+    "datum": "2004-05-30T00:00:00.000Z",
+    "nev": "Eur�pa",
+    "helyszin": "N�metorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293bfd",
+    "datum": "1992-11-08T00:00:00.000Z",
+    "nev": "Ausztr�l",
+    "helyszin": "Ausztr�lia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c26",
+    "datum": "1979-09-30T00:00:00.000Z",
+    "nev": "Kanadai",
+    "helyszin": "Kanada",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c3f",
+    "datum": "1964-08-23T00:00:00.000Z",
+    "nev": "Osztr�k",
+    "helyszin": "Ausztria",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c48",
+    "datum": "2001-06-24T00:00:00.000Z",
+    "nev": "Eur�pa",
+    "helyszin": "N�metorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c4d",
+    "datum": "1980-08-31T00:00:00.000Z",
+    "nev": "Holland",
+    "helyszin": "Hollandia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c70",
+    "datum": "1985-10-06T00:00:00.000Z",
+    "nev": "Eur�pa",
+    "helyszin": "Nagy-Britannia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c90",
+    "datum": "1961-07-15T00:00:00.000Z",
+    "nev": "Brit",
+    "helyszin": "Nagy-Britannia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293cab",
+    "datum": "2002-09-15T00:00:00.000Z",
+    "nev": "Olasz",
+    "helyszin": "Olaszorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293cb9",
+    "datum": "2001-07-01T00:00:00.000Z",
+    "nev": "Francia",
+    "helyszin": "Franciaorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293cbb",
+    "datum": "1953-07-18T00:00:00.000Z",
+    "nev": "Brit",
+    "helyszin": "Nagy-Britannia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293cbe",
+    "datum": "1990-11-04T00:00:00.000Z",
+    "nev": "Ausztr�l",
+    "helyszin": "Ausztr�lia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293cd5",
+    "datum": "1950-05-13T00:00:00.000Z",
+    "nev": "Brit",
+    "helyszin": "Nagy-Britannia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293cdb",
+    "datum": "2006-05-28T00:00:00.000Z",
+    "nev": "Monacoi",
+    "helyszin": "Monaco",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293cde",
+    "datum": "1996-03-31T00:00:00.000Z",
+    "nev": "Brazil",
+    "helyszin": "Braz�lia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293ce1",
+    "datum": "1952-06-22T00:00:00.000Z",
+    "nev": "Belga",
+    "helyszin": "Belgium",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293ce6",
+    "datum": "1977-07-03T00:00:00.000Z",
+    "nev": "Francia",
+    "helyszin": "Franciaorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293ce9",
+    "datum": "1992-09-13T00:00:00.000Z",
+    "nev": "Olasz",
+    "helyszin": "Olaszorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293cfc",
+    "datum": "1958-08-24T00:00:00.000Z",
+    "nev": "Portug�l",
+    "helyszin": "Portug�lia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d1a",
+    "datum": "1987-08-16T00:00:00.000Z",
+    "nev": "Osztr�k",
+    "helyszin": "Ausztria",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d22",
+    "datum": "1988-10-30T00:00:00.000Z",
+    "nev": "Jap�n",
+    "helyszin": "Jap�n",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d2e",
+    "datum": "1964-08-02T00:00:00.000Z",
+    "nev": "N�met",
+    "helyszin": "N�metorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d30",
+    "datum": "1987-04-12T00:00:00.000Z",
+    "nev": "Brazil",
+    "helyszin": "Braz�lia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d47",
+    "datum": "1970-04-19T00:00:00.000Z",
+    "nev": "Spanyol",
+    "helyszin": "Spanyolorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d52",
+    "datum": "1999-05-02T00:00:00.000Z",
+    "nev": "San Marinoi",
+    "helyszin": "San Marino",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d54",
+    "datum": "1985-05-19T00:00:00.000Z",
+    "nev": "Monacoi",
+    "helyszin": "Monaco",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d5e",
+    "datum": "1988-05-29T00:00:00.000Z",
+    "nev": "Mexik�i",
+    "helyszin": "Mexik�",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d7b",
+    "datum": "1974-05-12T00:00:00.000Z",
+    "nev": "Belga",
+    "helyszin": "Belgium",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d86",
+    "datum": "1989-08-27T00:00:00.000Z",
+    "nev": "Belga",
+    "helyszin": "Belgium",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293da0",
+    "datum": "1991-06-16T00:00:00.000Z",
+    "nev": "Mexik�i",
+    "helyszin": "Mexik�",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293da3",
+    "datum": "1954-07-17T00:00:00.000Z",
+    "nev": "Brit",
+    "helyszin": "Nagy-Britannia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293dbc",
+    "datum": "1998-04-12T00:00:00.000Z",
+    "nev": "Argent�n",
+    "helyszin": "Argent�na",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293dd0",
+    "datum": "1967-10-22T00:00:00.000Z",
+    "nev": "Mexik�i",
+    "helyszin": "Mexik�",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293bf3",
+    "datum": "1987-06-21T00:00:00.000Z",
+    "nev": "USA",
+    "helyszin": "USA",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c02",
+    "datum": "1977-08-14T00:00:00.000Z",
+    "nev": "Osztr�k",
+    "helyszin": "Ausztria",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c05",
+    "datum": "1974-10-06T00:00:00.000Z",
+    "nev": "USA",
+    "helyszin": "USA",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c19",
+    "datum": "2001-07-15T00:00:00.000Z",
+    "nev": "Brit",
+    "helyszin": "Nagy-Britannia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c1a",
+    "datum": "1999-05-30T00:00:00.000Z",
+    "nev": "Spanyol",
+    "helyszin": "Spanyolorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c3d",
+    "datum": "1999-07-25T00:00:00.000Z",
+    "nev": "Osztr�k",
+    "helyszin": "Ausztria",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c67",
+    "datum": "1982-09-25T00:00:00.000Z",
+    "nev": "USA",
+    "helyszin": "USA",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c6f",
+    "datum": "1958-05-26T00:00:00.000Z",
+    "nev": "Holland",
+    "helyszin": "Hollandia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c79",
+    "datum": "1978-04-02T00:00:00.000Z",
+    "nev": "USA",
+    "helyszin": "USA",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c83",
+    "datum": "1995-09-10T00:00:00.000Z",
+    "nev": "Olasz",
+    "helyszin": "Olaszorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c98",
+    "datum": "1997-10-12T00:00:00.000Z",
+    "nev": "Jap�n",
+    "helyszin": "Jap�n",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293ca0",
+    "datum": "2002-09-01T00:00:00.000Z",
+    "nev": "Belga",
+    "helyszin": "Belgium",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293cc7",
+    "datum": "1975-01-26T00:00:00.000Z",
+    "nev": "Brazil",
+    "helyszin": "Braz�lia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293ced",
+    "datum": "2000-06-04T00:00:00.000Z",
+    "nev": "Monacoi",
+    "helyszin": "Monaco",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293cfd",
+    "datum": "1986-07-06T00:00:00.000Z",
+    "nev": "Francia",
+    "helyszin": "Franciaorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d23",
+    "datum": "1996-09-08T00:00:00.000Z",
+    "nev": "Olasz",
+    "helyszin": "Olaszorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d65",
+    "datum": "1999-08-01T00:00:00.000Z",
+    "nev": "N�met",
+    "helyszin": "N�metorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d6b",
+    "datum": "1973-08-05T00:00:00.000Z",
+    "nev": "N�met",
+    "helyszin": "N�metorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d6c",
+    "datum": "1988-08-07T00:00:00.000Z",
+    "nev": "Magyar",
+    "helyszin": "Magyarorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d8a",
+    "datum": "1998-08-16T00:00:00.000Z",
+    "nev": "Magyar",
+    "helyszin": "Magyarorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d8b",
+    "datum": "1973-06-17T00:00:00.000Z",
+    "nev": "Sv�d",
+    "helyszin": "Sv�dorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d9c",
+    "datum": "1970-09-06T00:00:00.000Z",
+    "nev": "Olasz",
+    "helyszin": "Olaszorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d9e",
+    "datum": "1971-08-15T00:00:00.000Z",
+    "nev": "Osztr�k",
+    "helyszin": "Ausztria",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293da2",
+    "datum": "1970-06-21T00:00:00.000Z",
+    "nev": "Holland",
+    "helyszin": "Hollandia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293dc8",
+    "datum": "2006-10-22T00:00:00.000Z",
+    "nev": "Brazil",
+    "helyszin": "Braz�lia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293bf2",
+    "datum": "1950-05-21T00:00:00.000Z",
+    "nev": "Monacoi",
+    "helyszin": "Monaco",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293bf5",
+    "datum": "1993-07-25T00:00:00.000Z",
+    "nev": "N�met",
+    "helyszin": "N�metorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c00",
+    "datum": "1983-09-25T00:00:00.000Z",
+    "nev": "Eur�pa",
+    "helyszin": "Nagy-Britannia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c03",
+    "datum": "2002-03-31T00:00:00.000Z",
+    "nev": "Brazil",
+    "helyszin": "Braz�lia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c04",
+    "datum": "1995-11-12T00:00:00.000Z",
+    "nev": "Ausztr�l",
+    "helyszin": "Ausztr�lia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c0e",
+    "datum": "2004-10-10T00:00:00.000Z",
+    "nev": "Jap�n",
+    "helyszin": "Jap�n",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c10",
+    "datum": "1992-09-27T00:00:00.000Z",
+    "nev": "Portug�l",
+    "helyszin": "Portug�lia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c1c",
+    "datum": "1982-01-23T00:00:00.000Z",
+    "nev": "D�l-Afrikai",
+    "helyszin": "D�l-Afrika",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c46",
+    "datum": "1986-06-15T00:00:00.000Z",
+    "nev": "Kanadai",
+    "helyszin": "Kanada",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c7e",
+    "datum": "1958-07-19T00:00:00.000Z",
+    "nev": "Brit",
+    "helyszin": "Nagy-Britannia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c7f",
+    "datum": "1960-07-03T00:00:00.000Z",
+    "nev": "Francia",
+    "helyszin": "Franciaorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c88",
+    "datum": "1976-07-04T00:00:00.000Z",
+    "nev": "Francia",
+    "helyszin": "Franciaorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c8f",
+    "datum": "1971-03-06T00:00:00.000Z",
+    "nev": "D�l-Afrikai",
+    "helyszin": "D�l-Afrika",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c93",
+    "datum": "1953-08-23T00:00:00.000Z",
+    "nev": "Sv�jci",
+    "helyszin": "Sv�jc",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c9f",
+    "datum": "1989-06-18T00:00:00.000Z",
+    "nev": "Kanadai",
+    "helyszin": "Kanada",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293cd7",
+    "datum": "1977-10-02T00:00:00.000Z",
+    "nev": "USA",
+    "helyszin": "USA",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293ce2",
+    "datum": "1974-09-22T00:00:00.000Z",
+    "nev": "Kanadai",
+    "helyszin": "Kanada",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293ce5",
+    "datum": "1963-09-08T00:00:00.000Z",
+    "nev": "Olasz",
+    "helyszin": "Olaszorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293ceb",
+    "datum": "2005-09-11T00:00:00.000Z",
+    "nev": "Belga",
+    "helyszin": "Belgium",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293cef",
+    "datum": "1987-05-03T00:00:00.000Z",
+    "nev": "San Marinoi",
+    "helyszin": "San Marino",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293cf5",
+    "datum": "2003-08-03T00:00:00.000Z",
+    "nev": "N�met",
+    "helyszin": "N�metorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d02",
+    "datum": "1984-08-19T00:00:00.000Z",
+    "nev": "Osztr�k",
+    "helyszin": "Ausztria",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d0f",
+    "datum": "1956-07-01T00:00:00.000Z",
+    "nev": "Francia",
+    "helyszin": "Franciaorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d1e",
+    "datum": "2003-07-06T00:00:00.000Z",
+    "nev": "Francia",
+    "helyszin": "Franciaorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d39",
+    "datum": "2000-08-13T00:00:00.000Z",
+    "nev": "Magyar",
+    "helyszin": "Magyarorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d46",
+    "datum": "1998-04-26T00:00:00.000Z",
+    "nev": "San Marinoi",
+    "helyszin": "San Marino",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d4d",
+    "datum": "1996-03-10T00:00:00.000Z",
+    "nev": "Ausztr�l",
+    "helyszin": "Ausztr�lia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d55",
+    "datum": "1958-01-19T00:00:00.000Z",
+    "nev": "Argent�n",
+    "helyszin": "Argent�na",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d57",
+    "datum": "1966-07-03T00:00:00.000Z",
+    "nev": "Francia",
+    "helyszin": "Franciaorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d5a",
+    "datum": "1977-10-23T00:00:00.000Z",
+    "nev": "Jap�n",
+    "helyszin": "Jap�n",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d68",
+    "datum": "1974-08-18T00:00:00.000Z",
+    "nev": "Osztr�k",
+    "helyszin": "Ausztria",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d7f",
+    "datum": "1991-08-11T00:00:00.000Z",
+    "nev": "Magyar",
+    "helyszin": "Magyarorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d85",
+    "datum": "2000-07-02T00:00:00.000Z",
+    "nev": "Francia",
+    "helyszin": "Franciaorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d93",
+    "datum": "1970-10-04T00:00:00.000Z",
+    "nev": "USA",
+    "helyszin": "USA",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d98",
+    "datum": "1953-08-02T00:00:00.000Z",
+    "nev": "N�met",
+    "helyszin": "N�metorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293da4",
+    "datum": "1988-11-13T00:00:00.000Z",
+    "nev": "Ausztr�l",
+    "helyszin": "Ausztr�lia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293da5",
+    "datum": "2006-08-27T00:00:00.000Z",
+    "nev": "T�r�k",
+    "helyszin": "T�r�korsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293da7",
+    "datum": "1965-06-13T00:00:00.000Z",
+    "nev": "Belga",
+    "helyszin": "Belgium",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293dc0",
+    "datum": "1980-03-30T00:00:00.000Z",
+    "nev": "USA",
+    "helyszin": "USA",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293dc4",
+    "datum": "1982-04-04T00:00:00.000Z",
+    "nev": "USA",
+    "helyszin": "USA",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293dc5",
+    "datum": "1986-03-23T00:00:00.000Z",
+    "nev": "Brazil",
+    "helyszin": "Braz�lia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293dc6",
+    "datum": "1958-10-19T00:00:00.000Z",
+    "nev": "Marokk�i",
+    "helyszin": "Marokk�",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293be7",
+    "datum": "1994-05-15T00:00:00.000Z",
+    "nev": "Monacoi",
+    "helyszin": "Monaco",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c12",
+    "datum": "1959-08-02T00:00:00.000Z",
+    "nev": "N�met",
+    "helyszin": "N�metorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c23",
+    "datum": "2006-03-12T00:00:00.000Z",
+    "nev": "Bahreini",
+    "helyszin": "Bahrain",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c29",
+    "datum": "1987-09-06T00:00:00.000Z",
+    "nev": "Olasz",
+    "helyszin": "Olaszorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c58",
+    "datum": "1986-04-13T00:00:00.000Z",
+    "nev": "Spanyol",
+    "helyszin": "Spanyolorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c69",
+    "datum": "1991-10-20T00:00:00.000Z",
+    "nev": "Jap�n",
+    "helyszin": "Jap�n",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c97",
+    "datum": "1989-06-04T00:00:00.000Z",
+    "nev": "USA",
+    "helyszin": "USA",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293caa",
+    "datum": "1957-05-30T00:00:00.000Z",
+    "nev": "Indy 500",
+    "helyszin": "USA",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293cc0",
+    "datum": "1976-05-02T00:00:00.000Z",
+    "nev": "Spanyol",
+    "helyszin": "Spanyolorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293cc5",
+    "datum": "1975-05-25T00:00:00.000Z",
+    "nev": "Belga",
+    "helyszin": "Belgium",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293cd3",
+    "datum": "1971-09-19T00:00:00.000Z",
+    "nev": "Kanadai",
+    "helyszin": "Kanada",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293cf8",
+    "datum": "1996-07-28T00:00:00.000Z",
+    "nev": "N�met",
+    "helyszin": "N�metorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d0d",
+    "datum": "1985-08-25T00:00:00.000Z",
+    "nev": "Holland",
+    "helyszin": "Hollandia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d13",
+    "datum": "2003-08-24T00:00:00.000Z",
+    "nev": "Magyar",
+    "helyszin": "Magyarorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d2c",
+    "datum": "1996-07-14T00:00:00.000Z",
+    "nev": "Brit",
+    "helyszin": "Nagy-Britannia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d3b",
+    "datum": "1989-09-10T00:00:00.000Z",
+    "nev": "Olasz",
+    "helyszin": "Olaszorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d3d",
+    "datum": "1983-07-16T00:00:00.000Z",
+    "nev": "Brit",
+    "helyszin": "Nagy-Britannia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d3f",
+    "datum": "2000-03-26T00:00:00.000Z",
+    "nev": "Brazil",
+    "helyszin": "Braz�lia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d4e",
+    "datum": "1985-09-08T00:00:00.000Z",
+    "nev": "Olasz",
+    "helyszin": "Olaszorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d61",
+    "datum": "2006-04-23T00:00:00.000Z",
+    "nev": "San Marinoi",
+    "helyszin": "San Marino",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d79",
+    "datum": "1983-08-28T00:00:00.000Z",
+    "nev": "Holland",
+    "helyszin": "Hollandia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d89",
+    "datum": "1998-03-08T00:00:00.000Z",
+    "nev": "Ausztr�l",
+    "helyszin": "Ausztr�lia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293dac",
+    "datum": "1982-07-25T00:00:00.000Z",
+    "nev": "Francia",
+    "helyszin": "Franciaorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293db9",
+    "datum": "1975-07-19T00:00:00.000Z",
+    "nev": "Brit",
+    "helyszin": "Nagy-Britannia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293dcb",
+    "datum": "1998-06-28T00:00:00.000Z",
+    "nev": "Francia",
+    "helyszin": "Franciaorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293dd4",
+    "datum": "1974-01-27T00:00:00.000Z",
+    "nev": "Brazil",
+    "helyszin": "Braz�lia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293dd8",
+    "datum": "1990-09-30T00:00:00.000Z",
+    "nev": "Spanyol",
+    "helyszin": "Spanyolorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293bff",
+    "datum": "1976-03-28T00:00:00.000Z",
+    "nev": "USA",
+    "helyszin": "USA",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c13",
+    "datum": "2006-03-19T00:00:00.000Z",
+    "nev": "Mal�j",
+    "helyszin": "Malaysia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c38",
+    "datum": "2003-10-12T00:00:00.000Z",
+    "nev": "Jap�n",
+    "helyszin": "Jap�n",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c40",
+    "datum": "2001-06-10T00:00:00.000Z",
+    "nev": "Kanadai",
+    "helyszin": "Kanada",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c51",
+    "datum": "1996-06-02T00:00:00.000Z",
+    "nev": "Spanyol",
+    "helyszin": "Spanyolorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c75",
+    "datum": "1951-07-29T00:00:00.000Z",
+    "nev": "N�met",
+    "helyszin": "N�metorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c8a",
+    "datum": "1988-03-03T00:00:00.000Z",
+    "nev": "Brazil",
+    "helyszin": "Braz�lia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293ca6",
+    "datum": "1978-01-29T00:00:00.000Z",
+    "nev": "Brazil",
+    "helyszin": "Braz�lia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293cbf",
+    "datum": "2001-03-04T00:00:00.000Z",
+    "nev": "Ausztr�l",
+    "helyszin": "Ausztr�lia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293cc8",
+    "datum": "1973-03-03T00:00:00.000Z",
+    "nev": "D�l-Afrikai",
+    "helyszin": "D�l-Afrika",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293cd0",
+    "datum": "1963-10-06T00:00:00.000Z",
+    "nev": "USA",
+    "helyszin": "USA",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293ce0",
+    "datum": "1958-05-30T00:00:00.000Z",
+    "nev": "Indy 500",
+    "helyszin": "USA",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293cf9",
+    "datum": "1955-07-16T00:00:00.000Z",
+    "nev": "Brit",
+    "helyszin": "Nagy-Britannia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d00",
+    "datum": "1995-07-02T00:00:00.000Z",
+    "nev": "Francia",
+    "helyszin": "Franciaorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d25",
+    "datum": "1973-07-29T00:00:00.000Z",
+    "nev": "Holland",
+    "helyszin": "Hollandia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d6f",
+    "datum": "1998-09-27T00:00:00.000Z",
+    "nev": "Luxemburgi",
+    "helyszin": "N�metorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d88",
+    "datum": "1998-08-02T00:00:00.000Z",
+    "nev": "N�met",
+    "helyszin": "N�metorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293daf",
+    "datum": "1961-05-22T00:00:00.000Z",
+    "nev": "Holland",
+    "helyszin": "Hollandia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293db5",
+    "datum": "1989-05-28T00:00:00.000Z",
+    "nev": "Mexik�i",
+    "helyszin": "Mexik�",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293dbd",
+    "datum": "1958-08-03T00:00:00.000Z",
+    "nev": "N�met",
+    "helyszin": "N�metorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293dc7",
+    "datum": "1990-06-10T00:00:00.000Z",
+    "nev": "Kanadai",
+    "helyszin": "Kanada",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293dd2",
+    "datum": "1997-08-24T00:00:00.000Z",
+    "nev": "Belga",
+    "helyszin": "Belgium",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293bef",
+    "datum": "1983-08-14T00:00:00.000Z",
+    "nev": "Osztr�k",
+    "helyszin": "Ausztria",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c08",
+    "datum": "1962-07-21T00:00:00.000Z",
+    "nev": "Brit",
+    "helyszin": "Nagy-Britannia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c14",
+    "datum": "1981-04-12T00:00:00.000Z",
+    "nev": "Argent�n",
+    "helyszin": "Argent�na",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c16",
+    "datum": "1999-10-31T00:00:00.000Z",
+    "nev": "Jap�n",
+    "helyszin": "Jap�n",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c1f",
+    "datum": "1979-05-27T00:00:00.000Z",
+    "nev": "Monacoi",
+    "helyszin": "Monaco",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c28",
+    "datum": "1999-10-17T00:00:00.000Z",
+    "nev": "Mal�j",
+    "helyszin": "Malaysia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c3c",
+    "datum": "2004-06-13T00:00:00.000Z",
+    "nev": "Kanadai",
+    "helyszin": "Kanada",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c43",
+    "datum": "1959-09-13T00:00:00.000Z",
+    "nev": "Olasz",
+    "helyszin": "Olaszorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c47",
+    "datum": "1983-10-15T00:00:00.000Z",
+    "nev": "D�l-Afrikai",
+    "helyszin": "D�l-Afrika",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c4f",
+    "datum": "1992-05-03T00:00:00.000Z",
+    "nev": "Spanyol",
+    "helyszin": "Spanyolorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c52",
+    "datum": "2002-07-07T00:00:00.000Z",
+    "nev": "Brit",
+    "helyszin": "Nagy-Britannia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c54",
+    "datum": "1954-01-17T00:00:00.000Z",
+    "nev": "Argent�n",
+    "helyszin": "Argent�na",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c62",
+    "datum": "1987-07-26T00:00:00.000Z",
+    "nev": "N�met",
+    "helyszin": "N�metorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c9b",
+    "datum": "2001-07-29T00:00:00.000Z",
+    "nev": "N�met",
+    "helyszin": "N�metorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293ca5",
+    "datum": "1999-08-15T00:00:00.000Z",
+    "nev": "Magyar",
+    "helyszin": "Magyarorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293ca7",
+    "datum": "1986-08-17T00:00:00.000Z",
+    "nev": "Osztr�k",
+    "helyszin": "Ausztria",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293ca8",
+    "datum": "1993-08-15T00:00:00.000Z",
+    "nev": "Magyar",
+    "helyszin": "Magyarorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293cae",
+    "datum": "1957-08-18T00:00:00.000Z",
+    "nev": "Olasz",
+    "helyszin": "Olaszorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293cb1",
+    "datum": "1983-09-11T00:00:00.000Z",
+    "nev": "Olasz",
+    "helyszin": "Olaszorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293cba",
+    "datum": "1969-10-05T00:00:00.000Z",
+    "nev": "USA",
+    "helyszin": "USA",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293cbc",
+    "datum": "2006-04-02T00:00:00.000Z",
+    "nev": "Ausztr�l",
+    "helyszin": "Ausztr�lia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293cce",
+    "datum": "1969-08-03T00:00:00.000Z",
+    "nev": "N�met",
+    "helyszin": "N�metorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293cd9",
+    "datum": "1974-05-26T00:00:00.000Z",
+    "nev": "Monacoi",
+    "helyszin": "Monaco",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293cf4",
+    "datum": "1991-11-03T00:00:00.000Z",
+    "nev": "Ausztr�l",
+    "helyszin": "Ausztr�lia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d29",
+    "datum": "2004-08-15T00:00:00.000Z",
+    "nev": "Magyar",
+    "helyszin": "Magyarorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d33",
+    "datum": "1973-07-14T00:00:00.000Z",
+    "nev": "Brit",
+    "helyszin": "Nagy-Britannia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d34",
+    "datum": "2005-07-31T00:00:00.000Z",
+    "nev": "Magyar",
+    "helyszin": "Magyarorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d3c",
+    "datum": "1953-07-05T00:00:00.000Z",
+    "nev": "Francia",
+    "helyszin": "Franciaorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d40",
+    "datum": "1989-07-09T00:00:00.000Z",
+    "nev": "Francia",
+    "helyszin": "Franciaorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d67",
+    "datum": "1984-06-03T00:00:00.000Z",
+    "nev": "Monacoi",
+    "helyszin": "Monaco",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d80",
+    "datum": "1986-10-26T00:00:00.000Z",
+    "nev": "Ausztr�l",
+    "helyszin": "Ausztr�lia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d9b",
+    "datum": "1985-06-16T00:00:00.000Z",
+    "nev": "Kanadai",
+    "helyszin": "Kanada",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293bf0",
+    "datum": "1993-05-23T00:00:00.000Z",
+    "nev": "Monacoi",
+    "helyszin": "Monaco",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c01",
+    "datum": "1989-10-22T00:00:00.000Z",
+    "nev": "Jap�n",
+    "helyszin": "Jap�n",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c21",
+    "datum": "1991-03-10T00:00:00.000Z",
+    "nev": "USA",
+    "helyszin": "USA",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c24",
+    "datum": "2001-04-29T00:00:00.000Z",
+    "nev": "Spanyol",
+    "helyszin": "Spanyolorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c2c",
+    "datum": "1992-06-14T00:00:00.000Z",
+    "nev": "Kanadai",
+    "helyszin": "Kanada",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c42",
+    "datum": "1977-01-09T00:00:00.000Z",
+    "nev": "Argent�n",
+    "helyszin": "Argent�na",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c5a",
+    "datum": "1982-09-12T00:00:00.000Z",
+    "nev": "Olasz",
+    "helyszin": "Olaszorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c63",
+    "datum": "2003-09-28T00:00:00.000Z",
+    "nev": "USA",
+    "helyszin": "USA",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c71",
+    "datum": "1987-11-15T00:00:00.000Z",
+    "nev": "Ausztr�l",
+    "helyszin": "Ausztr�lia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c74",
+    "datum": "1987-11-01T00:00:00.000Z",
+    "nev": "Jap�n",
+    "helyszin": "Jap�n",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c92",
+    "datum": "1953-06-21T00:00:00.000Z",
+    "nev": "Belga",
+    "helyszin": "Belgium",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c9a",
+    "datum": "1998-03-29T00:00:00.000Z",
+    "nev": "Brazil",
+    "helyszin": "Braz�lia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c9e",
+    "datum": "2003-07-20T00:00:00.000Z",
+    "nev": "Brit",
+    "helyszin": "Nagy-Britannia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293cad",
+    "datum": "1951-07-14T00:00:00.000Z",
+    "nev": "Brit",
+    "helyszin": "Nagy-Britannia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293cb3",
+    "datum": "2004-07-04T00:00:00.000Z",
+    "nev": "Francia",
+    "helyszin": "Franciaorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293cb4",
+    "datum": "1996-04-28T00:00:00.000Z",
+    "nev": "Eur�pa",
+    "helyszin": "N�metorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293cd6",
+    "datum": "1994-09-11T00:00:00.000Z",
+    "nev": "Olasz",
+    "helyszin": "Olaszorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293cdc",
+    "datum": "1990-08-26T00:00:00.000Z",
+    "nev": "Belga",
+    "helyszin": "Belgium",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293cec",
+    "datum": "1954-08-22T00:00:00.000Z",
+    "nev": "Sv�jci",
+    "helyszin": "Sv�jc",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293cee",
+    "datum": "1994-07-03T00:00:00.000Z",
+    "nev": "Francia",
+    "helyszin": "Franciaorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293cf2",
+    "datum": "1971-05-23T00:00:00.000Z",
+    "nev": "Monacoi",
+    "helyszin": "Monaco",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293cf3",
+    "datum": "1992-03-01T00:00:00.000Z",
+    "nev": "D�l-Afrikai",
+    "helyszin": "D�l-Afrika",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293cfa",
+    "datum": "1953-05-30T00:00:00.000Z",
+    "nev": "Indy 500",
+    "helyszin": "USA",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293cfb",
+    "datum": "1974-09-08T00:00:00.000Z",
+    "nev": "Olasz",
+    "helyszin": "Olaszorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d10",
+    "datum": "1956-06-03T00:00:00.000Z",
+    "nev": "Belga",
+    "helyszin": "Belgium",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d14",
+    "datum": "1994-10-16T00:00:00.000Z",
+    "nev": "Spanyol",
+    "helyszin": "Spanyolorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d21",
+    "datum": "1986-06-22T00:00:00.000Z",
+    "nev": "USA",
+    "helyszin": "USA",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d27",
+    "datum": "1985-08-04T00:00:00.000Z",
+    "nev": "N�met",
+    "helyszin": "N�metorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d28",
+    "datum": "1997-09-21T00:00:00.000Z",
+    "nev": "Osztr�k",
+    "helyszin": "Ausztria",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d2d",
+    "datum": "1997-09-28T00:00:00.000Z",
+    "nev": "N�met",
+    "helyszin": "N�metorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d78",
+    "datum": "2005-07-03T00:00:00.000Z",
+    "nev": "Francia",
+    "helyszin": "Franciaorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d96",
+    "datum": "2005-03-06T00:00:00.000Z",
+    "nev": "Ausztr�l",
+    "helyszin": "Ausztr�lia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d99",
+    "datum": "1998-11-01T00:00:00.000Z",
+    "nev": "Jap�n",
+    "helyszin": "Jap�n",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293dad",
+    "datum": "1974-01-13T00:00:00.000Z",
+    "nev": "Argent�n",
+    "helyszin": "Argent�na",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293db1",
+    "datum": "1986-05-11T00:00:00.000Z",
+    "nev": "Monacoi",
+    "helyszin": "Monaco",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293dc1",
+    "datum": "1987-10-18T00:00:00.000Z",
+    "nev": "Mexik�i",
+    "helyszin": "Mexik�",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293bf8",
+    "datum": "2001-10-14T00:00:00.000Z",
+    "nev": "Jap�n",
+    "helyszin": "Jap�n",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c06",
+    "datum": "1957-05-19T00:00:00.000Z",
+    "nev": "Monacoi",
+    "helyszin": "Monaco",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c18",
+    "datum": "1978-10-01T00:00:00.000Z",
+    "nev": "USA",
+    "helyszin": "USA",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c2d",
+    "datum": "2006-08-06T00:00:00.000Z",
+    "nev": "Magyar",
+    "helyszin": "Magyarorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c2e",
+    "datum": "2002-03-17T00:00:00.000Z",
+    "nev": "Mal�j",
+    "helyszin": "Malaysia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c44",
+    "datum": "1959-05-31T00:00:00.000Z",
+    "nev": "Holland",
+    "helyszin": "Hollandia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c4a",
+    "datum": "1978-06-17T00:00:00.000Z",
+    "nev": "Sv�d",
+    "helyszin": "Sv�dorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c6c",
+    "datum": "1976-01-25T00:00:00.000Z",
+    "nev": "Brazil",
+    "helyszin": "Braz�lia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c7d",
+    "datum": "1965-07-10T00:00:00.000Z",
+    "nev": "Brit",
+    "helyszin": "Nagy-Britannia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293ca3",
+    "datum": "1950-05-30T00:00:00.000Z",
+    "nev": "Indy 500",
+    "helyszin": "USA",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293cb2",
+    "datum": "2003-03-09T00:00:00.000Z",
+    "nev": "Ausztr�l",
+    "helyszin": "Ausztr�lia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293cb5",
+    "datum": "2004-08-29T00:00:00.000Z",
+    "nev": "Belga",
+    "helyszin": "Belgium",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293cdf",
+    "datum": "2006-07-30T00:00:00.000Z",
+    "nev": "N�met",
+    "helyszin": "N�metorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293ce3",
+    "datum": "1970-09-20T00:00:00.000Z",
+    "nev": "Kanadai",
+    "helyszin": "Kanada",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d03",
+    "datum": "1969-09-20T00:00:00.000Z",
+    "nev": "Kanadai",
+    "helyszin": "Kanada",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d04",
+    "datum": "1966-07-16T00:00:00.000Z",
+    "nev": "Brit",
+    "helyszin": "Nagy-Britannia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d15",
+    "datum": "2004-06-20T00:00:00.000Z",
+    "nev": "USA",
+    "helyszin": "USA",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d18",
+    "datum": "2006-06-11T00:00:00.000Z",
+    "nev": "Brit",
+    "helyszin": "Nagy-Britannia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d24",
+    "datum": "1984-04-29T00:00:00.000Z",
+    "nev": "Belga",
+    "helyszin": "Belgium",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d35",
+    "datum": "1995-05-28T00:00:00.000Z",
+    "nev": "Monacoi",
+    "helyszin": "Monaco",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d37",
+    "datum": "1978-05-07T00:00:00.000Z",
+    "nev": "Monacoi",
+    "helyszin": "Monaco",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d43",
+    "datum": "1992-08-30T00:00:00.000Z",
+    "nev": "Belga",
+    "helyszin": "Belgium",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d48",
+    "datum": "1996-08-11T00:00:00.000Z",
+    "nev": "Magyar",
+    "helyszin": "Magyarorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d4a",
+    "datum": "1980-09-28T00:00:00.000Z",
+    "nev": "Kanadai",
+    "helyszin": "Kanada",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d69",
+    "datum": "1993-10-24T00:00:00.000Z",
+    "nev": "Jap�n",
+    "helyszin": "Jap�n",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d72",
+    "datum": "1967-10-01T00:00:00.000Z",
+    "nev": "USA",
+    "helyszin": "USA",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d8d",
+    "datum": "1975-10-05T00:00:00.000Z",
+    "nev": "USA",
+    "helyszin": "USA",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d92",
+    "datum": "1992-08-16T00:00:00.000Z",
+    "nev": "Magyar",
+    "helyszin": "Magyarorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d95",
+    "datum": "1998-07-26T00:00:00.000Z",
+    "nev": "Osztr�k",
+    "helyszin": "Ausztria",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293dae",
+    "datum": "1964-05-24T00:00:00.000Z",
+    "nev": "Holland",
+    "helyszin": "Hollandia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293db3",
+    "datum": "1990-08-12T00:00:00.000Z",
+    "nev": "Magyar",
+    "helyszin": "Magyarorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293dba",
+    "datum": "1984-04-07T00:00:00.000Z",
+    "nev": "D�l-Afrikai",
+    "helyszin": "D�l-Afrika",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293dcd",
+    "datum": "1973-10-07T00:00:00.000Z",
+    "nev": "USA",
+    "helyszin": "USA",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293dd5",
+    "datum": "1961-09-10T00:00:00.000Z",
+    "nev": "Olasz",
+    "helyszin": "Olaszorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293be9",
+    "datum": "1976-07-18T00:00:00.000Z",
+    "nev": "Brit",
+    "helyszin": "Nagy-Britannia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293bf7",
+    "datum": "1975-06-22T00:00:00.000Z",
+    "nev": "Holland",
+    "helyszin": "Hollandia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293bf9",
+    "datum": "1979-02-04T00:00:00.000Z",
+    "nev": "Brazil",
+    "helyszin": "Braz�lia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c0f",
+    "datum": "1984-09-09T00:00:00.000Z",
+    "nev": "Olasz",
+    "helyszin": "Olaszorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c11",
+    "datum": "1982-06-06T00:00:00.000Z",
+    "nev": "USA",
+    "helyszin": "USA",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c2b",
+    "datum": "1951-10-28T00:00:00.000Z",
+    "nev": "Spanyol",
+    "helyszin": "Spanyolorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c30",
+    "datum": "1961-08-06T00:00:00.000Z",
+    "nev": "N�met",
+    "helyszin": "N�metorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c37",
+    "datum": "2004-05-23T00:00:00.000Z",
+    "nev": "Monacoi",
+    "helyszin": "Monaco",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c4e",
+    "datum": "1996-09-22T00:00:00.000Z",
+    "nev": "Portug�l",
+    "helyszin": "Portug�lia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c53",
+    "datum": "1984-07-22T00:00:00.000Z",
+    "nev": "Brit",
+    "helyszin": "Nagy-Britannia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c5e",
+    "datum": "1965-05-30T00:00:00.000Z",
+    "nev": "Monacoi",
+    "helyszin": "Monaco",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c6e",
+    "datum": "1965-10-24T00:00:00.000Z",
+    "nev": "Mexik�i",
+    "helyszin": "Mexik�",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c73",
+    "datum": "1988-10-02T00:00:00.000Z",
+    "nev": "Spanyol",
+    "helyszin": "Spanyolorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c80",
+    "datum": "2002-07-28T00:00:00.000Z",
+    "nev": "N�met",
+    "helyszin": "N�metorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c89",
+    "datum": "1985-05-05T00:00:00.000Z",
+    "nev": "San Marinoi",
+    "helyszin": "San Marino",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293ca4",
+    "datum": "1974-07-20T00:00:00.000Z",
+    "nev": "Brit",
+    "helyszin": "Nagy-Britannia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293cc9",
+    "datum": "1998-09-13T00:00:00.000Z",
+    "nev": "Olasz",
+    "helyszin": "Olaszorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293ccd",
+    "datum": "1975-09-07T00:00:00.000Z",
+    "nev": "Olasz",
+    "helyszin": "Olaszorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293cd8",
+    "datum": "1960-02-07T00:00:00.000Z",
+    "nev": "Argent�n",
+    "helyszin": "Argent�na",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d07",
+    "datum": "1960-05-29T00:00:00.000Z",
+    "nev": "Monacoi",
+    "helyszin": "Monaco",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d19",
+    "datum": "1984-07-08T00:00:00.000Z",
+    "nev": "USA",
+    "helyszin": "USA",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d1f",
+    "datum": "1977-10-09T00:00:00.000Z",
+    "nev": "Kanadai",
+    "helyszin": "Kanada",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d20",
+    "datum": "1981-08-30T00:00:00.000Z",
+    "nev": "Holland",
+    "helyszin": "Hollandia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d2a",
+    "datum": "1967-08-06T00:00:00.000Z",
+    "nev": "N�met",
+    "helyszin": "N�metorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d51",
+    "datum": "1990-07-15T00:00:00.000Z",
+    "nev": "Brit",
+    "helyszin": "Nagy-Britannia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d5b",
+    "datum": "1968-10-06T00:00:00.000Z",
+    "nev": "USA",
+    "helyszin": "USA",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d70",
+    "datum": "1980-10-05T00:00:00.000Z",
+    "nev": "USA",
+    "helyszin": "USA",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d7e",
+    "datum": "1978-06-04T00:00:00.000Z",
+    "nev": "Spanyol",
+    "helyszin": "Spanyolorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293db8",
+    "datum": "1975-06-08T00:00:00.000Z",
+    "nev": "Sv�d",
+    "helyszin": "Sv�dorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293dbe",
+    "datum": "1993-09-12T00:00:00.000Z",
+    "nev": "Olasz",
+    "helyszin": "Olaszorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293dcf",
+    "datum": "1977-05-08T00:00:00.000Z",
+    "nev": "Spanyol",
+    "helyszin": "Spanyolorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293dda",
+    "datum": "1960-11-20T00:00:00.000Z",
+    "nev": "USA",
+    "helyszin": "USA",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293bee",
+    "datum": "1952-05-18T00:00:00.000Z",
+    "nev": "Sv�jci",
+    "helyszin": "Sv�jc",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293bfa",
+    "datum": "1976-08-29T00:00:00.000Z",
+    "nev": "Holland",
+    "helyszin": "Hollandia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c0d",
+    "datum": "1957-07-20T00:00:00.000Z",
+    "nev": "Brit",
+    "helyszin": "Nagy-Britannia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c1b",
+    "datum": "1963-10-27T00:00:00.000Z",
+    "nev": "Mexik�i",
+    "helyszin": "Mexik�",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c22",
+    "datum": "1994-06-12T00:00:00.000Z",
+    "nev": "Kanadai",
+    "helyszin": "Kanada",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c39",
+    "datum": "2003-04-20T00:00:00.000Z",
+    "nev": "San Marinoi",
+    "helyszin": "San Marino",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c49",
+    "datum": "1962-06-03T00:00:00.000Z",
+    "nev": "Monacoi",
+    "helyszin": "Monaco",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c59",
+    "datum": "1983-05-22T00:00:00.000Z",
+    "nev": "Belga",
+    "helyszin": "Belgium",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c64",
+    "datum": "1976-10-03T00:00:00.000Z",
+    "nev": "Kanadai",
+    "helyszin": "Kanada",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c6b",
+    "datum": "1969-05-04T00:00:00.000Z",
+    "nev": "Spanyol",
+    "helyszin": "Spanyolorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c85",
+    "datum": "1985-04-07T00:00:00.000Z",
+    "nev": "Brazil",
+    "helyszin": "Braz�lia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c94",
+    "datum": "1960-07-16T00:00:00.000Z",
+    "nev": "Brit",
+    "helyszin": "Nagy-Britannia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c95",
+    "datum": "1970-07-18T00:00:00.000Z",
+    "nev": "Brit",
+    "helyszin": "Nagy-Britannia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c96",
+    "datum": "1976-10-10T00:00:00.000Z",
+    "nev": "USA",
+    "helyszin": "USA",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c9d",
+    "datum": "1976-05-16T00:00:00.000Z",
+    "nev": "Belga",
+    "helyszin": "Belgium",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293ca2",
+    "datum": "1986-04-27T00:00:00.000Z",
+    "nev": "San Marinoi",
+    "helyszin": "San Marino",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293cb6",
+    "datum": "1997-04-27T00:00:00.000Z",
+    "nev": "San Marinoi",
+    "helyszin": "San Marino",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293cc1",
+    "datum": "1952-08-03T00:00:00.000Z",
+    "nev": "N�met",
+    "helyszin": "N�metorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293ccc",
+    "datum": "1963-06-09T00:00:00.000Z",
+    "nev": "Belga",
+    "helyszin": "Belgium",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d0a",
+    "datum": "1979-08-26T00:00:00.000Z",
+    "nev": "Holland",
+    "helyszin": "Hollandia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d12",
+    "datum": "2004-05-09T00:00:00.000Z",
+    "nev": "Spanyol",
+    "helyszin": "Spanyolorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d2f",
+    "datum": "1970-03-07T00:00:00.000Z",
+    "nev": "D�l-Afrikai",
+    "helyszin": "D�l-Afrika",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d41",
+    "datum": "1960-09-04T00:00:00.000Z",
+    "nev": "Olasz",
+    "helyszin": "Olaszorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d58",
+    "datum": "1986-05-25T00:00:00.000Z",
+    "nev": "Belga",
+    "helyszin": "Belgium",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d6d",
+    "datum": "1981-08-16T00:00:00.000Z",
+    "nev": "Osztr�k",
+    "helyszin": "Ausztria",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d75",
+    "datum": "2005-07-24T00:00:00.000Z",
+    "nev": "N�met",
+    "helyszin": "N�metorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d7c",
+    "datum": "1970-08-16T00:00:00.000Z",
+    "nev": "Osztr�k",
+    "helyszin": "Ausztria",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d87",
+    "datum": "1989-07-30T00:00:00.000Z",
+    "nev": "N�met",
+    "helyszin": "N�metorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293da8",
+    "datum": "1985-08-18T00:00:00.000Z",
+    "nev": "Osztr�k",
+    "helyszin": "Ausztria",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293dab",
+    "datum": "1964-07-11T00:00:00.000Z",
+    "nev": "Brit",
+    "helyszin": "Nagy-Britannia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293dbf",
+    "datum": "2000-06-18T00:00:00.000Z",
+    "nev": "Kanadai",
+    "helyszin": "Kanada",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293be8",
+    "datum": "1979-07-14T00:00:00.000Z",
+    "nev": "Brit",
+    "helyszin": "Nagy-Britannia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c25",
+    "datum": "2005-05-08T00:00:00.000Z",
+    "nev": "Spanyol",
+    "helyszin": "Spanyolorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c4c",
+    "datum": "1980-01-13T00:00:00.000Z",
+    "nev": "Argent�n",
+    "helyszin": "Argent�na",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c5c",
+    "datum": "1957-09-08T00:00:00.000Z",
+    "nev": "Olasz",
+    "helyszin": "Olaszorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c6d",
+    "datum": "1990-06-24T00:00:00.000Z",
+    "nev": "Mexik�i",
+    "helyszin": "Mexik�",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c77",
+    "datum": "1982-05-23T00:00:00.000Z",
+    "nev": "Monacoi",
+    "helyszin": "Monaco",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c81",
+    "datum": "1990-07-08T00:00:00.000Z",
+    "nev": "Francia",
+    "helyszin": "Franciaorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c8d",
+    "datum": "1981-07-18T00:00:00.000Z",
+    "nev": "Brit",
+    "helyszin": "Nagy-Britannia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c91",
+    "datum": "1973-09-09T00:00:00.000Z",
+    "nev": "Olasz",
+    "helyszin": "Olaszorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293cc6",
+    "datum": "1981-07-05T00:00:00.000Z",
+    "nev": "Francia",
+    "helyszin": "Franciaorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293cca",
+    "datum": "1956-09-02T00:00:00.000Z",
+    "nev": "Olasz",
+    "helyszin": "Olaszorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293ccb",
+    "datum": "2002-05-26T00:00:00.000Z",
+    "nev": "Monacoi",
+    "helyszin": "Monaco",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293cd4",
+    "datum": "1979-10-07T00:00:00.000Z",
+    "nev": "USA",
+    "helyszin": "USA",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293cfe",
+    "datum": "2000-10-08T00:00:00.000Z",
+    "nev": "Jap�n",
+    "helyszin": "Jap�n",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293cff",
+    "datum": "1983-08-07T00:00:00.000Z",
+    "nev": "N�met",
+    "helyszin": "N�metorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d05",
+    "datum": "1976-05-30T00:00:00.000Z",
+    "nev": "Monacoi",
+    "helyszin": "Monaco",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d1c",
+    "datum": "1971-07-04T00:00:00.000Z",
+    "nev": "Francia",
+    "helyszin": "Franciaorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d1d",
+    "datum": "1981-05-17T00:00:00.000Z",
+    "nev": "Belga",
+    "helyszin": "Belgium",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d31",
+    "datum": "1953-06-07T00:00:00.000Z",
+    "nev": "Holland",
+    "helyszin": "Hollandia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d32",
+    "datum": "1971-08-01T00:00:00.000Z",
+    "nev": "N�met",
+    "helyszin": "N�metorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d42",
+    "datum": "2006-06-25T00:00:00.000Z",
+    "nev": "Kanadai",
+    "helyszin": "Kanada",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d66",
+    "datum": "2003-06-01T00:00:00.000Z",
+    "nev": "Monacoi",
+    "helyszin": "Monaco",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d7d",
+    "datum": "2004-07-25T00:00:00.000Z",
+    "nev": "N�met",
+    "helyszin": "N�metorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d8c",
+    "datum": "1998-06-07T00:00:00.000Z",
+    "nev": "Kanadai",
+    "helyszin": "Kanada",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d97",
+    "datum": "1968-06-09T00:00:00.000Z",
+    "nev": "Belga",
+    "helyszin": "Belgium",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d9a",
+    "datum": "1989-04-23T00:00:00.000Z",
+    "nev": "San Marinoi",
+    "helyszin": "San Marino",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293db0",
+    "datum": "1983-06-12T00:00:00.000Z",
+    "nev": "Kanadai",
+    "helyszin": "Kanada",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293beb",
+    "datum": "1978-09-10T00:00:00.000Z",
+    "nev": "Olasz",
+    "helyszin": "Olaszorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293bf6",
+    "datum": "1974-07-07T00:00:00.000Z",
+    "nev": "Francia",
+    "helyszin": "Franciaorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293bfb",
+    "datum": "1999-09-26T00:00:00.000Z",
+    "nev": "Eur�pa",
+    "helyszin": "N�metorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c0b",
+    "datum": "1995-06-11T00:00:00.000Z",
+    "nev": "Kanadai",
+    "helyszin": "Kanada",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c15",
+    "datum": "2005-08-21T00:00:00.000Z",
+    "nev": "T�r�k",
+    "helyszin": "T�r�korsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c17",
+    "datum": "1980-01-27T00:00:00.000Z",
+    "nev": "Brazil",
+    "helyszin": "Braz�lia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c1d",
+    "datum": "1987-05-17T00:00:00.000Z",
+    "nev": "Belga",
+    "helyszin": "Belgium",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c27",
+    "datum": "2000-07-30T00:00:00.000Z",
+    "nev": "N�met",
+    "helyszin": "N�metorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c2f",
+    "datum": "1956-07-14T00:00:00.000Z",
+    "nev": "Brit",
+    "helyszin": "Nagy-Britannia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c33",
+    "datum": "1983-05-01T00:00:00.000Z",
+    "nev": "San Marinoi",
+    "helyszin": "San Marino",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c34",
+    "datum": "1989-07-16T00:00:00.000Z",
+    "nev": "Brit",
+    "helyszin": "Nagy-Britannia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c5b",
+    "datum": "1970-10-25T00:00:00.000Z",
+    "nev": "Mexik�i",
+    "helyszin": "Mexik�",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c6a",
+    "datum": "1995-05-14T00:00:00.000Z",
+    "nev": "Spanyol",
+    "helyszin": "Spanyolorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c8c",
+    "datum": "1956-01-22T00:00:00.000Z",
+    "nev": "Argent�n",
+    "helyszin": "Argent�na",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c99",
+    "datum": "1977-06-19T00:00:00.000Z",
+    "nev": "Sv�d",
+    "helyszin": "Sv�dorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293ca1",
+    "datum": "1959-07-18T00:00:00.000Z",
+    "nev": "Brit",
+    "helyszin": "Nagy-Britannia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293cbd",
+    "datum": "1988-05-01T00:00:00.000Z",
+    "nev": "San Marinoi",
+    "helyszin": "San Marino",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293cd2",
+    "datum": "1996-08-25T00:00:00.000Z",
+    "nev": "Belga",
+    "helyszin": "Belgium",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293cda",
+    "datum": "1973-07-01T00:00:00.000Z",
+    "nev": "Francia",
+    "helyszin": "Franciaorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293cf0",
+    "datum": "1954-08-01T00:00:00.000Z",
+    "nev": "N�met",
+    "helyszin": "N�metorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d01",
+    "datum": "1955-06-05T00:00:00.000Z",
+    "nev": "Belga",
+    "helyszin": "Belgium",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d0e",
+    "datum": "1952-05-30T00:00:00.000Z",
+    "nev": "Indy 500",
+    "helyszin": "USA",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d2b",
+    "datum": "1966-07-24T00:00:00.000Z",
+    "nev": "Holland",
+    "helyszin": "Hollandia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d36",
+    "datum": "2002-08-18T00:00:00.000Z",
+    "nev": "Magyar",
+    "helyszin": "Magyarorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d3a",
+    "datum": "1979-05-13T00:00:00.000Z",
+    "nev": "Belga",
+    "helyszin": "Belgium",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d3e",
+    "datum": "1967-07-15T00:00:00.000Z",
+    "nev": "Brit",
+    "helyszin": "Nagy-Britannia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d63",
+    "datum": "1991-09-08T00:00:00.000Z",
+    "nev": "Olasz",
+    "helyszin": "Olaszorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d73",
+    "datum": "1970-07-05T00:00:00.000Z",
+    "nev": "Francia",
+    "helyszin": "Franciaorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d83",
+    "datum": "2000-04-09T00:00:00.000Z",
+    "nev": "San Marinoi",
+    "helyszin": "San Marino",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d8f",
+    "datum": "1996-05-05T00:00:00.000Z",
+    "nev": "San Marinoi",
+    "helyszin": "San Marino",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d90",
+    "datum": "1980-09-14T00:00:00.000Z",
+    "nev": "Olasz",
+    "helyszin": "San Marino",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d9f",
+    "datum": "1959-07-05T00:00:00.000Z",
+    "nev": "Francia",
+    "helyszin": "Franciaorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293da1",
+    "datum": "1978-01-15T00:00:00.000Z",
+    "nev": "Argent�n",
+    "helyszin": "Argent�na",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293dbb",
+    "datum": "1957-07-07T00:00:00.000Z",
+    "nev": "Francia",
+    "helyszin": "Franciaorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293dd6",
+    "datum": "1986-07-13T00:00:00.000Z",
+    "nev": "Brit",
+    "helyszin": "Nagy-Britannia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293dd9",
+    "datum": "1992-03-22T00:00:00.000Z",
+    "nev": "Mexik�i",
+    "helyszin": "Mexik�",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293bea",
+    "datum": "1994-07-31T00:00:00.000Z",
+    "nev": "N�met",
+    "helyszin": "N�metorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293bed",
+    "datum": "2006-10-08T00:00:00.000Z",
+    "nev": "Jap�n",
+    "helyszin": "Jap�n",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c07",
+    "datum": "1991-05-12T00:00:00.000Z",
+    "nev": "Monacoi",
+    "helyszin": "Monaco",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c1e",
+    "datum": "1999-06-27T00:00:00.000Z",
+    "nev": "Francia",
+    "helyszin": "Franciaorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c20",
+    "datum": "1964-10-04T00:00:00.000Z",
+    "nev": "USA",
+    "helyszin": "USA",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c36",
+    "datum": "1974-06-09T00:00:00.000Z",
+    "nev": "Sv�d",
+    "helyszin": "Sv�dorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c41",
+    "datum": "1982-05-09T00:00:00.000Z",
+    "nev": "Belga",
+    "helyszin": "Belgium",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c50",
+    "datum": "1965-06-27T00:00:00.000Z",
+    "nev": "Francia",
+    "helyszin": "Franciaorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c56",
+    "datum": "1970-05-10T00:00:00.000Z",
+    "nev": "Monacoi",
+    "helyszin": "Monaco",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c5f",
+    "datum": "1990-09-09T00:00:00.000Z",
+    "nev": "Olasz",
+    "helyszin": "Olaszorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c76",
+    "datum": "1981-03-15T00:00:00.000Z",
+    "nev": "USA",
+    "helyszin": "USA",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c82",
+    "datum": "2006-07-02T00:00:00.000Z",
+    "nev": "USA",
+    "helyszin": "USA",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c86",
+    "datum": "1990-03-11T00:00:00.000Z",
+    "nev": "USA",
+    "helyszin": "USA",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c8b",
+    "datum": "1987-08-09T00:00:00.000Z",
+    "nev": "Magyar",
+    "helyszin": "Magyarorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293ca9",
+    "datum": "1986-08-10T00:00:00.000Z",
+    "nev": "Magyar",
+    "helyszin": "Magyarorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293cdd",
+    "datum": "1989-03-26T00:00:00.000Z",
+    "nev": "Brazil",
+    "helyszin": "Braz�lia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293ce8",
+    "datum": "1962-09-16T00:00:00.000Z",
+    "nev": "Olasz",
+    "helyszin": "Olaszorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293cf7",
+    "datum": "1997-05-25T00:00:00.000Z",
+    "nev": "Spanyol",
+    "helyszin": "Spanyolorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d08",
+    "datum": "1989-08-13T00:00:00.000Z",
+    "nev": "Magyar",
+    "helyszin": "Magyarorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d56",
+    "datum": "1984-08-26T00:00:00.000Z",
+    "nev": "Holland",
+    "helyszin": "Hollandia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d60",
+    "datum": "1960-08-14T00:00:00.000Z",
+    "nev": "Portug�l",
+    "helyszin": "Portug�lia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d6e",
+    "datum": "1979-04-29T00:00:00.000Z",
+    "nev": "Spanyol",
+    "helyszin": "Spanyolorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d82",
+    "datum": "1978-07-02T00:00:00.000Z",
+    "nev": "Francia",
+    "helyszin": "Franciaorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293db4",
+    "datum": "1973-04-29T00:00:00.000Z",
+    "nev": "Spanyol",
+    "helyszin": "Spanyolorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293db7",
+    "datum": "2004-09-26T00:00:00.000Z",
+    "nev": "K�nai",
+    "helyszin": "K�na",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293dce",
+    "datum": "1971-10-03T00:00:00.000Z",
+    "nev": "USA",
+    "helyszin": "USA",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293dd3",
+    "datum": "1962-07-08T00:00:00.000Z",
+    "nev": "Francia",
+    "helyszin": "Franciaorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293bec",
+    "datum": "1976-08-15T00:00:00.000Z",
+    "nev": "Osztr�k",
+    "helyszin": "Ausztria",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293bf4",
+    "datum": "1955-05-30T00:00:00.000Z",
+    "nev": "Indy 500",
+    "helyszin": "USA",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293bfc",
+    "datum": "1954-09-05T00:00:00.000Z",
+    "nev": "Olasz",
+    "helyszin": "Olaszorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293bfe",
+    "datum": "1994-04-17T00:00:00.000Z",
+    "nev": "Jap�n",
+    "helyszin": "Jap�n",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c09",
+    "datum": "1985-10-19T00:00:00.000Z",
+    "nev": "D�l-Afrikai",
+    "helyszin": "D�l-Afrika",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c31",
+    "datum": "2005-06-12T00:00:00.000Z",
+    "nev": "Kanadai",
+    "helyszin": "Kanada",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c35",
+    "datum": "1964-05-10T00:00:00.000Z",
+    "nev": "Monacoi",
+    "helyszin": "Monaco",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293c7c",
+    "datum": "1974-04-28T00:00:00.000Z",
+    "nev": "Spanyol",
+    "helyszin": "Spanyolorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293cac",
+    "datum": "1958-06-15T00:00:00.000Z",
+    "nev": "Belga",
+    "helyszin": "Belgium",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293cc4",
+    "datum": "2003-05-04T00:00:00.000Z",
+    "nev": "Spanyol",
+    "helyszin": "Spanyolorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293cd1",
+    "datum": "1998-05-24T00:00:00.000Z",
+    "nev": "Monacoi",
+    "helyszin": "Monaco",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293ce7",
+    "datum": "1964-06-28T00:00:00.000Z",
+    "nev": "Francia",
+    "helyszin": "Franciaorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293cea",
+    "datum": "1969-06-21T00:00:00.000Z",
+    "nev": "Holland",
+    "helyszin": "Hollandia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293cf1",
+    "datum": "1997-07-13T00:00:00.000Z",
+    "nev": "Brit",
+    "helyszin": "Nagy-Britannia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d0b",
+    "datum": "1998-05-10T00:00:00.000Z",
+    "nev": "Spanyol",
+    "helyszin": "Spanyolorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d0c",
+    "datum": "1973-09-23T00:00:00.000Z",
+    "nev": "Kanadai",
+    "helyszin": "Kanada",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d26",
+    "datum": "1981-09-27T00:00:00.000Z",
+    "nev": "Kanadai",
+    "helyszin": "Kanada",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d4c",
+    "datum": "1985-09-15T00:00:00.000Z",
+    "nev": "Belga",
+    "helyszin": "Belgium",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d50",
+    "datum": "2001-09-02T00:00:00.000Z",
+    "nev": "Belga",
+    "helyszin": "Belgium",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d53",
+    "datum": "1994-11-06T00:00:00.000Z",
+    "nev": "Jap�n",
+    "helyszin": "Jap�n",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d5d",
+    "datum": "1985-06-23T00:00:00.000Z",
+    "nev": "USA",
+    "helyszin": "USA",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d62",
+    "datum": "2005-06-19T00:00:00.000Z",
+    "nev": "USA",
+    "helyszin": "USA",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d64",
+    "datum": "1995-10-01T00:00:00.000Z",
+    "nev": "Eur�pa",
+    "helyszin": "N�metorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d76",
+    "datum": "1974-06-23T00:00:00.000Z",
+    "nev": "Holland",
+    "helyszin": "Hollandia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d81",
+    "datum": "1995-10-29T00:00:00.000Z",
+    "nev": "Jap�n",
+    "helyszin": "Jap�n",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293d91",
+    "datum": "2006-10-01T00:00:00.000Z",
+    "nev": "K�nai",
+    "helyszin": "K�na",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293da9",
+    "datum": "1971-06-20T00:00:00.000Z",
+    "nev": "Holland",
+    "helyszin": "Hollandia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293daa",
+    "datum": "2004-04-04T00:00:00.000Z",
+    "nev": "Bahreini",
+    "helyszin": "Bahrain",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293db2",
+    "datum": "1985-07-07T00:00:00.000Z",
+    "nev": "Francia",
+    "helyszin": "Franciaorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293db6",
+    "datum": "1993-09-26T00:00:00.000Z",
+    "nev": "Portug�l",
+    "helyszin": "Portug�lia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293dc3",
+    "datum": "1984-10-21T00:00:00.000Z",
+    "nev": "Portug�l",
+    "helyszin": "Portug�lia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293dca",
+    "datum": "2002-04-14T00:00:00.000Z",
+    "nev": "San Marinoi",
+    "helyszin": "San Marino",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293dd1",
+    "datum": "1991-03-24T00:00:00.000Z",
+    "nev": "Brazil",
+    "helyszin": "Braz�lia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293de5",
+    "datum": "1986-09-07T00:00:00.000Z",
+    "nev": "Olasz",
+    "helyszin": "Olaszorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293de7",
+    "datum": "2000-05-21T00:00:00.000Z",
+    "nev": "Eur�pa",
+    "helyszin": "N�metorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293dec",
+    "datum": "1992-10-25T00:00:00.000Z",
+    "nev": "Jap�n",
+    "helyszin": "Jap�n",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293df8",
+    "datum": "2000-09-24T00:00:00.000Z",
+    "nev": "USA",
+    "helyszin": "USA",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293dfc",
+    "datum": "1967-06-04T00:00:00.000Z",
+    "nev": "Holland",
+    "helyszin": "Hollandia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e63",
+    "datum": "1986-10-12T00:00:00.000Z",
+    "nev": "Mexik�i",
+    "helyszin": "Mexik�",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e6d",
+    "datum": "1975-08-03T00:00:00.000Z",
+    "nev": "N�met",
+    "helyszin": "N�metorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e85",
+    "datum": "1985-07-21T00:00:00.000Z",
+    "nev": "Brit",
+    "helyszin": "Nagy-Britannia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293eb2",
+    "datum": "1991-07-28T00:00:00.000Z",
+    "nev": "N�met",
+    "helyszin": "N�metorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293de4",
+    "datum": "1974-08-04T00:00:00.000Z",
+    "nev": "N�met",
+    "helyszin": "N�metorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e02",
+    "datum": "2001-03-18T00:00:00.000Z",
+    "nev": "Mal�j",
+    "helyszin": "Malaysia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e11",
+    "datum": "2001-08-19T00:00:00.000Z",
+    "nev": "Magyar",
+    "helyszin": "Magyarorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e16",
+    "datum": "1984-05-20T00:00:00.000Z",
+    "nev": "Francia",
+    "helyszin": "Franciaorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e50",
+    "datum": "1992-04-05T00:00:00.000Z",
+    "nev": "Brazil",
+    "helyszin": "Braz�lia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e5c",
+    "datum": "1987-09-20T00:00:00.000Z",
+    "nev": "Portug�l",
+    "helyszin": "Portug�lia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e68",
+    "datum": "1997-03-30T00:00:00.000Z",
+    "nev": "Brazil",
+    "helyszin": "Braz�lia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e69",
+    "datum": "1951-05-30T00:00:00.000Z",
+    "nev": "Indy 500",
+    "helyszin": "USA",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e80",
+    "datum": "1950-07-02T00:00:00.000Z",
+    "nev": "Francia",
+    "helyszin": "Franciaorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e86",
+    "datum": "1964-06-14T00:00:00.000Z",
+    "nev": "Belga",
+    "helyszin": "Belgium",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e89",
+    "datum": "1969-09-07T00:00:00.000Z",
+    "nev": "Olasz",
+    "helyszin": "Olaszorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e94",
+    "datum": "1995-07-16T00:00:00.000Z",
+    "nev": "Brit",
+    "helyszin": "Nagy-Britannia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e9b",
+    "datum": "2001-04-15T00:00:00.000Z",
+    "nev": "San Marinoi",
+    "helyszin": "San Marino",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293eb6",
+    "datum": "1994-08-14T00:00:00.000Z",
+    "nev": "Magyar",
+    "helyszin": "Magyarorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293eb7",
+    "datum": "2001-09-30T00:00:00.000Z",
+    "nev": "USA",
+    "helyszin": "USA",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293ecd",
+    "datum": "2000-05-07T00:00:00.000Z",
+    "nev": "Spanyol",
+    "helyszin": "Spanyolorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293ece",
+    "datum": "1980-05-18T00:00:00.000Z",
+    "nev": "Monacoi",
+    "helyszin": "Monaco",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293ed2",
+    "datum": "1963-08-04T00:00:00.000Z",
+    "nev": "N�met",
+    "helyszin": "N�metorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e04",
+    "datum": "1988-07-03T00:00:00.000Z",
+    "nev": "Francia",
+    "helyszin": "Franciaorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e17",
+    "datum": "2003-06-15T00:00:00.000Z",
+    "nev": "Kanadai",
+    "helyszin": "Kanada",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e1e",
+    "datum": "1991-07-14T00:00:00.000Z",
+    "nev": "Brit",
+    "helyszin": "Nagy-Britannia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e44",
+    "datum": "1961-05-14T00:00:00.000Z",
+    "nev": "Monacoi",
+    "helyszin": "Monaco",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e48",
+    "datum": "2000-03-12T00:00:00.000Z",
+    "nev": "Ausztr�l",
+    "helyszin": "Ausztr�lia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e4b",
+    "datum": "1981-08-02T00:00:00.000Z",
+    "nev": "N�met",
+    "helyszin": "N�metorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e56",
+    "datum": "1962-06-17T00:00:00.000Z",
+    "nev": "Belga",
+    "helyszin": "Belgium",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e57",
+    "datum": "1966-06-12T00:00:00.000Z",
+    "nev": "Belga",
+    "helyszin": "Belgium",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e72",
+    "datum": "1978-08-27T00:00:00.000Z",
+    "nev": "Holland",
+    "helyszin": "Hollandia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e77",
+    "datum": "1974-03-30T00:00:00.000Z",
+    "nev": "D�l-Afrikai",
+    "helyszin": "D�l-Afrika",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e79",
+    "datum": "1979-09-09T00:00:00.000Z",
+    "nev": "Olasz",
+    "helyszin": "Olaszorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e7f",
+    "datum": "1990-10-21T00:00:00.000Z",
+    "nev": "Jap�n",
+    "helyszin": "Jap�n",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e82",
+    "datum": "1968-09-22T00:00:00.000Z",
+    "nev": "Kanadai",
+    "helyszin": "Kanada",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e8b",
+    "datum": "1976-10-24T00:00:00.000Z",
+    "nev": "Jap�n",
+    "helyszin": "Jap�n",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293eaa",
+    "datum": "1984-05-06T00:00:00.000Z",
+    "nev": "San Marinoi",
+    "helyszin": "San Marino",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293de8",
+    "datum": "1966-10-23T00:00:00.000Z",
+    "nev": "Mexik�i",
+    "helyszin": "Mexik�",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293df0",
+    "datum": "1988-06-12T00:00:00.000Z",
+    "nev": "Kanadai",
+    "helyszin": "Kanada",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293df1",
+    "datum": "1997-07-27T00:00:00.000Z",
+    "nev": "N�met",
+    "helyszin": "N�metorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293dfe",
+    "datum": "1968-09-08T00:00:00.000Z",
+    "nev": "Olasz",
+    "helyszin": "Olaszorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e10",
+    "datum": "1971-04-18T00:00:00.000Z",
+    "nev": "Spanyol",
+    "helyszin": "Spanyolorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e1f",
+    "datum": "1959-12-12T00:00:00.000Z",
+    "nev": "USA",
+    "helyszin": "USA",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e27",
+    "datum": "1962-12-29T00:00:00.000Z",
+    "nev": "D�l-Afrikai",
+    "helyszin": "D�l-Afrika",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e28",
+    "datum": "1966-09-04T00:00:00.000Z",
+    "nev": "Olasz",
+    "helyszin": "Olaszorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e39",
+    "datum": "1973-05-20T00:00:00.000Z",
+    "nev": "Belga",
+    "helyszin": "Belgium",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e3e",
+    "datum": "1982-07-18T00:00:00.000Z",
+    "nev": "Brit",
+    "helyszin": "Nagy-Britannia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e4e",
+    "datum": "1996-10-13T00:00:00.000Z",
+    "nev": "Jap�n",
+    "helyszin": "Jap�n",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e58",
+    "datum": "1958-09-07T00:00:00.000Z",
+    "nev": "Olasz",
+    "helyszin": "Olaszorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e5d",
+    "datum": "2005-05-22T00:00:00.000Z",
+    "nev": "Monacoi",
+    "helyszin": "Monaco",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e65",
+    "datum": "2001-04-01T00:00:00.000Z",
+    "nev": "Brazil",
+    "helyszin": "Braz�lia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e7d",
+    "datum": "1992-07-26T00:00:00.000Z",
+    "nev": "N�met",
+    "helyszin": "N�metorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293eb0",
+    "datum": "1990-09-23T00:00:00.000Z",
+    "nev": "Portug�l",
+    "helyszin": "Portug�lia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293eba",
+    "datum": "2005-03-20T00:00:00.000Z",
+    "nev": "Mal�j",
+    "helyszin": "Malaysia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293eca",
+    "datum": "1965-08-01T00:00:00.000Z",
+    "nev": "N�met",
+    "helyszin": "N�metorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293dde",
+    "datum": "1997-06-29T00:00:00.000Z",
+    "nev": "Francia",
+    "helyszin": "Franciaorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293dee",
+    "datum": "1975-05-11T00:00:00.000Z",
+    "nev": "Monacoi",
+    "helyszin": "Monaco",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e0c",
+    "datum": "1991-08-25T00:00:00.000Z",
+    "nev": "Belga",
+    "helyszin": "Belgium",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e3b",
+    "datum": "1991-04-28T00:00:00.000Z",
+    "nev": "San Marinoi",
+    "helyszin": "San Marino",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e3c",
+    "datum": "1999-09-12T00:00:00.000Z",
+    "nev": "Olasz",
+    "helyszin": "Olaszorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e3f",
+    "datum": "2002-04-28T00:00:00.000Z",
+    "nev": "Spanyol",
+    "helyszin": "Spanyolorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e41",
+    "datum": "2006-05-14T00:00:00.000Z",
+    "nev": "Spanyol",
+    "helyszin": "Spanyolorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e45",
+    "datum": "1978-07-30T00:00:00.000Z",
+    "nev": "N�met",
+    "helyszin": "N�metorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e46",
+    "datum": "1976-08-01T00:00:00.000Z",
+    "nev": "N�met",
+    "helyszin": "N�metorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e53",
+    "datum": "1957-08-04T00:00:00.000Z",
+    "nev": "N�met",
+    "helyszin": "N�metorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e66",
+    "datum": "1977-08-28T00:00:00.000Z",
+    "nev": "Holland",
+    "helyszin": "Hollandia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e6a",
+    "datum": "2002-06-09T00:00:00.000Z",
+    "nev": "Kanadai",
+    "helyszin": "Kanada",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e90",
+    "datum": "1992-07-12T00:00:00.000Z",
+    "nev": "Brit",
+    "helyszin": "Nagy-Britannia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e97",
+    "datum": "1999-08-29T00:00:00.000Z",
+    "nev": "Belga",
+    "helyszin": "Belgium",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293ea1",
+    "datum": "1967-07-02T00:00:00.000Z",
+    "nev": "Francia",
+    "helyszin": "Franciaorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293eab",
+    "datum": "1993-04-11T00:00:00.000Z",
+    "nev": "Eur�pa",
+    "helyszin": "Nagy-Britannia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293eb4",
+    "datum": "1968-08-04T00:00:00.000Z",
+    "nev": "N�met",
+    "helyszin": "N�metorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293eb8",
+    "datum": "1968-05-26T00:00:00.000Z",
+    "nev": "Monacoi",
+    "helyszin": "Monaco",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293ecf",
+    "datum": "1962-10-07T00:00:00.000Z",
+    "nev": "USA",
+    "helyszin": "USA",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293de3",
+    "datum": "1969-03-01T00:00:00.000Z",
+    "nev": "D�l-Afrikai",
+    "helyszin": "D�l-Afrika",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293df5",
+    "datum": "1960-06-19T00:00:00.000Z",
+    "nev": "Belga",
+    "helyszin": "Belgium",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293df6",
+    "datum": "1982-03-21T00:00:00.000Z",
+    "nev": "Brazil",
+    "helyszin": "Braz�lia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293dfa",
+    "datum": "1983-06-05T00:00:00.000Z",
+    "nev": "USA",
+    "helyszin": "USA",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e05",
+    "datum": "1984-08-05T00:00:00.000Z",
+    "nev": "N�met",
+    "helyszin": "N�metorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e06",
+    "datum": "1989-05-07T00:00:00.000Z",
+    "nev": "Monacoi",
+    "helyszin": "Monaco",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e1d",
+    "datum": "1981-06-21T00:00:00.000Z",
+    "nev": "Spanyol",
+    "helyszin": "Spanyolorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e20",
+    "datum": "1976-09-12T00:00:00.000Z",
+    "nev": "Olasz",
+    "helyszin": "Olaszorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e36",
+    "datum": "1963-12-28T00:00:00.000Z",
+    "nev": "D�l-Afrikai",
+    "helyszin": "D�l-Afrika",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e7c",
+    "datum": "1998-07-12T00:00:00.000Z",
+    "nev": "Brit",
+    "helyszin": "Nagy-Britannia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e8c",
+    "datum": "2002-03-03T00:00:00.000Z",
+    "nev": "Ausztr�l",
+    "helyszin": "Ausztr�lia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293ea0",
+    "datum": "1963-06-23T00:00:00.000Z",
+    "nev": "Holland",
+    "helyszin": "Hollandia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293ebb",
+    "datum": "1990-05-13T00:00:00.000Z",
+    "nev": "San Marinoi",
+    "helyszin": "San Marino",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293ebe",
+    "datum": "1962-05-20T00:00:00.000Z",
+    "nev": "Holland",
+    "helyszin": "Hollandia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293ed3",
+    "datum": "1967-01-02T00:00:00.000Z",
+    "nev": "D�l-Afrikai",
+    "helyszin": "D�l-Afrika",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293de1",
+    "datum": "2002-09-29T00:00:00.000Z",
+    "nev": "USA",
+    "helyszin": "USA",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293deb",
+    "datum": "1983-03-13T00:00:00.000Z",
+    "nev": "Brazil",
+    "helyszin": "Braz�lia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e03",
+    "datum": "1963-07-20T00:00:00.000Z",
+    "nev": "Brit",
+    "helyszin": "Nagy-Britannia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e13",
+    "datum": "1995-04-09T00:00:00.000Z",
+    "nev": "Argent�n",
+    "helyszin": "Argent�na",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e14",
+    "datum": "1968-05-12T00:00:00.000Z",
+    "nev": "Spanyol",
+    "helyszin": "Spanyolorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e21",
+    "datum": "1969-07-19T00:00:00.000Z",
+    "nev": "Brit",
+    "helyszin": "Nagy-Britannia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e2c",
+    "datum": "1988-07-10T00:00:00.000Z",
+    "nev": "Brit",
+    "helyszin": "Nagy-Britannia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e33",
+    "datum": "2004-07-11T00:00:00.000Z",
+    "nev": "Brit",
+    "helyszin": "Nagy-Britannia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e34",
+    "datum": "1996-04-07T00:00:00.000Z",
+    "nev": "Argent�n",
+    "helyszin": "Argent�na",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e55",
+    "datum": "1998-08-30T00:00:00.000Z",
+    "nev": "Belga",
+    "helyszin": "Belgium",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e62",
+    "datum": "1977-09-11T00:00:00.000Z",
+    "nev": "Olasz",
+    "helyszin": "Olaszorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e6b",
+    "datum": "1983-03-27T00:00:00.000Z",
+    "nev": "USA",
+    "helyszin": "USA",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e7e",
+    "datum": "1984-10-07T00:00:00.000Z",
+    "nev": "Eur�pa",
+    "helyszin": "N�metorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e83",
+    "datum": "1956-05-13T00:00:00.000Z",
+    "nev": "Monacoi",
+    "helyszin": "Monaco",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e8e",
+    "datum": "1961-07-02T00:00:00.000Z",
+    "nev": "Francia",
+    "helyszin": "Franciaorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e9a",
+    "datum": "1984-06-17T00:00:00.000Z",
+    "nev": "Kanadai",
+    "helyszin": "Kanada",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e9d",
+    "datum": "1951-07-01T00:00:00.000Z",
+    "nev": "Francia",
+    "helyszin": "Franciaorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e9e",
+    "datum": "1975-03-01T00:00:00.000Z",
+    "nev": "D�l-Afrikai",
+    "helyszin": "D�l-Afrika",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293ea3",
+    "datum": "1976-03-06T00:00:00.000Z",
+    "nev": "D�l-Afrikai",
+    "helyszin": "D�l-Afrika",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293ea4",
+    "datum": "1996-06-16T00:00:00.000Z",
+    "nev": "Kanadai",
+    "helyszin": "Kanada",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293eaf",
+    "datum": "1981-05-31T00:00:00.000Z",
+    "nev": "Monacoi",
+    "helyszin": "Monaco",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293ebc",
+    "datum": "1994-08-28T00:00:00.000Z",
+    "nev": "Belga",
+    "helyszin": "Belgium",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293de0",
+    "datum": "2005-04-24T00:00:00.000Z",
+    "nev": "San Marinoi",
+    "helyszin": "San Marino",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293de9",
+    "datum": "2000-07-16T00:00:00.000Z",
+    "nev": "Osztr�k",
+    "helyszin": "Ausztria",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293df9",
+    "datum": "1950-06-04T00:00:00.000Z",
+    "nev": "Sv�jci",
+    "helyszin": "Sv�jc",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e07",
+    "datum": "1979-07-01T00:00:00.000Z",
+    "nev": "Francia",
+    "helyszin": "Franciaorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e22",
+    "datum": "1995-03-26T00:00:00.000Z",
+    "nev": "Brazil",
+    "helyszin": "Braz�lia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e23",
+    "datum": "1957-01-13T00:00:00.000Z",
+    "nev": "Argent�n",
+    "helyszin": "Argent�na",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e29",
+    "datum": "2006-07-16T00:00:00.000Z",
+    "nev": "Francia",
+    "helyszin": "Franciaorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e2b",
+    "datum": "1965-07-18T00:00:00.000Z",
+    "nev": "Holland",
+    "helyszin": "Hollandia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e47",
+    "datum": "1995-08-13T00:00:00.000Z",
+    "nev": "Magyar",
+    "helyszin": "Magyarorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e60",
+    "datum": "2005-10-09T00:00:00.000Z",
+    "nev": "Jap�n",
+    "helyszin": "Jap�n",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e6c",
+    "datum": "1955-06-19T00:00:00.000Z",
+    "nev": "Holland",
+    "helyszin": "Hollandia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e81",
+    "datum": "1999-04-11T00:00:00.000Z",
+    "nev": "Brazil",
+    "helyszin": "Braz�lia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e9c",
+    "datum": "2002-06-23T00:00:00.000Z",
+    "nev": "Eur�pa",
+    "helyszin": "N�metorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293ea9",
+    "datum": "1951-09-16T00:00:00.000Z",
+    "nev": "Olasz",
+    "helyszin": "Olaszorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293ec7",
+    "datum": "1990-03-25T00:00:00.000Z",
+    "nev": "Brazil",
+    "helyszin": "Braz�lia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293dfb",
+    "datum": "1993-05-09T00:00:00.000Z",
+    "nev": "Spanyol",
+    "helyszin": "Spanyolorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e0a",
+    "datum": "1969-10-19T00:00:00.000Z",
+    "nev": "Mexik�i",
+    "helyszin": "Mexik�",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e43",
+    "datum": "1968-07-07T00:00:00.000Z",
+    "nev": "Francia",
+    "helyszin": "Franciaorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e64",
+    "datum": "1951-05-27T00:00:00.000Z",
+    "nev": "Sv�jci",
+    "helyszin": "Sv�jc",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e71",
+    "datum": "1993-04-25T00:00:00.000Z",
+    "nev": "San Marinoi",
+    "helyszin": "San Marino",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e8f",
+    "datum": "1995-10-22T00:00:00.000Z",
+    "nev": "Jap�n",
+    "helyszin": "Jap�n",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e91",
+    "datum": "1966-10-02T00:00:00.000Z",
+    "nev": "USA",
+    "helyszin": "USA",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e93",
+    "datum": "1988-08-28T00:00:00.000Z",
+    "nev": "Belga",
+    "helyszin": "Belgium",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e95",
+    "datum": "1983-05-15T00:00:00.000Z",
+    "nev": "Monacoi",
+    "helyszin": "Monaco",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e9f",
+    "datum": "1956-08-05T00:00:00.000Z",
+    "nev": "N�met",
+    "helyszin": "N�metorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293ead",
+    "datum": "1975-08-17T00:00:00.000Z",
+    "nev": "Osztr�k",
+    "helyszin": "Ausztria",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293eb1",
+    "datum": "2004-03-21T00:00:00.000Z",
+    "nev": "Mal�j",
+    "helyszin": "Malaysia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293ebf",
+    "datum": "1962-08-05T00:00:00.000Z",
+    "nev": "N�met",
+    "helyszin": "N�metorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293ecc",
+    "datum": "1994-03-27T00:00:00.000Z",
+    "nev": "Brazil",
+    "helyszin": "Braz�lia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293ed1",
+    "datum": "1951-06-17T00:00:00.000Z",
+    "nev": "Belga",
+    "helyszin": "Belgium",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e0e",
+    "datum": "1967-08-27T00:00:00.000Z",
+    "nev": "Kanadai",
+    "helyszin": "Kanada",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e12",
+    "datum": "1977-04-03T00:00:00.000Z",
+    "nev": "USA",
+    "helyszin": "USA",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e19",
+    "datum": "1987-09-27T00:00:00.000Z",
+    "nev": "Spanyol",
+    "helyszin": "Spanyolorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e31",
+    "datum": "1981-03-29T00:00:00.000Z",
+    "nev": "Brazil",
+    "helyszin": "Braz�lia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e38",
+    "datum": "1952-08-17T00:00:00.000Z",
+    "nev": "Holland",
+    "helyszin": "Hollandia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e5b",
+    "datum": "1959-05-30T00:00:00.000Z",
+    "nev": "Indy 500",
+    "helyszin": "USA",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e5e",
+    "datum": "1952-07-06T00:00:00.000Z",
+    "nev": "Francia",
+    "helyszin": "Franciaorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e67",
+    "datum": "1995-04-30T00:00:00.000Z",
+    "nev": "San Marinoi",
+    "helyszin": "San Marino",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e84",
+    "datum": "1965-10-03T00:00:00.000Z",
+    "nev": "USA",
+    "helyszin": "USA",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293ec0",
+    "datum": "1975-07-06T00:00:00.000Z",
+    "nev": "Francia",
+    "helyszin": "Franciaorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293ed0",
+    "datum": "1990-05-27T00:00:00.000Z",
+    "nev": "Monacoi",
+    "helyszin": "Monaco",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293ed7",
+    "datum": "1963-05-26T00:00:00.000Z",
+    "nev": "Monacoi",
+    "helyszin": "Monaco",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293ded",
+    "datum": "2005-05-29T00:00:00.000Z",
+    "nev": "Eur�pa",
+    "helyszin": "N�metorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e00",
+    "datum": "1978-10-08T00:00:00.000Z",
+    "nev": "Kanadai",
+    "helyszin": "Kanada",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e2f",
+    "datum": "1978-07-16T00:00:00.000Z",
+    "nev": "Brit",
+    "helyszin": "Nagy-Britannia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e3a",
+    "datum": "1983-04-17T00:00:00.000Z",
+    "nev": "Francia",
+    "helyszin": "Franciaorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e40",
+    "datum": "1975-04-27T00:00:00.000Z",
+    "nev": "Spanyol",
+    "helyszin": "Spanyolorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e70",
+    "datum": "1980-07-13T00:00:00.000Z",
+    "nev": "Brit",
+    "helyszin": "Nagy-Britannia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e73",
+    "datum": "1977-06-05T00:00:00.000Z",
+    "nev": "Belga",
+    "helyszin": "Belgium",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e74",
+    "datum": "1984-06-24T00:00:00.000Z",
+    "nev": "USA",
+    "helyszin": "USA",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e78",
+    "datum": "1988-07-24T00:00:00.000Z",
+    "nev": "N�met",
+    "helyszin": "N�metorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293ebd",
+    "datum": "2005-09-25T00:00:00.000Z",
+    "nev": "Brazil",
+    "helyszin": "Braz�lia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293ed5",
+    "datum": "1977-05-22T00:00:00.000Z",
+    "nev": "Monacoi",
+    "helyszin": "Monaco",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293de2",
+    "datum": "1997-04-13T00:00:00.000Z",
+    "nev": "Argent�n",
+    "helyszin": "Argent�na",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293de6",
+    "datum": "1967-05-07T00:00:00.000Z",
+    "nev": "Monacoi",
+    "helyszin": "Monaco",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293def",
+    "datum": "2000-04-23T00:00:00.000Z",
+    "nev": "Brit",
+    "helyszin": "Nagy-Britannia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293df4",
+    "datum": "1982-04-25T00:00:00.000Z",
+    "nev": "San Marinoi",
+    "helyszin": "San Marino",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e08",
+    "datum": "1977-03-05T00:00:00.000Z",
+    "nev": "D�l-Afrikai",
+    "helyszin": "D�l-Afrika",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e1a",
+    "datum": "1988-05-15T00:00:00.000Z",
+    "nev": "Monacoi",
+    "helyszin": "Monaco",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e2a",
+    "datum": "1973-06-03T00:00:00.000Z",
+    "nev": "Monacoi",
+    "helyszin": "Monaco",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e52",
+    "datum": "2002-10-13T00:00:00.000Z",
+    "nev": "Jap�n",
+    "helyszin": "Jap�n",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e75",
+    "datum": "1994-05-29T00:00:00.000Z",
+    "nev": "Spanyol",
+    "helyszin": "Spanyolorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e76",
+    "datum": "1977-01-23T00:00:00.000Z",
+    "nev": "Brazil",
+    "helyszin": "Braz�lia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e92",
+    "datum": "1971-07-17T00:00:00.000Z",
+    "nev": "Brit",
+    "helyszin": "Nagy-Britannia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293ea2",
+    "datum": "1953-09-13T00:00:00.000Z",
+    "nev": "Olasz",
+    "helyszin": "Olaszorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293eac",
+    "datum": "1981-10-17T00:00:00.000Z",
+    "nev": "USA",
+    "helyszin": "USA",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293eb3",
+    "datum": "2004-04-25T00:00:00.000Z",
+    "nev": "San Marinoi",
+    "helyszin": "San Marino",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293ec5",
+    "datum": "1960-06-06T00:00:00.000Z",
+    "nev": "Holland",
+    "helyszin": "Hollandia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293ec9",
+    "datum": "2003-05-18T00:00:00.000Z",
+    "nev": "Osztr�k",
+    "helyszin": "Ausztria",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293ddd",
+    "datum": "1999-06-13T00:00:00.000Z",
+    "nev": "Kanadai",
+    "helyszin": "Kanada",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293df7",
+    "datum": "2001-05-13T00:00:00.000Z",
+    "nev": "Osztr�k",
+    "helyszin": "Ausztria",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293dff",
+    "datum": "1982-06-13T00:00:00.000Z",
+    "nev": "Kanadai",
+    "helyszin": "Kanada",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e18",
+    "datum": "1961-06-18T00:00:00.000Z",
+    "nev": "Belga",
+    "helyszin": "Belgium",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e24",
+    "datum": "1975-01-12T00:00:00.000Z",
+    "nev": "Argent�n",
+    "helyszin": "Argent�na",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e25",
+    "datum": "1955-01-16T00:00:00.000Z",
+    "nev": "Argent�n",
+    "helyszin": "Argent�na",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e26",
+    "datum": "1997-09-07T00:00:00.000Z",
+    "nev": "Olasz",
+    "helyszin": "Olaszorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e2e",
+    "datum": "1986-09-21T00:00:00.000Z",
+    "nev": "Portug�l",
+    "helyszin": "Portug�lia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e3d",
+    "datum": "1987-07-12T00:00:00.000Z",
+    "nev": "Brit",
+    "helyszin": "Nagy-Britannia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e4a",
+    "datum": "1966-05-22T00:00:00.000Z",
+    "nev": "Monacoi",
+    "helyszin": "Monaco",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e54",
+    "datum": "1997-03-09T00:00:00.000Z",
+    "nev": "Ausztr�l",
+    "helyszin": "Ausztr�lia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e5a",
+    "datum": "1978-08-13T00:00:00.000Z",
+    "nev": "Osztr�k",
+    "helyszin": "Ausztria",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e61",
+    "datum": "1973-01-28T00:00:00.000Z",
+    "nev": "Argent�n",
+    "helyszin": "Argent�na",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e8a",
+    "datum": "1994-11-13T00:00:00.000Z",
+    "nev": "Ausztr�l",
+    "helyszin": "Ausztr�lia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e99",
+    "datum": "1992-05-17T00:00:00.000Z",
+    "nev": "San Marinoi",
+    "helyszin": "San Marino",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293eda",
+    "datum": "1993-07-04T00:00:00.000Z",
+    "nev": "Francia",
+    "helyszin": "Franciaorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293ddc",
+    "datum": "1964-09-06T00:00:00.000Z",
+    "nev": "Olasz",
+    "helyszin": "Olaszorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e01",
+    "datum": "1993-08-29T00:00:00.000Z",
+    "nev": "Belga",
+    "helyszin": "Belgium",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e15",
+    "datum": "1971-09-05T00:00:00.000Z",
+    "nev": "Olasz",
+    "helyszin": "Olaszorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e1b",
+    "datum": "1985-04-21T00:00:00.000Z",
+    "nev": "Portug�l",
+    "helyszin": "Portug�lia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e1c",
+    "datum": "1991-07-07T00:00:00.000Z",
+    "nev": "Francia",
+    "helyszin": "Franciaorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e30",
+    "datum": "1992-05-31T00:00:00.000Z",
+    "nev": "Monacoi",
+    "helyszin": "Monaco",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e32",
+    "datum": "2003-03-23T00:00:00.000Z",
+    "nev": "Mal�j",
+    "helyszin": "Malaysia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e4d",
+    "datum": "1994-05-01T00:00:00.000Z",
+    "nev": "San Marinoi",
+    "helyszin": "San Marino",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e4f",
+    "datum": "1992-07-05T00:00:00.000Z",
+    "nev": "Francia",
+    "helyszin": "Franciaorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e59",
+    "datum": "1977-07-31T00:00:00.000Z",
+    "nev": "N�met",
+    "helyszin": "N�metorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e6e",
+    "datum": "2003-04-06T00:00:00.000Z",
+    "nev": "Brazil",
+    "helyszin": "Braz�lia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e6f",
+    "datum": "1968-07-20T00:00:00.000Z",
+    "nev": "Brit",
+    "helyszin": "Nagy-Britannia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e7a",
+    "datum": "1994-07-10T00:00:00.000Z",
+    "nev": "Brit",
+    "helyszin": "Nagy-Britannia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e7b",
+    "datum": "1961-10-08T00:00:00.000Z",
+    "nev": "USA",
+    "helyszin": "USA",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e8d",
+    "datum": "1967-06-18T00:00:00.000Z",
+    "nev": "Belga",
+    "helyszin": "Belgium",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293ea6",
+    "datum": "1991-06-02T00:00:00.000Z",
+    "nev": "Kanadai",
+    "helyszin": "Kanada",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293ec2",
+    "datum": "1995-09-24T00:00:00.000Z",
+    "nev": "Portug�l",
+    "helyszin": "Portug�lia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293ec3",
+    "datum": "1982-08-29T00:00:00.000Z",
+    "nev": "Sv�jci",
+    "helyszin": "Franciaorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293ec4",
+    "datum": "1959-05-10T00:00:00.000Z",
+    "nev": "Monacoi",
+    "helyszin": "Monaco",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293ddb",
+    "datum": "2006-05-07T00:00:00.000Z",
+    "nev": "Eur�pa",
+    "helyszin": "N�metorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293df2",
+    "datum": "1979-01-21T00:00:00.000Z",
+    "nev": "Argent�n",
+    "helyszin": "Argent�na",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e09",
+    "datum": "1952-09-07T00:00:00.000Z",
+    "nev": "Olasz",
+    "helyszin": "Olaszorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e0d",
+    "datum": "1988-06-19T00:00:00.000Z",
+    "nev": "USA",
+    "helyszin": "USA",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e35",
+    "datum": "2005-10-16T00:00:00.000Z",
+    "nev": "K�nai",
+    "helyszin": "K�na",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e5f",
+    "datum": "1994-09-25T00:00:00.000Z",
+    "nev": "Portug�l",
+    "helyszin": "Portug�lia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e87",
+    "datum": "1979-04-08T00:00:00.000Z",
+    "nev": "USA",
+    "helyszin": "USA",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e96",
+    "datum": "1993-03-28T00:00:00.000Z",
+    "nev": "Brazil",
+    "helyszin": "Braz�lia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e98",
+    "datum": "1991-09-22T00:00:00.000Z",
+    "nev": "Portug�l",
+    "helyszin": "Portug�lia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293ea5",
+    "datum": "1997-10-26T00:00:00.000Z",
+    "nev": "Eur�pa",
+    "helyszin": "Spanyolorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293eae",
+    "datum": "1954-06-20T00:00:00.000Z",
+    "nev": "Belga",
+    "helyszin": "Belgium",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293eb5",
+    "datum": "1956-05-30T00:00:00.000Z",
+    "nev": "Indy 500",
+    "helyszin": "USA",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293eb9",
+    "datum": "2004-03-07T00:00:00.000Z",
+    "nev": "Ausztr�l",
+    "helyszin": "Ausztr�lia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293ec1",
+    "datum": "1959-08-23T00:00:00.000Z",
+    "nev": "Portug�l",
+    "helyszin": "Portug�lia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293ec6",
+    "datum": "1993-03-14T00:00:00.000Z",
+    "nev": "D�l-Afrikai",
+    "helyszin": "D�l-Afrika",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293ed4",
+    "datum": "1968-06-23T00:00:00.000Z",
+    "nev": "Holland",
+    "helyszin": "Hollandia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293ddf",
+    "datum": "1997-06-15T00:00:00.000Z",
+    "nev": "Kanadai",
+    "helyszin": "Kanada",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293dea",
+    "datum": "1980-08-17T00:00:00.000Z",
+    "nev": "Osztr�k",
+    "helyszin": "Ausztria",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293df3",
+    "datum": "1982-07-03T00:00:00.000Z",
+    "nev": "Holland",
+    "helyszin": "Hollandia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293dfd",
+    "datum": "1997-08-10T00:00:00.000Z",
+    "nev": "Magyar",
+    "helyszin": "Magyarorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e0b",
+    "datum": "1966-08-07T00:00:00.000Z",
+    "nev": "N�met",
+    "helyszin": "N�metorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e0f",
+    "datum": "1970-08-02T00:00:00.000Z",
+    "nev": "N�met",
+    "helyszin": "N�metorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e2d",
+    "datum": "1991-09-29T00:00:00.000Z",
+    "nev": "Spanyol",
+    "helyszin": "Spanyolorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e37",
+    "datum": "1965-09-12T00:00:00.000Z",
+    "nev": "Olasz",
+    "helyszin": "Olaszorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e42",
+    "datum": "1964-10-25T00:00:00.000Z",
+    "nev": "Mexik�i",
+    "helyszin": "Mexik�",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e49",
+    "datum": "2003-09-14T00:00:00.000Z",
+    "nev": "Olasz",
+    "helyszin": "Olaszorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e4c",
+    "datum": "1986-07-27T00:00:00.000Z",
+    "nev": "N�met",
+    "helyszin": "N�metorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e51",
+    "datum": "1981-09-13T00:00:00.000Z",
+    "nev": "Olasz",
+    "helyszin": "Olaszorsz�g",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293e88",
+    "datum": "1978-03-04T00:00:00.000Z",
+    "nev": "D�l-Afrikai",
+    "helyszin": "D�l-Afrika",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293ea7",
+    "datum": "1973-08-19T00:00:00.000Z",
+    "nev": "Osztr�k",
+    "helyszin": "Ausztria",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293ea8",
+    "datum": "2004-10-24T00:00:00.000Z",
+    "nev": "Brazil",
+    "helyszin": "Braz�lia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293ec8",
+    "datum": "1968-11-03T00:00:00.000Z",
+    "nev": "Mexik�i",
+    "helyszin": "Mexik�",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293ecb",
+    "datum": "1954-05-31T00:00:00.000Z",
+    "nev": "Indy 500",
+    "helyszin": "USA",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293ed6",
+    "datum": "1999-03-07T00:00:00.000Z",
+    "nev": "Ausztr�l",
+    "helyszin": "Ausztr�lia",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293ed8",
+    "datum": "1978-05-21T00:00:00.000Z",
+    "nev": "Belga",
+    "helyszin": "Belgium",
+    "__v": 0
+  },
+  {
+    "_id": "6ad7bdef33943b922b293ed9",
+    "datum": "1989-11-05T00:00:00.000Z",
+    "nev": "Ausztr�l",
+    "helyszin": "Ausztr�lia",
+    "__v": 0
+  }
+]
