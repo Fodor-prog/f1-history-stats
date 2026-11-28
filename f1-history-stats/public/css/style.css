@@ -821,25 +821,41 @@ h3 {
 }
 
 .filter-field input,
-.filter-field select {
+.filter-field select,
+.filter-field textarea {
     width: 100%;
-    height: 49px;
     min-width: 0;
-    padding: 0 14px;
     background: #0d1017;
     border: 1px solid #3b4150;
     border-radius: 0;
-    color: #fff;
+    color: #ffffff;
     font-size: 13px;
     outline: none;
+    box-sizing: border-box;
 }
 
-.filter-field input::placeholder {
-    color: #737b8b;
+.filter-field input,
+.filter-field select {
+    height: 49px;
+    padding: 0 14px;
+}
+
+.filter-field textarea {
+    min-height: 200px;
+    padding: 14px;
+    line-height: 1.5;
+    resize: vertical;
+}
+
+.filter-field input::placeholder,
+.filter-field textarea::placeholder {
+    color: #99a4b8;
+    opacity: 1;
 }
 
 .filter-field input:focus,
-.filter-field select:focus {
+.filter-field select:focus,
+.filter-field textarea:focus {
     border-color: var(--red);
 }
 
@@ -1341,5 +1357,116 @@ h3 {
     }
 }
 
+/* ========================================================
+   KONTRASZTJAVÍTÁS – HTML5 UP EDITORIAL + F1
+   A fő tartalom szövegei és interaktív elemei
+   ======================================================== */
 
+/* Sötét felületen a nagy címek is legyenek olvashatók. */
+#main .section-heading h2,
+#main .page-hero h1,
+#main .races-panel .race-name strong,
+#main .results-summary strong,
+#main .no-results h3 {
+    color: #f5f6f8;
+}
 
+/* A piros hangsúlyok változatlanul megmaradnak. */
+#main .section-heading h2 span,
+#main .page-hero h1 span {
+    color: var(--red);
+}
+
+/* Magyarázó és kísérőszövegek sötét háttéren. */
+#main .section-lead,
+#main .data-note,
+#main .results-summary p {
+    color: #bfc6d3;
+}
+
+/* Fehér gombfeliratok az Editorial alapstílusával szemben. */
+#main a.btn-primary,
+#main button.btn-primary,
+#main input.btn-primary,
+#main .btn-primary {
+    background: var(--red);
+    border-color: var(--red);
+    color: #ffffff !important;
+    opacity: 1;
+    text-shadow: none;
+}
+
+#main a.btn-primary:hover,
+#main button.btn-primary:hover,
+#main .btn-primary:hover {
+    background: #ba1528;
+    border-color: #ba1528;
+    color: #ffffff !important;
+}
+
+#main a.btn-outline,
+#main button.btn-outline {
+    color: #f5f6f8 !important;
+}
+
+/* Egységes sötét beviteli mezők, az üzenetmezőt is beleértve. */
+#main .filter-field input[type="text"],
+#main .filter-field input[type="email"],
+#main .filter-field input[type="password"],
+#main .filter-field input[type="search"],
+#main .filter-field input[type="number"],
+#main .filter-field input[type="date"],
+#main .filter-field select,
+#main .filter-field textarea {
+    background: #0d1017;
+    border: 1px solid #485165;
+    border-radius: 0;
+    color: #ffffff;
+    -webkit-text-fill-color: #ffffff;
+    opacity: 1;
+}
+
+#main .filter-field input::placeholder,
+#main .filter-field textarea::placeholder {
+    color: #9ba8bd;
+    -webkit-text-fill-color: #9ba8bd;
+    opacity: 1;
+}
+
+#main .filter-field input:focus,
+#main .filter-field select:focus,
+#main .filter-field textarea:focus {
+    border-color: var(--red);
+    box-shadow: 0 0 0 1px var(--red);
+}
+
+/* A nagydíjlista/admin táblázat szövegeit az Editorial
+   általános táblázatstílusai ne tegyék sötétté. */
+#main .races-panel table {
+    color: #f5f6f8;
+}
+
+#main .races-panel table thead th {
+    color: #e2e6ee;
+    background: #1d222d;
+}
+
+#main .races-panel table tbody tr {
+    background: #141821;
+}
+
+#main .races-panel table tbody tr:nth-child(odd) {
+    background: #202530;
+}
+
+#main .races-panel table tbody td,
+#main .races-panel table tbody td strong {
+    color: #f5f6f8;
+}
+
+/* Szintén látható marad a közönséges nagydíjlista címe. */
+#main .race-name strong,
+#main .race-location strong,
+#main .race-date strong {
+    color: #f5f6f8;
+}
